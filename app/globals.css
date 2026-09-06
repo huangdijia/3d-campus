@@ -1828,36 +1828,47 @@ button svg {
   opacity: 0.7;
 }
 
-.tour-building-card {
-  position: absolute;
-  right: 84px;
-  bottom: 54px;
-  z-index: 25;
-  width: min(310px, calc(100% - 48px));
-  padding: 17px 19px;
-  border: 1px solid #ffffffdb;
-  border-radius: 20px;
-  background: linear-gradient(135deg, #ffffffe8, #ffffffc2);
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
-  box-shadow: 0 6px 26px #31556c12;
+/* Anchored to the current building in the 3D scene. */
+.campus-tour-callout {
+  position: relative;
+  width: 260px;
+  padding: 15px 17px;
+  transform: translateY(calc(-50% - 10px));
+  border: 1px solid #ffffffeb;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fffffff5, #ffffffe3);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 6px 26px #31556c24;
+  text-align: left;
+  pointer-events: auto;
 }
-.tour-building-card h2 {
-  font-size: 18px;
+.campus-tour-callout::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top-color: #ffffffe8;
+  border-bottom: 0;
+}
+.campus-tour-callout h2 {
+  font-size: 17px;
   font-weight: 600;
-  margin: 7px 0;
+  margin: 0 0 7px;
   color: #34556b;
 }
-.tour-building-card p {
+.campus-tour-callout p {
   font-size: 12px;
   line-height: 1.7;
-  color: #718999;
+  color: #607888;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
-.tour-building-card a {
+.campus-tour-callout a {
   display: inline-flex;
   gap: 5px;
   align-items: center;
@@ -1866,21 +1877,18 @@ button svg {
   color: #4386b6;
 }
 @media (max-width: 760px) {
-  .tour-building-card {
-    left: 12px;
-    right: 12px;
-    bottom: calc(105px + env(safe-area-inset-bottom, 0px));
-    width: auto;
-    padding: 13px 16px;
+  .campus-tour-callout {
+    width: 230px;
+    padding: 12px 14px;
   }
-  .tour-building-card h2 {
+  .campus-tour-callout h2 {
     font-size: 16px;
-    margin: 5px 0;
+    margin-bottom: 5px;
   }
-  .tour-building-card p {
+  .campus-tour-callout p {
     -webkit-line-clamp: 2;
   }
-  .list-open .tour-building-card {
-    display: none;
+  .list-open .campus-tour-callout {
+    visibility: hidden;
   }
 }

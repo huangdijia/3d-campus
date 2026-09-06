@@ -31,6 +31,38 @@ export function featureIdAtFace(
     : null;
 }
 
+export function buildingBounds(
+  model: THREE.Object3D,
+  id: string,
+): THREE.Box3 | null {
+  const bounds = new THREE.Box3();
+  const point = new THREE.Vector3();
+  model.updateMatrixWorld(true);
+  model.traverse((object) => {
+    if (!(object instanceof THREE.Mesh)) return;
+    const position = object.geometry.getAttribute('position');
+    if (!position) return;
+    const indices = object.geometry.getIndex();
+    const faceCount = Math.floor((indices?.count ?? position.count) / 3);
+    const ranges: unknown = object.userData.featureRanges;
+    const matching = Array.isArray(ranges)
+      ? (ranges as FeatureRange[]).filter((range) => range.id === id)
+      : featureIdAtFace(object, null) === id
+        ? [{ start: 0, end: faceCount, id }]
+        : [];
+    for (const range of matching) {
+      const start = Math.max(0, range.start) * 3;
+      const end = Math.min(faceCount, range.end) * 3;
+      for (let index = start; index < end; index++) {
+        point.fromBufferAttribute(position, indices?.getX(index) ?? index);
+        point.applyMatrix4(object.matrixWorld);
+        bounds.expandByPoint(point);
+      }
+    }
+  });
+  return bounds.isEmpty() ? null : bounds;
+}
+
 export function insideRing(point: GroundPoint, ring: GroundPoint[]): boolean {
   let inside = false;
   for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {

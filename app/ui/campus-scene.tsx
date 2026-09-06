@@ -15,6 +15,7 @@ import type { OrbitControls as OrbitControlsInstance } from 'three-stdlib';
 import type { Campus, POI } from '../data/types';
 import {
   chooseSafeSpawn,
+  buildingBounds,
   disposeCampusModel,
   featureIdAtFace,
   hasCampusGeometry,
@@ -35,6 +36,7 @@ type Props = {
   onSelect: (poi: POI) => void;
   touring: boolean;
   tourActive?: boolean;
+  tourPOI?: POI | null;
   onTourIndex: (index: number) => void;
   walk: boolean;
   reset: number;
@@ -54,6 +56,7 @@ function World({
   onSelect,
   touring,
   tourActive = true,
+  tourPOI = null,
   onTourIndex,
   walk,
   reset,
@@ -103,6 +106,15 @@ function World({
   const tourCamera = useMemo(() => new THREE.Vector3(), []);
   const canWalk = Boolean(loaded?.spawn && loaded.collisionData);
   const walking = walk && canWalk;
+  const tourAnchor = useMemo<[number, number, number] | null>(() => {
+    if (!tourPOI) return null;
+    const bounds = loaded ? buildingBounds(loaded.model, tourPOI.id) : null;
+    return [
+      tourPOI.position[0],
+      Math.max(tourPOI.position[1], bounds?.max.y ?? 0) + 2,
+      tourPOI.position[2],
+    ];
+  }, [loaded, tourPOI]);
 
   useEffect(() => {
     callbacks.current = { onError, onReady };
@@ -367,6 +379,23 @@ function World({
             <span className="poi-label">{selected.name}</span>
           </Html>
         </group>
+      )}
+      {tourPOI && tourAnchor && !walking && (
+        <Html center position={tourAnchor} zIndexRange={[20, 0]}>
+          <article
+            className="campus-tour-callout"
+            aria-label="当前导览建筑信息"
+            aria-live="polite"
+            aria-atomic="true"
+            onPointerDown={(event) => event.stopPropagation()}
+          >
+            <h2>{tourPOI.name}</h2>
+            <p>{tourPOI.description}</p>
+            <a href={tourPOI.sourceUrl} target="_blank" rel="noreferrer">
+              查看建筑资料 ↗
+            </a>
+          </article>
+        </Html>
       )}
       {touring && !walking && tourPath && tourPath.length > 1 && (
         <Line

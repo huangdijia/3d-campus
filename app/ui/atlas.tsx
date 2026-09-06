@@ -759,6 +759,7 @@ export default function Atlas({
                         }}
                         touring={touring}
                         tourActive={mode === 'tour'}
+                        tourPOI={mode === 'tour' ? activePOI : null}
                         onTourIndex={setTourIndex}
                         walk={walk}
                         reset={reset}
@@ -794,24 +795,6 @@ export default function Atlas({
               )
             )}
           </div>
-          {mode === 'tour' && activePOI && (
-            <article
-              className="tour-building-card"
-              aria-live="polite"
-              aria-atomic="true"
-              aria-label="当前导览建筑信息"
-            >
-              <span className="section-label">
-                正在浏览 · {tourIndex + 1} /{' '}
-                {campus?.tours[0]?.poiIds.length || 0}
-              </span>
-              <h2>{activePOI.name}</h2>
-              <p>{activePOI.description}</p>
-              <a href={activePOI.sourceUrl} target="_blank" rel="noreferrer">
-                查看建筑资料 <ExternalLink size={12} />
-              </a>
-            </article>
-          )}
           <div className="map-context">
             <span>
               {campusId

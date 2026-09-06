@@ -4,6 +4,7 @@ import * as THREE from 'three';
 import RAPIER from '@dimforge/rapier3d-compat';
 import {
   chooseSafeSpawn,
+  buildingBounds,
   insideCampus,
   featureIdAtFace,
   readCollisionData,
@@ -17,6 +18,40 @@ const square = (min, max) => [
   [max, max],
   [min, max],
 ];
+
+test('building bounds isolate indexed feature faces and transformed roof height', () => {
+  const model = new THREE.Group();
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute(
+    'position',
+    new THREE.Float32BufferAttribute(
+      [0, 0, 0, 2, 0, 0, 0, 10, 2, 10, 0, 10, 12, 0, 10, 10, 80, 12],
+      3,
+    ),
+  );
+  geometry.setIndex([0, 1, 2, 3, 4, 5]);
+  const mesh = new THREE.Mesh(geometry);
+  mesh.userData.featureRanges = [
+    { start: 0, end: 1, id: 'hall' },
+    { start: 1, end: 2, id: 'other' },
+  ];
+  model.add(mesh);
+  const roofGeometry = new THREE.BufferGeometry();
+  roofGeometry.setAttribute(
+    'position',
+    new THREE.Float32BufferAttribute([0, 0, 0, 2, 0, 0, 0, 0, 2], 3),
+  );
+  const roof = new THREE.Mesh(roofGeometry);
+  roof.name = 'roof-hall';
+  roof.position.y = 13;
+  model.add(roof);
+  model.position.set(20, 5, -10);
+  assert.deepEqual(buildingBounds(model, 'hall').min.toArray(), [20, 5, -10]);
+  assert.deepEqual(buildingBounds(model, 'hall').max.toArray(), [22, 18, -8]);
+  assert.equal(buildingBounds(model, 'missing'), null);
+  geometry.dispose();
+  roofGeometry.dispose();
+});
 
 test('merged building and roof clicks resolve exact triangle ranges', () => {
   const mesh = new THREE.Mesh();
