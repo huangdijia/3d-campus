@@ -1,3 +1,5 @@
+import { normalizeRegion, provinceRegion } from './regions';
+
 export type Terrain = {
   west: number;
   south: number;
@@ -44,15 +46,17 @@ export function filterUniversities<
     is985: boolean;
     campusId: string | null;
   },
->(items: T[], query: string, province: string, tag: string) {
+>(items: T[], query: string, region: string, tag: string) {
   const q = query.trim().toLowerCase();
+  const selectedRegion = normalizeRegion(region);
   return items.filter(
     (u) =>
       (!q ||
         [u.name, u.province, u.city, ...u.subjects].some((s) =>
           s.toLowerCase().includes(q),
         )) &&
-      (province === '全部地区' || u.province === province) &&
+      (selectedRegion === '全部地区' ||
+        provinceRegion(u.province) === selectedRegion) &&
       (tag !== '985' || u.is985) &&
       (tag !== '211-only' || !u.is985) &&
       (tag !== '可预览' || u.campusId),

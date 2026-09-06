@@ -1,7 +1,9 @@
+import { normalizeRegion, type RegionSelection } from './regions';
+
 export type ExploreMode = 'overview' | 'tour' | 'walk';
 export type AtlasLocation = {
   query: string;
-  province: string;
+  region: RegionSelection;
   tag: string;
   schoolId: string | null;
   campusId: string | null;
@@ -11,7 +13,7 @@ export type AtlasLocation = {
 };
 export const emptyLocation: AtlasLocation = {
   query: '',
-  province: '全部地区',
+  region: '全部地区',
   tag: '全部',
   schoolId: null,
   campusId: null,
@@ -25,8 +27,16 @@ type School = {
   campusId: string | null;
   tier: string;
 };
+
+export function migrateStoredRegion(state: Record<string, unknown>) {
+  const { province, ...rest } = state;
+  return { ...rest, region: normalizeRegion(state.region ?? province) };
+}
+
 export function normalizeLocation(
-  state: AtlasLocation,
+  state:
+    | AtlasLocation
+    | (Omit<AtlasLocation, 'region'> & { region?: string; province?: string }),
   schools: readonly School[],
 ): AtlasLocation {
   const school = schools.find((u) => u.id === state.schoolId);
@@ -41,9 +51,9 @@ export function normalizeLocation(
         : 'overview';
   return {
     query: state.query.slice(0, 200),
-    province: schools.some((u) => u.province === state.province)
-      ? state.province
-      : '全部地区',
+    region: normalizeRegion(
+      state.region ?? ('province' in state ? state.province : undefined),
+    ),
     tag: ['985', '211-only'].includes(state.tag) ? state.tag : '全部',
     schoolId: school?.id || null,
     campusId,
@@ -65,7 +75,9 @@ export function readAtlasLocation(
   return normalizeLocation(
     {
       query: params.get('q') || '',
-      province: params.get('province') || '全部地区',
+      region: normalizeRegion(
+        params.get('region') || params.get('province') || '全部地区',
+      ),
       tag: params.get('type') || '全部',
       schoolId: match?.[1] || null,
       campusId: match?.[2] ? match[1] : null,
@@ -89,7 +101,7 @@ export function atlasHref(state: AtlasLocation): string {
       : '/';
   const params = new URLSearchParams();
   if (state.query) params.set('q', state.query);
-  if (state.province !== '全部地区') params.set('province', state.province);
+  if (state.region !== '全部地区') params.set('region', state.region);
   if (state.tag !== '全部') params.set('type', state.tag);
   if (state.campusId && state.buildingQuery)
     params.set('bq', state.buildingQuery);

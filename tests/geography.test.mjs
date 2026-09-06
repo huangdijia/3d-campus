@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import './register-typescript.mjs';
 const schools = JSON.parse(
   fs.readFileSync('app/data/universities.json', 'utf8'),
 );
@@ -12,15 +13,65 @@ test('historical labels overlap without double-counting university identities', 
   assert.equal(new Set(schools.map((u) => u.id)).size, 115);
   assert(schools.every((u) => u.is211));
 });
-test('985 filter intersects province and search instead of overriding them', () => {
-  const a = filterUniversities(schools, '大学', '北京', '985');
+test('985 filter intersects region and search instead of overriding them', () => {
+  const a = filterUniversities(schools, '大学', '华北', '985');
   assert(a.length > 0 && a.length < 39);
   assert(
-    a.every((u) => u.is985 && u.province === '北京' && u.name.includes('大学')),
+    a.every(
+      (u) =>
+        u.is985 &&
+        ['北京', '天津', '河北', '山西', '内蒙古'].includes(u.province) &&
+        u.name.includes('大学'),
+    ),
   );
   assert.equal(
     filterUniversities(schools, '不存在的检索', '全部地区', '全部').length,
     0,
+  );
+});
+
+test('seven regions partition all universities without changing their provinces', async () => {
+  const { REGION_NAMES, countRegions, provinceRegion } =
+    await import('../app/ui/regions.ts');
+  const counts = countRegions(schools);
+  assert.equal(REGION_NAMES.length, 7);
+  assert.equal(
+    REGION_NAMES.reduce((sum, region) => sum + counts[region], 0),
+    115,
+  );
+  assert.equal(counts['全部地区'], 115);
+  assert(schools.every((u) => provinceRegion(u.province)));
+  assert.equal(provinceRegion(undefined), null);
+  assert.equal(provinceRegion({}), null);
+  const southwest = filterUniversities(schools, '', '西南', '全部');
+  assert(
+    southwest.every((u) =>
+      ['四川', '重庆', '贵州', '云南', '西藏'].includes(u.province),
+    ),
+  );
+  assert.equal(
+    southwest.length,
+    schools.filter((u) =>
+      ['四川', '重庆', '贵州', '云南', '西藏'].includes(u.province),
+    ).length,
+  );
+  assert.deepEqual(filterUniversities(schools, '', '四川', '全部'), southwest);
+});
+
+test('southwest, search and exclusive 211 filters produce the correct intersection', () => {
+  assert.deepEqual(
+    filterUniversities(schools, '交通', '西南', '211-only').map((u) => u.name),
+    ['西南交通大学'],
+  );
+  assert.equal(filterUniversities(schools, '交通', '西南', '985').length, 0);
+  assert.equal(filterUniversities(schools, '清华', '西南', '全部').length, 0);
+  const independentExpected = schools.filter(
+    (u) =>
+      !u.is985 && ['四川', '重庆', '贵州', '云南', '西藏'].includes(u.province),
+  );
+  assert.deepEqual(
+    filterUniversities(schools, '', '西南', '211-only'),
+    independentExpected,
   );
 });
 test('preview filter excludes schools with missing campus assets', () => {

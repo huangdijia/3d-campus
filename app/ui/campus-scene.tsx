@@ -107,6 +107,13 @@ function World({
   const canWalk = Boolean(loaded?.spawn && loaded.collisionData);
   const walking = walk && canWalk;
   const calloutPOI = tourPOI ?? selected;
+  // Imported geometry provenance is not a description of the building itself.
+  const calloutDescription = calloutPOI?.description
+    .replace(
+      /^OpenStreetMap 标注建筑。建筑轮廓来自公开地理数据；高度(?:为估算值|采用数据源标注)。建筑介绍与现状待学校资料核验。$/,
+      '',
+    )
+    .trim();
   const calloutAnchor = useMemo<[number, number, number] | null>(() => {
     if (!calloutPOI) return null;
     const bounds = loaded ? buildingBounds(loaded.model, calloutPOI.id) : null;
@@ -367,17 +374,21 @@ function World({
       {calloutPOI && calloutAnchor && !walking && (
         <Html center position={calloutAnchor} zIndexRange={[20, 0]}>
           <article
-            className="campus-tour-callout"
+            className={`campus-tour-callout${calloutDescription ? '' : ' name-only'}`}
             aria-label={tourPOI ? '当前导览建筑信息' : '当前查看建筑信息'}
             aria-live="polite"
             aria-atomic="true"
             onPointerDown={(event) => event.stopPropagation()}
           >
             <h2>{calloutPOI.name}</h2>
-            <p>{calloutPOI.description}</p>
-            <a href={calloutPOI.sourceUrl} target="_blank" rel="noreferrer">
-              查看建筑资料 ↗
-            </a>
+            {calloutDescription && (
+              <>
+                <p>{calloutDescription}</p>
+                <a href={calloutPOI.sourceUrl} target="_blank" rel="noreferrer">
+                  查看建筑资料 ↗
+                </a>
+              </>
+            )}
           </article>
         </Html>
       )}

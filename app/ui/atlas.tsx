@@ -35,10 +35,13 @@ import {
 import universitiesJson from '../data/universities.json';
 import type { University, Campus, POI } from '../data/types';
 import { filterUniversities, type MapView } from './geo';
+import { RegionPicker } from './region-picker';
+import { countRegions, type RegionSelection } from './regions';
 import {
   atlasHref,
   emptyLocation,
   normalizeLocation,
+  migrateStoredRegion,
   readAtlasLocation,
   type AtlasLocation,
   type ExploreMode,
@@ -46,7 +49,6 @@ import {
 const MapScene = lazy(() => import('./map-scene'));
 const CampusScene = lazy(() => import('./campus-scene'));
 const universities = universitiesJson as University[];
-const provinces = [...new Set(universities.map((u) => u.province))];
 const previewCount = universities.filter((u) => u.campusId).length;
 function UniversityEmblem({ university }: { university: University }) {
   const [failed, setFailed] = useState(false);
@@ -104,7 +106,7 @@ export default function Atlas({
   });
   const {
     query,
-    province,
+    region,
     tag,
     schoolId: selectedId,
     campusId,
@@ -124,6 +126,12 @@ export default function Atlas({
     [modelReady, setModelReady] = useState(false),
     [mounted, setMounted] = useState(false),
     [hasWebgl, setHasWebgl] = useState(true);
+  const [enteringSchool, setEnteringSchool] = useState<University | null>(null);
+  const enteringSchoolRef = useRef<University | null>(null);
+  const cancelEntry = useCallback(() => {
+    enteringSchoolRef.current = null;
+    setEnteringSchool(null);
+  }, []);
   const walk = mode === 'walk';
   const poi = campus?.pois.find((p) => p.id === poiId) || null;
   const mapView = useRef<MapView | null>(null),
@@ -131,10 +139,18 @@ export default function Atlas({
     restored = useRef(false);
   const selected = universities.find((u) => u.id === selectedId) || null;
   const filtered = useMemo(
-    () => filterUniversities(universities, query, province, tag),
-    [query, province, tag],
+    () => filterUniversities(universities, query, region, tag),
+    [query, region, tag],
   );
-  const onSceneError = useCallback(() => setSceneError(true), []),
+  const regionCounts = useMemo(
+    () =>
+      countRegions(filterUniversities(universities, query, '全部地区', tag)),
+    [query, tag],
+  );
+  const onSceneError = useCallback(() => {
+      setSceneError(true);
+      cancelEntry();
+    }, [cancelEntry]),
     onCampusError = useCallback(() => setCampusError(true), []),
     onReady = useCallback(() => setModelReady(true), []);
   const updateLocation = useCallback(
@@ -162,12 +178,15 @@ export default function Atlas({
     updateLocation({ buildingQuery: value }, 'replace');
   }
   function setQuery(value: string) {
+    cancelEntry();
     updateLocation({ query: value }, 'replace');
   }
-  function setProvince(value: string) {
-    updateLocation({ province: value }, 'replace');
+  function setRegion(value: RegionSelection) {
+    cancelEntry();
+    updateLocation({ region: value });
   }
   function setTag(value: string) {
+    cancelEntry();
     updateLocation({ tag: value }, 'replace');
   }
   function setSelectedId(value: string | null) {
@@ -203,9 +222,16 @@ export default function Atlas({
         sessionStorage.getItem('campus-atlas-state') || 'null',
       );
       mapView.current = state?.view || null;
+      if (state && typeof state === 'object' && 'province' in state) {
+        sessionStorage.setItem(
+          'campus-atlas-state',
+          JSON.stringify(migrateStoredRegion(state)),
+        );
+      }
     } catch {}
     restored.current = true;
     const restore = () => {
+      cancelEntry();
       const next = readAtlasLocation(
         window.location.pathname,
         window.location.search,
@@ -233,23 +259,26 @@ export default function Atlas({
         e.preventDefault();
         searchRef.current?.focus();
       }
-      if (e.key === 'Escape') setAbout(false);
+      if (e.key === 'Escape') {
+        setAbout(false);
+        cancelEntry();
+      }
     };
     window.addEventListener('keydown', shortcuts);
     return () => {
       window.removeEventListener('popstate', restore);
       window.removeEventListener('keydown', shortcuts);
     };
-  }, []);
+  }, [cancelEntry]);
   useEffect(() => {
     if (!restored.current) return;
     try {
       sessionStorage.setItem(
         'campus-atlas-state',
-        JSON.stringify({ query, province, tag, view: mapView.current }),
+        JSON.stringify({ query, region, tag, view: mapView.current }),
       );
     } catch {}
-  }, [query, province, tag, campusId]);
+  }, [query, region, tag, campusId]);
   useEffect(() => {
     if (!campusId) {
       // Route changes invalidate the externally loaded campus resource.
@@ -278,6 +307,7 @@ export default function Atlas({
   }, [campusId]);
   const sheetStart = useRef<number | null>(null);
   function select(u: University) {
+    cancelEntry();
     updateLocation({
       schoolId: u.id,
       campusId: null,
@@ -286,20 +316,50 @@ export default function Atlas({
     });
     setListOpen(window.innerWidth > 760);
   }
-  function enter(u: University) {
-    if (!u.campusId) return;
-    updateLocation({
-      schoolId: u.id,
-      campusId: u.id,
-      poiId: null,
-      mode: 'overview',
-    });
-    setTouring(false);
-    setReset(0);
+  const enter = useCallback(
+    (u: University) => {
+      if (!u.campusId) return;
+      cancelEntry();
+      updateLocation({
+        schoolId: u.id,
+        campusId: u.id,
+        poiId: null,
+        buildingQuery: '',
+        mode: 'overview',
+      });
+      setTouring(false);
+      setReset(0);
+      setListOpen(window.innerWidth > 760);
+    },
+    [cancelEntry, updateLocation],
+  );
+  const completeEntry = useCallback(
+    (schoolId: string) => {
+      const school = enteringSchoolRef.current;
+      if (school?.id === schoolId) enter(school);
+    },
+    [enter],
+  );
+  function beginEntry(u: University) {
+    if (!u.campusId) {
+      select(u);
+      return;
+    }
+    if (
+      !u.position ||
+      !hasWebgl ||
+      sceneError ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    ) {
+      enter(u);
+      return;
+    }
+    enteringSchoolRef.current = u;
+    setEnteringSchool(u);
     setListOpen(window.innerWidth > 760);
-    setPoiQuery('');
   }
   function back() {
+    cancelEntry();
     updateLocation({
       schoolId: null,
       campusId: null,
@@ -312,9 +372,8 @@ export default function Atlas({
     setListOpen(window.innerWidth > 760);
   }
   function resetFilters() {
-    setQuery('');
-    setProvince('全部地区');
-    setTag('全部');
+    cancelEntry();
+    updateLocation({ query: '', region: '全部地区', tag: '全部' });
   }
   const activePOI =
     poi ||
@@ -468,22 +527,15 @@ export default function Atlas({
                       </button>
                     ))}
                   </div>
-                  <div className="region-filter">
-                    <MapPin size={14} />
-                    <select
-                      aria-label="选择地区"
-                      value={province}
-                      onChange={(e) => setProvince(e.target.value)}
-                    >
-                      <option>全部地区</option>
-                      {provinces.map((p) => (
-                        <option key={p}>{p}</option>
-                      ))}
-                    </select>
-                    {(query || province !== '全部地区' || tag !== '全部') && (
-                      <button onClick={resetFilters}>重置</button>
+                  <RegionPicker
+                    value={region}
+                    counts={regionCounts}
+                    onChange={setRegion}
+                    canReset={Boolean(
+                      query || region !== '全部地区' || tag !== '全部',
                     )}
-                  </div>
+                    onReset={resetFilters}
+                  />
                 </div>
                 <div className="result-heading">
                   <span>高校列表</span>
@@ -494,7 +546,9 @@ export default function Atlas({
                     <li key={u.id}>
                       <button
                         className="school-row"
-                        onClick={() => (u.campusId ? enter(u) : select(u))}
+                        onClick={() => beginEntry(u)}
+                        aria-busy={enteringSchool?.id === u.id}
+                        disabled={enteringSchool?.id === u.id}
                         aria-label={`${u.campusId ? '进入' : '查看'}${u.name}`}
                       >
                         <span className="school-monogram">
@@ -520,9 +574,6 @@ export default function Atlas({
                     </li>
                   )}
                 </ul>
-                <div className="panel-bottom">
-                  {universities.length} 所高校 · {previewCount} 所可预览校园
-                </div>
               </>
             )
           ) : (
@@ -634,32 +685,7 @@ export default function Atlas({
                       </button>
                     </div>
                   )}
-                  {activePOI && !walk ? (
-                    <article className="poi-detail">
-                      <button
-                        className="text-back"
-                        onClick={() => {
-                          setPoi(null);
-                          setMode('overview');
-                          setTouring(false);
-                        }}
-                      >
-                        <ArrowLeft size={15} />
-                        全部建筑
-                      </button>
-                      <span className="section-label">建筑信息</span>
-                      <h2>{activePOI.name}</h2>
-                      <p>{activePOI.description}</p>
-                      <a
-                        href={activePOI.sourceUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        查看地理资料
-                        <ExternalLink size={12} />
-                      </a>
-                    </article>
-                  ) : !walk ? (
+                  {!walk ? (
                     <>
                       <div className="poi-heading">
                         <h2>校园建筑</h2>
@@ -680,6 +706,8 @@ export default function Atlas({
                           .map((p) => (
                             <button
                               key={p.id}
+                              aria-pressed={activePOI?.id === p.id}
+                              title={`定位${p.name}`}
                               onClick={() => {
                                 setPoi(p);
                                 setTouring(false);
@@ -688,7 +716,7 @@ export default function Atlas({
                             >
                               <Building2 size={16} />
                               <strong>{p.name}</strong>
-                              <ChevronRight size={14} />
+                              <MapPin size={14} aria-hidden="true" />
                             </button>
                           ))}
                         {!campus.pois.some((p) =>
@@ -719,9 +747,6 @@ export default function Atlas({
                       </button>
                     </div>
                   )}
-                  <div className="panel-bottom">
-                    几何预览 · 部分高度为估算值
-                  </div>
                 </>
               ) : (
                 <div className="panel-loading">
@@ -776,8 +801,12 @@ export default function Atlas({
                   ) : (
                     <MapScene
                       universities={filtered}
-                      selected={selected}
+                      selected={enteringSchool || selected}
                       onSelect={select}
+                      onFocusComplete={
+                        enteringSchool ? completeEntry : undefined
+                      }
+                      onFocusCancel={enteringSchool ? cancelEntry : undefined}
                       viewRef={mapView}
                       reset={reset}
                       onError={onSceneError}
@@ -793,6 +822,17 @@ export default function Atlas({
                   <p>你仍可以搜索高校、查看学校信息和官网。</p>
                 </div>
               )
+            )}
+            {enteringSchool && !campusId && (
+              <output className="campus-entry-status" aria-live="polite">
+                <MapPin size={16} aria-hidden="true" />
+                <span>
+                  正在前往 <strong>{enteringSchool.name}</strong>
+                </span>
+                <button onClick={cancelEntry} aria-label="取消进入校园">
+                  <X size={15} />
+                </button>
+              </output>
             )}
           </div>
           <div className="map-context">
@@ -813,6 +853,7 @@ export default function Atlas({
             <button
               className="tool-button"
               onClick={() => {
+                cancelEntry();
                 setReset((n) => n + 1);
                 if (campusId) {
                   setTouring(false);

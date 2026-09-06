@@ -1,12 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {
+import './register-typescript.mjs';
+const {
   atlasHref,
   readAtlasLocation,
   normalizeLocation,
   emptyLocation,
-} from '../app/ui/atlas-location.ts';
+  migrateStoredRegion,
+} = await import('../app/ui/atlas-location.ts');
 const schools = JSON.parse(
   fs.readFileSync('app/data/universities.json', 'utf8'),
 );
@@ -25,7 +27,7 @@ test('Chinese filters and campus building selection round trip in one URL', () =
     {
       ...emptyLocation,
       query: '清华 大学',
-      province: '北京',
+      region: '华北',
       tag: '985',
       schoolId: '10003',
       campusId: '10003',
@@ -66,3 +68,61 @@ test('invalid campus capabilities and untrusted query parameters are normalized'
 });
 test('directory links explicitly clear cached content instead of inheriting it', () =>
   assert.deepEqual(read('/'), emptyLocation));
+
+test('legacy province URLs migrate to the containing region and canonical key', () => {
+  for (const [province, region] of [
+    ['四川', '西南'],
+    ['内蒙古自治区', '华北'],
+    ['广西壮族自治区', '华南'],
+    ['新疆维吾尔自治区', '西北'],
+  ]) {
+    const state = read(
+      `/?province=${encodeURIComponent(province)}&type=985&q=大学`,
+    );
+    assert.equal(state.region, region);
+    const params = new URL(atlasHref(state), 'https://atlas.test').searchParams;
+    assert.equal(params.get('region'), region);
+    assert.equal(params.has('province'), false);
+    assert.equal(params.get('type'), '985');
+    assert.equal(params.get('q'), '大学');
+  }
+});
+
+test('region state survives directory-campus-directory URL restoration', () => {
+  const directory = read('/?region=西南&type=211-only&q=交通');
+  const campus = normalizeLocation(
+    { ...directory, schoolId: '10613' },
+    schools,
+  );
+  assert.equal(read(atlasHref(campus)).region, '西南');
+  const returned = normalizeLocation(
+    { ...campus, schoolId: null, campusId: null },
+    schools,
+  );
+  assert.equal(atlasHref(returned), atlasHref(directory));
+  assert.equal(read('/?region=东北&province=四川').region, '东北');
+  assert.equal(read('/?region=unknown').region, '全部地区');
+});
+
+test('legacy stored provinces migrate safely without overriding URL authority', () => {
+  const old = {
+    province: '四川',
+    query: '交通',
+    tag: '211-only',
+    view: { target: [0, 0, 1] },
+  };
+  const migrated = migrateStoredRegion(old);
+  assert.equal(migrated.region, '西南');
+  assert.equal('province' in migrated, false);
+  assert.deepEqual(migrated.view, old.view);
+  assert.equal(read('/').region, '全部地区');
+  assert.equal(read('/?region=东北').region, '东北');
+  const { region: _region, ...legacyState } = emptyLocation;
+  assert.equal(
+    normalizeLocation({ ...legacyState, province: '四川' }, schools).region,
+    '西南',
+  );
+  assert.equal(normalizeLocation(legacyState, schools).region, '全部地区');
+  assert.equal(migrateStoredRegion({}).region, '全部地区');
+  assert.equal(migrateStoredRegion({ region: 42 }).region, '全部地区');
+});
