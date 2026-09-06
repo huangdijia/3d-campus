@@ -1,0 +1,4147 @@
+[
+  {
+    "id": "10001",
+    "code": "10001",
+    "name": "北京大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "北京大学",
+    "position": [
+      116.3039902,
+      39.9917097
+    ],
+    "website": "https://www.pku.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1330709889",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10002",
+    "code": "10002",
+    "name": "中国人民大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中国人民大学",
+    "position": [
+      116.3073883,
+      39.9692704
+    ],
+    "website": "https://www.ruc.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/30725330",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10003",
+    "code": "10003",
+    "name": "清华大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "清华大学",
+    "position": [
+      116.3200398,
+      40.0016401
+    ],
+    "website": "https://www.tsinghua.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/7469216",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10004",
+    "code": "10004",
+    "name": "北京交通大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10005",
+    "code": "10005",
+    "name": "北京工业大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京工业大学",
+    "position": [
+      116.4772154,
+      39.8741692
+    ],
+    "website": "https://www.bjut.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/33617299",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10006",
+    "code": "10006",
+    "name": "北京航空航天大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "北京航空航天大学(学院路校区)",
+    "position": [
+      116.3410053,
+      39.9804245
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/18849853",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10007",
+    "code": "10007",
+    "name": "北京理工大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京理工大学",
+    "position": [
+      116.3097403,
+      39.957859
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/30748230",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10008",
+    "code": "10008",
+    "name": "北京科技大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京科技大学",
+    "position": [
+      116.3531931,
+      39.9890463
+    ],
+    "website": "https://www.ustb.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/277989175",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10010",
+    "code": "10010",
+    "name": "北京化工大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京化工大学",
+    "position": [
+      116.4150125,
+      39.9702338
+    ],
+    "website": "https://www.buct.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/260795156",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10013",
+    "code": "10013",
+    "name": "北京邮电大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京邮电大学",
+    "position": [
+      116.351917,
+      39.9602522
+    ],
+    "website": "https://www.bupt.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/279303636",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10019",
+    "code": "10019",
+    "name": "中国农业大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中国农业大学",
+    "position": [
+      116.3501865,
+      40.0087941
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/412323508",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10022",
+    "code": "10022",
+    "name": "北京林业大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京林业大学",
+    "position": [
+      116.3383562,
+      40.0029223
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/412323504",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10026",
+    "code": "10026",
+    "name": "北京中医药大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京中医药大学（西校区）",
+    "position": [
+      116.4222921,
+      39.9698622
+    ],
+    "website": "https://www.bucm.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/260795158",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10027",
+    "code": "10027",
+    "name": "北京师范大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10030",
+    "code": "10030",
+    "name": "北京外国语大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京外国语大学",
+    "position": [
+      116.3044814,
+      39.9539113
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13045609",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10033",
+    "code": "10033",
+    "name": "中国传媒大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中国传媒大学",
+    "position": [
+      116.5521006,
+      39.9116254
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/58683259",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10034",
+    "code": "10034",
+    "name": "中央财经大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中央财经大学",
+    "position": [
+      116.3362178,
+      39.9581712
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/248393687",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10036",
+    "code": "10036",
+    "name": "对外经济贸易大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "对外经济贸易大学",
+    "position": [
+      116.4214499,
+      39.9789349
+    ],
+    "website": "https://www.uibe.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/412468627",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10043",
+    "code": "10043",
+    "name": "北京体育大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "北京体育大学",
+    "position": [
+      116.3129024,
+      40.0236061
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/398508191",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10045",
+    "code": "10045",
+    "name": "中央音乐学院",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中央音乐学院",
+    "position": [
+      116.352876,
+      39.9009915
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/12525809",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10052",
+    "code": "10052",
+    "name": "中央民族大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中央民族大学",
+    "position": [
+      116.3145046,
+      39.9496422
+    ],
+    "website": "https://www.muc.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/365025448",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10053",
+    "code": "10053",
+    "name": "中国政法大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10054",
+    "code": "10054",
+    "name": "华北电力大学",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "华北电力大学",
+    "position": [
+      115.4973873,
+      38.8760446
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/node/2176570917",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10055",
+    "code": "10055",
+    "name": "南开大学",
+    "province": "天津",
+    "city": "天津",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "南开大学八里台校区",
+    "position": [
+      117.1610113,
+      39.1033374
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/48165388",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10056",
+    "code": "10056",
+    "name": "天津大学",
+    "province": "天津",
+    "city": "天津",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "天津大学卫津路校区",
+    "position": [
+      117.1646673,
+      39.1091243
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/48165383",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10062",
+    "code": "10062",
+    "name": "天津医科大学",
+    "province": "天津",
+    "city": "天津",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "天津医科大学",
+    "position": [
+      117.1778851,
+      39.1060581
+    ],
+    "website": "http://www.tmu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/299961439",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10080",
+    "code": "10080",
+    "name": "河北工业大学",
+    "province": "天津",
+    "city": "天津",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "河北工业大学（北辰校区）",
+    "position": [
+      117.0525385,
+      39.2363046
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/517503748",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10112",
+    "code": "10112",
+    "name": "太原理工大学",
+    "province": "山西",
+    "city": "太原",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10126",
+    "code": "10126",
+    "name": "内蒙古大学",
+    "province": "内蒙古",
+    "city": "呼和浩特",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "内蒙古大学南校区",
+    "position": [
+      111.6760837,
+      40.756144
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/17358577",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10140",
+    "code": "10140",
+    "name": "辽宁大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10141",
+    "code": "10141",
+    "name": "大连理工大学",
+    "province": "辽宁",
+    "city": "大连",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "大连理工大学(凌水校区)",
+    "position": [
+      121.5201863,
+      38.8814986
+    ],
+    "website": "https://www.dlut.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/443031231",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10145",
+    "code": "10145",
+    "name": "东北大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "东北大学",
+    "position": [
+      123.4123662,
+      41.7633693
+    ],
+    "website": "https://www.neu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/53573481",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10151",
+    "code": "10151",
+    "name": "大连海事大学",
+    "province": "辽宁",
+    "city": "大连",
+    "is985": false,
+    "is211": true,
+    "tier": "A",
+    "campusName": "大连海事大学",
+    "position": [
+      121.5251608,
+      38.8702465
+    ],
+    "website": "https://www.dlmu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/700345039",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10183",
+    "code": "10183",
+    "name": "吉林大学",
+    "province": "吉林",
+    "city": "长春",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "吉林大学",
+    "position": [
+      125.2856029,
+      43.8842653
+    ],
+    "website": "https://www.jlu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/17863099",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10184",
+    "code": "10184",
+    "name": "延边大学",
+    "province": "吉林",
+    "city": "延吉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10200",
+    "code": "10200",
+    "name": "东北师范大学",
+    "province": "吉林",
+    "city": "长春",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "东北师范大学",
+    "position": [
+      125.4189999,
+      43.8241316
+    ],
+    "website": "https://www.nenu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/20686673",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10213",
+    "code": "10213",
+    "name": "哈尔滨工业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "哈尔滨工业大学",
+    "position": [
+      126.6273495,
+      45.7431591
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13053921",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10217",
+    "code": "10217",
+    "name": "哈尔滨工程大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "哈尔滨工程大学",
+    "position": [
+      126.6745014,
+      45.7750278
+    ],
+    "website": "https://www.hrbeu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/340788060",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10224",
+    "code": "10224",
+    "name": "东北农业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "东北农业大学",
+    "position": [
+      126.7219678,
+      45.7421347
+    ],
+    "website": "http://www.neau.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/573792237",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10225",
+    "code": "10225",
+    "name": "东北林业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10246",
+    "code": "10246",
+    "name": "复旦大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "复旦大学",
+    "position": [
+      121.4979245,
+      31.2980617
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/3936746",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10247",
+    "code": "10247",
+    "name": "同济大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "同济大学",
+    "position": [
+      121.4974304,
+      31.2846675
+    ],
+    "website": "https://www.tongji.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/18788116",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10248",
+    "code": "10248",
+    "name": "上海交通大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10251",
+    "code": "10251",
+    "name": "华东理工大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "华东理工大学（徐汇校区）",
+    "position": [
+      121.4194331,
+      31.1451077
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/70990157",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10255",
+    "code": "10255",
+    "name": "东华大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "东华大学",
+    "position": [
+      121.4105398,
+      31.2065031
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/266150697",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10269",
+    "code": "10269",
+    "name": "华东师范大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "华东师范大学",
+    "position": [
+      121.4017783,
+      31.2285462
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/6179557",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10271",
+    "code": "10271",
+    "name": "上海外国语大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "上海外国语大学",
+    "position": [
+      121.4785307,
+      31.2790116
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/24474567",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10272",
+    "code": "10272",
+    "name": "上海财经大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "上海财经大学",
+    "position": [
+      121.4931281,
+      31.3068575
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/68741490",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "11903",
+    "code": "11903",
+    "name": "上海大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "91020",
+    "code": "91020",
+    "name": "中国人民解放军海军军医大学",
+    "province": "上海",
+    "city": "上海",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国人民解放军海军军医大学",
+    "position": [
+      121.5228563,
+      31.30737
+    ],
+    "website": "https://www.smmu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/312189210",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10284",
+    "code": "10284",
+    "name": "南京大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "南京大学(鼓楼校区)",
+    "position": [
+      118.7736127,
+      32.0566403
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/88779953",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10285",
+    "code": "10285",
+    "name": "苏州大学",
+    "province": "江苏",
+    "city": "苏州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "苏州大学",
+    "position": [
+      120.6359348,
+      31.3070943
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/407521211",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10286",
+    "code": "10286",
+    "name": "东南大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "东南大学(四牌楼校区)",
+    "position": [
+      118.7889028,
+      32.0568412
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/16272607",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10287",
+    "code": "10287",
+    "name": "南京航空航天大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "南京航空航天大学天目湖校区",
+    "position": [
+      119.4794854,
+      31.373451
+    ],
+    "website": "https://www.nuaa.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/609233690",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10288",
+    "code": "10288",
+    "name": "南京理工大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "南京理工大学",
+    "position": [
+      118.8519938,
+      32.0300366
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/2196059",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10290",
+    "code": "10290",
+    "name": "中国矿业大学",
+    "province": "江苏",
+    "city": "徐州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10294",
+    "code": "10294",
+    "name": "河海大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10295",
+    "code": "10295",
+    "name": "江南大学",
+    "province": "江苏",
+    "city": "无锡",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "江南大学",
+    "position": [
+      120.2654914,
+      31.4854233
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/286859146",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10307",
+    "code": "10307",
+    "name": "南京农业大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10316",
+    "code": "10316",
+    "name": "中国药科大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10319",
+    "code": "10319",
+    "name": "南京师范大学",
+    "province": "江苏",
+    "city": "南京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "南京师范大学(仙林校区)",
+    "position": [
+      118.9023148,
+      32.1101362
+    ],
+    "website": "www.njnu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/9356340",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10335",
+    "code": "10335",
+    "name": "浙江大学",
+    "province": "浙江",
+    "city": "杭州",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "浙江大学紫金港校区",
+    "position": [
+      120.0752256,
+      30.3049933
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/288874844",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10357",
+    "code": "10357",
+    "name": "安徽大学",
+    "province": "安徽",
+    "city": "合肥",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "安徽大学(磬苑校区)",
+    "position": [
+      117.1801891,
+      31.7691273
+    ],
+    "website": "http://www.ahu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/20701346",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10358",
+    "code": "10358",
+    "name": "中国科学技术大学",
+    "province": "安徽",
+    "city": "合肥",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "中国科学技术大学（太湖路校区）",
+    "position": [
+      117.2933738,
+      31.8322855
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/573326213",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10359",
+    "code": "10359",
+    "name": "合肥工业大学",
+    "province": "安徽",
+    "city": "合肥",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "合肥工业大学（屯溪路校区）",
+    "position": [
+      117.2930713,
+      31.8456916
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/324749077",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10384",
+    "code": "10384",
+    "name": "厦门大学",
+    "province": "福建",
+    "city": "厦门",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "厦门大学",
+    "position": [
+      118.0932324,
+      24.439951
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/154986493",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10386",
+    "code": "10386",
+    "name": "福州大学",
+    "province": "福建",
+    "city": "福州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10403",
+    "code": "10403",
+    "name": "南昌大学",
+    "province": "江西",
+    "city": "南昌",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "南昌大学",
+    "position": [
+      115.7962999,
+      28.6575036
+    ],
+    "website": "https://www.ncu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/223390772",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10422",
+    "code": "10422",
+    "name": "山东大学",
+    "province": "山东",
+    "city": "济南",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "山东大学(中心校区)",
+    "position": [
+      117.0542914,
+      36.6760495
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/31734968",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10423",
+    "code": "10423",
+    "name": "中国海洋大学",
+    "province": "山东",
+    "city": "青岛",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中国海洋大学(崂山校区)",
+    "position": [
+      120.4947484,
+      36.1612644
+    ],
+    "website": "https://www.ouc.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/8632624",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10425",
+    "code": "10425",
+    "name": "中国石油大学（华东）",
+    "province": "山东",
+    "city": "青岛",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国石油大学（华东）(唐岛湾校区)",
+    "position": [
+      120.1708146,
+      35.9427591
+    ],
+    "website": "https://upc.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/222840628",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10459",
+    "code": "10459",
+    "name": "郑州大学",
+    "province": "河南",
+    "city": "郑州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "郑州大学",
+    "position": [
+      113.5292669,
+      34.8185706
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/738060348",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10486",
+    "code": "10486",
+    "name": "武汉大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "武汉大学",
+    "position": [
+      114.3603671,
+      30.5373813
+    ],
+    "website": "https://www.whu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/10717504",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10487",
+    "code": "10487",
+    "name": "华中科技大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "华中科技大学",
+    "position": [
+      114.413538,
+      30.5202342
+    ],
+    "website": "http://www.hust.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/10717498",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10491",
+    "code": "10491",
+    "name": "中国地质大学（武汉）",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国地质大学（武汉）",
+    "position": [
+      114.3968335,
+      30.5252913
+    ],
+    "website": "https://www.cug.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/10790904",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10497",
+    "code": "10497",
+    "name": "武汉理工大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10504",
+    "code": "10504",
+    "name": "华中农业大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "华中农业大学",
+    "position": [
+      114.3495258,
+      30.4739138
+    ],
+    "website": "http://www.hzau.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/10811687",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10511",
+    "code": "10511",
+    "name": "华中师范大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "华中师范大学",
+    "position": [
+      114.3561466,
+      30.5204189
+    ],
+    "website": "http://www.ccnu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/20383289",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10520",
+    "code": "10520",
+    "name": "中南财经政法大学",
+    "province": "湖北",
+    "city": "武汉",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中南财经政法大学首义校区",
+    "position": [
+      114.3084089,
+      30.5391569
+    ],
+    "website": "https://www.zuel.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/494046333",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10532",
+    "code": "10532",
+    "name": "湖南大学",
+    "province": "湖南",
+    "city": "长沙",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "湖南大学",
+    "position": [
+      112.9348958,
+      28.114009
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/14636504",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10533",
+    "code": "10533",
+    "name": "中南大学",
+    "province": "湖南",
+    "city": "长沙",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中南大学",
+    "position": [
+      112.9872007,
+      28.1504553
+    ],
+    "website": "https://www.csu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13777138",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10542",
+    "code": "10542",
+    "name": "湖南师范大学",
+    "province": "湖南",
+    "city": "长沙",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "湖南师范大学",
+    "position": [
+      112.9440656,
+      28.1908543
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/486904541",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "91002",
+    "code": "91002",
+    "name": "中国人民解放军国防科技大学",
+    "province": "湖南",
+    "city": "长沙",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "中国人民解放军国防科技大学",
+    "position": [
+      112.994062,
+      28.2254405
+    ],
+    "website": "https://www.nudt.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/8045988",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10558",
+    "code": "10558",
+    "name": "中山大学",
+    "province": "广东",
+    "city": "广州",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "中山大学(广州校区南校园)",
+    "position": [
+      113.2925062,
+      23.0995864
+    ],
+    "website": "https://www.sysu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/300917756",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10559",
+    "code": "10559",
+    "name": "暨南大学",
+    "province": "广东",
+    "city": "广州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10561",
+    "code": "10561",
+    "name": "华南理工大学",
+    "province": "广东",
+    "city": "广州",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "华南理工大学(大学城校区)",
+    "position": [
+      113.399832,
+      23.0500563
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13970408",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10574",
+    "code": "10574",
+    "name": "华南师范大学",
+    "province": "广东",
+    "city": "广州",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "华南师范大学(广州校区大学城校园)",
+    "position": [
+      113.3748452,
+      23.055293
+    ],
+    "website": "https://www.scnu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13970368",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10593",
+    "code": "10593",
+    "name": "广西大学",
+    "province": "广西",
+    "city": "南宁",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "广西大学",
+    "position": [
+      108.2881248,
+      22.8471676
+    ],
+    "website": "https://www.gxu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/398115378",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10589",
+    "code": "10589",
+    "name": "海南大学",
+    "province": "海南",
+    "city": "海口",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "海南大学",
+    "position": [
+      110.3251715,
+      20.0581945
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/215163037",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10610",
+    "code": "10610",
+    "name": "四川大学",
+    "province": "四川",
+    "city": "成都",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "四川大学（望江校区）",
+    "position": [
+      104.0818819,
+      30.6330567
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/299440043",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10613",
+    "code": "10613",
+    "name": "西南交通大学",
+    "province": "四川",
+    "city": "成都",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10614",
+    "code": "10614",
+    "name": "电子科技大学",
+    "province": "四川",
+    "city": "成都",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "电子科技大学（沙河校区）",
+    "position": [
+      104.0971288,
+      30.6781776
+    ],
+    "website": "https://www.uestc.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/19816230",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10626",
+    "code": "10626",
+    "name": "四川农业大学",
+    "province": "四川",
+    "city": "雅安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "四川农业大学（成都校区）",
+    "position": [
+      103.8598507,
+      30.7090458
+    ],
+    "website": "https://www.sicau.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/405063851",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10651",
+    "code": "10651",
+    "name": "西南财经大学",
+    "province": "四川",
+    "city": "成都",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "西南财经大学",
+    "position": [
+      103.8194572,
+      30.6838675
+    ],
+    "website": "https://www.swufe.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/443825467",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10611",
+    "code": "10611",
+    "name": "重庆大学",
+    "province": "重庆",
+    "city": "重庆",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "重庆大学B区",
+    "position": [
+      106.4549291,
+      29.570004
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/8253635",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10635",
+    "code": "10635",
+    "name": "西南大学",
+    "province": "重庆",
+    "city": "重庆",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "西南大学",
+    "position": [
+      106.4183465,
+      29.8232398
+    ],
+    "website": "http://www.swu.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/413071891",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10657",
+    "code": "10657",
+    "name": "贵州大学",
+    "province": "贵州",
+    "city": "贵阳",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "贵州大学",
+    "position": [
+      106.6596787,
+      26.4496124
+    ],
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/12845727",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10673",
+    "code": "10673",
+    "name": "云南大学",
+    "province": "云南",
+    "city": "昆明",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10694",
+    "code": "10694",
+    "name": "西藏大学",
+    "province": "西藏",
+    "city": "拉萨",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "西藏大学",
+    "position": [
+      91.180232,
+      29.6445666
+    ],
+    "website": "http://www.utibet.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/305530886",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10697",
+    "code": "10697",
+    "name": "西北大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10698",
+    "code": "10698",
+    "name": "西安交通大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": true,
+    "is211": true,
+    "tier": "S",
+    "campusName": "西安交通大学兴庆校区",
+    "position": [
+      108.9809712,
+      34.2473206
+    ],
+    "website": "https://www.xjtu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/17568632",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10699",
+    "code": "10699",
+    "name": "西北工业大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10701",
+    "code": "10701",
+    "name": "西安电子科技大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10710",
+    "code": "10710",
+    "name": "长安大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10712",
+    "code": "10712",
+    "name": "西北农林科技大学",
+    "province": "陕西",
+    "city": "咸阳",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": "西北农林科技大学",
+    "position": [
+      108.0640842,
+      34.2625956
+    ],
+    "website": "https://www.nwsuaf.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/375646584",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10718",
+    "code": "10718",
+    "name": "陕西师范大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "91030",
+    "code": "91030",
+    "name": "中国人民解放军空军军医大学",
+    "province": "陕西",
+    "city": "西安",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "空军军医大学",
+    "position": [
+      108.9757189,
+      34.2747887
+    ],
+    "website": "https://www.fmmu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/376248140",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10730",
+    "code": "10730",
+    "name": "兰州大学",
+    "province": "甘肃",
+    "city": "兰州",
+    "is985": true,
+    "is211": true,
+    "tier": "A",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10743",
+    "code": "10743",
+    "name": "青海大学",
+    "province": "青海",
+    "city": "西宁",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "青海大学",
+    "position": [
+      101.7473864,
+      36.7281483
+    ],
+    "website": "https://www.qhu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/372010756",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10749",
+    "code": "10749",
+    "name": "宁夏大学",
+    "province": "宁夏",
+    "city": "银川",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "宁夏大学(文萃校区)",
+    "position": [
+      106.1273167,
+      38.5024384
+    ],
+    "website": "https://www.nxu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1334170719",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10755",
+    "code": "10755",
+    "name": "新疆大学",
+    "province": "新疆",
+    "city": "乌鲁木齐",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": null,
+    "position": null,
+    "website": null,
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "10759",
+    "code": "10759",
+    "name": "石河子大学",
+    "province": "新疆",
+    "city": "石河子",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "石河子大学",
+    "position": [
+      86.0596319,
+      44.3054928
+    ],
+    "website": "https://www.shzu.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/3432003",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "11413",
+    "code": "11413",
+    "name": "中国矿业大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国矿业大学（北京）",
+    "position": [
+      116.3422257,
+      39.9971249
+    ],
+    "website": "https://www.cumtb.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1003833559",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "11414",
+    "code": "11414",
+    "name": "中国石油大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国石油大学（北京）",
+    "position": [
+      116.244796,
+      40.21605
+    ],
+    "website": "https://www.cup.edu.cn/",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13644491",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  },
+  {
+    "id": "11415",
+    "code": "11415",
+    "name": "中国地质大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "is985": false,
+    "is211": true,
+    "tier": "B",
+    "campusName": "中国地质大学（北京）",
+    "position": [
+      116.340587,
+      39.9886771
+    ],
+    "website": "https://www.cugb.edu.cn",
+    "subjects": [],
+    "sources": [
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
+        "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/245164271",
+        "title": "OpenStreetMap 校园候选位置，待官网核验",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      }
+    ],
+    "campusId": null,
+    "gaps": [
+      "代表校区需官网确认",
+      "校园布局需官方地图交叉核验",
+      "特色建筑精细模型缺失",
+      "学科及简介需官方资料核验",
+      "学校代码及现名需最新名录复核"
+    ]
+  }
+]

@@ -1,0 +1,2105 @@
+{
+  "10001": {
+    "type": "way",
+    "id": 1330709889,
+    "center": {
+      "lat": 39.9917097,
+      "lon": 116.3039902
+    },
+    "tags": {
+      "addr:housenumber": "5号",
+      "addr:street": "颐和园路",
+      "alt_name:eo": "Pekina Universitato",
+      "amenity": "university",
+      "int_name": "Peking University",
+      "name": "北京大学",
+      "name:de": "Peking Universität",
+      "name:en": "Peking University",
+      "name:ja": "北京大学",
+      "name:ko": "베이징 대학교",
+      "name:zh": "北京大学",
+      "name:zh-Hans": "北京大学",
+      "name:zh-Hant": "北京大學",
+      "opening_hours": "24/7",
+      "phone": "+86 10 6275 1407",
+      "short_name": "PKU",
+      "website": "https://www.pku.edu.cn/",
+      "wikidata": "Q16952",
+      "wikipedia": "zh:北京大学"
+    }
+  },
+  "10002": {
+    "type": "way",
+    "id": 30725330,
+    "center": {
+      "lat": 39.9692704,
+      "lon": 116.3073883
+    },
+    "tags": {
+      "addr:district": "海淀区",
+      "addr:housenumber": "59号",
+      "addr:province": "北京市",
+      "addr:street": "中关村大街",
+      "amenity": "university",
+      "name": "中国人民大学",
+      "name:de": "Chinesische Volksuniversität",
+      "name:en": "Renmin University of China",
+      "name:fr": "Université populaire de Chine",
+      "name:zh": "中国人民大学",
+      "name:zh-Hans": "中国人民大学",
+      "name:zh-Hant": "中國人民大學",
+      "website": "https://www.ruc.edu.cn/"
+    }
+  },
+  "10003": {
+    "type": "relation",
+    "id": 7469216,
+    "center": {
+      "lat": 40.0016401,
+      "lon": 116.3200398
+    },
+    "tags": {
+      "addr:city": "北京市",
+      "addr:country": "CN",
+      "addr:district": "海淀区",
+      "addr:housenumber": "30",
+      "addr:postcode": "100084",
+      "addr:street": "双清路",
+      "alt_name:eo": "Ĉinghua Universitato",
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "name": "清华大学",
+      "name:en": "Tsinghua University",
+      "name:ja": "清華大学",
+      "name:ko": "칭화 대학교",
+      "name:nan": "Chheng-hôa Tāi-ha̍k",
+      "name:nan-Hans": "清华大学",
+      "name:nan-Latn-pehoeji": "Chheng-hôa Tāi-ha̍k",
+      "name:nan-Latn-tailo": "Tshing-huâ Tāi-ha̍k",
+      "name:zh": "清华大学",
+      "name:zh-Hans": "清华大学",
+      "name:zh-Hant": "清華大學",
+      "opening_hours": "24/7",
+      "phone": "+86 10 6279 3001",
+      "type": "multipolygon",
+      "website": "https://www.tsinghua.edu.cn/",
+      "wheelchair": "yes",
+      "wikidata": "Q16955",
+      "wikipedia": "zh:清华大学",
+      "wikipedia:en": "Tsinghua University"
+    }
+  },
+  "10005": {
+    "type": "way",
+    "id": 33617299,
+    "center": {
+      "lat": 39.8741692,
+      "lon": 116.4772154
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "北京工业大学",
+      "name:en": "Beijing University of Technology",
+      "name:zh": "北京工业大学",
+      "website": "https://www.bjut.edu.cn/",
+      "wheelchair": "yes",
+      "wikidata": "Q1674548",
+      "wikipedia": "en:Beijing University of Technology"
+    }
+  },
+  "10006": {
+    "type": "relation",
+    "id": 18849853,
+    "center": {
+      "lat": 39.9804245,
+      "lon": 116.3410053
+    },
+    "tags": {
+      "addr:district": "海淀区",
+      "addr:housenumber": "37",
+      "addr:postcode": "100083",
+      "addr:province": "北京市",
+      "addr:street": "学院路",
+      "alt_name": "BUAA",
+      "alt_name:en": "Beijing University of Aeronautics and Astronautics",
+      "amenity": "university",
+      "education": "university",
+      "faculty": "aerospace",
+      "name": "北京航空航天大学(学院路校区)",
+      "name:en": "Beihang University",
+      "name:zh": "北京航空航天大学",
+      "name:zh-Hans": "北京航空航天大学",
+      "name:zh-Hant": "北京航空航天大學",
+      "short_name": "北航",
+      "type": "multipolygon",
+      "wikidata": "Q2299797",
+      "wikipedia": "zh:北京航空航天大学"
+    }
+  },
+  "10007": {
+    "type": "way",
+    "id": 30748230,
+    "center": {
+      "lat": 39.957859,
+      "lon": 116.3097403
+    },
+    "tags": {
+      "addr:housenumber": "5",
+      "addr:street": "中关村南大街",
+      "amenity": "university",
+      "name": "北京理工大学",
+      "name:en": "Beijing Institute of Technology (BIT)",
+      "wikidata": "Q23101",
+      "wikipedia": "en:Beijing Institute of Technology"
+    }
+  },
+  "10008": {
+    "type": "way",
+    "id": 277989175,
+    "center": {
+      "lat": 39.9890463,
+      "lon": 116.3531931
+    },
+    "tags": {
+      "addr:city": "北京",
+      "addr:district": "海淀区",
+      "addr:housenumber": "30号",
+      "addr:postcode": "100083",
+      "addr:province": "北京市",
+      "addr:street": "学院路",
+      "alt_name": "北科",
+      "alt_name_1": "北科大,北京科大",
+      "amenity": "university",
+      "int_name": "USTB",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "北京科技大学",
+      "name:en": "University of Science and Technology Beijing",
+      "name:zh": "北京科技大学",
+      "not:name": "北方科大",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "religion": "none",
+      "short_name": "USTB",
+      "website": "https://www.ustb.edu.cn/",
+      "wikidata": "Q1510516",
+      "wikipedia": "zh:北京科技大学"
+    }
+  },
+  "10010": {
+    "type": "way",
+    "id": 260795156,
+    "center": {
+      "lat": 39.9702338,
+      "lon": 116.4150125
+    },
+    "tags": {
+      "addr:city": "朝阳区",
+      "addr:housenumber": "15号",
+      "addr:postcode": "100029",
+      "addr:province": "北京市",
+      "addr:street": "北三环东路",
+      "alt_name": "北京化工大学(东校区)",
+      "alt_name:en": "Beijing University of Chemical Technology(East Campus)",
+      "alt_name:ja": "北京化工大学（東キャンパス）",
+      "alt_name:zh": "北京化工大学(东校区)",
+      "amenity": "university",
+      "int_name": "BUCT",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "internet_access:ssid": "BUCT",
+      "name": "北京化工大学",
+      "name:de": "Pekinger Universität für chemische Technologie (Ost campus)",
+      "name:en": "Beijing University Of Chemical Technology",
+      "name:fr": "Université de technologie chimique de Pékin (campus est)",
+      "name:ja": "北京化工大学",
+      "name:zh": "北京化工大学",
+      "name:zh-Hans": "北京化工大学(东校区)",
+      "name:zh-Hant": "北京化工大學(東校區)",
+      "name:zh-Latn-pinyin": "Běijīng Huàgōng Dàxué (Dōng xiàoqū)",
+      "not:name": "北京化工学院",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "short_name": "BUCT",
+      "website": "https://www.buct.edu.cn/",
+      "wikidata": "Q2496210",
+      "wikipedia": "zh:北京化工大学"
+    }
+  },
+  "10013": {
+    "type": "way",
+    "id": 279303636,
+    "center": {
+      "lat": 39.9602522,
+      "lon": 116.351917
+    },
+    "tags": {
+      "amenity": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "no",
+      "loc_name": "北京邮电大学(海淀校区)",
+      "name": "北京邮电大学",
+      "name:en": "Beijing University of Posts and Telecommunications",
+      "name:zh": "北京邮电大学",
+      "short_name": "北邮",
+      "short_name:en": "BUPT",
+      "website": "https://www.bupt.edu.cn/",
+      "wikidata": "Q4881210",
+      "wikipedia": "en:Beijing University of Posts and Telecommunications"
+    }
+  },
+  "10019": {
+    "type": "way",
+    "id": 412323508,
+    "center": {
+      "lat": 40.0087941,
+      "lon": 116.3501865
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "中国农业大学",
+      "name:zh": "中国农业大学",
+      "name:zh-Hans": "中国农业大学",
+      "name:zh-Hant": "中國農業大學"
+    }
+  },
+  "10022": {
+    "type": "way",
+    "id": 412323504,
+    "center": {
+      "lat": 40.0029223,
+      "lon": 116.3383562
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:ssid": "BJFU",
+      "name": "北京林业大学",
+      "name:en": "Beijing Forestry University",
+      "name:zh": "北京林业大学",
+      "name:zh-Hans": "北京林业大学",
+      "name:zh-Hant": "北京林業大學",
+      "wikidata": "Q4881133",
+      "wikimedia_commons": "Category:Beijing Forestry University",
+      "wikipedia": "zh:北京林业大学"
+    }
+  },
+  "10026": {
+    "type": "way",
+    "id": 260795158,
+    "center": {
+      "lat": 39.9698622,
+      "lon": 116.4222921
+    },
+    "tags": {
+      "addr:city": "朝阳区",
+      "addr:housenumber": "11号",
+      "addr:postcode": "100029",
+      "addr:province": "北京市",
+      "addr:street": "北三环东路",
+      "amenity": "university",
+      "check_date": "2026-03-05",
+      "int_name": "BUCM",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "name": "北京中医药大学（西校区）",
+      "name:en": "Beijing University of Chinese Medicine West Campus",
+      "name:zh": "北京中医药大学（西校区）",
+      "name:zh-Hans": "北京中医药大学（西校区）",
+      "name:zh-Hant": "北京中醫藥大學（西校區）",
+      "not:name": "北京中医学院",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "short_name": "BUCM",
+      "start_date": "1956",
+      "website": "https://www.bucm.edu.cn",
+      "wikidata": "Q1039400",
+      "wikipedia": "zh:北京中医药大学"
+    }
+  },
+  "10030": {
+    "type": "relation",
+    "id": 13045609,
+    "center": {
+      "lat": 39.9539113,
+      "lon": 116.3044814
+    },
+    "tags": {
+      "addr:city": "北京",
+      "addr:district": "北京",
+      "addr:housenumber": "2号/19号",
+      "addr:province": "北京",
+      "addr:street": "北京市海淀区西三环北路",
+      "amenity": "university",
+      "name": "北京外国语大学",
+      "name:en": "Beijing Foreign Studies University",
+      "type": "multipolygon",
+      "wikidata": "Q1144682"
+    }
+  },
+  "10033": {
+    "type": "way",
+    "id": 58683259,
+    "center": {
+      "lat": 39.9116254,
+      "lon": 116.5521006
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "中国传媒大学",
+      "name:en": "Communication University of China",
+      "wikidata": "Q1765168",
+      "wikipedia": "en:Communication University of China"
+    }
+  },
+  "10034": {
+    "type": "way",
+    "id": 248393687,
+    "center": {
+      "lat": 39.9581712,
+      "lon": 116.3362178
+    },
+    "tags": {
+      "addr:city": "北京市海淀区",
+      "addr:housenumber": "39号",
+      "addr:street": "学院南路",
+      "amenity": "university",
+      "education": "university",
+      "name": "中央财经大学",
+      "name:en": "Central University of Finance and Economics",
+      "name:zh": "中央财经大学",
+      "wikidata": "Q5061957",
+      "wikipedia": "en:Central University of Finance and Economics"
+    }
+  },
+  "10036": {
+    "type": "way",
+    "id": 412468627,
+    "center": {
+      "lat": 39.9789349,
+      "lon": 116.4214499
+    },
+    "tags": {
+      "amenity": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "对外经济贸易大学",
+      "name:en": "University of International Business and Economics",
+      "name:zh": "对外经济贸易大学",
+      "name:zh-Hans": "对外经济贸易大学",
+      "name:zh-Hant": "對外經濟貿易大學",
+      "short_name": "UIBE",
+      "website": "https://www.uibe.edu.cn/",
+      "wheelchair": "yes",
+      "wikidata": "Q835779",
+      "wikipedia": "en:University of International Business and Economics (Beijing)"
+    }
+  },
+  "10043": {
+    "type": "way",
+    "id": 398508191,
+    "center": {
+      "lat": 40.0236061,
+      "lon": 116.3129024
+    },
+    "tags": {
+      "addr:housenumber": "48",
+      "addr:street": "信息路",
+      "amenity": "university",
+      "name": "北京体育大学",
+      "name:en": "Beijing Sport University",
+      "wikidata": "Q3551745"
+    }
+  },
+  "10045": {
+    "type": "relation",
+    "id": 12525809,
+    "center": {
+      "lat": 39.9009915,
+      "lon": 116.352876
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "中央音乐学院",
+      "type": "multipolygon"
+    }
+  },
+  "10052": {
+    "type": "way",
+    "id": 365025448,
+    "center": {
+      "lat": 39.9496422,
+      "lon": 116.3145046
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "中央民族大学",
+      "name:de": "Zentrale Nationalitäten-Universität",
+      "name:en": "Minzu University of China",
+      "name:fr": "Université centrale des Minorités",
+      "name:zh": "中央民族大学",
+      "short_name:de": "ZNU",
+      "short_name:en": "MUC",
+      "source": "Bing",
+      "website": "https://www.muc.edu.cn/",
+      "wikidata": "Q190336",
+      "wikipedia": "en:Minzu University of China"
+    }
+  },
+  "10055": {
+    "type": "way",
+    "id": 48165388,
+    "center": {
+      "lat": 39.1033374,
+      "lon": 117.1610113
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "南开大学八里台校区",
+      "name:en": "Nankai University Balitai Campus",
+      "wikidata": "Q254204"
+    }
+  },
+  "10056": {
+    "type": "way",
+    "id": 48165383,
+    "center": {
+      "lat": 39.1091243,
+      "lon": 117.1646673
+    },
+    "tags": {
+      "addr:housenumber": "92",
+      "addr:street": "卫津路",
+      "amenity": "university",
+      "name": "天津大学卫津路校区",
+      "wikidata": "Q2031560"
+    }
+  },
+  "10062": {
+    "type": "way",
+    "id": 299961439,
+    "center": {
+      "lat": 39.1060581,
+      "lon": 117.1778851
+    },
+    "tags": {
+      "addr:city": "天津市",
+      "addr:district": "和平区",
+      "addr:housenumber": "22号",
+      "addr:province": "天津市",
+      "addr:street": "气象台路",
+      "amenity": "university",
+      "name": "天津医科大学",
+      "name:en": "Tianjin University of Medicine",
+      "website": "http://www.tmu.edu.cn/",
+      "wikidata": "Q834827"
+    }
+  },
+  "10080": {
+    "type": "way",
+    "id": 517503748,
+    "center": {
+      "lat": 39.2363046,
+      "lon": 117.0525385
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "河北工业大学（北辰校区）",
+      "wikidata": "Q5695527"
+    }
+  },
+  "10126": {
+    "type": "relation",
+    "id": 17358577,
+    "center": {
+      "lat": 40.756144,
+      "lon": 111.6760837
+    },
+    "tags": {
+      "alt_name": "内大南区",
+      "alt_name:en": "IMU South",
+      "alt_name:zh": "内大南区",
+      "amenity": "university",
+      "education": "university",
+      "name": "内蒙古大学南校区",
+      "name:en": "Inner Mongolia University (South)",
+      "name:es": "Universidad de Mongolia Interior (Sur)",
+      "name:fr": "Université de Mongolie-Intérieure (Sud)",
+      "name:pt": "Universidade da Mongólia Interior (Sul)",
+      "name:zh": "内蒙古大学南校区",
+      "type": "multipolygon"
+    }
+  },
+  "10141": {
+    "type": "way",
+    "id": 443031231,
+    "center": {
+      "lat": 38.8814986,
+      "lon": 121.5201863
+    },
+    "tags": {
+      "addr:city": "大连市",
+      "addr:district": "甘井子区",
+      "addr:housenumber": "2号",
+      "addr:postcode": "116024",
+      "addr:province": "辽宁省",
+      "addr:street": "凌工路",
+      "amenity": "university",
+      "name": "大连理工大学(凌水校区)",
+      "name:en": "Dalian University of Technology",
+      "name:zh": "大连理工大学",
+      "website": "https://www.dlut.edu.cn"
+    }
+  },
+  "10145": {
+    "type": "way",
+    "id": 53573481,
+    "center": {
+      "lat": 41.7633693,
+      "lon": 123.4123662
+    },
+    "tags": {
+      "addr:city": "沈阳市",
+      "addr:district": "和平区",
+      "addr:housenumber": "11号",
+      "addr:postcode": "110819",
+      "addr:province": "辽宁省",
+      "addr:street": "文化路三巷",
+      "amenity": "university",
+      "barrier": "wall",
+      "education": "university",
+      "name": "东北大学",
+      "name:en": "Northeastern University (China)",
+      "name:ja": "東北大学",
+      "name:ko": "동북대학",
+      "name:ru": "Северо-Восточный университет",
+      "short_name": "NEU",
+      "website": "https://www.neu.edu.cn/",
+      "wikidata": "Q1363559",
+      "wikipedia": "en:Northeastern University (China)"
+    }
+  },
+  "10151": {
+    "type": "way",
+    "id": 700345039,
+    "center": {
+      "lat": 38.8702465,
+      "lon": 121.5251608
+    },
+    "tags": {
+      "addr:city": "大连市",
+      "addr:district": "甘井子区",
+      "addr:housenumber": "1号",
+      "addr:postcode": "116026",
+      "addr:province": "辽宁省",
+      "addr:street": "凌海路",
+      "amenity": "university",
+      "education": "university",
+      "name": "大连海事大学",
+      "name:en": "Dalian Maritime University",
+      "website": "https://www.dlmu.edu.cn",
+      "wikidata": "Q3467465",
+      "wikipedia": "zh:大连海事大学"
+    }
+  },
+  "10183": {
+    "type": "relation",
+    "id": 17863099,
+    "center": {
+      "lat": 43.8842653,
+      "lon": 125.2856029
+    },
+    "tags": {
+      "alt_name": "吉大",
+      "amenity": "university",
+      "education": "university",
+      "name": "吉林大学",
+      "name:en": "Jilin University",
+      "name:ko": "지린 대학",
+      "name:zh": "吉林大学",
+      "name:zh-Hans": "吉林大学",
+      "name:zh-Hant": "吉林大學",
+      "short_name": "吉大",
+      "short_name:en": "JLU",
+      "site": "university",
+      "type": "site",
+      "website": "https://www.jlu.edu.cn/",
+      "wikidata": "Q1432030",
+      "wikipedia": "zh:吉林大学"
+    }
+  },
+  "10200": {
+    "type": "relation",
+    "id": 20686673,
+    "center": {
+      "lat": 43.8241316,
+      "lon": 125.4189999
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "东北师范大学",
+      "name:en": "Northeast Normal University",
+      "name:zh": "东北师范大学",
+      "name:zh-Hant": "東北師範大學",
+      "short_name": "东师",
+      "short_name:en": "NENU",
+      "type": "site",
+      "website": "https://www.nenu.edu.cn/",
+      "wikidata": "Q4393424",
+      "wikipedia": "zh:东北师范大学"
+    }
+  },
+  "10213": {
+    "type": "relation",
+    "id": 13053921,
+    "center": {
+      "lat": 45.7431591,
+      "lon": 126.6273495
+    },
+    "tags": {
+      "addr:housenumber": "92",
+      "addr:street": "西大直街",
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "哈尔滨工业大学",
+      "name:en": "Harbin Institute of Technology",
+      "name:ru": "Харбинский технологический институт",
+      "name:zh": "哈尔滨工业大学",
+      "name:zh-Hans": "哈尔滨工业大学",
+      "name:zh-Hant": "哈爾濱工業大學",
+      "operator": "哈尔滨工业大学",
+      "operator:type": "government",
+      "type": "multipolygon",
+      "wheelchair": "yes",
+      "wikidata": "Q632558",
+      "wikipedia": "zh:哈尔滨工业大学"
+    }
+  },
+  "10217": {
+    "type": "way",
+    "id": 340788060,
+    "center": {
+      "lat": 45.7750278,
+      "lon": 126.6745014
+    },
+    "tags": {
+      "addr:city": "Harbin",
+      "addr:district": "Nangang",
+      "addr:housenumber": "145",
+      "addr:postcode": "150001",
+      "addr:province": "Heilongjiang",
+      "addr:street": "Nantong (一曼街)",
+      "amenity": "university",
+      "education": "university",
+      "name": "哈尔滨工程大学",
+      "name:en": "Harbin Engineering University",
+      "name:ru": "Харбинский инженерный университет",
+      "name:zh": "哈尔滨工程大学",
+      "short_name": "HEU",
+      "start_date": "1953",
+      "website": "https://www.hrbeu.edu.cn/",
+      "website:en": "https://english.hrbeu.edu.cn",
+      "wikidata": "Q23102"
+    }
+  },
+  "10224": {
+    "type": "way",
+    "id": 573792237,
+    "center": {
+      "lat": 45.7421347,
+      "lon": 126.7219678
+    },
+    "tags": {
+      "amenity": "university",
+      "barrier": "wall",
+      "education": "university",
+      "internet_access": "yes",
+      "name": "东北农业大学",
+      "name:en": "Northeast Agricultural University NEAU",
+      "name:ru": "Северо-Восточный сельскохозяйственный университет",
+      "name:zh": "东北农业大学",
+      "website": "http://www.neau.edu.cn/",
+      "wikidata": "Q7057807",
+      "wikipedia": "zh:东北农业大学"
+    }
+  },
+  "10246": {
+    "type": "relation",
+    "id": 3936746,
+    "center": {
+      "lat": 31.2980617,
+      "lon": 121.4979245
+    },
+    "tags": {
+      "addr:city": "上海市",
+      "addr:district": "杨浦区",
+      "addr:housenumber": "220",
+      "addr:postcode": "200433",
+      "addr:street": "邯郸路",
+      "amenity": "university",
+      "education": "university",
+      "name": "复旦大学",
+      "name:en": "Fudan University",
+      "name:hu": "Fudan Egyetem",
+      "name:nan": "Ho̍k-tàn Tāi-ha̍k",
+      "name:nan-Hans": "复旦大学",
+      "name:nan-Latn-pehoeji": "Ho̍k-tàn Tāi-ha̍k",
+      "name:nan-Latn-tailo": "Ho̍k-tàn Tāi-ha̍k",
+      "name:zh": "复旦大学",
+      "name:zh-Hans": "复旦大学",
+      "name:zh-Hant": "復旦大學",
+      "name:zh-Latn-pinyin": "Fùdàn Dàxué",
+      "type": "multipolygon",
+      "wikidata": "Q495015",
+      "wikipedia": "en:Fudan University"
+    }
+  },
+  "10247": {
+    "type": "relation",
+    "id": 18788116,
+    "center": {
+      "lat": 31.2846675,
+      "lon": 121.4974304
+    },
+    "tags": {
+      "addr:city": "上海市",
+      "addr:district": "杨浦区",
+      "addr:housenumber": "1239",
+      "addr:province": "上海市",
+      "addr:street": "四平路",
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "no",
+      "name": "同济大学",
+      "name:cs": "Univerzita Tchung-ťi",
+      "name:en": "Tongji University",
+      "name:zh-Latn-pinyin": "Tóngji Dàxué",
+      "type": "multipolygon",
+      "website": "https://www.tongji.edu.cn/",
+      "wikidata": "Q16947",
+      "wikipedia": "en:Tongji University"
+    }
+  },
+  "10251": {
+    "type": "way",
+    "id": 70990157,
+    "center": {
+      "lat": 31.1451077,
+      "lon": 121.4194331
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "华东理工大学（徐汇校区）",
+      "name:en": "East China University of Science and Technology",
+      "name:zh": "华东理工大学",
+      "wikidata": "Q2655352"
+    }
+  },
+  "10255": {
+    "type": "way",
+    "id": 266150697,
+    "center": {
+      "lat": 31.2065031,
+      "lon": 121.4105398
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "东华大学",
+      "name:en": "Donghua University",
+      "wikidata": "Q837544",
+      "wikimedia_commons": "Category:Donghua University",
+      "wikipedia": "en:Donghua University"
+    }
+  },
+  "10269": {
+    "type": "relation",
+    "id": 6179557,
+    "center": {
+      "lat": 31.2285462,
+      "lon": 121.4017783
+    },
+    "tags": {
+      "addr:housenumber": "3663",
+      "addr:postcode": "200062",
+      "addr:street": "中山北路",
+      "alt_name": "ECNU",
+      "alt_name_1": "华师大",
+      "alt_name_2": "华东师大",
+      "amenity": "university",
+      "int_name": "East China Normal University",
+      "name": "华东师范大学",
+      "name:en": "East China Normal University",
+      "type": "multipolygon",
+      "wikidata": "Q2034790",
+      "wikipedia": "en:East China Normal University"
+    }
+  },
+  "10271": {
+    "type": "way",
+    "id": 24474567,
+    "center": {
+      "lat": 31.2790116,
+      "lon": 121.4785307
+    },
+    "tags": {
+      "addr:housenumber": "550",
+      "addr:street": "大连西路",
+      "amenity": "university",
+      "name": "上海外国语大学",
+      "name:de": "Fremdsprachenuniversität Shanghai",
+      "name:en": "Shanghai International Studies University",
+      "name:zh": "上海外国语大学",
+      "opening_hours": "24/7",
+      "short_name:en": "SISU",
+      "source": "wild_guess",
+      "wikidata": "Q1455176",
+      "wikipedia": "en:Shanghai International Studies University"
+    }
+  },
+  "10272": {
+    "type": "way",
+    "id": 68741490,
+    "center": {
+      "lat": 31.3068575,
+      "lon": 121.4931281
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "上海财经大学",
+      "name:en": "Shanghai University of Finance and Economics",
+      "name:zh": "上海财经大学",
+      "wikidata": "Q6129947",
+      "wikipedia": "zh:上海财经大学"
+    }
+  },
+  "91020": {
+    "type": "way",
+    "id": 312189210,
+    "center": {
+      "lat": 31.30737,
+      "lon": 121.5228563
+    },
+    "tags": {
+      "addr:city": "上海市",
+      "addr:country": "CN",
+      "addr:district": "杨浦区",
+      "addr:full": "上海市杨浦区翔殷路800号",
+      "addr:housenumber": "800",
+      "addr:postcode": "200433",
+      "addr:street": "翔殷路",
+      "alt_name": "中国人民解放军海军军医大学",
+      "alt_name:en": "PLA Second Military Medical University",
+      "alt_name:nan": "Tiong-kok Jîn-bîn Kái-hòng-kun Hái-kun Kun-i Tōa-o̍huā-o̍h",
+      "alt_name:nan-Hans": "中国人民解放军海军军医大学",
+      "alt_name:nan-Latn-pehoeji": "Tiong-kok Jîn-bîn Kái-hòng-kun Hái-kun Kun-i Tōa-o̍h",
+      "alt_name:nan-Latn-tailo": "Tiong-kok Jîn-bîn Kái-hòng-kun Hái-kun Kun-i Tuā-o̍h",
+      "alt_name:zh": "中国人民解放军海军军医大学",
+      "alt_name:zh-Hans": "中国人民解放军海军军医大学",
+      "alt_name:zh-Hant": "中國人民解放軍海軍軍醫大學",
+      "amenity": "university",
+      "landuse": "military",
+      "name": "中国人民解放军海军军医大学",
+      "name:en": "Naval Medical University",
+      "name:nan-Latn-pehoeji": "Tē-jī Kun-i Tāi-ha̍k",
+      "name:nan-Latn-tailo": "Tē-jī Kun-i Tāi-ha̍k",
+      "official_name": "中国人民解放军海军军医大学",
+      "official_name:en": "People's Liberation Army Naval Medical University",
+      "official_name:nan": "Tiong-kok Jîn-bîn Kái-hòng-kun Tē-2 Kun-i Tōa-o̍h",
+      "official_name:nan-Hans": "中国人民解放军海军军医大学",
+      "official_name:nan-Latn-pehoeji": "Tiong-kok Jîn-bîn Kái-hòng-kun Tē-2 Kun-i Tōa-o̍h",
+      "official_name:nan-Latn-tailo": "Tiong-kok Jîn-bîn-kái-hòng-kun Tē-2 Kun-i Tuā-o̍h",
+      "official_name:zh": "中国人民解放军海军军医大学",
+      "official_name:zh-Hans": "中国人民解放军海军军医大学",
+      "official_name:zh-Hant": "中國人民解放軍海軍軍醫大學",
+      "operator": "中国人民解放军海军后勤部",
+      "operator:type": "military",
+      "short_name": "海军军医大学",
+      "short_name:en": "NMU",
+      "short_name:zh": "海军军医大学",
+      "short_name:zh-Hans": "海军军医大学",
+      "short_name:zh-Hant": "海軍軍醫大學",
+      "start_date": "1949-09",
+      "website": "https://www.smmu.edu.cn/",
+      "wikipedia": "zh:中国人民解放军海军军医大学"
+    }
+  },
+  "10284": {
+    "type": "way",
+    "id": 88779953,
+    "center": {
+      "lat": 32.0566403,
+      "lon": 118.7736127
+    },
+    "tags": {
+      "amenity": "university",
+      "int_name": "Nanjing University",
+      "loc_name": "南大",
+      "name": "南京大学(鼓楼校区)",
+      "name:de": "Universität Nanjing",
+      "name:en": "Nanjing University (Gulou Campus)",
+      "name:es": "Universidad de Nankín",
+      "name:fr": "Université de Nankin",
+      "name:it": "Università di Nanchino",
+      "name:ja": "南京大学",
+      "name:ru": "Нанки́нский университ́ет",
+      "name:zh": "南京大学(鼓楼校区)",
+      "short_name": "NJU",
+      "wikidata": "Q683580",
+      "wikipedia": "zh:南京大学"
+    }
+  },
+  "10285": {
+    "type": "way",
+    "id": 407521211,
+    "center": {
+      "lat": 31.3070943,
+      "lon": 120.6359348
+    },
+    "tags": {
+      "addr:city": "苏州市",
+      "addr:district": "姑苏区",
+      "addr:housenumber": "1",
+      "addr:province": "江苏省",
+      "addr:street": "十梓街",
+      "alt_name": "苏州大学（校本部）;苏州大学校本部;东吴大学;苏州大学（天赐庄校区）;苏州大学天赐庄校区",
+      "alt_name:zh": "苏州大学（校本部）",
+      "alt_name:zh-Hans": "苏州大学（校本部）",
+      "alt_name:zh-Hant": "蘇州大學（校本部）",
+      "amenity": "university",
+      "full_name": "苏州大学（天赐庄校区本部）",
+      "full_name:en": "Soochow University (Tiancizhuang Campus Main Area)",
+      "full_name:zh": "苏州大学（天赐庄校区本部）",
+      "full_name:zh-Hans": "苏州大学（天赐庄校区本部）",
+      "full_name:zh-Hant": "蘇州大學（天賜莊校區本部）",
+      "name": "苏州大学",
+      "name:en": "Soochow University",
+      "name:zh": "苏州大学",
+      "name:zh-Hans": "苏州大学",
+      "name:zh-Hant": "蘇州大學",
+      "operator": "苏州大学",
+      "operator:type": "university",
+      "short_name": "苏大"
+    }
+  },
+  "10286": {
+    "type": "relation",
+    "id": 16272607,
+    "center": {
+      "lat": 32.0568412,
+      "lon": 118.7889028
+    },
+    "tags": {
+      "amenity": "university",
+      "int_name": "South East University",
+      "loc_name": "牌区",
+      "name": "东南大学(四牌楼校区)",
+      "name:en": "Southeast University (Sipailou Campus)",
+      "name:zh": "东南大学(四牌楼校区)",
+      "short_name": "东大;SEU",
+      "type": "multipolygon",
+      "wikidata": "Q3551770"
+    }
+  },
+  "10287": {
+    "type": "way",
+    "id": 609233690,
+    "center": {
+      "lat": 31.373451,
+      "lon": 119.4794854
+    },
+    "tags": {
+      "addr:city": "常州市",
+      "addr:district": "溧阳市",
+      "addr:housenumber": "29号",
+      "addr:postcode": "213399",
+      "addr:province": "江苏省",
+      "addr:street": "滨河东路",
+      "amenity": "university",
+      "construction": "yes",
+      "name": "南京航空航天大学天目湖校区",
+      "operator": "南京航空航天大学",
+      "operator:type": "government",
+      "start_date": "2019-08",
+      "website": "https://www.nuaa.edu.cn/",
+      "wikidata": "Q23110",
+      "wikipedia": "zh:南京航空航天大学"
+    }
+  },
+  "10288": {
+    "type": "relation",
+    "id": 2196059,
+    "center": {
+      "lat": 32.0300366,
+      "lon": 118.8519938
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "南京理工大学",
+      "name:en": "Nanjing University of Science and Technology",
+      "name:ja": "南京理工大学",
+      "source": "bing",
+      "type": "multipolygon",
+      "wikidata": "Q3953805"
+    }
+  },
+  "10295": {
+    "type": "way",
+    "id": 286859146,
+    "center": {
+      "lat": 31.4854233,
+      "lon": 120.2654914
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "江南大学",
+      "name:en": "Jiangnan University",
+      "name:zh-Latn-pinyin": "Jiāngnán Dàxué",
+      "wikidata": "Q6191676",
+      "wikimedia_commons": "Category:Jiangnan University",
+      "wikipedia": "en:Jiangnan University"
+    }
+  },
+  "10319": {
+    "type": "relation",
+    "id": 9356340,
+    "center": {
+      "lat": 32.1101362,
+      "lon": 118.9023148
+    },
+    "tags": {
+      "addr:city": "南京市",
+      "addr:district": "栖霞区",
+      "addr:housenumber": "1号",
+      "addr:postcode": "210023",
+      "addr:province": "江苏省",
+      "addr:street": "文苑路",
+      "amenity": "university",
+      "name": "南京师范大学(仙林校区)",
+      "name:en": "Nanjing Normal University - Xianlin Campus",
+      "type": "multipolygon",
+      "website": "www.njnu.edu.cn"
+    }
+  },
+  "10335": {
+    "type": "way",
+    "id": 288874844,
+    "center": {
+      "lat": 30.3049933,
+      "lon": 120.0752256
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "浙江大学紫金港校区",
+      "name:en": "Zhejiang University Zijingang Campus",
+      "name:zh": "浙江大学紫金港校区",
+      "wikidata": "Q8071853",
+      "wikipedia": "zh:浙江大学紫金港校区"
+    }
+  },
+  "10357": {
+    "type": "relation",
+    "id": 20701346,
+    "center": {
+      "lat": 31.7691273,
+      "lon": 117.1801891
+    },
+    "tags": {
+      "addr:city": "合肥",
+      "addr:housenumber": "111",
+      "addr:postcode": "230601",
+      "addr:street": "九龙路",
+      "amenity": "university",
+      "name": "安徽大学(磬苑校区)",
+      "name:en": "Anhui University, Qingyuan Campus",
+      "name:fr": "University Anhui, Qingyuan Compus",
+      "type": "multipolygon",
+      "website": "http://www.ahu.edu.cn",
+      "wikidata": "Q545540",
+      "wikipedia": "en:Anhui University"
+    }
+  },
+  "10358": {
+    "type": "way",
+    "id": 573326213,
+    "center": {
+      "lat": 31.8322855,
+      "lon": 117.2933738
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "中国科学技术大学（太湖路校区）"
+    }
+  },
+  "10359": {
+    "type": "way",
+    "id": 324749077,
+    "center": {
+      "lat": 31.8456916,
+      "lon": 117.2930713
+    },
+    "tags": {
+      "addr:city": "合肥市",
+      "addr:district": "包河区",
+      "addr:housenumber": "193号",
+      "addr:postcode": "230009",
+      "addr:province": "安徽省",
+      "addr:street": "南一环路",
+      "amenity": "university",
+      "education": "university",
+      "int_name": "合肥工业大学",
+      "name": "合肥工业大学（屯溪路校区）",
+      "name:en": "Hefei University of Technology",
+      "operator": "教育部 工信部 安徽省",
+      "wikidata": "Q5698213",
+      "wikipedia": "zh:合肥工业大学"
+    }
+  },
+  "10384": {
+    "type": "way",
+    "id": 154986493,
+    "center": {
+      "lat": 24.439951,
+      "lon": 118.0932324
+    },
+    "tags": {
+      "addr:city": "厦门市",
+      "addr:country": "CN",
+      "addr:district": "思明区",
+      "addr:housenumber": "422",
+      "addr:province": "福建省",
+      "addr:street": "思明南路",
+      "alt_name": "Amoy Universitas",
+      "amenity": "university",
+      "name": "厦门大学",
+      "name:en": "Xiamen University",
+      "name:id": "Universitas Xiamen",
+      "name:nan": "Ē-mn̂g Tāi-ha̍k",
+      "name:nan-Hans": "厦门大学",
+      "name:nan-Latn-pehoeji": "Ē-mn̂g Tāi-ha̍k",
+      "name:nan-Latn-tailo": "Ē-mn̂g Tāi-ha̍k",
+      "name:vi": "Đại học Hạ Môn",
+      "name:zh": "厦门大学",
+      "name:zh-Hans": "厦门大学",
+      "name:zh-Hant": "廈門大學",
+      "name:zh-Latn-pinyin": "Xiàmén dàxué",
+      "wikidata": "Q1153539",
+      "wikipedia": "zh:厦门大学"
+    }
+  },
+  "10403": {
+    "type": "way",
+    "id": 223390772,
+    "center": {
+      "lat": 28.6575036,
+      "lon": 115.7962999
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "南昌大学",
+      "name:en": "Nanchang University",
+      "website": "https://www.ncu.edu.cn/",
+      "wikidata": "Q3497259"
+    }
+  },
+  "10422": {
+    "type": "way",
+    "id": 31734968,
+    "center": {
+      "lat": 36.6760495,
+      "lon": 117.0542914
+    },
+    "tags": {
+      "amenity": "university",
+      "layer": "-2",
+      "name": "山东大学(中心校区)",
+      "name:en": "Shandong University Central Campus",
+      "name:zh-Latn-pinyin": "Shāndōngdàxuézhōngxīnxìaoqū"
+    }
+  },
+  "10423": {
+    "type": "relation",
+    "id": 8632624,
+    "center": {
+      "lat": 36.1612644,
+      "lon": 120.4947484
+    },
+    "tags": {
+      "addr:city": "青岛市",
+      "addr:district": "崂山区",
+      "addr:housenumber": "238",
+      "addr:postcode": "266100",
+      "addr:province": "山东省",
+      "addr:street": "松岭路",
+      "amenity": "university",
+      "description": "中国海洋大学（崂山校区）",
+      "internet_access": "yes",
+      "internet_access:fee": "customers",
+      "name": "中国海洋大学(崂山校区)",
+      "name:en": "Ocean University of China (Laoshan Campus)",
+      "name:zh": "中国海洋大学(崂山校区)",
+      "name:zh-Hans": "中国海洋大学(崂山校区)",
+      "name:zh-Hant": "中國海洋大學(嶗山校區)",
+      "operator": "中国海洋大学",
+      "operator:type": "government",
+      "type": "multipolygon",
+      "website": "https://www.ouc.edu.cn/",
+      "wheelchair": "yes",
+      "wikidata": "Q1074015",
+      "wikipedia": "zh:中国海洋大学"
+    }
+  },
+  "10425": {
+    "type": "way",
+    "id": 222840628,
+    "center": {
+      "lat": 35.9427591,
+      "lon": 120.1708146
+    },
+    "tags": {
+      "addr:city": "青岛市",
+      "addr:district": "黄岛区",
+      "addr:housenumber": "66",
+      "addr:postcode": "266580",
+      "addr:province": "山东省",
+      "addr:street": "长江西路",
+      "amenity": "university",
+      "email": "netnews@upc.edu.cn",
+      "internet_access": "wlan",
+      "internet_access:fee": "yes",
+      "internet_access:ssid": "UPC",
+      "name": "中国石油大学（华东）(唐岛湾校区)",
+      "name:en": "China University of Petroleum",
+      "name:ja": "中国石油大学",
+      "website": "https://upc.edu.cn"
+    }
+  },
+  "10459": {
+    "type": "way",
+    "id": 738060348,
+    "center": {
+      "lat": 34.8185706,
+      "lon": 113.5292669
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "郑州大学",
+      "name:en": "Zhengzhou University",
+      "wikidata": "Q649895",
+      "wikipedia:zh": "郑州大学"
+    }
+  },
+  "10486": {
+    "type": "relation",
+    "id": 10717504,
+    "center": {
+      "lat": 30.5373813,
+      "lon": 114.3603671
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:country": "CN",
+      "addr:district": "武昌区",
+      "addr:housenumber": "299",
+      "addr:postcode": "430072",
+      "addr:province": "湖北省",
+      "addr:street": "八一路",
+      "amenity": "university",
+      "education": "university",
+      "int_name": "Wuhan University",
+      "internet_access": "yes",
+      "name": "武汉大学",
+      "name:de": "Wuhan-Universität",
+      "name:en": "Wuhan University",
+      "name:es": "Universidad de Wuhan",
+      "name:fr": "Université de Wuhan",
+      "name:it": "Università di Wuhan",
+      "name:ja": "武漢大学",
+      "name:zh": "武汉大学",
+      "name:zh-Hans": "武汉大学",
+      "name:zh-Hant": "武漢大學",
+      "old_name": "国立武汉大学",
+      "short_name": "武大",
+      "short_name:en": "WHU",
+      "short_name:zh": "武大",
+      "type": "multipolygon",
+      "website": "https://www.whu.edu.cn",
+      "wikidata": "Q1108197",
+      "wikipedia": "zh:武汉大学"
+    }
+  },
+  "10487": {
+    "type": "relation",
+    "id": 10717498,
+    "center": {
+      "lat": 30.5202342,
+      "lon": 114.413538
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:country": "CN",
+      "addr:district": "洪山区",
+      "addr:housenumber": "1037号",
+      "addr:postcode": "430074",
+      "addr:province": "湖北省",
+      "addr:street": "珞喻路",
+      "amenity": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "internet_access:ssid": "HUST_WIRELESS",
+      "name": "华中科技大学",
+      "name:de": "Universität für Wissenschaft und Technik Zentralchina",
+      "name:en": "Huazhong University of Science and Technology",
+      "name:ja": "華中科技大学",
+      "name:zh": "华中科技大学",
+      "name:zh-Hans": "华中科技大学",
+      "name:zh-Hant": "華中科技大學",
+      "old_name": "华中理工大学",
+      "phone": "+86 27 8754 1114",
+      "short_name": "华科;华中科大;华中大;华中科技",
+      "short_name:en": "HUST",
+      "short_name:zh": "华科;华中科大;华中大;华中科技",
+      "type": "multipolygon",
+      "website": "http://www.hust.edu.cn/",
+      "wikidata": "Q1711196",
+      "wikipedia": "zh:华中科技大学"
+    }
+  },
+  "10491": {
+    "type": "relation",
+    "id": 10790904,
+    "center": {
+      "lat": 30.5252913,
+      "lon": 114.3968335
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:housenumber": "388号",
+      "addr:postcode": "430074",
+      "addr:province": "湖北省",
+      "addr:street": "鲁磨路",
+      "amenity": "university",
+      "education": "university",
+      "name": "中国地质大学（武汉）",
+      "name:en": "China University of Geosciences (Wuhan)",
+      "name:zh": "中国地质大学（武汉）",
+      "operator": "中国地质大学",
+      "operator:type": "public",
+      "type": "multipolygon",
+      "website": "https://www.cug.edu.cn/",
+      "wikidata": "Q48880933",
+      "wikipedia": "zh:中国地质大学（武汉）"
+    }
+  },
+  "10504": {
+    "type": "relation",
+    "id": 10811687,
+    "center": {
+      "lat": 30.4739138,
+      "lon": 114.3495258
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:district": "洪山区",
+      "addr:housenumber": "1",
+      "addr:postcode": "430070",
+      "addr:province": "湖北省",
+      "addr:street": "狮子山街",
+      "alt_name:en": "Central China Agricultural University",
+      "amenity": "university",
+      "internet_access": "yes",
+      "name": "华中农业大学",
+      "name:en": "Huazhong Agricultural University",
+      "name:zh": "华中农业大学",
+      "operator": "华中农业大学",
+      "operator:type": "public",
+      "short_name": "华农;华中农大",
+      "short_name:en": "HZAU",
+      "type": "multipolygon",
+      "website": "http://www.hzau.edu.cn/",
+      "wikidata": "Q3429270",
+      "wikipedia": "zh:华中农业大学"
+    }
+  },
+  "10511": {
+    "type": "relation",
+    "id": 20383289,
+    "center": {
+      "lat": 30.5204189,
+      "lon": 114.3561466
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:district": "洪山区",
+      "addr:housenumber": "152",
+      "addr:postcode": "430079",
+      "addr:province": "湖北省",
+      "addr:street": "珞喻路",
+      "amenity": "university",
+      "education": "university",
+      "name": "华中师范大学",
+      "name:en": "Central China Normal University",
+      "name:zh": "华中师范大学",
+      "operator": "华中师范大学",
+      "operator:type": "public",
+      "short_name": "华师;华中师大",
+      "short_name:en": "CCNU",
+      "short_name:zh": "华师;华中师大",
+      "type": "multipolygon",
+      "website": "http://www.ccnu.edu.cn",
+      "wikidata": "Q1397589",
+      "wikipedia": "zh:华中师范大学"
+    }
+  },
+  "10520": {
+    "type": "way",
+    "id": 494046333,
+    "center": {
+      "lat": 30.5391569,
+      "lon": 114.3084089
+    },
+    "tags": {
+      "addr:city": "武汉市",
+      "addr:district": "武昌区",
+      "addr:housenumber": "114号",
+      "addr:province": "湖北省",
+      "addr:street": "武珞路",
+      "amenity": "university",
+      "name": "中南财经政法大学首义校区",
+      "name:en": "Zhongnan University of Economics and Law",
+      "name:zh": "中南财经政法大学",
+      "website": "https://www.zuel.edu.cn",
+      "wikidata": "Q8070947",
+      "wikipedia": "zh:中南财经政法大学"
+    }
+  },
+  "10532": {
+    "type": "relation",
+    "id": 14636504,
+    "center": {
+      "lat": 28.114009,
+      "lon": 112.9348958
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "湖南大学",
+      "type": "collection"
+    }
+  },
+  "10533": {
+    "type": "relation",
+    "id": 13777138,
+    "center": {
+      "lat": 28.1504553,
+      "lon": 112.9872007
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "中南大学",
+      "type": "collection",
+      "website": "https://www.csu.edu.cn/",
+      "wikidata": "Q5061828",
+      "wikipedia": "zh:中南大学"
+    }
+  },
+  "10542": {
+    "type": "way",
+    "id": 486904541,
+    "center": {
+      "lat": 28.1908543,
+      "lon": 112.9440656
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "湖南师范大学",
+      "name:en": "Hunan Normal University",
+      "name:ja": "湖南師範大学",
+      "name:zh": "湖南师范大学",
+      "name:zh-Hans": "湖南师范大学",
+      "name:zh-Hant": "湖南師範大學",
+      "wikidata": "Q5942027"
+    }
+  },
+  "91002": {
+    "type": "relation",
+    "id": 8045988,
+    "center": {
+      "lat": 28.2254405,
+      "lon": 112.994062
+    },
+    "tags": {
+      "addr:city": "长沙市",
+      "addr:country": "CN",
+      "addr:district": "开福区",
+      "addr:housenumber": "109",
+      "addr:postcode": "410073",
+      "addr:street": "德雅路",
+      "amenity": "university",
+      "fixme": "correct boundaries",
+      "landuse": "military",
+      "name": "中国人民解放军国防科技大学",
+      "name:de": "Nationale Universität für Verteidigungstechnologie",
+      "name:en": "National University of Defense Technology",
+      "name:fr": "Université nationale de technologie de la défense",
+      "name:nan": "Kok-hông Kho-ki Ki-su̍t Tāi-ha̍k",
+      "name:nan-Hans": "国防科学技术大学",
+      "name:nan-Latn-pehoeji": "Kok-hông Kho-ki Ki-su̍t Tāi-ha̍k",
+      "name:nan-Latn-tailo": "Kok-hông Kho-ki Ki-su̍t Tāi-ha̍k",
+      "name:ru": "Оборонный научно-технический университет Народно-освободительной армии Китая",
+      "name:zh": "中国人民解放军国防科技大学",
+      "operator:short": "PLAJLSF",
+      "operator:wikidata": "Q28412977",
+      "short_name:en": "NUDT",
+      "type": "multipolygon",
+      "website": "https://www.nudt.edu.cn/",
+      "wikidata": "Q831227"
+    }
+  },
+  "10558": {
+    "type": "way",
+    "id": 300917756,
+    "center": {
+      "lat": 23.0995864,
+      "lon": 113.2925062
+    },
+    "tags": {
+      "addr:city": "广州市",
+      "addr:district": "海珠区",
+      "addr:housenumber": "135",
+      "addr:postcode": "510275",
+      "addr:province": "广东省",
+      "addr:street": "新港西路",
+      "alt_name": "中山大学;康乐园",
+      "alt_name:en": "Sun Yat-sen University",
+      "alt_name:zh": "中山大学;康乐园",
+      "alt_name:zh-Hant": "中山大學;康樂園",
+      "amenity": "university",
+      "barrier": "wall",
+      "check_date": "2025-02-27",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "internet_access:ssid": "SYSU-SECURE",
+      "name": "中山大学(广州校区南校园)",
+      "name:en": "Sun Yat-sen University (Guangzhou South Campus)",
+      "name:vi": "Đại học Trung Sơn (cơ sở phía Nam)",
+      "name:zh": "中山大学(广州校区南校园)",
+      "name:zh-Hans": "中山大学(广州校区南校园)",
+      "name:zh-Hant": "中山大學(廣州校區南校園)",
+      "old_name": "岭南大学",
+      "old_name:zh": "岭南大学",
+      "old_name:zh-Hant": "嶺南大學",
+      "operator": "中山大学",
+      "operator:type": "public",
+      "short_name": "中大;中大南校",
+      "short_name:en": "SYSU;SYSU South",
+      "short_name:zh": "中大;中大南校",
+      "website": "https://www.sysu.edu.cn/",
+      "wikidata": "Q178972",
+      "wikipedia": "zh:中山大学"
+    }
+  },
+  "10561": {
+    "type": "relation",
+    "id": 13970408,
+    "center": {
+      "lat": 23.0500563,
+      "lon": 113.399832
+    },
+    "tags": {
+      "addr:city": "广州市",
+      "addr:district": "番禺区",
+      "addr:housenumber": "382",
+      "addr:postcode": "510006",
+      "addr:province": "广东省",
+      "addr:street": "大学城外环东路",
+      "amenity": "university",
+      "check_date": "2025-02-27",
+      "education": "university",
+      "name": "华南理工大学(大学城校区)",
+      "name:en": "South China University of Technology (HEMC Campus)",
+      "name:zh": "华南理工大学(大学城校区)",
+      "type": "multipolygon",
+      "wikidata": "Q62006064",
+      "wikipedia": "zh:华南理工大学大学城校区"
+    }
+  },
+  "10574": {
+    "type": "relation",
+    "id": 13970368,
+    "center": {
+      "lat": 23.055293,
+      "lon": 113.3748452
+    },
+    "tags": {
+      "addr:city": "广州市",
+      "addr:district": "番禺区",
+      "addr:housenumber": "378",
+      "addr:postcode": "510006",
+      "addr:province": "广东省",
+      "addr:street": "大学城外环西路",
+      "amenity": "university",
+      "check_date": "2025-04-16",
+      "education": "university",
+      "internet_access": "wlan",
+      "isced:level": "6;7;8",
+      "name": "华南师范大学(广州校区大学城校园)",
+      "name:en": "South China Normal University (Guangzhou HEMC Campus)",
+      "name:zh": "华南师范大学(广州校区大学城校园)",
+      "name:zh-Hans": "华南师范大学(广州校区大学城校园)",
+      "operator": "华南师范大学",
+      "operator:type": "public",
+      "type": "multipolygon",
+      "website": "https://www.scnu.edu.cn/",
+      "wheelchair": "yes"
+    }
+  },
+  "10593": {
+    "type": "way",
+    "id": 398115378,
+    "center": {
+      "lat": 22.8471676,
+      "lon": 108.2881248
+    },
+    "tags": {
+      "addr:city": "南宁市",
+      "addr:district": "西乡塘区",
+      "addr:housenumber": "100",
+      "addr:postcode": "530004",
+      "addr:province": "广西壮族自治区",
+      "addr:street": "大学东路",
+      "amenity": "university",
+      "education": "university",
+      "name": "广西大学",
+      "name:en": "Guangxi University",
+      "name:vi": "Đại học Quảng Tây",
+      "name:yue-Latn": "Gongslai Daaihok",
+      "name:za": "Gvangjsih Dayoz",
+      "name:zh": "广西大学",
+      "name:zh-Hant": "廣西大學",
+      "short_name": "西大",
+      "website": "https://www.gxu.edu.cn/",
+      "wikidata": "Q1552757",
+      "wikipedia": "zh:廣西大學"
+    }
+  },
+  "10589": {
+    "type": "way",
+    "id": 215163037,
+    "center": {
+      "lat": 20.0581945,
+      "lon": 110.3251715
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "海南大学",
+      "name:en": "Hainan University",
+      "name:id": "Universitas Hainan",
+      "name:vi": "Đại học Hải Nam",
+      "name:zh": "海南大学",
+      "wheelchair": "yes",
+      "wikidata": "Q5639382",
+      "wikipedia": "en:Hainan University"
+    }
+  },
+  "10610": {
+    "type": "way",
+    "id": 299440043,
+    "center": {
+      "lat": 30.6330567,
+      "lon": 104.0818819
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "四川大学（望江校区）",
+      "name:en": "Sichuan University (Wangjiang Campus)",
+      "name:zh": "四川大学（望江校区）",
+      "name:zh-Hans": "四川大学（望江校区）",
+      "name:zh-Hant": "四川大學（望江校區）",
+      "short_name": "四川大学"
+    }
+  },
+  "10614": {
+    "type": "relation",
+    "id": 19816230,
+    "center": {
+      "lat": 30.6781776,
+      "lon": 104.0971288
+    },
+    "tags": {
+      "addr:city": "成都市",
+      "addr:district": "成华区",
+      "addr:housenumber": "4",
+      "addr:postcode": "610054",
+      "addr:province": "四川省",
+      "addr:street": "建设北路二段",
+      "amenity": "university",
+      "education": "university",
+      "internet_access": "yes",
+      "internet_access:ssid": "UESTC-WiFi",
+      "name": "电子科技大学（沙河校区）",
+      "name:en": "University of Electronic Science and Technology of China (Shahe Campus)",
+      "name:zh": "电子科技大学（沙河校区）",
+      "operator": "电子科技大学",
+      "operator:type": "government",
+      "type": "multipolygon",
+      "website": "https://www.uestc.edu.cn/"
+    }
+  },
+  "10626": {
+    "type": "way",
+    "id": 405063851,
+    "center": {
+      "lat": 30.7090458,
+      "lon": 103.8598507
+    },
+    "tags": {
+      "addr:city": "成都市",
+      "addr:district": "温江区",
+      "addr:housenumber": "211号",
+      "addr:postcode": "611130",
+      "addr:province": "四川省",
+      "addr:street": "惠民路",
+      "amenity": "university",
+      "education": "university",
+      "name": "四川农业大学（成都校区）",
+      "name:en": "Sichuan Agricultural University (Chengdu Campus)",
+      "name:zh": "四川农业大学（成都校区）",
+      "website": "https://www.sicau.edu.cn",
+      "wikidata": "Q10924764",
+      "wikipedia": "zh:四川农业大学"
+    }
+  },
+  "10651": {
+    "type": "way",
+    "id": 443825467,
+    "center": {
+      "lat": 30.6838675,
+      "lon": 103.8194572
+    },
+    "tags": {
+      "amenity": "university",
+      "campus": "Liulin Campus",
+      "name": "西南财经大学",
+      "name:de": "Universität für Finanzwesen und Wirtschaft Südwestchinas",
+      "name:en": "Southwestern University of Finance and Economics",
+      "name:zh": "西南财经大学",
+      "website": "https://www.swufe.edu.cn/",
+      "website:en": "https://e.swufe.edu.cn"
+    }
+  },
+  "10611": {
+    "type": "relation",
+    "id": 8253635,
+    "center": {
+      "lat": 29.570004,
+      "lon": 106.4549291
+    },
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "重庆大学B区",
+      "name:en": "Chongqing University  Campus B",
+      "name:zh": "重庆大学B区",
+      "type": "multipolygon"
+    }
+  },
+  "10635": {
+    "type": "way",
+    "id": 413071891,
+    "center": {
+      "lat": 29.8232398,
+      "lon": 106.4183465
+    },
+    "tags": {
+      "addr:city": "重庆市北碚区",
+      "addr:district": "北碚区",
+      "addr:housenumber": "2",
+      "addr:postcode": "400715",
+      "addr:province": "重庆市",
+      "addr:street": "天生路",
+      "amenity": "university",
+      "image": "http://zh.wikipedia.org/zh-cn/%E8%A5%BF%E5%8D%97%E5%A4%A7%E5%AD%A6#mediaviewer/File:Swu_beidamen1.JPG",
+      "internet_access": "yes",
+      "name": "西南大学",
+      "name:en": "Southwest University",
+      "name:zh": "西南大学",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "phone": "+86 23 6825 1234",
+      "website": "http://www.swu.edu.cn",
+      "wikidata": "Q840443",
+      "wikipedia": "zh:西南大学"
+    }
+  },
+  "10657": {
+    "type": "relation",
+    "id": 12845727,
+    "center": {
+      "lat": 26.4496124,
+      "lon": 106.6596787
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "贵州大学",
+      "name:de": "Guizhou-Universität",
+      "name:en": "Guizhou University",
+      "name:zh": "贵州大学",
+      "type": "multipolygon",
+      "wikipedia": "zh:贵州大学"
+    }
+  },
+  "10694": {
+    "type": "way",
+    "id": 305530886,
+    "center": {
+      "lat": 29.6445666,
+      "lon": 91.180232
+    },
+    "tags": {
+      "addr:city": "拉萨市",
+      "addr:housenumber": "10",
+      "addr:province": "西藏自治区",
+      "addr:street": "藏大东路",
+      "amenity": "university",
+      "name": "西藏大学",
+      "name:bo": "བོད་ལྗོངས་སློབ་གྲྭ་ཆེན་མོ་",
+      "name:en": "Tibet University",
+      "name:zh": "西藏大学",
+      "operator": "西藏自治区人民政府",
+      "operator:type": "government",
+      "website": "http://www.utibet.edu.cn/",
+      "wikidata": "Q1322553",
+      "wikipedia": "zh:西藏大学"
+    }
+  },
+  "10698": {
+    "type": "relation",
+    "id": 17568632,
+    "center": {
+      "lat": 34.2473206,
+      "lon": 108.9809712
+    },
+    "tags": {
+      "addr:city": "西安市",
+      "addr:district": "碑林区",
+      "addr:housenumber": "28",
+      "addr:postcode": "710049",
+      "addr:province": "陕西省",
+      "addr:street": "咸宁西路",
+      "amenity": "university",
+      "internet_access": "yes",
+      "internet_access:fee": "yes",
+      "name": "西安交通大学兴庆校区",
+      "name:en": "Xian Jiaotong University (Xingqing Campus)",
+      "name:zh": "西安交通大学兴庆校区",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "type": "multipolygon",
+      "website": "https://www.xjtu.edu.cn/"
+    }
+  },
+  "10712": {
+    "type": "way",
+    "id": 375646584,
+    "center": {
+      "lat": 34.2625956,
+      "lon": 108.0640842
+    },
+    "tags": {
+      "alt_name": "NWAFU",
+      "amenity": "university",
+      "name": "西北农林科技大学",
+      "name:en": "Northwest A&F University",
+      "website": "https://www.nwsuaf.edu.cn/",
+      "wikidata": "Q985808",
+      "wikipedia": "zh:西北农林科技大学"
+    }
+  },
+  "91030": {
+    "type": "way",
+    "id": 376248140,
+    "center": {
+      "lat": 34.2747887,
+      "lon": 108.9757189
+    },
+    "tags": {
+      "alt_name": "第四军医大学",
+      "amenity": "university",
+      "landuse": "military",
+      "name": "空军军医大学",
+      "name:en": "Air Force Medical University",
+      "name:zh": "空军军医大学",
+      "official_name": "中国人民解放军空军军医大学",
+      "website": "https://www.fmmu.edu.cn/",
+      "wikipedia": "zh:中国人民解放军空军军医大学"
+    }
+  },
+  "10743": {
+    "type": "way",
+    "id": 372010756,
+    "center": {
+      "lat": 36.7281483,
+      "lon": 101.7473864
+    },
+    "tags": {
+      "amenity": "university",
+      "name": "青海大学",
+      "name:en": "Qinghai University",
+      "name:zh": "青海大学",
+      "website": "https://www.qhu.edu.cn/",
+      "wikidata": "Q7267826"
+    }
+  },
+  "10749": {
+    "type": "way",
+    "id": 1334170719,
+    "center": {
+      "lat": 38.5024384,
+      "lon": 106.1273167
+    },
+    "tags": {
+      "addr:city": "银川市",
+      "addr:district": "西夏区",
+      "addr:housenumber": "539",
+      "addr:postcode": "750021",
+      "addr:province": "宁夏回族自治区",
+      "addr:street": "贺兰山西路",
+      "amenity": "university",
+      "internet_access": "yes",
+      "name": "宁夏大学(文萃校区)",
+      "name:en": "NXU（Wencui brunch）",
+      "website": "https://www.nxu.edu.cn/"
+    }
+  },
+  "10759": {
+    "type": "relation",
+    "id": 3432003,
+    "center": {
+      "lat": 44.3054928,
+      "lon": 86.0596319
+    },
+    "tags": {
+      "addr:city": "石河子",
+      "addr:postcode": "832000",
+      "addr:province": "新疆",
+      "addr:street": "北四路",
+      "amenity": "university",
+      "area": "yes",
+      "name": "石河子大学",
+      "name:en": "Shihezi University",
+      "type": "boundary",
+      "website": "https://www.shzu.edu.cn/",
+      "wikidata": "Q2578027",
+      "wikipedia:en": "Shihezi University",
+      "wikipedia:zh": "石河子大学"
+    }
+  },
+  "11413": {
+    "type": "way",
+    "id": 1003833559,
+    "center": {
+      "lat": 39.9971249,
+      "lon": 116.3422257
+    },
+    "tags": {
+      "addr:city": "北京市",
+      "addr:district": "海淀区",
+      "addr:housenumber": "丁11",
+      "addr:postcode": "100083",
+      "addr:province": "北京市",
+      "addr:street": "学院路",
+      "amenity": "university",
+      "education": "university",
+      "name": "中国矿业大学（北京）",
+      "name:en": "China University of Mining and Technology at Beijing",
+      "name:zh": "中国矿业大学（北京）",
+      "name:zh-Hans": "中国矿业大学（北京）",
+      "name:zh-Hant": "中國礦業大學（北京）",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "website": "https://www.cumtb.edu.cn/",
+      "wikidata": "Q1074084",
+      "wikipedia": "en:China University of Mining and Technology"
+    }
+  },
+  "11414": {
+    "type": "relation",
+    "id": 13644491,
+    "center": {
+      "lat": 40.21605,
+      "lon": 116.244796
+    },
+    "tags": {
+      "addr:city": "北京市",
+      "addr:district": "昌平区",
+      "addr:housenumber": "18",
+      "addr:postcode": "102249",
+      "addr:province": "北京市",
+      "addr:street": "府学路",
+      "amenity": "university",
+      "internet_access": "yes",
+      "name": "中国石油大学（北京）",
+      "name:en": "China University of Petroleum - Beijing Campus",
+      "name:zh": "中国石油大学（北京）",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "type": "multipolygon",
+      "website": "https://www.cup.edu.cn/",
+      "wikidata": "Q3274786",
+      "wikipedia": "zh:中国石油大学（北京）"
+    }
+  },
+  "11415": {
+    "type": "way",
+    "id": 245164271,
+    "center": {
+      "lat": 39.9886771,
+      "lon": 116.340587
+    },
+    "tags": {
+      "addr:city": "北京",
+      "addr:district": "海淀区",
+      "addr:housenumber": "29",
+      "addr:postcode": "100083",
+      "addr:province": "北京市",
+      "addr:street": "学院路",
+      "alt_name": "中地,北地",
+      "amenity": "university",
+      "education": "university",
+      "int_name": "CUGB",
+      "internet_access": "yes",
+      "name": "中国地质大学（北京）",
+      "name:en": "China University of Geosciences at Beijing",
+      "name:zh": "中国地质大学（北京）",
+      "operator": "中华人民共和国教育部",
+      "operator:type": "government",
+      "religion": "none",
+      "short_name": "CUGB",
+      "website": "https://www.cugb.edu.cn",
+      "wikidata": "Q48880972",
+      "wikimedia_commons": "Category:China University of Geosciences (Beijing)",
+      "wikipedia": "zh:中国地质大学（北京）"
+    }
+  }
+}
