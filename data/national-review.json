@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-09-06",
+  "boundariesVerified": false,
+  "terrainAvailable": true,
+  "terrainSourceVerified": true,
+  "status": "blocked-on-standard-map-comparison",
+  "sources": [
+    {
+      "url": "https://bzdt.ch.mnr.gov.cn/",
+      "role": "Official standard-map service",
+      "access": "Python urllib and curl rejected TLS certificate chain; no standard map acquired."
+    },
+    {
+      "url": "https://bzdt.tianditu.gov.cn/",
+      "role": "Standard-map service alternate domain",
+      "access": "urllib TLS EOF; web fetch 502."
+    },
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "role": "Natural Earth public-domain terms; not evidence of Chinese standard-map conformance."
+    }
+  ],
+  "inspectedFiles": [
+    {
+      "file": "public/data/china.geojson",
+      "sha256": "a545fa9eb35865b16917f54b64320ff11e1b016b66291f684efdaa27d34bdb92",
+      "featureCount": 2,
+      "geometryTypes": [
+        "MultiPolygon"
+      ],
+      "bounds": [
+        73.607324,
+        18.218262,
+        134.752344,
+        53.555615
+      ]
+    },
+    {
+      "file": "public/data/provinces.geojson",
+      "sha256": "4b2463b7393abbfec909309428e14b13cd52eff05bdbc2934c26c9c5ede549ce",
+      "featureCount": 72,
+      "geometryTypes": [
+        "LineString",
+        "MultiLineString"
+      ],
+      "bounds": [
+        78.953633,
+        21.559548,
+        131.252848,
+        53.317335
+      ]
+    }
+  ],
+  "confirmed": [
+    "Terrain grid is an exact numerical crop of the pinned GMT SRTM15+ V2.7 derivative; it is not a national-boundary review.",
+    "Country geometry currently has two source features from CHN and TWN, with the source bounds and hash recorded.",
+    "Province geometry consists of 72 line features rather than an audited named provincial-area inventory."
+  ],
+  "unverified": [
+    "No acquired authoritative standard map with edition, approval identifier and file checksum is available for comparison.",
+    "National border segments have not been compared to the official standard including disputed-border drawing conventions.",
+    "Provincial boundaries have not been matched and audited against all provincial-level regions.",
+    "Island completeness and the southern maritime/island presentation have not been checked. The current country geometry has no points south of 18.218262 degrees N.",
+    "The Natural Earth source labels, geometry selection and offshore representation have not been accepted as a publishable national map."
+  ],
+  "releaseBlockers": [
+    "Acquire a standard-map reference and record its edition, identifier, source and checksum.",
+    "Compare national/provincial boundaries and offshore island presentation; record corrections and reviewer evidence.",
+    "Verify final rendered coverage and labels against that reference before changing boundariesVerified."
+  ]
+}

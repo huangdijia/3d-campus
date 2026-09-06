@@ -1,0 +1,290 @@
+{
+  "10004": {
+    "url": "https://www.bjtu.edu.cn/docs/2025-10/e01442b7dbd846d28149a628c5973c35.pdf",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10004.pdf",
+    "sha256": "2fd3b4fb452720ee79f995711e2db54886cf3ed81eecc1c757bb7ef49a944642",
+    "bytes": 597691,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10027": {
+    "url": "https://bs.bnu.edu.cn/docs/2023-12/9b54f25c00e24c9db994fcaea3890f73.pdf",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10053": {
+    "url": "https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201506/t20150630_191835.html",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10053.html",
+    "sha256": "be3bc394a825f49565f59eb77800ba0e15d1773e3bc789e26401fec6cf4daf62",
+    "bytes": 47965,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10112": {
+    "url": "https://www.tyut.edu.cn/xxgk1/xydl/xyfg.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10112.html",
+    "sha256": "9204797d42c168f467967826a950dd9943807cd55182900d416a474d1402c65f",
+    "bytes": 43808,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10140": {
+    "url": "https://www.lnu.edu.cn/xxgk.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10140.html",
+    "sha256": "8bd35b613eee046357dda1f1384be06a7b70be0798cef56c191d6a68d41640c4",
+    "bytes": 16124,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10184": {
+    "url": "https://xxgk.ybu.edu.cn/__local/B/82/AA/49FD52C2080CA0723E08D2147F0_B550676D_86529.pdf",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10184.pdf",
+    "sha256": "f60ac4d5bf88b0c32b2ee38455d17df6afbdf13ed3cc653be812798388f361c6",
+    "bytes": 550185,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10225": {
+    "url": "https://siee.nefu.edu.cn/gywm/xxjj.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10225.html",
+    "sha256": "2b9844e6863498aef39ced07f71300ceebb1474ec1289bbdd545aae47d4d9dac",
+    "bytes": 20761,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10248": {
+    "url": "https://gk.sjtu.edu.cn/Phone/List/bxdd",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10248.html",
+    "sha256": "b6f9f57161618cc19c81720eee0b259e520190e9cff2573e65b47541fe996238",
+    "bytes": 62913,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "11903": {
+    "url": "https://cie.shu.edu.cn/handbook.pdf",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10290": {
+    "url": "https://news.cumt.edu.cn/info/1008/66470.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10290.html",
+    "sha256": "a055a6230d08a909fe37f53636a762edc4ddafea354c5c2a98ded4f5e80bd2b0",
+    "bytes": 69305,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10294": {
+    "url": "https://sdxy.hhu.edu.cn/2026/0716/c5826a331708/page.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10294.html",
+    "sha256": "23303cbb74d4e22ed8514321b534e90d5fdba9d2cde24982956a66ada898f308",
+    "bytes": 18659,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10307": {
+    "url": "https://www.njau.edu.cn/1041/list.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10307.html",
+    "sha256": "d8774728fd77bb54057678775807af0fc6e5125a6953bceb7a04739eb2e24cfd",
+    "bytes": 32122,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10316": {
+    "url": "https://www.cpu.edu.cn/4244/list.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10316.html",
+    "sha256": "b546b3f6aad67a257697cc96a6e45bf89a9ebc846ae4729597c230c3b0fcecd0",
+    "bytes": 28289,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10386": {
+    "url": "https://www.fzu.edu.cn/bgdh/fwdh/qsxq.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10386.html",
+    "sha256": "a01ecc844c3278f7dd8220573e853a02e0894303334944b656bad67fcea49c91",
+    "bytes": 31728,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10497": {
+    "url": "https://nic.whut.edu.cn/fwzn/202410/P020241010816036958321.pdf",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10559": {
+    "url": "https://jnu.edu.cn/main.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10559.html",
+    "sha256": "2c400132bb5148a3a26b34b2e02a6e722725775c59a0281e7e62ddef23562d93",
+    "bytes": 168127,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10613": {
+    "url": "https://news.swjtu.edu.cn/__local/1/AA/B9/B704C9E746EF4CE59211CEB7E36_F895DFDA_18269A.pdf?e=.pdf",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10673": {
+    "url": "https://www.ynu.edu.cn/zl.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10673.html",
+    "sha256": "232eaa0a6ad22f5425abb43325c2845bf50377d42ca8e1a32971a642fbb8cd4d",
+    "bytes": 36633,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10697": {
+    "url": "https://hqjt.nwu.edu.cn/jtgk/xyfg1.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10697.html",
+    "sha256": "b862431f97fcd18a05afb7a74ecfb35192d8b9d5b22546b5cbade9752e7f30db",
+    "bytes": 44982,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10699": {
+    "url": "https://npuinternationalcollege.nwpu.edu.cn/__local/E/6E/25/5F37628D7D0C7315914F51E5518_4F623DF5_1F4A3A2.pdf",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10701": {
+    "url": "https://gis.xidian.edu.cn/",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10701.html",
+    "sha256": "b120a35019d2fa95ef36d2d6dc5e4bac47587d08227823ea622379a8b20dfbba",
+    "bytes": 1967,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10710": {
+    "url": "https://hello.chd.edu.cn/__local/E/D9/68/3E292E5D0B5531ADF33AD0B494B_A3651012_CBC21.pdf",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10710.pdf",
+    "sha256": "25b9590cc586d07f1d7694f3a9c8c2184dceaaf1b3d710a073901cf798f3731a",
+    "bytes": 834593,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10718": {
+    "url": "https://zzzx.snnu.edu.cn/zxjj/zxjj.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10718.html",
+    "sha256": "ff5712e933dea1ec61cc4c7f26b23952b7976d3540a82b9e42b2557b35cbc2dc",
+    "bytes": 23173,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10730": {
+    "url": "https://zsb.lzu.edu.cn/zhaoshengdongtai/tongzhigonggao/2023/0622/224507.html",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10730.html",
+    "sha256": "58aa46639c512c9025f65e9e7e7fcc819a04d66793aa1008f05e6ce8a86dde88",
+    "bytes": 32602,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10755": {
+    "url": "https://dw.xju.edu.cn/bmjj.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10755.html",
+    "sha256": "60d5a4d2422f76ac300c7411948e7090b298092d7b1093638946c19a8731b2a4",
+    "bytes": 9226,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10054": {
+    "url": "https://www2.ncepu.edu.cn/xxgk2/xxjj/index.htm",
+    "status": "fetch-failed",
+    "checkedAt": "2026-09-06",
+    "error": ""
+  },
+  "10183": {
+    "url": "https://www.jlu.edu.cn/info/1238/36174.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10183.html",
+    "sha256": "5940e7692540084ab8062aea362d6759de05c732b572110a3015b4f40203000c",
+    "bytes": 26740,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10200": {
+    "url": "https://www.nenu.edu.cn/__local/B/5D/6A/B985323798F28E2AEB47F3C1DBD_0BE73BB2_3BD9C.pdf",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10200.pdf",
+    "sha256": "ed973ddfe3c4b411467fc39f0a218b85050b87ad0b4bccbc77440b0e23dd5693",
+    "bytes": 245148,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10532": {
+    "url": "https://opac.hnu.edu.cn/",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10532.html",
+    "sha256": "f1480e0c012b3ea987cc70b5d55021dabeb94a58c49773a8ecbfb72492ab8799",
+    "bytes": 96132,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10533": {
+    "url": "https://czzx.csu.edu.cn/csustatic/zbgggcl/20260519/6599.html",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10533.html",
+    "sha256": "4d777024d4c41361927f885a70b5bfc7a206c4d9d46aa7e8b3c2ca401bc73c2e",
+    "bytes": 29421,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10358": {
+    "url": "https://gradschool.ustc.edu.cn/article/2207",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10358.html",
+    "sha256": "85e5d42b4dd88da1527a01a6585e48b2c013c32b2d680b6c93f3bf0fc331f3e8",
+    "bytes": 96537,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10287": {
+    "url": "https://office.nuaa.edu.cn/3408/list.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10287.html",
+    "sha256": "0a1c45d8d3b74b4ea5cdc785b70ddbdd3c40aaaab340bde3992be87ad8d46b08",
+    "bytes": 14373,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10561": {
+    "url": "https://www.scut.edu.cn/new/250/list.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10561.html",
+    "sha256": "eb0807b48bfb7e2e9f97825b6f5acfeb2d4a9d366c974fa5280c8670f10513a9",
+    "bytes": 49625,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  },
+  "10611": {
+    "url": "https://www.cqu.edu.cn/info/1631/61641.htm",
+    "status": "downloaded",
+    "checkedAt": "2026-09-06",
+    "file": "data/sources/official/10611.html",
+    "sha256": "1b497ebb7e79bcbaf4b63e6445f2e8768d9266107b608c14cd88528c87b3f2f7",
+    "bytes": 22214,
+    "rights": "Source document retained for verification; no permission to redistribute its images or models is inferred."
+  }
+}

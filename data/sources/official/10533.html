@@ -1,0 +1,286 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9; IE=8; IE=7; IE=EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>中南大学采购与招标管理中心-工程类</title>
+		<link rel="stylesheet" type="text/css" href="https://czzx.csu.edu.cn/r/cms/www/default/fontawesome/css/font-awesome.min.css?v=20260405">
+        
+        <link rel="stylesheet" type="text/css" href="https://czzx.csu.edu.cn/r/cms/www/default/css/style.css?v=20260405">
+        
+        <link rel="stylesheet" type="text/css" href="https://czzx.csu.edu.cn/r/cms/www/default/css/global.css?v=20260405">
+        
+<link rel="stylesheet" type="text/css" href="https://czzx.csu.edu.cn/r/cms/www/default/css/clearcontent.css?v=20260405">
+        
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/jQuery.1.9.1.js?v=20260405"></script>
+
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/jquery.SuperSlide.js?v=20260405"></script>
+
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/index-style.js?v=20260405"></script>
+
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/floatadv.js?v=20260405"></script>
+
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/jquery.countdown.js?v=20260405"></script>
+
+        <script type="text/javascript" src="https://czzx.csu.edu.cn/r/cms/www/default/js/front.js?v=20260405"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var channelId="43";
+                var pbfs="1";
+                if((channelId == 43 || channelId == 44) & pbfs=="3"){
+                    showWybm();
+                }
+                Cms.contetViews("https://czzx.csu.edu.cn",6599);
+                Cms.siteFlow("https://czzx.csu.edu.cn");
+            });
+            function showWybm(){
+                $("#wybm").hide();
+                var bmjzsjv=$("#bmjzsj").val();
+
+                // 创建一个新的 Date 对象，表示当前日期和时间
+                const now = new Date();
+                // 获取年份（四位数）
+                const year = now.getFullYear();
+                // 获取月份（0-11），加1得到1-12
+                const month = now.getMonth() + 1;
+                // 获取日期（1-31）
+                const day = now.getDate();
+                // 获取小时（0-23）
+                const hours = now.getHours();
+                // 获取分钟（0-59）
+                const minutes = now.getMinutes();
+                // 获取秒（0-59）
+                const seconds = now.getSeconds();
+                // 格式化月份、日期、小时、分钟和秒为两位数
+                const formattedMonth = month.toString().padStart(2, '0');
+                const formattedDay = day.toString().padStart(2, '0');
+                const formattedHours = hours.toString().padStart(2, '0');
+                const formattedMinutes = minutes.toString().padStart(2, '0');
+                const formattedSeconds = seconds.toString().padStart(2, '0');
+
+                // 拼接成字符串
+                const today = year+formattedMonth+formattedDay+formattedHours+formattedMinutes+formattedSeconds;
+                if(today-bmjzsjv<0){
+                    $("#wybm").show();
+                }
+            }
+        </script>
+        <style>
+            .dow{display:block;width:200px;height:45px; line-height:45px; text-align:center;font-weight:bold; font-size:22px; background:#024f92;color:#FFFFFF; text-decoration:none; cursor:pointer;margin-right: 20px;}
+            .dow:hover{background:#015aac;color:#FFFFFF;}
+            .dow:active{background:#015aac;color:#FFFFFF;}
+            .bmsm{display:block;width:1000px;height:20px; line-height:20px; text-align:left;font-weight:bold; font-size:14px; text-decoration:none;float:left;;margin-top: 10px;}}
+        </style>
+    </head>
+    <body>
+    <script type="text/javascript">
+    $(document).ready(function(){
+                        $("dd#29").addClass("on");
+    });
+</script>
+<!--<div class="line"></div>-->
+<div class="header">
+    <div class="wrap">
+        <div class="logo"></div>
+		<div class="topsearch">
+<script>
+    function qkeypress(){
+        var q=$("input[name=q]");
+        if(q.val().trim()!=""){
+            $("input[name=q]").autocomplete("enable");
+        }else{
+            $("input[name=q]").autocomplete("disable");
+        }
+    }
+    function getText(){
+        var oldText = $("#channelId").find("option:selected").text();
+        var newText = oldText.replace('��','');
+        $("#channelId").find("option:selected").text(newText);
+    }
+	function searchMsg(){
+		var varAction = "https://czzx.csu.edu.cn/cms/search/search.htm";
+		$("#tdataForm").attr("action",varAction).attr("target","_self").submit();
+	}
+</script>
+<form action="https://czzx.csu.edu.cn/cms/search/search.htm" target="_blank" id="tdataForm" method="post">
+<div class="tsearch">
+    <div class="input"><input name="q" value="请输入关键词" type="text" onfocus="if(this.value=='请输入关键词')this.value=''"  onkeypress="qkeypress()" onblur="if(this.value=='')this.value='请输入关键词'" maxlength="50" autocomplete="off" style="color: #fff" /></div>
+    <div class="submit"><input type="button" value="搜索" onclick="searchMsg()" /></div>
+</div>
+</form>
+		</div>
+    </div>
+</div>
+<div class="nav">
+    <div class="wrap">
+		<ul id="nav" class="nav clearfix">
+			<li class="nLi on" id="0">
+				<h3>
+					<a href="https://czzx.csu.edu.cn">首页</a>
+				</h3>
+			</li>
+			<li class="nLi" id="13">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/zxjj.html">中心简介</a>
+				</h3>
+				<ul class="sub">
+				</ul>
+			</li>
+			<li class="nLi" id="33">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/zzjg/index.html">组织机构</a>
+				</h3>
+				<ul class="sub">
+						<li><a href="https://czzx.csu.edu.cn/csustatic/zxld.html">中心领导</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/zhbgs.html">综合办公室</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/gczbcgglk.html">工程招标采购管理科</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/hwfwzbcgglk.html">货物与服务招标采购管理科</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/zfzbcgglk.html">政府采购管理科</a></li>
+				</ul>
+			</li>
+			<li class="nLi" id="38">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/fgzd/index.html">法规制度</a>
+				</h3>
+				<ul class="sub">
+						<li><a href="https://czzx.csu.edu.cn/csustatic/gjzcfg/index.html">国家政策法规</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/dfxfg/index.html">地方性法规</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/xxglzd/index.html">学校管理制度</a></li>
+				</ul>
+			</li>
+			<li class="nLi" id="2">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/bszn/index.html">办事指南</a>
+				</h3>
+				<ul class="sub">
+				</ul>
+			</li>
+			<li class="nLi" id="48">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/xzzx/index.html">下载中心</a>
+				</h3>
+				<ul class="sub">
+						<li><a href="https://czzx.csu.edu.cn/csustatic/gczbygbg/index.html">工程招标有关表格</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/hwfwygbg/index.html">货物与服务采购有关表格</a></li>
+						<li><a href="https://czzx.csu.edu.cn/csustatic/htfb/index.html">合同范本</a></li>
+				</ul>
+			</li>
+			<li class="nLi" id="5">
+				<h3>
+						<a href="https://czzx.csu.edu.cn/csustatic/lxwm.html">联系我们</a>
+				</h3>
+				<ul class="sub">
+				</ul>
+			</li>
+			
+		</ul>
+    </div>
+</div>
+
+<script id="jsID" type="text/javascript">
+	
+	jQuery("#nav").slide({ 
+		type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+		titCell:".nLi", //鼠标触发对象
+		targetCell:".sub", //titCell里面包含的要显示/消失的对象
+		effect:"slideDown", //targetCell下拉效果
+		delayTime:300 , //效果时间
+		triggerTime:0, //鼠标延迟触发时间（默认150）
+		returnDefault:false //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+	});
+</script>
+
+        <div class="wrap">
+            <div class="ctitle">
+                <h1>中南大学岳麓山校区立功厅学生活动场地维修工程招标公告</h1>
+                <div class="info">
+                    <i>发布日期：2026-05-19  &nbsp; </i>
+                    <i>浏览次数：<span id="viewId"></span></i>
+                </div>
+            </div>
+            <div class="ccontent">
+                <p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px"><span style="font-family:黑体">1.</span><span style="font-family:黑体">项目概况</span></span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.1 审批、核准或备案情况</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">项目名称中南大学岳麓山校区立功厅学生活动场地维修工程（项目编号：</span><span style="font-family:仿宋_GB2312">GZ20260205-0141），项目业主为中南大学，项目总投资约</span></span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">145</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">万元，资金来源为中央预算内资金和自筹资金。</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.2 招标项目概况</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.2.1 招标项目名称：中南大学岳麓山校区立功厅学生活动场地维修工程；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.2.2 建设地点：位于中南大学岳麓山校区；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.2.3 项目基本情况：本工程为中南大学岳麓山校区立功厅学生活动场地维修工程，主要内容包括：立功厅大厅、过道区域、辅助用房区域、楼梯间等区域进行室内装饰装修改造等内容。</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">&nbsp;</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.3 工期要求：</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">50</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">日历天；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.4 招标范围：主要包括拆除工程、建筑工程、装饰工程、安装工程等专业，具体内容以施工图纸和工程量清单为准；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.5 质量要求：符合《工程施工质量验收规范》合格标准；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.6 保修要求：按建设部2000年第80号令规定；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">1.7 标段划分：一个标段。</span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">2.资格要求</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.1 具有独立法人资格并依法取得企业营业执照，营业执照处于有效期；省外入湘企业在“湖南省住房和城乡建设网”进行了基本信息登记；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.2 具备住房城乡建设主管部门颁发的建筑工程施工总承包三级及以上资质，安全生产许可证处于有效期；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.3 拟任项目经理具备建筑工程专业二级及以上注册建造师资格，具备项目负责人安全生产考核合格证书；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.4 拟任技术负责人具备建筑工程相关专业中级及以上职称；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.5 本次招标不接受联合体投标；</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.6类似工程业绩要求：</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">资格要求的类似工程业绩：企业承担过</span><span style="font-family:仿宋_GB2312">1个单项合同金额不少于70万元的公共建筑维修改造施工业绩；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">2.7 其他要求：本项目专门面向中小企业采购（监狱企业、残疾人福利单位视同小型、微型企业）。</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">注：中小企业以投标人填写的《中小企业声明函》（见投标文件格式）为判定标准，残疾人福利性单位以投标人填写的《残疾人福利性单位声明函》（见投标文件格式）为判定标准，监狱企业须投标人提供由省级以上监狱管理局、戒毒管理局（含新疆生产建设兵团）出具的属于监狱企业的证明文件，否则不予认定。本项目对应中小企业划分标准所属行业为：建筑业（中小企业划型标准符合工信部联企业〔</span><span style="font-family:仿宋_GB2312">2011〕300号文）。</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">投标人资格具体要求详见第二章投标人须知前附表。</span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">3.资格审查</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">采用</span><span style="font-family:仿宋_GB2312">资格后审方式</span><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">4.评标办法</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">采用</span><span style="font-family:仿宋_GB2312">“综合评估法”。</span></span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">5.招标文件的获取</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">5.1 有投标意愿者，请于2026年</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">5</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">月</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">19</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">日至</span><span style="font-family:仿宋_GB2312">2026年</span></span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">5</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">月</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">26</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">日，每日上午</span><span style="font-family:仿宋_GB2312">9时00分至12时00分（北京时间，节假日除外），下午14时00分至17时00分，在智埔国际建设集团有限公司（长沙市岳麓区文轩路27号麓谷企业广场B5栋5楼）购买招标文件。购买招标文件须提供以下资料：</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">1）法定代表人身份证明或授权委托书(附法定代表人身份证明)；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">2）个人身份证；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">3）营业执照副本；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">4）资质等级证书副本（资质证书提供扫描件或影印件的应加盖投标单位公章，并可通过扫描二维码查询）；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">5）企业安全生产许可证副本；</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">以上资料验原件，除第（</span><span style="font-family:仿宋_GB2312">1）项资料留存原件，其他资料留存加盖投标单位公章的复印件，报名资料应按顺序装订成册，未按要求提供相关资料的报名不予受理。</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">5.2 招标文件售价400元/套，售后不退。</span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">&nbsp;<span style="font-family:黑体">6.投标文件的递交</span></span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">纸质投标文件递交的截止时间（即：投标截止时间，下同）及开标时间为</span><span style="font-family:仿宋_GB2312">2026年</span></span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">6</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">月</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">12</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">日</span><span style="font-family:仿宋_GB2312">09时30分（北京时间），地点为长沙市岳麓区麓山南路932号中南大学岳麓山校区，二办公楼采购与招标管理中心开标室（211室）。逾期送达的、未送达指定地点、未按照招标公告要求获取招标文件或未按照招标文件要求密封的投标文件，招标人将予以拒收。</span></span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">7.发布公告的媒介</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">本次招标公告同时在《中国招标投标公共服务平台》</span><span style="font-family:仿宋_GB2312">http：//www.cebpubservice.com/、《中国政府采购网》http：//www.ccgp.gov.cn、《中南大学校园网》https://oa.csu.edu.cn/con/ggtz、《中南大学采购与招标管理中心网》http：//czzx.csu.edu.cn上发布。</span></span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">8.监督</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">本次招标项目招标投标监督机构为中南大学有关部门。</span></p><p style="text-autospace:ideograph-numeric;line-height:36px"><strong><span style="font-family: 黑体;font-size: 21px">9.联系方式</span></strong></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">招</span> <span style="font-family:仿宋_GB2312">标</span> <span style="font-family:仿宋_GB2312">人：中南大学</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">地</span> &nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">址：长沙市岳麓区麓山南路</span><span style="font-family:仿宋_GB2312">932号</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">联</span> <span style="font-family:仿宋_GB2312">系</span> <span style="font-family:仿宋_GB2312">人：肖老师</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">电</span> &nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">话：</span><span style="font-family:仿宋_GB2312">0731-88836792</span></span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">招标代理机构：智埔国际建设集团有限公司</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">地</span><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">&nbsp;&nbsp;&nbsp;址：长沙市岳麓区文轩路27号麓谷企业广场B5栋5楼</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">联</span>&nbsp;系&nbsp;人：张轶、唐勋焘、廖婷</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">电</span>&nbsp;&nbsp;&nbsp;话：0731-89670268</span></p><p style="text-indent: 32px;line-height: 43px"><span style="font-family: 仿宋_GB2312;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋_GB2312">邮</span>&nbsp;&nbsp;&nbsp;箱：35797773@qq.com</span></p><p><br/></p>
+ 
+            </div>
+            <div class="cattach">
+                 
+            </div>
+            <input type="hidden" id="bmjzsj" value="20260526170000" />
+            <div id="wybm"  align="center" style="display:none;">
+                <a class="dow" target="_blank" href="https://czgl.csu.edu.cn/">我要报名</a>
+            </div>
+
+            <p class="cpage">
+                <b>上一篇：</b>
+                
+                    
+                        <a href="https://czzx.csu.edu.cn/csustatic/zbgggcl/20260519/6598.html">中南大学校园环境提质改造工程（2026）-道路、停车位项目招标公告</a>
+                    
+                
+            </p>
+            <p class="cpage">
+                <b>下一篇：</b>
+                
+                    
+                        没有了
+                    
+                
+            </p>
+        </div>
+        <div class="footer">
+	<div class="wrap">
+		<div class="code">
+			<div class="img"><img/></div>
+		</div>
+		
+		
+		
+		<div class="footer-local fl">
+			<div class="contact_us">
+				<p><i class="fa fa-home csu_yellow"></i><span>中心主任</span></p>
+				<p><i class="fa fa-map-marker csu_gray"></i><span>213室</span></p>
+				<p><i class="fa fa-phone csu_gray"></i><span>88836730</span></p>
+			</div>
+			<div class="contact_us">
+				<p><i class="fa fa-home csu_yellow"></i><span>综合办公室</span></p>
+				<p><i class="fa fa-map-marker csu_gray"></i><span>214室</span></p>
+				<p><i class="fa fa-phone csu_gray"></i><span>88836751</span></p>
+			</div>
+			<div class="contact_us">
+				<p><i class="fa fa-home csu_yellow"></i><span>工程招标采购管理科</span></p>
+				<p><i class="fa fa-map-marker csu_gray"></i><span>216室</span></p>
+				<p><i class="fa fa-phone csu_gray"></i><span>88836792</span></p>
+			</div>
+			<div class="contact_us">
+				<p><i class="fa fa-home csu_yellow"></i><span>货物与服务招标采购管理科</span></p>
+				<p><i class="fa fa-map-marker csu_gray"></i><span>208-1室</span></p>
+				<p><i class="fa fa-phone csu_gray"></i><span>88836937</span></p>
+			</div>
+			<div class="contact_us">
+				<p><i class="fa fa-home csu_yellow"></i><span>政府采购管理科</span></p>
+				<p><i class="fa fa-map-marker csu_gray"></i><span>208-2室</span></p>
+				<p><i class="fa fa-phone csu_gray"></i><span>88836549</span></p>
+			</div>
+			
+			
+			<div class="clear"></div>
+			
+			
+			<div class="copyright">
+				<span class="text">
+					联系我们：湖南省长沙市麓山南路932号 中南大学校本部第二办公楼二楼（ 邮编：410083 ）<br>
+				</span>
+				<span class="text">
+					Copyright © 中南大学采购与招标管理中心 All Rights Reserved. &nbsp;<a href="http://www.miibeian.gov.cn" target="blank">湘ICP备05005659号-1</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持：<a href="http://www.shunsuinf.com" target="blank">上海瞬速信息技术有限公司</a>
+				</span>
+			</div>
+		</div>
+    </div>
+</div>
+
+    </body>
+</html>
