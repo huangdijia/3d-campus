@@ -1,6 +1,6 @@
 # PWA 安装与离线范围
 
-山河学府提供中文 Web App Manifest、192/512 PNG、512 maskable 图标及180像素 Apple Touch 图标。图案来自仓库已有 `public/favicon.svg`，使用本机 Sharp 渲染，未引入外部校徽或新增运行依赖。Manifest 的 `id`、`start_url`、`scope` 均为 `/`，显示模式为 `standalone`，主题与启动背景为浅色 `#f5f7fb`。
+山河学府提供中文 Web App Manifest、192/512 PNG、512 maskable 图标及180像素 Apple Touch 图标。第二版图标由内置 imagegen 生成，融合校门、山峰、河流和书页；原图与提示词见 [图标设计记录](pwa-icon.md)。本机 sips 导出所需尺寸，未新增运行依赖。图标使用带版本的新文件名，旧图标保留以兼容已缓存清单。Manifest 的 `id`、`start_url`、`scope` 均为 `/`，显示模式为 `standalone`，主题与启动背景为浅色 `#f5f7fb`。
 
 支持安装的浏览器可通过地址栏安装入口或浏览器菜单安装；iOS 可通过 Safari 的“添加到主屏幕”打开。安装入口由浏览器决定，本次未实现自定义安装弹窗。Manifest 配置依据 [MDN Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/index.html)。
 
@@ -16,11 +16,11 @@ Worker 不调用 `skipWaiting` 强行替换当前页面；更新版本等待旧�
 
 页面和资源均采用网络优先；网络失败时读取缓存。页面只允许根地图及公开校园路径 `/university/学校ID/campus/校区ID`。校园导航按同路径HTML、根HTML、内置中文离线提示页依次回退。静态资源范围包括 `/_next/static/`、`/assets/`、校园JSON、地理数据、校徽及图标；模型限定 `/models/*.glb`。不批量预下载校园。
 
-| 缓存 | 数量上限 | 总大小上限 | 单项上限 |
-|---|---:|---:|---:|
-| 页面 | 4 | 4 MiB | 2 MiB |
-| 脚本、样式及静态资源 | 180 | 40 MiB | 12 MiB |
-| 校园模型 | 6 | 32 MiB | 8 MiB |
+| 缓存                 | 数量上限 | 总大小上限 | 单项上限 |
+| -------------------- | -------: | ---------: | -------: |
+| 页面                 |        4 |      4 MiB |    2 MiB |
+| 脚本、样式及静态资源 |      180 |     40 MiB |   12 MiB |
+| 校园模型             |        6 |     32 MiB |    8 MiB |
 
 写入串行执行，超限时从最早缓存的项目开始移除。浏览器仍可能因存储空间不足主动清除缓存。首次注册后，页面向Worker提供已经实际请求的资源地址，自动补缓存当前公开HTML及同源静态资源；校园模型只允许补当前校园实际请求过的那一份。Worker再次验证页面身份、路径及资源允许列表，不抓取学校目录。待首次缓存完成后即可复访；未缓存或已被淘汰的资源仍需要联网，不承诺全部115所高校离线可用，也不承诺外部官网可离线访问。
 
