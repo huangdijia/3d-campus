@@ -12,5 +12,5 @@ export default async function CampusPage({
         此校区尚未收录。<Link href="/">返回全国地图</Link>
       </main>
     );
-  return <Atlas initialId={universityId} />;
+  return <Atlas initialId={universityId} initialCampus />;
 }

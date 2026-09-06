@@ -3,6 +3,7 @@ import {
   useState,
   useEffect,
   useRef,
+  useMemo,
   useCallback,
   lazy,
   Suspense,
@@ -23,8 +24,6 @@ import {
   Globe2,
   ChevronRight,
   ExternalLink,
-  Info,
-  Mountain,
   PanelLeftClose,
   PanelLeftOpen,
   Building2,
@@ -39,6 +38,14 @@ import {
 import universitiesJson from '../data/universities.json';
 import type { University, Campus, POI } from '../data/types';
 import { filterUniversities, type MapView } from './geo';
+import {
+  atlasHref,
+  emptyLocation,
+  normalizeLocation,
+  readAtlasLocation,
+  type AtlasLocation,
+  type ExploreMode,
+} from './atlas-location';
 const MapScene = lazy(() => import('./map-scene'));
 const CampusScene = lazy(() => import('./campus-scene'));
 const universities = universitiesJson as University[];
@@ -65,25 +72,32 @@ class SceneBoundary extends Component<
     );
   }
 }
-function routeId() {
-  if (typeof window === 'undefined') return null;
-  const m = window.location.pathname.match(
-    /^\/university\/([^/]+)\/campus\/main\/?$/,
-  );
-  return m ? decodeURIComponent(m[1]) : null;
-}
-export default function Atlas({ initialId }: { initialId?: string }) {
-  const [query, setQuery] = useState(''),
-    [province, setProvince] = useState('全部地区'),
-    [tag, setTag] = useState('全部'),
-    [selectedId, setSelectedId] = useState<string | null>(initialId || null),
-    [campusId, setCampusId] = useState<string | null>(initialId || null),
-    [campus, setCampus] = useState<Campus | null>(null),
-    [poi, setPoi] = useState<POI | null>(null),
+export default function Atlas({
+  initialId,
+  initialCampus = false,
+}: {
+  initialId?: string;
+  initialCampus?: boolean;
+}) {
+  const [locationState, setLocationState] = useState<AtlasLocation>({
+    ...emptyLocation,
+    schoolId: initialId || null,
+    campusId: initialCampus ? initialId || null : null,
+  });
+  const {
+    query,
+    province,
+    tag,
+    schoolId: selectedId,
+    campusId,
+    poiId,
+    buildingQuery: poiQuery,
+    mode,
+  } = locationState;
+  const locationRef = useRef(locationState);
+  const [campus, setCampus] = useState<Campus | null>(null),
     [touring, setTouring] = useState(false),
     [tourIndex, setTourIndex] = useState(0),
-    [mode, setMode] = useState<'overview' | 'tour' | 'walk'>('overview'),
-    [poiQuery, setPoiQuery] = useState(''),
     [reset, setReset] = useState(0),
     [about, setAbout] = useState(false),
     [listOpen, setListOpen] = useState(true),
@@ -93,16 +107,73 @@ export default function Atlas({ initialId }: { initialId?: string }) {
     [mounted, setMounted] = useState(false),
     [hasWebgl, setHasWebgl] = useState(true);
   const walk = mode === 'walk';
+  const poi = campus?.pois.find((p) => p.id === poiId) || null;
   const mapView = useRef<MapView | null>(null),
     searchRef = useRef<HTMLInputElement>(null),
     restored = useRef(false);
   const selected = universities.find((u) => u.id === selectedId) || null;
-  const filtered = filterUniversities(universities, query, province, tag);
+  const filtered = useMemo(
+    () => filterUniversities(universities, query, province, tag),
+    [query, province, tag],
+  );
   const onSceneError = useCallback(() => setSceneError(true), []),
     onCampusError = useCallback(() => setCampusError(true), []),
     onReady = useCallback(() => setModelReady(true), []);
+  const updateLocation = useCallback(
+    (
+      patch: Partial<AtlasLocation>,
+      historyMode: 'push' | 'replace' = 'push',
+    ) => {
+      const next = normalizeLocation(
+        { ...locationRef.current, ...patch },
+        universities,
+      );
+      const url = atlasHref(next);
+      if (url !== window.location.pathname + window.location.search)
+        window.history[historyMode === 'push' ? 'pushState' : 'replaceState'](
+          {},
+          '',
+          url,
+        );
+      locationRef.current = next;
+      setLocationState(next);
+    },
+    [],
+  );
+  function setPoiQuery(value: string) {
+    updateLocation({ buildingQuery: value }, 'replace');
+  }
+  function setQuery(value: string) {
+    updateLocation({ query: value }, 'replace');
+  }
+  function setProvince(value: string) {
+    updateLocation({ province: value }, 'replace');
+  }
+  function setTag(value: string) {
+    updateLocation({ tag: value }, 'replace');
+  }
+  function setSelectedId(value: string | null) {
+    updateLocation({
+      schoolId: value,
+      campusId: null,
+      poiId: null,
+      mode: 'overview',
+    });
+  }
+  function setPoi(value: POI | null) {
+    updateLocation({
+      poiId: value?.id || null,
+      ...(value ? { mode: 'overview' as const } : {}),
+    });
+  }
+  function setMode(value: ExploreMode) {
+    updateLocation({
+      mode: value,
+      ...(value !== 'overview' ? { poiId: null } : {}),
+    });
+  }
   useEffect(() => {
-    // Browser capability and session state become available only after hydration.
+    // Browser URL and capabilities become available only after hydration.
     // oxlint-disable-next-line react/react-compiler
     setMounted(true);
     const canvas = document.createElement('canvas');
@@ -111,31 +182,32 @@ export default function Atlas({ initialId }: { initialId?: string }) {
       const state = JSON.parse(
         sessionStorage.getItem('campus-atlas-state') || 'null',
       );
-      if (state) {
-        setQuery(state.query || '');
-        setProvince(
-          provinces.includes(state.province) ? state.province : '全部地区',
-        );
-        setTag(
-          ['全部', '985', '211-only'].includes(state.tag) ? state.tag : '全部',
-        );
-        mapView.current = state.view || null;
-      }
+      mapView.current = state?.view || null;
     } catch {}
     restored.current = true;
-    const id = routeId();
-    if (id) {
-      setCampusId(id);
-      setSelectedId(id);
-    }
-    const pop = () => {
-      const id = routeId();
-      setCampusId(id);
-      if (id) setSelectedId(id);
-      setTouring(false);
-      setMode('overview');
+    const restore = () => {
+      const next = readAtlasLocation(
+        window.location.pathname,
+        window.location.search,
+        universities,
+      );
+      locationRef.current = next;
+      setLocationState(next);
+      setTouring(next.mode === 'tour');
+      setTourIndex(0);
+      setListOpen(!(next.mode === 'walk' && window.innerWidth <= 760));
     };
-    window.addEventListener('popstate', pop);
+    restore();
+    const canonical = atlasHref(
+      readAtlasLocation(
+        window.location.pathname,
+        window.location.search,
+        universities,
+      ),
+    );
+    if (canonical !== window.location.pathname + window.location.search)
+      window.history.replaceState({}, '', canonical);
+    window.addEventListener('popstate', restore);
     const shortcuts = (e: KeyboardEvent) => {
       if (e.key === '/' && !(e.target instanceof HTMLInputElement)) {
         e.preventDefault();
@@ -145,7 +217,7 @@ export default function Atlas({ initialId }: { initialId?: string }) {
     };
     window.addEventListener('keydown', shortcuts);
     return () => {
-      window.removeEventListener('popstate', pop);
+      window.removeEventListener('popstate', restore);
       window.removeEventListener('keydown', shortcuts);
     };
   }, []);
@@ -163,7 +235,6 @@ export default function Atlas({ initialId }: { initialId?: string }) {
       // Route changes invalidate the externally loaded campus resource.
       // oxlint-disable-next-line react/react-compiler
       setCampus(null);
-      setPoi(null);
       return;
     }
     const controller = new AbortController();
@@ -179,7 +250,6 @@ export default function Atlas({ initialId }: { initialId?: string }) {
       })
       .then((c) => {
         setCampus(c);
-        setPoi(null);
       })
       .catch((e) => {
         if (e.name !== 'AbortError') setCampusError(true);
@@ -187,32 +257,32 @@ export default function Atlas({ initialId }: { initialId?: string }) {
     return () => controller.abort();
   }, [campusId]);
   function select(u: University) {
-    setSelectedId(u.id);
+    updateLocation({
+      schoolId: u.id,
+      campusId: null,
+      poiId: null,
+      mode: 'overview',
+    });
     setListOpen(true);
   }
   function enter(u: University) {
     if (!u.campusId) return;
-    setCampusId(u.id);
-    setSelectedId(u.id);
+    updateLocation({
+      schoolId: u.id,
+      campusId: u.id,
+      poiId: null,
+      mode: 'overview',
+    });
     setTouring(false);
-    setMode('overview');
     setReset(0);
-    window.history.pushState(
-      {},
-      '',
-      `/university/${u.id}/campus/${u.campusId}`,
-    );
     setListOpen(true);
     setPoiQuery('');
   }
   function back() {
-    setCampusId(null);
+    updateLocation({ campusId: null, poiId: null, mode: 'overview' });
     setTouring(false);
-    setMode('overview');
-    setPoi(null);
     setSceneError(false);
     setListOpen(true);
-    window.history.pushState({}, '', '/');
   }
   function resetFilters() {
     setQuery('');
@@ -224,61 +294,17 @@ export default function Atlas({ initialId }: { initialId?: string }) {
     (mode === 'tour' && campus
       ? campus.pois.find((p) => p.id === campus.tours[0]?.poiIds[tourIndex])
       : null);
+  useEffect(() => {
+    document.title = activePOI
+      ? `${activePOI.name} · ${selected?.name || '校园'} · 山河学府`
+      : selected
+        ? `${selected.name}${campusId ? '校园' : ''} · 山河学府`
+        : '山河学府 · 全国高校';
+  }, [activePOI, selected, campusId]);
   return (
     <main
       className={`atlas ${campusId ? 'campus-mode' : ''} ${listOpen ? 'list-open' : 'list-closed'}`}
     >
-      <header className="topbar">
-        <button
-          className="brand"
-          onClick={() => {
-            if (campusId) back();
-            else {
-              resetFilters();
-              setSelectedId(null);
-              setListOpen(true);
-              setReset((n) => n + 1);
-            }
-          }}
-          aria-label="山河学府，返回全国地图"
-        >
-          <span className="brand-icon">
-            <Mountain size={23} />
-          </span>
-          <strong>山河学府</strong>
-        </button>
-        <nav className="location-nav" aria-label="当前位置">
-          <button
-            className={!campusId ? 'current' : ''}
-            onClick={() => {
-              if (campusId) back();
-              else {
-                setSelectedId(null);
-                setListOpen(true);
-              }
-            }}
-          >
-            <Globe2 size={15} />
-            全国高校
-          </button>
-          {campusId && (
-            <>
-              <ChevronRight size={14} />
-              <span aria-current="page">{selected?.name || '校园'}</span>
-            </>
-          )}
-        </nav>
-        <div className="header-end">
-          <span className="preview-badge">开发预览</span>
-          <button
-            className="icon-button"
-            onClick={() => setAbout(true)}
-            aria-label="查看数据来源与建设进度"
-          >
-            <Info size={19} />
-          </button>
-        </div>
-      </header>
       <div className="workspace">
         <aside
           className={`explore-panel ${selected && !campusId ? 'detail-panel' : ''} ${campusId ? 'campus-panel' : ''}`}
@@ -352,10 +378,6 @@ export default function Atlas({ initialId }: { initialId?: string }) {
               </>
             ) : (
               <>
-                <div className="panel-heading">
-                  <h1>探索高校</h1>
-                  <p>从一所学校，开启校园之旅。</p>
-                </div>
                 <div className="search-box">
                   <Search size={18} />
                   <input
@@ -382,7 +404,7 @@ export default function Atlas({ initialId }: { initialId?: string }) {
                           t === '985'
                             ? '985 高校'
                             : t === '211-only'
-                              ? '211 非985高校'
+                              ? '211 高校'
                               : '全部高校'
                         }
                         aria-pressed={tag === t}
@@ -392,7 +414,7 @@ export default function Atlas({ initialId }: { initialId?: string }) {
                         {t === '985'
                           ? '985'
                           : t === '211-only'
-                            ? '211（非985）'
+                            ? '211'
                             : '全部'}
                       </button>
                     ))}
@@ -459,7 +481,7 @@ export default function Atlas({ initialId }: { initialId?: string }) {
               <div className="panel-back">
                 <button onClick={back}>
                   <ArrowLeft size={16} />
-                  全国高校
+                  学校详情
                 </button>
                 <span>校园预览</span>
               </div>
@@ -754,11 +776,14 @@ export default function Atlas({ initialId }: { initialId?: string }) {
             </div>
           )}
           <div className="map-footer">
-            <span>
+            <button
+              onClick={() => setAbout(true)}
+              aria-label="查看数据来源与建设进度"
+            >
               {campusId
                 ? '© OpenStreetMap contributors · ODbL'
                 : 'Natural Earth · GMT / SRTM15+ · 边界待核验'}
-            </span>
+            </button>
             <span>
               {campusId
                 ? '拖动平移 · 滚轮缩放 · 右键旋转'
@@ -810,8 +835,9 @@ export default function Atlas({ initialId }: { initialId?: string }) {
           <p>
             教育部历史名单的 112
             所口径，将中国矿业大学、中国石油大学、中国地质大学的异地办学实体拆分后，本项目为
-            115 个条目。985 标签与 211
-            标签重叠。现名与学校代码仍需最新官方名录复核。
+            115 个条目。985 标签与 211 标签重叠。112
+            所普通高校的现名和学校代码已与教育部 2026 年名录核对；3
+            所军队院校仍待补充核验。
           </p>
           <h3>真实资料，不补造布局</h3>
           <p>
