@@ -1,0 +1,640 @@
+    <!doctype html>
+    <html lang="ZH-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="always" name="referrer"/>
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="keywords" content="中国科学技术大学研究生学院">
+            <meta name="description" content="中国科学技术大学研究生学院"/>
+        <title>中国科大2020级研究生新生入学常见问题解答</title>
+        <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico"/>
+        <link rel="stylesheet" href="/static/css/style.css?v=20260422">
+        <!--2019-12-31-->
+        <link rel="stylesheet" href="/static/css/20191231.css?v=3.8">
+        <!--20200108-->
+        <link rel="stylesheet" href="/static/css/20200108.css?v=240923">
+        <link rel="stylesheet" href="/static/css/20200229.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200317.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200321.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200428.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200514.css?v=3.8">
+        <style>
+            .system .system-box > img:last-child {
+                left: inherit;
+            }
+
+            .search > .search-box {
+                position: relative;
+            }
+
+            .search > .search-box .search-box-wrap {
+                position: relative;
+                z-index: 9;
+            }
+
+            .search > .search-box > .placeholder {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                color: #999;
+                z-index: 1;
+            }
+
+            .navli {
+                font-size: 14px;
+            }
+
+            .retrun_laoban {
+                position: absolute;
+                right: 20px;
+                top: 51px;
+                display: block;
+                width: 68px;
+                line-height: 30px;
+                border-radius: 50px;
+                background-color: #1c356e;
+                color: #FFFFFF;
+                font-size: 14px;
+                text-align: center;
+                border: 1px solid;
+                text-decoration: none;
+            }
+
+            .retrun_laoban_feedback {
+                position: absolute;
+                right: 95px;
+                top: 51px;
+                display: block;
+                width: 90px;
+                line-height: 30px;
+                border-radius: 50px;
+                background-color: #1c356e;
+                color: #FFFFFF;
+                font-size: 14px;
+                text-align: center;
+                border: 1px solid red;
+                text-decoration: none;
+            }
+
+            .info-item {
+                color: #FFF;
+            }
+        </style>
+        <script src="/static/js/html5.min.js"></script>
+        <script src="/static/js/jquery/jquery-v1.10.2.min.js"></script>
+    </head>
+    <body>
+
+    <header>
+        <div class="center-wrapper">
+                <a class="retrun_laoban_feedback" href="/feedback">问题与建议</a>
+            <a class="retrun_laoban" href="http://gs.ustc.edu.cn/">英文版</a>
+            <div class="logo">
+                <img src="/static/img/logo.png" alt="">
+            </div>
+            <div class="search">
+                <!--20200108-->
+                <!--20200108-->
+                <div class="search-box">
+                    <div class="search-box-wrap" style="width: 100%; height: 100%;">
+                        <label>
+                            <input id="search" value="" placeholder="站内搜索" type="text"
+                                   style="border-radius:10px;">
+                        </label>
+                    </div>
+                    <img src="/static/img/search.png" alt="" onclick="toSearch()">
+                </div>
+            </div>
+        </div>
+        <!--2020-03-05-->
+        <script>
+            $('#search').on('focus', function () {
+                $('#placeholder').hide();
+            }).on('blur', function () {
+                if ($(this).val() === '') {
+                    $('#placeholder').show();
+                }
+            });
+            $('#placeholder').click(function () {
+                console.log(66);
+            })
+        </script>
+        <!--2020-03-05-->
+        <script>
+            $("#search").keypress(function (e) {
+                if (e.which == 13) {
+                    toSearch();
+                }
+            });
+
+            function toSearch() {
+                var words = document.getElementById("search").value;
+                window.location.href = "/search?keyword=" + encodeURI(words)
+                /*var words = $("#search").val();
+                window.open("https://cn.bing.com/search?q=" + words + "+site%3Agradschool.ustc.edu.cn",
+                    "_self");*/
+            }
+        </script>
+    </header>
+
+    <nav id="nav">
+        <div class="center-wrapper clearfix">
+            <div class="nav-item">
+                <span><a href="/">首页</a></span>
+            </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="2"
+                                  data-type="1"
+                                  data-link="/column/1">概况</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="10"
+                                            data-type="1"
+                                            data-link="/column/13">研究生教育概况
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="74"
+                                            data-type="1"
+                                            data-link="/column/14">机构设置
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="12"
+                                            data-type="1"
+                                            data-link="/column/139">《研究生教育研究》
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="137"
+                                            data-type="1"
+                                            data-link="/column/235">研究生教育工作简报
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="3"
+                                data-type="1"
+                                data-link="https://yz.ustc.edu.cn/">招生
+                            </li>
+                            <ul>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="131"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn">研招在线
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="13"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/zsjz_index/index.htm">招生简章
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="14"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/list_1.htm">硕士招生
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="15"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/list_2.htm">博士招生
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="16"
+                                            data-type="1"
+                                            data-link="https://xly.ustc.edu.cn/">夏令营
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="69"
+                                  data-type="1"
+                                  data-link="/column/3">培养</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="70"
+                                            data-type="1"
+                                            data-link="/column/95">培养工作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="71"
+                                            data-type="1"
+                                            data-link="/column/96">教学管理
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="72"
+                                            data-type="1"
+                                            data-link="/column/97">学籍奖助
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="146"
+                                            data-type="1"
+                                            data-link="/column/248">国际合作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="114"
+                                            data-type="1"
+                                            data-link="/column/136">创新计划
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="5"
+                                  data-type="1"
+                                  data-link="/column/4">学位</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="21"
+                                            data-type="1"
+                                            data-link="/column/25">组织机构
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="22"
+                                            data-type="1"
+                                            data-link="/column/26">学位授予
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="24"
+                                            data-type="1"
+                                            data-link="/column/28">导师工作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="126"
+                                            data-type="1"
+                                            data-link="/column/175">校优博论文
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="118"
+                                  data-type="1"
+                                  data-link="/column/148">专业学位</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="119"
+                                            data-type="1"
+                                            data-link="/column/149">组织机构
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="120"
+                                            data-type="1"
+                                            data-link="/column/205">教育教学
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="121"
+                                            data-type="1"
+                                            data-link="/column/206">实践实训
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="122"
+                                            data-type="1"
+                                            data-link="/column/207">创业就业
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="124"
+                                            data-type="1"
+                                            data-link="/column/208">评奖评优
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="123"
+                                            data-type="1"
+                                            data-link="/column/166">规章制度
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="6"
+                                  data-type="1"
+                                  data-link="/column/5">学科</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="25"
+                                            data-type="1"
+                                            data-link="/column/30">学科概况
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="27"
+                                            data-type="1"
+                                            data-link="/column/32">重点学科
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="28"
+                                            data-type="1"
+                                            data-link="/column/80">学科授权
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="26"
+                                            data-type="1"
+                                            data-link="/column/31">学科评估
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="125"
+                                            data-type="1"
+                                            data-link="/column/27">优博论文
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="148"
+                                            data-type="1"
+                                            data-link="/column/5">质量督导
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="7"
+                                data-type="1"
+                                data-link="http://qybx.ustc.edu.cn/main.htm">所系结合
+                            </li>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="87"
+                                  data-type="1"
+                                  data-link="/column/11">制度文档</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="127"
+                                            data-type="1"
+                                            data-link="/column/7">规章制度
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="128"
+                                            data-type="1"
+                                            data-link="/column/11">文档下载
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="129"
+                                            data-type="1"
+                                            data-link="/column/12">事务指南
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="133"
+                                  data-type="1"
+                                  data-link="/column/232">德创导师学校</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="134"
+                                            data-type="1"
+                                            data-link="/column/236">杰出讲座
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="136"
+                                            data-type="1"
+                                            data-link="/column/234">导师论坛
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="135"
+                                            data-type="1"
+                                            data-link="https://dspx.ustc.edu.cn">导师培训
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="147"
+                                data-type="1"
+                                data-link="https://fxl.ustc.edu.cn/">非学历教育中心
+                            </li>
+                    </div>
+        </div>
+    </nav>
+    <div class="main-wrapper">
+        <div class="bg-wrapper">
+            <div class="content-page center-wrapper">
+                <div class="address-box">
+          <span>当前位置：<span target="_self" style="cursor:pointer" data-link="/">首页</span>
+                      &gt;<span style="cursor:pointer" target="_self"
+                                data-id="43"
+                                data-type="2"
+                                data-link="/column/43">新闻通知</span>
+                      &gt;<span style="cursor:pointer" target="_self"
+                                data-id="9"
+                                data-type="2"
+                                data-link="/column/9">公告通知</span>
+          </span>
+                </div>
+                <div class="content-box">
+                    <h1>中国科大2020级研究生新生入学常见问题解答</h1>
+                    <h2 style="margin: 0px 0 38px;text-align: center;font-size: 20px;font-weight: normal;"></h2>
+                    <div class="info-bar" style="text-align: center">
+                        <time>发布时间：2020-09-04 </time>
+                    </div>
+                    <article id="article" class="article">
+                        <p>&nbsp;</p><p style="margin: 8px 0px 0px; line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">为了使</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">级研究生新生入校、报到、选课和生活更加安全、便利，提前了解学校的各项工作要求，我们汇总整理了一些新生入校常见问题并作解答，请研究生新生仔细阅读，认真执行。</span></p><p style="margin: 8px 0px; text-align: center; line-height: 43px;"><span style="font-family: 黑体; font-size: 21px;">一、入校篇</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">1.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生入学前需要做什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）完成核酸检测，取得七日内核酸检测阴性证明；核酸检测不合格或未做核酸检测者不得进入校园。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日之前，登录研究生信息平台（</span><a href="http://yjs.ustc.edu.cn" target="_blank"><span style="font-family:;" new="" times="">http://yjs.ustc.edu.cn</span></a><span style="font-family: 仿宋; font-size: 21px;">），与迎新联络员联系；熟悉报到流程，备齐所需材料；网上查询住宿、预约体检日期；填写学籍信息、进行网上选课。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">3</span><span style="font-family: 仿宋; font-size: 21px;">）时刻关注迎新联络员的服务信息，按照信息要求办理具体事项。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">2.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生入学具体时间是什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00-18:00</span><span style="font-family: 仿宋; font-size: 21px;">，为期一天。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">3.</span><span style="font-family: 楷体; font-size: 21px;">问：哪些情况下研究生新生不得入学？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）现居国外和港澳台地区的学生暂缓入学，如在入学日十四天前已入境并依据国内疫情管控隔离过的可按时入学。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）受疫情影响，目前所居地有旅行管控要求的研究生暂缓入学。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">3</span><span style="font-family: 仿宋; font-size: 21px;">）目前所居地无旅行管控要求，但现居地为疫情中、高风险地区的，或入学前</span><span style="font-family:;" new="" times="">14</span><span style="font-family: 仿宋; font-size: 21px;">天内居住地曾为疫情中、高风险地区的，或入学前</span><span style="font-family:;" new="" times="">14</span><span style="font-family: 仿宋; font-size: 21px;">天内到过中、高风险地区（含国外）的，或入学前</span><span style="font-family:;" new="" times="">14</span><span style="font-family: 仿宋; font-size: 21px;">天内与中、高风险地区（含国外）人员或确诊、疑似病例接触过的，或本人、家人有疑似症状出现的研究生，暂缓入学。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">因上述情况暂缓入学的学生，等条件允许后，可单独向学校申请入学，获批同意后方可入学。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">4.</span><span style="font-family: 楷体; font-size: 21px;">问：</span><span style="font-family: 楷体; font-size: 21px;">研究生新生家长或亲友可以随同进校吗？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：不可以。研究生新生家长及亲友一律不得进入校本部各校区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">5.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生到校本部哪个校区入校？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：新生宿舍在校本部东、西、南、北、中哪个校区，就从哪个校区进入校园。请提前通过研究生信息平台查询本人宿舍具体信息。为维护入校秩序，除中区外，研究生新生不得从其他校区进入校园。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">各校区地址：</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">东区：安徽省合肥市金寨路</span><span style="font-family:;" new="" times="">96</span><span style="font-family: 仿宋; font-size: 21px;">号中国科大东区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">西区：安徽省合肥市黄山路</span><span style="font-family:;" new="" times="">443</span><span style="font-family: 仿宋; font-size: 21px;">号中国科大西区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">南区：安徽省合肥市徽州大道</span><span style="font-family:;" new="" times="">1129</span><span style="font-family: 仿宋; font-size: 21px;">号中国科大南区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">北区：安徽省合肥市金寨路与黄山路交口中国科大北区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">中区：安徽省合肥市黄山路</span><span style="font-family:;" new="" times="">373</span><span style="font-family: 仿宋; font-size: 21px;">号中国科大中区。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">6.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生从宿舍所在校区的哪个校门进入校园？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：应疫情防控要求，</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日当天校本部只开放东校区金寨路门（西门）、西校区黄山路门（北门）、南校区水阳江路门（南门）和北校区黄山路门。在中校区住宿的研究生新生请从东校区金寨路门（西门）进入。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">7.</span><span style="font-family: 楷体; font-size: 21px;">问：代培研究生新生如何进入校园？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日</span><span style="font-family:;" new="" times="">8:00-18:00</span><span style="font-family: 仿宋; font-size: 21px;">，根据代培生住宿校区，研究生院在东校区金寨路门（西门）、南校区水阳江路门（南门）分别安排一个“代培生服务点”，发放校园一卡通。代培生领取一卡通后，可按正常程序进入校园。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">8.</span><span style="font-family: 楷体; font-size: 21px;">问：进入校本部校园有哪些要求？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生进入校本部校园，要求携带七日内核酸检测阴性证明、一卡通、安康码并经体温检测合格后，方可进入校园。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">9.</span><span style="font-family: 楷体; font-size: 21px;">问：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 楷体; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 楷体; font-size: 21px;">日进入校本部校园后需要做什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日当天，研究生新生主要完成入校和住宿事项，本日不需要到所在院系报到。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）携带录取通知书到宿舍楼管理室领取房间钥匙，办理入住手续。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）办理完住宿手续后，安心待在宿舍楼所在校区内，不得随意出入所在校区或到其他校区。</span></p><p style="margin: 8px 0px; text-align: center; line-height: 43px;"><span style="font-family: 黑体; font-size: 21px;">二、报到篇</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">10.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生报到具体时间是什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">9-10</span><span style="font-family: 仿宋; font-size: 21px;">日</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00-18:00</span><span style="font-family: 仿宋; font-size: 21px;">，为期两天。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">9-10</span><span style="font-family: 仿宋; font-size: 21px;">日为专门报到时间，请研究生新生在此两天内到所在院系报到。其他时间各院系不安排报到点。</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">日当天不得到院系报到。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">11.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生到哪里报到？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：根据疫情防控需要，今年不再安排集中迎新点报到，研究生入校后到所在院系办理入学报到手续、领取相关材料。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">如有问题，可向所在院系咨询。校本部各院系联系方式如下：</span></p><table align="center" cellspacing="0" cellpadding="0"><tbody><tr class="firstRow" style="height: 19px;"><td width="184" height="19" style="padding: 0px 7px; border: 1px solid windowtext; border-image: none; background-color: transparent;"><p style="text-align: center; line-height: 16px;"><span style="font-family: 黑体; font-size: 16px;">学院</span></p></td><td width="184" height="19" style="border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; border-image: none; background-color: transparent;"><p style="text-align: center; line-height: 16px;"><span style="font-family: 黑体; font-size: 16px;">办公室</span></p></td><td width="184" height="19" style="border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; border-image: none; background-color: transparent;"><p style="text-align: center; line-height: 16px;"><span style="font-family: 黑体; font-size: 16px;">教学办公室</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">数学科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><br/></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601006</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">物理学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63607419</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600462</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;" rowspan="4"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">化学与材料科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;" rowspan="2"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">3/12/19</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63603284</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">3</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601109</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">12/20</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601697</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;" rowspan="2"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">14/20</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601696</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">14</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63600623</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">19</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601107</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;" rowspan="4"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">工程科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;" rowspan="4"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63607734</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">5</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601474</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63601250</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">13</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63600629</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">30</span><span style="font-family: 仿宋; font-size: 16px;">系：</span><span style="font-family:;" new="" times="">63600763</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">地球与空间科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601848</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601848</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">生命科学与医学部</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601369</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><br/></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">生命科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601454</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600392</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">信息科学技术学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63607054</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63607437</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">计算机科学与技术学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601553</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600853</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">软件学院（合肥）</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63492265</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63492010</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">大数据学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63603493</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63603447</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">微电子学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601801</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><br/></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">网络空间安全学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63601611</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><br/></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">管理学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600025</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63606244</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">公共事务学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63602663</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63607760</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">人文与社会科学学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600497</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600497</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">马克思主义学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600740</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63600096</span></p></td></tr><tr style="height: 19px;"><td width="184" height="19" style="border-width: 0px 1px 1px; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0px 7px; border-image: none; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family: 仿宋; font-size: 16px;">核科学技术学院</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63602401</span></p></td><td width="184" height="19" style="border-width: 0px 1px 1px 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0px 7px; background-color: transparent;"><p style="line-height: 16px;"><span style="font-family:;" new="" times="">63602007</span></p></td></tr></tbody></table><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">12.</span><span style="font-family: 楷体; font-size: 21px;">问：哪些研究生新生需要到校本部报到？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：校本部</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">级研究生新生、</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">级代培研究生、在校本部上课住宿的科教融合学院和先进技术研究院</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">级研究生新生。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">13.</span><span style="font-family: 楷体; font-size: 21px;">问：不在校本部上课住宿的研究生到哪里报到？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：不在校本部上课住宿的科教融合学院、苏州研究院（含纳米学院、软件学院（苏州））、上海研究院、国际金融研究院研究生新生直接到所在学院（研究院）报到，入学方案由以上单位单独制定；到先进技术研究院上课住宿的信息学部及先研院研究生新生直接到先研院报到，入学方案由信息学部、先研院单独制定。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">14.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生到本人所在院系报到需要携带什么材料？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">9-10</span><span style="font-family: 仿宋; font-size: 21px;">日</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00-18:00</span><span style="font-family: 仿宋; font-size: 21px;">，携带身份证、录取通知书、毕业证书原件（硕士新生）、学位证书原件（博士新生）、七日内核酸检测阴性证明、一卡通、安康码到所在院系领取材料并办理其他手续。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">15.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生报到程序是什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）交验身份证、毕业证书原件（硕士新生）、学位证书原件（博士新生）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）领取入学登记表、校徽、学生证芯等。请学生如实填写，张贴照片。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">3</span><span style="font-family: 仿宋; font-size: 21px;">）领取防疫物品等其他材料。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">16.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生核酸检测阴性证明交到哪里？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：新生报到后，将本人核酸检测阴性证明交到本人所在院系，由院系统一汇总；院系将阴性检测证明名单交至研究生院培养办公室（东区老图书馆</span><span style="font-family:;" new="" times="">314</span><span style="font-family: 仿宋; font-size: 21px;">室）；研究生院培养办协同财务处、一卡通中心将核酸检测费用发放至研究生新生一卡通中。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">17.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生如何办理缴费？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：财务处负责收取研究生学费、住宿费、教材费等，未提前扣款的研究生请于</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">15</span><span style="font-family: 仿宋; font-size: 21px;">日前通过网上缴费系统缴纳或在东区学生服务中心</span><span style="font-family:;" new="" times="">103</span><span style="font-family: 仿宋; font-size: 21px;">室缴纳，咨询电话：</span><span style="font-family:;" new="" times="">0551-63602939</span><span style="font-family: 仿宋; font-size: 21px;">。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">18.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生如何办理户籍迁移？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：保卫与校园管理处负责办理户籍迁移手续，户籍迁移办理流程为：需要将户口迁入学校的研究生新生，在入学报到后</span><span style="font-family:;" new="" times="">10</span><span style="font-family: 仿宋; font-size: 21px;">日内将入户材料直接交至东校区保卫与校园管理处户籍管理办公室（学生服务中心</span><span style="font-family:;" new="" times="">107</span><span style="font-family: 仿宋; font-size: 21px;">室，咨询电话：</span><span style="font-family:;" new="" times="">0551-63602311</span><span style="font-family: 仿宋; font-size: 21px;">），户口不迁入学校的新生无需办理手续。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">19.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生如何办理党员组织关系转接？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生党员的组织关系办理由各院级党组织负责，安徽省内的研究生党员组织关系（包括校内考取本校的研究生党员）通过网上党员信息系统直接转接，不需要纸质介绍信；安徽省外的研究生党员组织关系转接，由研究生党员向院级党组织提交纸质介绍信，院级党组织将回执撕下来填好、盖（党委）章，返还给研究生，由研究生寄给原所在党组织；各院级党组织统一收取研究生党员纸质介绍信，汇总后于</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">18</span><span style="font-family: 仿宋; font-size: 21px;">日前到</span><span style="font-family:;" new="" times="">218</span><span style="font-family: 仿宋; font-size: 21px;">楼</span><span style="font-family:;" new="" times="">113</span><span style="font-family: 仿宋; font-size: 21px;">房间交党委组织部留存；个别院级党组织是党总支，没有权限转接办理的，将纸质介绍信和回执统一收取汇总交给党委组织部办理。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">20.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生如何办理或咨询国家助学贷款？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：已成功办理生源地贷款的新生，请务必于</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">20</span><span style="font-family: 仿宋; font-size: 21px;">日前登陆“学工一体化”系统（</span><a href="http://xgyth.ustc.edu.cn" target="_blank" textvalue="http://xgyth.ustc.edu.cn">http://xgyth.ustc.edu.cn</a><span style="font-family: 仿宋; font-size: 21px;">），在“助学贷款信息管理”模块中完成贷款信息填写；申请校园地贷款流程见《关于做好</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">年国家助学贷款申请工作的通知》（网址：</span><a href="http://stuhome.ustc.edu.cn/2020/0826/c2316a445072/page.htm" target="_blank"><span style="font-family:;" new="" times="">http://stuhome.ustc.edu.cn/2020/0826/c2316a445072/page.htm</span></a><span style="font-family: 仿宋; font-size: 21px;">）。办理了助学贷款的新生可以暂缓交学费，贷款到学校账户并统一扣除学费后，剩余款项会退回到学校发放给研究生的银行卡。助学贷款咨询电话：</span><span style="font-family:;" new="" times="">0551-63602793</span><span style="font-family: 仿宋; font-size: 21px;">。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">21.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生体检日程安排是什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：体检日期：</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">14</span><span style="font-family: 仿宋; font-size: 21px;">日至</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">28</span><span style="font-family: 仿宋; font-size: 21px;">日（工作日）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">体检时间：上午</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00-10</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00</span><span style="font-family: 仿宋; font-size: 21px;">；下午</span><span style="font-family:;" new="" times="">15:00-17:00</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">抽血时间：上午</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00-9</span><span style="font-family: 仿宋; font-size: 21px;">：</span><span style="font-family:;" new="" times="">00</span><span style="font-family: 仿宋; font-size: 21px;">（提供免费早餐一份），下午</span><span style="font-family:;" new="" times="">15:00</span><span style="font-family: 仿宋; font-size: 21px;">～</span><span style="font-family:;" new="" times="">16:00</span><span style="font-family: 仿宋; font-size: 21px;">（提供免费点心一份）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">22.</span><span style="font-family: 楷体; font-size: 21px;">问：哪些研究生新生需要体检？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：全体博士生（转博、招考、直博）；全体学术型硕士生（推免、统考）和专业学位研究生（全日制、非全日制）；全体代培博士生和代培硕士生。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">不包括外地校区研究生新生和同等学力、进修生。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">23.</span><span style="font-family: 楷体; font-size: 21px;">问：校本部研究生新生如何预约体检？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生新生体检前须通过研究生信息平台进行网络预约并自行打印体检指引单、抽血检查单及放射检查单，自行到校医院开展体检。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">24.</span><span style="font-family: 楷体; font-size: 21px;">问：不在校本部住宿或其他情况下研究生新生如何体检或检测？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：校医院专门安排</span><span style="font-family:;" new="" times="">2-3</span><span style="font-family: 仿宋; font-size: 21px;">天时间用于不在校本部上课住宿的信息学部、先研院、国金院研究生新生集中体检，要求上述单位新生通过研究生信息平台在本单位指定体检日期内进行网络预约。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">对于确因特殊情况无法进行核酸检测的研究生，校医院负责对其开展核酸检测。</span></p><p style="margin: 8px 0px; text-align: center; line-height: 43px;"><span style="font-family: 黑体; font-size: 21px;">三、选课篇</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">25.</span><span style="font-family: 楷体; font-size: 21px;">问：研究生新生怎么知道应选哪些课？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生应根据培养方案，以及与导师共同制定的培养计划进行选课。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">26.</span><span style="font-family: 楷体; font-size: 21px;">问：在哪里查看培养方案？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生院网站“培养”栏目里有科学学位的培养方案总则和各学科培养方案，“专业学位”栏目里有专业学位的培养方案总则和各领域培养方案。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">27.</span><span style="font-family: 楷体; font-size: 21px;">问：对培养方案内容不理解，应咨询谁？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：请向所在院系教学秘书咨询。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">28.</span><span style="font-family: 楷体; font-size: 21px;">问：教学秘书的联系方式在哪里？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生院主页已公布（网址：</span><a href="https://gradschool.ustc.edu.cn/static/upload/article/picture/876c4cba270b40afaf35f05e812ad1f0.pdf" target="_blank"><span style="font-family:;" new="" times="">https://gradschool.ustc.edu.cn/static/upload/article/picture/876c4cba270b40afaf35f05e812ad1f0.pdf</span></a><span style="font-family: 仿宋; font-size: 21px;">）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">29.</span><span style="font-family: 楷体; font-size: 21px;">问：英语免修条件和申请办法是什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：研究生院主页已公布（网址：</span><a href="https://gradschool.ustc.edu.cn/article/1630" target="_blank"><span style="font-family:;" new="" times="">https://gradschool.ustc.edu.cn/article/1630</span></a><span style="font-family: 仿宋; font-size: 21px;">）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">30.</span><span style="font-family: 楷体; font-size: 21px;">问：已经申请免修的英语课还需要再选么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：不需要。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">31.</span><span style="font-family: 楷体; font-size: 21px;">问：选课过程中发现自己要选的课找不到怎么办？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：每学期选课只能选择当学期开设的课程，在选课系统里找不到的课程是本学期不开的。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">32.</span><span style="font-family: 楷体; font-size: 21px;">问：要选的课程这学期不开，下学期会开吗？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：请咨询开课院系。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">33.</span><span style="font-family: 楷体; font-size: 21px;">问：要选的课程已经选满了怎么办？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：公共英语和政治课由研究生院统一安排。政治课如果选满了，开课院系会及时增大班级规模或增加平行班，保证研究生都能选上。英语课两个学期都会开，总量会满足所有需求，第一学期没选上的研究生可以在第二学期选上。专业课由各院系开设，如遇选课满员，应向开课院系咨询是否会增大班级规模或增开平行课堂。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">34.</span><span style="font-family: 楷体; font-size: 21px;">问：选课过程提示不符合选课条件组的要求怎么办？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：开课院系在开课的时候会针对不同的课堂设置不同的限选条件，具体每门课的限选条件请查看选课备注。如对选课限制有疑问，请向开课院系咨询。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">35.</span><span style="font-family: 楷体; font-size: 21px;">问：要选的两门课时间冲突怎么办？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：同一时间只能选一门课，可以和导师协商修改培养计划或者下次再选另外一门课。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">36.</span><span style="font-family: 楷体; font-size: 21px;">问：</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 楷体; font-size: 21px;">年秋季学期哪天开始上课？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">年秋季学期研究生课程从第二周开始，也就是从</span><span style="font-family:;" new="" times="">9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">21</span><span style="font-family: 仿宋; font-size: 21px;">日开始。具体每门课的开始时间，应查看选课界面的起止周，对照学校教学日历进行确定。</span></p><p style="margin: 8px 0px; text-align: center; line-height: 43px;"><span style="font-family: 黑体; font-size: 21px;">四、生活篇</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">37.</span><span style="font-family: 楷体; font-size: 21px;">问：校园一卡通怎么使用？如何充值？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：一卡通可用于校园消费和身份识别。购买学习生活用品和进出校园均需要使用一卡通，请务必携带好。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）可支付宝充值（推荐方式），在支付宝“校园”应用中输入卡的</span><span style="font-family:;" new="" times="">GID</span><span style="font-family: 仿宋; font-size: 21px;">和姓名即可充值，充值成功后需要到餐厅刷卡，待充值进卡后方可使用。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）也可使用自主现金充值，东区活动中心自助服务大厅、中区餐厅、西区研究生餐厅、西区本科生餐厅有自助现金充值机，</span><span style="font-family:;" new="" times="">24</span><span style="font-family: 仿宋; font-size: 21px;">小时可自助现金充值。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">3</span><span style="font-family: 仿宋; font-size: 21px;">）也可采用人工现金充值，充值地点：东区师生活动中心一楼（周一至周五</span><span style="font-family:;" new="" times="">8:00-12:00</span><span style="font-family: 仿宋; font-size: 21px;">、</span><span style="font-family:;" new="" times="">14:00-18:00</span><span style="font-family: 仿宋; font-size: 21px;">），南区学生餐厅（周一至周五中午开饭时间）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">38.</span><span style="font-family: 楷体; font-size: 21px;">问：宿舍内空调怎么使用？出现问题或故障怎么解决？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：学生公寓空调采用预先缴费购电使用方式，如遇问题或故障请拨打空调维修热线：东、西、南校区电话：</span><span style="font-family:;" new="" times="">0551-65674548/13956035289</span><span style="font-family: 仿宋; font-size: 21px;">，中校区电话：</span><span style="font-family:;" new="" times="">13605602627</span><span style="font-family: 仿宋; font-size: 21px;">，如遇付费电能卡问题及故障请拨打服务热线：</span><span style="font-family:;" new="" times="">0551-63602406</span><span style="font-family: 仿宋; font-size: 21px;">。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">39.</span><span style="font-family: 楷体; font-size: 21px;">问：宿舍内浴室怎么使用？出现故障怎么解决？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：宿舍内热水系统需利用校园一卡通才可正常使用，使用前将一卡通在转账机上转账，热水计费控制器才可识别。如遇故障可拨打维修电话：</span><span style="font-family:;" new="" times="">0551-63602370/63607259</span><span style="font-family: 仿宋; font-size: 21px;">。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">40.</span><span style="font-family: 楷体; font-size: 21px;">问：公寓楼内洗衣机怎么使用？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：公寓楼内具有刷卡洗衣机，使用校园一卡通刷卡即可使用。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">41.</span><span style="font-family: 楷体; font-size: 21px;">问：到食堂就餐需要注意什么？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：到食堂就餐，需提前戴好口罩，体温正常者方可进入食堂。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">42.</span><span style="font-family: 楷体; font-size: 21px;">问：如何乘坐校园班车？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：学校网站已公布“校园班车运行时刻表（</span><span style="font-family:;" new="" times="">2020</span><span style="font-family: 仿宋; font-size: 21px;">年</span><span style="font-family:;" new="" times="">8</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">21</span><span style="font-family: 仿宋; font-size: 21px;">日</span><span style="font-family:;" new="" times="">-9</span><span style="font-family: 仿宋; font-size: 21px;">月</span><span style="font-family:;" new="" times="">13</span><span style="font-family: 仿宋; font-size: 21px;">日试行）”（网址：</span><a href="https://www.ustc.edu.cn/info/1029/13982.htm" target="_blank"><span style="font-family:;" new="" times="">https://www.ustc.edu.cn/info/1029/13982.htm</span></a><span style="font-family: 仿宋; font-size: 21px;">）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">43.</span><span style="font-family: 楷体; font-size: 21px;">问：到哪里购买生活用品及学习用具？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：东区：中科超市、中科眼镜（东区师生活动中心广场南面）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">西区：（</span><span style="font-family:;" new="" times="">1</span><span style="font-family: 仿宋; font-size: 21px;">）中科超市：学生公寓</span><span style="font-family:;" new="" times="">1#</span><span style="font-family: 仿宋; font-size: 21px;">西面；学生公寓</span><span style="font-family:;" new="" times="">4#</span><span style="font-family: 仿宋; font-size: 21px;">东面；教工食堂楼下。（</span><span style="font-family:;" new="" times="">2</span><span style="font-family: 仿宋; font-size: 21px;">）学生服务部：学生公寓</span><span style="font-family:;" new="" times="">2#</span><span style="font-family: 仿宋; font-size: 21px;">西面。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">44.</span><span style="font-family: 楷体; font-size: 21px;">问：到哪里购买书籍或学习资料？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：知行书店：课本、旧书（东区西门北侧）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">开心英语书店：习题、复习资料（东区服务楼一楼中科超市旁）。</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family:;" new="" times="">45.</span><span style="font-family: 楷体; font-size: 21px;">问：身体不适，到哪里就医？</span></p><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;">答：校内就医请到东区校医院（首诊医院），开放时间：周一到周五：</span><span style="font-family:;" new="" times="">8:00-11:45</span><span style="font-family: 仿宋; font-size: 21px;">、</span><span style="font-family:;" new="" times="">14:00-17:30</span><span style="font-family: 仿宋; font-size: 21px;">，急诊患者可乘坐电梯到医院六楼就医，急诊时间：</span><span style="font-family:;" new="" times="">11:45-14:00</span><span style="font-family: 仿宋; font-size: 21px;">、</span><span style="font-family:;" new="" times="">17:30-</span><span style="font-family: 仿宋; font-size: 21px;">次日</span><span style="font-family:;" new="" times="">8:00</span><span style="font-family: 仿宋; font-size: 21px;">。东区校医院急诊值班电话：</span><span style="font-family:;" new="" times="">0551-63600120</span><span style="font-family: 仿宋; font-size: 21px;">（</span><span style="font-family:;" new="" times="">24</span><span style="font-family: 仿宋; font-size: 21px;">小时）、校医院医保办电话：</span><span style="font-family:;" new="" times="">0551-63607801</span><span style="font-family: 仿宋; font-size: 21px;">。<p style="line-height: 43px; text-indent: 43px;"><p style="line-height: 43px; text-indent: 43px;"><span style="font-family: 仿宋; font-size: 21px;"><span style="font-family: 仿宋; font-size: 21px;">西区设有门诊部（西区学生活动中心一楼），西区门诊部电话：</span><span style="font-family:;" new="" times="">0551-63602506</span><span style="font-family: 仿宋; font-size: 21px;">。</span></span></p></p></span><p style="line-height: 43px; text-indent: 43px;"><br/></p></p><p>&nbsp;</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="outerdiv" onclick="javascript:closeMask(this);"
+         style="position: fixed; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.7);z-index: 9999; width: 100%; height: 100%; display: none;">
+        <div id="innerdiv" style="margin: auto;background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;    height: 100%;
+    width: 100%;">
+        </div>
+    </div>
+    <style>
+        .article img {
+            max-width: 600px !important;
+            height: 100% !important;
+            object-fit: contain !important;
+            /*max-width: 600 px !important;*/
+        }
+    </style>
+    <script>
+        setImgClick();
+
+        function setImgClick() {
+            let articleNodes = document.getElementsByClassName("article")
+            if (articleNodes.length > 0) {
+                Array.prototype.forEach.call(articleNodes, function (node) {
+                    getImgNode(node)
+                });
+            }
+        }
+
+        function getImgNode(nodes) {
+            nodes.childNodes.forEach(e => {
+                if (e.nodeName === "IMG") {
+                    e.onclick = function () {
+                        showBigImg(e.getAttribute('src'));
+                    }
+                }
+                if (e.childNodes.length > 0) {
+                    getImgNode(e);
+                }
+            })
+        }
+
+        function showBigImg(src) {
+            let mask = document.getElementById("outerdiv")
+            mask.style.display = "flex"
+            document.getElementById("innerdiv").style.backgroundImage = "url(" + src + ")";
+        }
+
+        function closeMask(e) {
+            e.style.display = "none"
+        }
+    </script>
+    <style>
+    </style>
+    <div class="bottom-wrapper">
+        <div class="other" style="background: url('/static/img/bottom-pattern.jpg')">
+            <div class="center-wrapper clearfix">
+                <div class="r-box">
+                    <div class="other-website">
+                    </div>
+                    <div class="school-info">
+                        <div class="top">
+                            <div class="info-item" style="color: #FFF;font-size: 18px;">
+                                <img src="/static/img/address.png" alt="">
+                                地址：安徽省合肥市包河区金寨路96号
+                            </div>
+                            <div class="info-item" style="margin-left: 45px;color: #FFF;font-size: 18px;">
+                                <img src="/static/img/tel.png" style="height: 18px;" alt="">
+                                电话：0551-63601958
+                            </div>
+                            <div class="info-item" style="margin-left: 45px;color: #FFF;font-size: 18px;">
+                                <img src="/static/img/email.png" alt="">
+                                Email：yjsy@ustc.edu.cn
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--20200108-->
+        <footer>
+            copyright © 2007-2020 中国科学技术大学研究生院 校学位办 All Rights Reserved
+            <span>
+    总浏览量<span class="red">62084268</span>人次
+  </span>
+        </footer>
+    </div>
+    </div>
+    <script>
+        (function ($) {
+            var InitPage = {};
+            // 导航菜单下拉
+            InitPage.navSlide = function () {
+                var navItem = $('#nav').find('.nav-item');
+
+                navItem.hover(function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideDown('fast', 'linear');
+                }, function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideUp('fast', 'linear');
+                });
+
+                return this
+            };
+
+            InitPage.init = function () {
+                this.navSlide()
+                    .initLink();
+            };
+
+            InitPage.initLink = function () {
+                $('body').on('click', '*[data-link]', function (e) {
+                    e.stopPropagation();
+                    var url = $(this).attr('data-link');
+                    var accessId = $(this).attr('data-id');
+                    var type = $(this).attr('data-type');
+
+                    InitPage.saveAccessData(accessId, type)
+                    if (!!url) {
+                        if ($(this).attr('target') === '_blank') {
+                            window.open(url, '_blank');
+                        } else {
+                            location.href = url;
+                        }
+                    }
+                });
+                return this
+            };
+
+            InitPage.init();
+
+            // 保存访问记录
+            InitPage.saveAccessData = function (accessId, type) {
+                setAccess(accessId, type);
+            }
+
+        })(jQuery);
+
+        /*     $('#search').on('focus', function () {
+                 $('#placeholder').hide();
+             }).on('blur', function () {
+                 if ($(this).val() === '') {
+                     $('#placeholder').show();
+                 }
+             });*/
+        function setAccess(accessId, type) {
+            $.ajax({
+                url: '/access/saveData',
+                type: 'post',
+                async: true,
+                data: {
+                    "accessId": accessId,
+                    "type": type
+                },
+                dataType: 'text',
+                success: function (data) {
+                    console.log(data)
+                },
+                error: function (data) {
+                    console.log(data)
+                }
+            })
+        }
+    </script>
+
+    </body>
+    </html>
