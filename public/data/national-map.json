@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "modelUrl": "/models/national-map.glb",
+  "modelSha256": "432995be839a10e18636d537a448ad01bfac9f369da8de8260909249eb1c7024",
+  "modelBytes": 1352360,
+  "generator": "scripts/build-national-map.mjs",
+  "sources": [
+    {
+      "file": "public/data/china.geojson",
+      "sha256": "a545fa9eb35865b16917f54b64320ff11e1b016b66291f684efdaa27d34bdb92",
+      "bytes": 67063
+    },
+    {
+      "file": "public/data/provinces.geojson",
+      "sha256": "4b2463b7393abbfec909309428e14b13cd52eff05bdbc2934c26c9c5ede549ce",
+      "bytes": 72234
+    },
+    {
+      "file": "public/data/terrain.json",
+      "sha256": "d0c20be3603a562d537513bdd8b115319e11f4129f5fea7efec381ad2f91aa0e",
+      "bytes": 249766
+    },
+    {
+      "file": "app/ui/geo.ts",
+      "sha256": "4f0bb3829ce70d9b919f3a83c3251191cd78dc95b6716dc7415becd8a4c930a0",
+      "bytes": 1649
+    },
+    {
+      "file": "scripts/build-national-map.mjs",
+      "sha256": "bb3e6fbd0a950467103115e12da5b3904f4367199932e65e1e802ae70bac86d4",
+      "bytes": 13838
+    }
+  ],
+  "sourceTerrainSamples": 37845,
+  "retainedTerrainVertices": 15880,
+  "discardedUnreferencedTerrainVertices": 21965,
+  "triangles": 41330,
+  "lineSegments": 5303,
+  "drawCalls": 4,
+  "previousDrawCalls": 104,
+  "nodes": [
+    {
+      "name": "national-base",
+      "primitive": "TRIANGLES",
+      "vertices": 16735,
+      "triangles": 10800,
+      "segments": 0,
+      "drawCalls": 1
+    },
+    {
+      "name": "national-terrain",
+      "primitive": "TRIANGLES",
+      "vertices": 15880,
+      "triangles": 30530,
+      "segments": 0,
+      "drawCalls": 1
+    },
+    {
+      "name": "national-outline",
+      "primitive": "LINES",
+      "vertices": 5430,
+      "triangles": 0,
+      "segments": 2715,
+      "drawCalls": 1,
+      "pixelWidth": 0.6,
+      "opacity": 0.55
+    },
+    {
+      "name": "province-outline",
+      "primitive": "LINES",
+      "vertices": 5176,
+      "triangles": 0,
+      "segments": 2588,
+      "drawCalls": 1,
+      "pixelWidth": 0.4,
+      "opacity": 0.3
+    }
+  ],
+  "boundariesVerified": false,
+  "sourceAttribution": "GMT / Scripps Institution of Oceanography, SRTM15+ V2.7; Tozer et al. (2019), doi:10.1029/2019EA000658",
+  "processing": "Same projection, nearest-grid elevation, colors, cell-centre boundary selection and base extrusion as original TerrainModel. No geographic simplification. Bases merged and exact Float32-identical vertices welded; unreferenced terrain vertices discarded; each outline type merged to LineSegments.",
+  "lineWidthNote": "glTF LINES does not encode screen-space fractional pixel width. Standard LineSegments renders at the platform line width (normally 1px), a documented difference from original 0.6/0.4px. Node extras.pixelWidth retains original values if a later renderer uses LineSegments2.",
+  "validation": {
+    "glbHeader": true,
+    "primitiveCount": 4,
+    "loaderRoundtrip": true,
+    "positionsUnchanged": true,
+    "vertexColorsUnchanged": true,
+    "materialColorsAndOpacityUnchanged": true
+  }
+}

@@ -66,4 +66,8 @@ export type AssetManifest = {
   layoutVerified: boolean;
   detailedLandmarks: number;
   releaseReady: boolean;
+  geometryStats?: {
+    removedTopCapTriangles: number;
+    triangles: number;
+  };
 };

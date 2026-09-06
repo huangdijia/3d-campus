@@ -133,6 +133,50 @@ function material(color) {
     side: THREE.DoubleSide,
   });
 }
+// The roof mesh owns the top surface. Keeping ExtrudeGeometry's top cap as well
+// creates a second layer only centimetres away, which flickers at bird's-eye depth.
+// Keep walls and the bottom intact; never change the source-derived height.
+function withoutTopCap(geometry) {
+  const flat = geometry.index ? geometry.toNonIndexed() : geometry;
+  const normal = flat.getAttribute('normal');
+  const position = flat.getAttribute('position');
+  flat.computeBoundingBox();
+  const top = flat.boundingBox.max.y;
+  const retained = [];
+  for (let i = 0; i < normal.count; i += 3) {
+    if (
+      (normal.getY(i) > 0.999 &&
+        normal.getY(i + 1) > 0.999 &&
+        normal.getY(i + 2) > 0.999) ||
+      // Very thin/degenerate triangulation can produce a zero normal. Its
+      // vertices still lie on the top plane, so remove that cap as well.
+      (Math.abs(position.getY(i) - top) < 0.0001 &&
+        Math.abs(position.getY(i + 1) - top) < 0.0001 &&
+        Math.abs(position.getY(i + 2) - top) < 0.0001)
+    )
+      continue;
+    retained.push(i, i + 1, i + 2);
+  }
+  const result = new THREE.BufferGeometry();
+  for (const [name, attribute] of Object.entries(flat.attributes)) {
+    const data = new attribute.array.constructor(
+      retained.length * attribute.itemSize,
+    );
+    retained.forEach((vertex, offset) => {
+      for (let component = 0; component < attribute.itemSize; component++)
+        data[offset * attribute.itemSize + component] =
+          attribute.array[vertex * attribute.itemSize + component];
+    });
+    result.setAttribute(
+      name,
+      new THREE.BufferAttribute(data, attribute.itemSize, attribute.normalized),
+    );
+  }
+  result.userData.removedTopCapTriangles = (normal.count - retained.length) / 3;
+  if (flat !== geometry) flat.dispose();
+  geometry.dispose();
+  return result;
+}
 if (process.argv.includes('--self-test')) {
   const outer = [
       [0, 0],
@@ -186,8 +230,26 @@ if (process.argv.includes('--self-test')) {
   );
   assert.equal(clipped.length, 1);
   assert.equal(clipped[0].length, 2);
+  const box = new THREE.ExtrudeGeometry(
+    new THREE.Shape([
+      new THREE.Vector2(0, 0),
+      new THREE.Vector2(2, 0),
+      new THREE.Vector2(2, 2),
+      new THREE.Vector2(0, 2),
+    ]),
+    { depth: 7, bevelEnabled: false },
+  );
+  box.rotateX(-Math.PI / 2);
+  const wallsAndBottom = withoutTopCap(box);
+  const normals = wallsAndBottom.getAttribute('normal');
+  assert.equal(normals.count / 3, 10);
+  for (let i = 0; i < normals.count; i++) assert(normals.getY(i) < 0.999);
+  wallsAndBottom.computeBoundingBox();
+  assert.equal(wallsAndBottom.boundingBox.max.y, 7);
+  assert.equal(wallsAndBottom.boundingBox.min.y, 0);
+  wallsAndBottom.dispose();
   console.log(
-    'Geometry self-test passed: crossing segments, inner holes, and unclosed polygons.',
+    'Geometry self-test passed: boundary clipping, holes, closed polygons, and roof-cap removal without height change.',
   );
   process.exit(0);
 }
@@ -228,6 +290,7 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
       footprints = [],
       walkways = [];
     const counts = { buildings: 0, roads: 0, water: 0, green: 0 };
+    const geometryStats = { removedTopCapTriangles: 0, triangles: 0 };
     const localPolygons = polygons.map((p) => p.map((r) => r.map(project))),
       localRings = localPolygons.map((p) => p[0]);
     function surface(points, height, mat, name, base = 0, holes = []) {
@@ -238,7 +301,7 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
       shape.holes = holes.map(
         (r) => new THREE.Path(r.map((p) => new THREE.Vector2(p[0], -p[1]))),
       );
-      const geo =
+      let geo =
         height > 0
           ? new THREE.ExtrudeGeometry(shape, {
               depth: height,
@@ -246,6 +309,11 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
             })
           : new THREE.ShapeGeometry(shape);
       geo.rotateX(-Math.PI / 2);
+      if (height > 0) {
+        geo = withoutTopCap(geo);
+        geometryStats.removedTopCapTriangles +=
+          geo.userData.removedTopCapTriangles;
+      }
       const mesh = new THREE.Mesh(geo, mat);
       mesh.position.y = base;
       mesh.name = name;
@@ -349,14 +417,7 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
             p.slice(1),
           );
           // Flat roof follows source footprint; no invented facade or architectural style.
-          surface(
-            p[0],
-            0,
-            mats.roof,
-            `roof-${featureId}`,
-            h + 0.25,
-            p.slice(1),
-          );
+          surface(p[0], 0, mats.roof, `roof-${featureId}`, h + 0.2, p.slice(1));
           footprints.push({
             id: featureId,
             polygon: p[0],
@@ -459,6 +520,7 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
       child.geometry.dispose();
     }
     for (const b of buckets.values()) {
+      geometryStats.triangles += b.faces;
       const geometry = mergeGeometries(b.geometries, false);
       b.geometries.forEach((g) => g.dispose());
       if (!geometry) throw Error('Geometry merge failed');
@@ -549,6 +611,7 @@ for (const f of (await fs.readdir(input)).filter((f) => f.endsWith('.json'))) {
       layoutVerified: false,
       detailedLandmarks: 0,
       releaseReady: false,
+      geometryStats,
       geometryIssues,
       counts,
       bytes: bytes.length,

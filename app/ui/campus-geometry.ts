@@ -165,6 +165,19 @@ export function readCollisionData(value: unknown): CollisionData {
   return data as CollisionData;
 }
 
+export function hasCampusGeometry(model: THREE.Group): boolean {
+  let found = false;
+  model.traverse((object) => {
+    if (
+      object instanceof THREE.Mesh &&
+      (object.name.startsWith('building') || object.name === 'campus-ground') &&
+      object.geometry.attributes.position?.count >= 3
+    )
+      found = true;
+  });
+  return found;
+}
+
 export function makeCollisionMesh(model: THREE.Group) {
   const vertices: number[] = [];
   const indices: number[] = [];
@@ -173,7 +186,9 @@ export function makeCollisionMesh(model: THREE.Group) {
   model.traverse((object) => {
     if (
       !(object instanceof THREE.Mesh) ||
-      (!object.name.startsWith('building') && object.name !== 'campus-ground')
+      (!object.name.startsWith('building') &&
+        !object.name.startsWith('roof') &&
+        object.name !== 'campus-ground')
     ) {
       return;
     }

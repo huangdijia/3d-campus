@@ -1359,4 +1359,229 @@ button svg {
   min-width: 0;
 }
 
-@media(max-width:760px){.list-open .scene-container{bottom:52%}.list-open:has(.detail-panel) .scene-container{bottom:60%}.list-open .crosshair{top:24%}}
+@media (max-width: 760px) {
+  .list-open .scene-container {
+    bottom: 52%;
+  }
+  .list-open:has(.detail-panel) .scene-container {
+    bottom: 60%;
+  }
+  .list-open .crosshair {
+    top: 24%;
+  }
+}
+
+.header-end {
+  position: relative;
+}
+.share-feedback {
+  position: absolute;
+  right: 70px;
+  top: 40px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #ffffffed;
+  box-shadow: var(--shadow);
+  font-size: 12px;
+  color: #388764;
+  white-space: nowrap;
+}
+.share-popover {
+  position: absolute;
+  right: 0;
+  top: 46px;
+  width: 290px;
+  padding: 17px;
+  background: #fffffff5;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+.share-popover label {
+  display: block;
+  font-size: 12px;
+  padding-right: 20px;
+  margin-bottom: 12px;
+  color: #728a9b;
+}
+.share-popover input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #dbe4eb;
+  border-radius: 7px;
+  font-size: 12px;
+  background: #f5f8fb;
+}
+.share-popover > .icon-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.school-crumb {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 260px;
+}
+@media (max-width: 760px) {
+  .topbar {
+    gap: 10px;
+  }
+  .location-nav {
+    gap: 4px;
+  }
+  .location-nav > span,
+  .school-crumb {
+    max-width: 72px;
+  }
+  .header-end {
+    gap: 4px;
+  }
+  .share-feedback {
+    right: 0;
+    font-size: 11px;
+  }
+  .share-popover {
+    top: 39px;
+    width: 275px;
+  }
+}
+
+.explore-panel > .search-box {
+  margin-top: 20px;
+}
+@media (max-width: 760px) {
+  .explore-panel > .search-box {
+    margin-top: 14px;
+  }
+}
+
+.explore-panel {
+  background: linear-gradient(
+    125deg,
+    rgba(255, 255, 255, 0.64),
+    rgba(255, 255, 255, 0.48)
+  );
+  border-color: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(22px) saturate(1.45);
+  -webkit-backdrop-filter: blur(22px) saturate(1.45);
+}
+.filter-tabs button:last-child {
+  flex: 1;
+}
+@media (max-width: 760px) {
+  .explore-panel {
+    background: linear-gradient(
+      125deg,
+      rgba(255, 255, 255, 0.76),
+      rgba(255, 255, 255, 0.61)
+    );
+  }
+}
+
+.workspace {
+  top: 0;
+}
+.map-footer > button {
+  pointer-events: auto;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  text-align: left;
+}
+@media (max-width: 760px) {
+  .workspace {
+    top: 0;
+  }
+}
+
+.panel-action {
+  display: flex;
+  justify-content: center;
+  padding: 18px 22px 22px;
+  border-top: 0;
+}
+.enter-button {
+  width: auto !important;
+  min-width: 168px;
+  height: 43px !important;
+  justify-content: center !important;
+  gap: 14px !important;
+  padding: 0 23px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 0.92),
+    rgba(236, 245, 253, 0.74)
+  ) !important;
+  border: 1px solid rgba(255, 255, 255, 0.95) !important;
+  color: #315674 !important;
+  font-size: 13px !important;
+  font-weight: 550 !important;
+  box-shadow:
+    0 3px 12px #36597510,
+    inset 0 1px 0 #fff !important;
+}
+.enter-button:hover:not(:disabled) {
+  background: linear-gradient(150deg, #fff, #e1f0fc) !important;
+  box-shadow:
+    0 4px 15px #3d71921c,
+    inset 0 1px 0 #fff !important;
+}
+.enter-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.enter-button > svg {
+  width: 15px;
+  height: 15px;
+  color: #5b8cab;
+}
+.enter-button:disabled {
+  min-width: 180px;
+  background: #ffffff55 !important;
+  border-color: #ffffffaa !important;
+  color: #879aa9 !important;
+}
+.panel-back {
+  padding: 14px 18px;
+}
+.panel-back > button {
+  gap: 6px;
+  padding: 7px 11px;
+  border-radius: 999px;
+  border: 1px solid #ffffffb8;
+  background: #ffffff60;
+  box-shadow: 0 1px 4px #36597505;
+  color: #5c778a;
+  font-size: 12px;
+  font-weight: 500;
+}
+.panel-back > button:hover {
+  background: #ffffffc9;
+  color: #356e97;
+}
+.panel-back > button > svg {
+  width: 14px;
+  height: 14px;
+}
+.panel-back > span {
+  font-size: 10px;
+  color: #92a3ae;
+}
+@media (max-width: 760px) {
+  .panel-action {
+    padding: 13px 18px 17px;
+  }
+  .enter-button {
+    height: 41px !important;
+    font-size: 12px !important;
+    min-width: 155px;
+  }
+  .panel-back {
+    padding: 11px 15px;
+  }
+  .panel-back > button {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+}

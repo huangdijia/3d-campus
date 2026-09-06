@@ -1,0 +1,3056 @@
+{
+  "10001": {
+    "universityId": "10001",
+    "name": "北京大学",
+    "localPath": "/emblems/10001.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/peking-university-logo-512px.png",
+    "officialPage": "https://vim.pku.edu.cn/xzzq/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010001",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "29245c63335bc69bf9415d4cdcde7bebb7993ff8ed8d199e25132d80763c5319",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "068318bdc24411864208a2c4d527ffd23c5f41a4e38f978b291275a944db7453",
+    "sha256": "c70efd58942a8cf9a66bd7e4754896edf88e86f431cc666f032065b65167ce0e",
+    "width": 512,
+    "height": 512,
+    "bytes": 80216,
+    "format": "image/png"
+  },
+  "10002": {
+    "universityId": "10002",
+    "name": "中国人民大学",
+    "localPath": "/emblems/10002.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/renmin-university-of-china-logo-512px.png",
+    "officialPage": "https://www.ruc.edu.cn/cn/about/identification.html",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010002",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "263784c18ef6665b529f2b23898e5b3e070f08a69e19665312a12bb0f34c1ed7",
+    "sha256": "087dab30d4cf9e097f6915fb57d182471b32d483751e24e185411455adde8c97",
+    "width": 512,
+    "height": 512,
+    "bytes": 95412,
+    "format": "image/png"
+  },
+  "10003": {
+    "universityId": "10003",
+    "name": "清华大学",
+    "localPath": "/emblems/10003.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/tsinghua-university-logo-512px.png",
+    "officialPage": "https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010003",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "fe99ea08d484ca08c4697e648de841ba2c501d7297db547b55ea018dc926a34d",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ad2871b8f3d03440ebeb72caec308b2a4c2c6b6be3a4ef7da6dbf91c769a5805",
+    "sha256": "13cb64bde5a197e9cc93f09d925dedc55b7fbdce101e6ac6b71195adff7f0c84",
+    "width": 512,
+    "height": 517,
+    "bytes": 160006,
+    "format": "image/png"
+  },
+  "10004": {
+    "universityId": "10004",
+    "name": "北京交通大学",
+    "localPath": "/emblems/10004.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-jiaotong-university-logo-512px.png",
+    "officialPage": "https://www.bjtu.edu.cn/xxgk/xxbz/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010004",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "d55b91b23f6eab1e40e1eebc0d2ba7b2e0e243a1b1103fd8e599347136817a38",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "9bdeeda9b0d8840d158756e3577b00e25f715554cbc140d1d12a979749a6dc42",
+    "sha256": "dc89f5d628067d16cced3b4fcbe52432830e393483cb39f9f8adefa572e54827",
+    "width": 512,
+    "height": 511,
+    "bytes": 71789,
+    "format": "image/png"
+  },
+  "10005": {
+    "universityId": "10005",
+    "name": "北京工业大学",
+    "localPath": "/emblems/10005.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.bjut.edu.cn/dxwh/gdbs1.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010005",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "75c39595c0694442642f2bc3270031be58ebe3e2bb1ef7d9a2bf4bbbce2bfe49",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "bf7be6d78d2e70a1525fe6257961cc037fae858ef8af2d79276c3bbc4e3d851d",
+    "sha256": "a8dc372945fd1241534148992db0392aa09dcd619cc57e6feba999c03c071cd9",
+    "width": 512,
+    "height": 512,
+    "bytes": 64775,
+    "format": "image/png"
+  },
+  "10006": {
+    "universityId": "10006",
+    "name": "北京航空航天大学",
+    "localPath": "/emblems/10006.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beihang-university-logo-512px.png",
+    "officialPage": "https://www.buaa.edu.cn/bhgk/jrbh/bhxh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010006",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "5c0d602b73fd952289d26513b30409a015dda0191fb63a6f6b71728273a506e3",
+    "sha256": "7acffcd3cb512bb35386d24ff5fbf63cf44abc5ae8c4039d04fc00aa5d3c245d",
+    "width": 512,
+    "height": 512,
+    "bytes": 72052,
+    "format": "image/png"
+  },
+  "10007": {
+    "universityId": "10007",
+    "name": "北京理工大学",
+    "localPath": "/emblems/10007.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-institute-of-technology-logo-512px.png",
+    "officialPage": "https://www.bit.edu.cn/gbxxgk/dqgz_sjb/vixx/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010007",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "f94a34dbdc87abd78256617bb57c2ac2a01bdf0bddaf5e6d9ecb208bef02a8b4",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "7fd66e368b8d28502798d084f5bc67cc4ef13480414512b5fe1ff43dc1b26b45",
+    "sha256": "f8209c893701ab690ebe48ddcfe7a7cc7bd0d02e6314b8ab26405aaabd228e48",
+    "width": 512,
+    "height": 512,
+    "bytes": 84534,
+    "format": "image/png"
+  },
+  "10008": {
+    "universityId": "10008",
+    "name": "北京科技大学",
+    "localPath": "/emblems/10008.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/university-of-science--technology-beijing-logo-512px.png",
+    "officialPage": "https://memory.ustb.edu.cn/info/1013/1912.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010008",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "8db704fd8a14b34ae2adfbaf806c514db73cde46e51e30e3ffa88df37c2ecd92",
+    "sha256": "6140433322142fbdeb384865b62e54c2920de26836d09b7b3f101808949c964f",
+    "width": 512,
+    "height": 512,
+    "bytes": 90823,
+    "format": "image/png"
+  },
+  "10010": {
+    "universityId": "10010",
+    "name": "北京化工大学",
+    "localPath": "/emblems/10010.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-university-of-chemical-technology-logo-512px.png",
+    "officialPage": "https://www.buct.edu.cn/2019/1112/c1605a20133/page.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010010",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "5bea54920faebaaf7f919189d9fbb632bbe3802632d851bda85cec2b9376998e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ec23f0fdeae01196df317f51968c2ebe7e89537155e332cbda6bb080d4ba7cc2",
+    "sha256": "03aa6aab1c23ad2cb6b1df53ecac02871d9ecc1fd4353861b5130cf7f26457d4",
+    "width": 512,
+    "height": 512,
+    "bytes": 115880,
+    "format": "image/png"
+  },
+  "10013": {
+    "universityId": "10013",
+    "name": "北京邮电大学",
+    "localPath": "/emblems/10013.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-university-of-posts-and-telecommunications-logo-512px.png",
+    "officialPage": "https://www.bupt.edu.cn/bygk/zjby/bywh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010013",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 412: Precondition Failed"
+    },
+    "sourcePageSha256": "4acd3841ebfa25916e1e70e81db8a5f19c2a1bba0787c14e4b87b2808602a202",
+    "sha256": "2278844bd829b2e84252dc0581df4f5ece43ae3892d4d254fbb69eaa2f35662e",
+    "width": 512,
+    "height": 512,
+    "bytes": 91779,
+    "format": "image/png"
+  },
+  "10019": {
+    "universityId": "10019",
+    "name": "中国农业大学",
+    "localPath": "/emblems/10019.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-agricultural-university-logo-512px.png",
+    "officialPage": "https://www.cau.edu.cn/xxgk/whbz/sjsbxt/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010019",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "61577ae6d8ed2c53cd4b53d3e1ad21bf3d617fc13e4b1536e84f9a7deae0f603",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "5a6aba79c261a81cae978663f0568553612cafb763ea3eb3a04459e85bbce2ae",
+    "sha256": "702b83bf600f2e3d80f4554c93a3fe789ae52bdc59119fb5fbe4e7e3cb1ac98d",
+    "width": 512,
+    "height": 634,
+    "bytes": 117628,
+    "format": "image/png"
+  },
+  "10022": {
+    "universityId": "10022",
+    "name": "北京林业大学",
+    "localPath": "/emblems/10022.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-forestry-university-logo-512px.png",
+    "officialPage": "https://vi.bjfu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010022",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "f6b615bdc05309b7ae44316bd3045d65a84d6f66ce1c55b4790bd4ce51348be1",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "960d3070c5ed90819192a176a989c5b7deeac690906a8459a783b9132dbc5d7a",
+    "sha256": "1ae4652698d8c9df3471815f1e9eab27f41f849b3e2b0bcaf984487d9514d965",
+    "width": 512,
+    "height": 512,
+    "bytes": 81224,
+    "format": "image/png"
+  },
+  "10026": {
+    "universityId": "10026",
+    "name": "北京中医药大学",
+    "localPath": "/emblems/10026.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-university-of-chinese-medicine-logo-512px.png",
+    "officialPage": "https://www.bucm.edu.cn/xxgk1/whbz/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010026",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "c5bd2fadaf00e63bca135df75c0406d13b82dee9bec28b399bb5843c7c53941a",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "da352151a026141066651a82a4354c314d5f9c83b77e9df6a2aa8121ebfffb06",
+    "sha256": "29540a6b440b64d6fd75c1cae4ba6866f4bf6a3e9bf467ed543fcd879e75d721",
+    "width": 512,
+    "height": 555,
+    "bytes": 91565,
+    "format": "image/png"
+  },
+  "10027": {
+    "universityId": "10027",
+    "name": "北京师范大学",
+    "localPath": "/emblems/10027.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-normal-university-logo-512px.png",
+    "officialPage": "https://xcb.bnu.edu.cn/fwzn/xzzx/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010027",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "d190f0cdde90100ed66df942d476626e3d770730498cbefcf04014132e44f3d1",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "f163f454c574d74e324530a89dbfac04c0764faf921c36cca0659ff96a90ac6e",
+    "sha256": "ac383bc8a1641f587299f9ee7d67a1ee3ea57a3ab4961a5ad841c239f56535e6",
+    "width": 512,
+    "height": 512,
+    "bytes": 110532,
+    "format": "image/png"
+  },
+  "10030": {
+    "universityId": "10030",
+    "name": "北京外国语大学",
+    "localPath": "/emblems/10030.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-foreign-studies-university-logo-512px.png",
+    "officialPage": "https://www.bfsu.edu.cn/xxgk/xxxhxg.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010030",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b3d1b79f25f1910ee1f690ccd637342a2c2de78ccd5ccf7818112264b1ab1442",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "be94aa32d222cebd1164e34fe9ca51a325d4640fe3d14b0baf1f22795fecf598",
+    "sha256": "01c4d101de80f04c57d3464f2ab1d65d70481e04e2ca19d0a5b03224f0bebb72",
+    "width": 512,
+    "height": 632,
+    "bytes": 112080,
+    "format": "image/png"
+  },
+  "10033": {
+    "universityId": "10033",
+    "name": "中国传媒大学",
+    "localPath": "/emblems/10033.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/communication-university-of-china-logo-512px.png",
+    "officialPage": "https://www.cuc.edu.cn/news/2014/1222/c1902a54419/pagem.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010033",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "6d1db091997f85449205b36bb3617028e4cbb1e4d0e25a2f96f7d3fdbe5189f6",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "3ba7ca5a54e66d881b4df9afedc95a75c7ee62d4c5e9b7966cb9417be12e28f4",
+    "sha256": "1fd1f0bfa2c986c8052fe5bc56f04d509541f61113e9a49303c0c82e1bd0d3ff",
+    "width": 512,
+    "height": 512,
+    "bytes": 104045,
+    "format": "image/png"
+  },
+  "10034": {
+    "universityId": "10034",
+    "name": "中央财经大学",
+    "localPath": "/emblems/10034.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/central-university-of-finance-and-economics-logo-512px.png",
+    "officialPage": "https://www.cufe.edu.cn/info/1033/1072.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010034",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "99ae28ed7d989a89443415396cf90d77cd7dd3ce3503ef9fff18d447b6274f20",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ee2e0f7b371336486396b5c2a23ba4e257cfa997724086f32f27ff69875100d3",
+    "sha256": "4ad5a2253ae506ca091f81afd637004146f8d620192c9f734c5c3b8dc2554236",
+    "width": 512,
+    "height": 517,
+    "bytes": 119294,
+    "format": "image/png"
+  },
+  "10036": {
+    "universityId": "10036",
+    "name": "对外经济贸易大学",
+    "localPath": "/emblems/10036.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/university-of-international-business-and-economics-logo-512px.png",
+    "officialPage": "http://www.uibe.edu.cn/xywh/xhxq/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010036",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "d188c85387dc661fcd9f4210252863f8d9bae5dea198a11380003394cde45698",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "284391406b73ef0ea06b3bfcc6a057b64738aa226b758034f454c25bb39cb60f",
+    "sha256": "100c2cf9b7ceab19058291f19187aed5cd04d11c38b705054ee17ef04f5a16c6",
+    "width": 512,
+    "height": 477,
+    "bytes": 44780,
+    "format": "image/png"
+  },
+  "10043": {
+    "universityId": "10043",
+    "name": "北京体育大学",
+    "localPath": "/emblems/10043.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-sport-university-logo-512px.png",
+    "officialPage": "https://www.bsu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010043",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "42505395173af31a837876a69af3a71b7b0c6ffb9d6baa17b9b07cee84dfa702",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "56a59471d381976549e08ac3ef4516457e0ba94ba83a4039e26adaf3c963a5a3",
+    "sha256": "44ab4502c67f72f5e78c97d8a394804a70d57a39f8046eeadf7920202dcc5d93",
+    "width": 512,
+    "height": 482,
+    "bytes": 40822,
+    "format": "image/png"
+  },
+  "10045": {
+    "universityId": "10045",
+    "name": "中央音乐学院",
+    "localPath": "/emblems/10045.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/central-conservatory-of-music-logo-512px.png",
+    "officialPage": "https://www.ccom.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010045",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "6d5f91ae04d44be9a0c00f06aa28ce2274a5fe41a53ae636b2835eab485bb65d",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "da7dd90987799b94febe8993f584d9c5cc59dcf5cce7ea3d7772404f26034d75",
+    "sha256": "2d41f09468c9b894128a7569062049a96fa3bc37051ca6ffb29d1655f63d45cd",
+    "width": 512,
+    "height": 634,
+    "bytes": 37954,
+    "format": "image/png"
+  },
+  "10052": {
+    "universityId": "10052",
+    "name": "中央民族大学",
+    "localPath": "/emblems/10052.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/minzu-university-of-china-logo-512px.png",
+    "officialPage": "https://www.muc.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010052",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b621df7450a8816184a4b9a92a20a00a7279f0579de51518ccd5f658107cae94",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "5437f2d3888fa7b2000412d32e341ea09b34cf5eb39c9adde9d88f8575d7122c",
+    "sha256": "709457736715236acfe72d37937c3819d159700797c429c21186d2d4cb55ab39",
+    "width": 512,
+    "height": 512,
+    "bytes": 70802,
+    "format": "image/png"
+  },
+  "10053": {
+    "universityId": "10053",
+    "name": "中国政法大学",
+    "localPath": "/emblems/10053.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-political-science-and-law-logo-512px.png",
+    "officialPage": "https://news.cupl.edu.cn/info/1020/31701.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010053",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "3ca832535c58e5062a70bc01037582aaf1360e121a9daf3a27ebfbfd516d5bbd",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "8bd87b6f5e9218ca876c7f354201cf39c8c7f7f3f30667f846e202205805a83c",
+    "sha256": "2c1e54a0f0e0d1a5daee00e405420b2b0a5dd6966ecd3e07d1a9f0b2d69cddfd",
+    "width": 512,
+    "height": 512,
+    "bytes": 86450,
+    "format": "image/png"
+  },
+  "10054": {
+    "universityId": "10054",
+    "name": "华北电力大学",
+    "localPath": "/emblems/10054.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/north-china-electric-power-university-logo-512px.png",
+    "officialPage": "https://www.ncepu.edu.cn/xxgk2/xb/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111010054",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "b0ce1a03331d01407179d626731cc870d0ca36f8a8272bbf39f0a10c4bd130d3",
+    "sha256": "43756b5930a2f87c8af2092d8382fe7d0553e6cb0d4a2bb7e012f18fcbe3a198",
+    "width": 512,
+    "height": 512,
+    "bytes": 74732,
+    "format": "image/png"
+  },
+  "10055": {
+    "universityId": "10055",
+    "name": "南开大学",
+    "localPath": "/emblems/10055.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nankai-university-logo-512px.png",
+    "officialPage": "https://www.nankai.edu.cn/164/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4112010055",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "bb8a98bd1ef9b8952edfa11be4678533433ab5cb76fd24663a41b43efc86bedb",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ff06521172f8d0e8276074b5ed1dafe210c83aa3157de0a9922cb81a900602c0",
+    "sha256": "b7304c9d690920b59f83596bad7802cd4ac8aeadc442d7ca470c964a9cbd17ad",
+    "width": 512,
+    "height": 512,
+    "bytes": 77825,
+    "format": "image/png"
+  },
+  "10056": {
+    "universityId": "10056",
+    "name": "天津大学",
+    "localPath": "/emblems/10056.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/tianjin-university-logo-512px.png",
+    "officialPage": "https://www.tju.edu.cn/tdgk/tdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4112010056",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b12da2e2bb5f067261101fdb9b494ca594b7ceab17651980e6eac9a890437a9c",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "db8fa6c2897da090d48142430a59877f409f45cb4741f6677bad40163822a177",
+    "sha256": "49e3157b820e934d9c23b652a0e1143a79a4369cc2d8722bccdf122549d1db4f",
+    "width": 512,
+    "height": 512,
+    "bytes": 95561,
+    "format": "image/png"
+  },
+  "10062": {
+    "universityId": "10062",
+    "name": "天津医科大学",
+    "localPath": "/emblems/10062.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/tianjin-medical-university-logo-512px.png",
+    "officialPage": "http://www.tmu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4112010062",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "720bacbdf2974d202deedf86133b86746e97b5d020be68d09cbea861fbf2b167",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "496182e57104c3d70290170a11312d6d739013ea4f2f584e09d187b38393c738",
+    "sha256": "0b2f97528f4788156168234b01ce314686ebef1471a8d674dfd115b014b32b93",
+    "width": 512,
+    "height": 512,
+    "bytes": 106523,
+    "format": "image/png"
+  },
+  "10080": {
+    "universityId": "10080",
+    "name": "河北工业大学",
+    "localPath": "/emblems/10080.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hebei-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.hebut.edu.cn/gdgk/xxbz/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4113010080",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "8a156dd5047390411c1b1b221d6a60ec8420d169c8b26bc9d426f11ab240ad3a",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "a29fbe92ab29ec5321855b00cd625201290d33ea1acf15299047de56ce6b51f2",
+    "sha256": "928607c466cf472ce02aac049132951e752b8060607d0d3579513fdd61cd2291",
+    "width": 512,
+    "height": 512,
+    "bytes": 103718,
+    "format": "image/png"
+  },
+  "10112": {
+    "universityId": "10112",
+    "name": "太原理工大学",
+    "localPath": "/emblems/10112.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/taiyuan-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.tyut.edu.cn/xxgk1/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4114010112",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "1f21999e9e7acfd286ea0210a6777a08160d2255bf1a4c7f552f84bad43e66e8",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "55247b5a9008b31bf629f7805910f6b2ca614351e47b6d327823d66a16878a91",
+    "sha256": "17323ec7f162baeb64c63f86f47ba920d96e40fa20b6aa8f9848a520f95184e3",
+    "width": 512,
+    "height": 512,
+    "bytes": 80111,
+    "format": "image/png"
+  },
+  "10126": {
+    "universityId": "10126",
+    "name": "内蒙古大学",
+    "localPath": "/emblems/10126.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/inner-mongolia-university-logo-512px.png",
+    "officialPage": "https://news.imu.edu.cn/xxVIS/VIxz/cgVI.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4115010126",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "35b37f5d48fbf6d6f16437f4ce7f5fe7517751fc4b50aa099a17c8a0f26f9bd5",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "91e8c3bf5494dc40183fef5496ef66750473c2180ada2241717037030acd417e",
+    "sha256": "ec7924d1c3d19532c63ffcaf8f2fbb85bd2d86332e3148187d92921c9badcf3a",
+    "width": 512,
+    "height": 512,
+    "bytes": 80867,
+    "format": "image/png"
+  },
+  "10140": {
+    "universityId": "10140",
+    "name": "辽宁大学",
+    "localPath": "/emblems/10140.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/liaoning-university-logo-512px.png",
+    "officialPage": "https://www.lnu.edu.cn/xxgk/xhxx.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4121010140",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "8d98df0d46e9c5dba530e1010630a1f5abb4d41964b804617d441a368767a26a",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "7cb4ebe593c88329e25affffc6cfe6b78cef4e5a8f968e05ab74dd3b4d62192c",
+    "sha256": "99f2861da0ca2a9b1c2b687b7dd20466e5620ef5fe7cbf1fec4c16691ef48e4d",
+    "width": 512,
+    "height": 512,
+    "bytes": 279606,
+    "format": "image/png"
+  },
+  "10141": {
+    "universityId": "10141",
+    "name": "大连理工大学",
+    "localPath": "/emblems/10141.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/dalian-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.dlut.edu.cn/xxgk/dxwh/xxVI.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4121010141",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "73db8d0c2fb138b74e3f748bf54a5421c337c9ba5c0da5ca5354e6371660699e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "a0020e5bd3a608d0c1815334abaff586a46afe94a126cd53d98078f76d182f40",
+    "sha256": "ae25ff9afcd7d95f0bba83ce49be40dcd5bdf9abde8cd0db949744f22de4b74b",
+    "width": 512,
+    "height": 512,
+    "bytes": 81091,
+    "format": "image/png"
+  },
+  "10145": {
+    "universityId": "10145",
+    "name": "东北大学",
+    "localPath": "/emblems/10145.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northeastern-university-logo-512px.png",
+    "officialPage": "https://www.neu.edu.cn/xygk/ddbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4121010145",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "552cc6eeafb4a208f82b3c712eccbbf016032528e06ea923f692dedbe3c825c3",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "f0a1b5b2aeeb003a906106b7be2bbd3bc81c73aa747fbd34d4b2eba5fb3f7dd4",
+    "sha256": "8898c8e2ec68e99de6f4de117152064f9b8583989ed78163291fc1711bff2d32",
+    "width": 512,
+    "height": 512,
+    "bytes": 108514,
+    "format": "image/png"
+  },
+  "10151": {
+    "universityId": "10151",
+    "name": "大连海事大学",
+    "localPath": "/emblems/10151.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/dalian-maritime-university-logo-512px.png",
+    "officialPage": "https://www.dlmu.edu.cn/xxgk/xxzc.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4121010151",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "819cfac63afcb2879e1409f842aea7e15a4dc2ee4c2d32d74ccbe984d7627e3a",
+    "sha256": "65bd7b38e8ff6a483361bfe0bb3564da31fbcdabff718a1b373049ddbe738c54",
+    "width": 512,
+    "height": 512,
+    "bytes": 71296,
+    "format": "image/png"
+  },
+  "10183": {
+    "universityId": "10183",
+    "name": "吉林大学",
+    "localPath": "/emblems/10183.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/jilin-university-logo-512px.png",
+    "officialPage": "https://www.jlu.edu.cn/xxgk/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4122010183",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "075185b0ea32555165733c8f491a397c8ca5c7071acf02cdb5bdf1424e8ccfc8",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "d9a8c9a1402710e1a121347a570c820eb5a337bf73ae25e73895e21a6354b0e7",
+    "sha256": "654f650c7a226a92d725211d3fb7b604681099b26d6001269fccb725ca1ec9ac",
+    "width": 512,
+    "height": 511,
+    "bytes": 77900,
+    "format": "image/png"
+  },
+  "10184": {
+    "universityId": "10184",
+    "name": "延边大学",
+    "localPath": "/emblems/10184.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/yanbian-university-logo-512px.png",
+    "officialPage": "https://www.ybu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4122010184",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    "sourcePageSha256": "9801f24a3d8e98fdacc993bc266a38511a1f8c1c306e7f3091fd1114b38e55dd",
+    "sha256": "796e401b52341ce94aab10a50d3e85571b5d359e3aa0364a80e8d047fdc685e1",
+    "width": 512,
+    "height": 511,
+    "bytes": 75738,
+    "format": "image/png"
+  },
+  "10200": {
+    "universityId": "10200",
+    "name": "东北师范大学",
+    "localPath": "/emblems/10200.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northeast-normal-university-logo-512px.png",
+    "officialPage": "http://sjxxsbxt.nenu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4122010200",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "fbe2d4046a8728abbab47f36a329bba7a79c641dd0917aa4ab9a722624338e6a",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "73d093c4d56fbfe4f525b3d7b23fa3f5c7eff4aa9c97410e0f26711f4f7808e2",
+    "sha256": "57d6d248919feac2a9fe06a5166ca08dfea222b960ff4e47c8e737fc264c1605",
+    "width": 512,
+    "height": 430,
+    "bytes": 86082,
+    "format": "image/png"
+  },
+  "10213": {
+    "universityId": "10213",
+    "name": "哈尔滨工业大学",
+    "localPath": "/emblems/10213.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/harbin-institute-of-technology-logo-512px.png",
+    "officialPage": "https://www.hit.edu.cn/11544/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4123010213",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "3c75e85cb23458016d57eba7ac5835318e719ee9b7f5081e5bec4553cd0463df",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "c5769b90d05520b6c72fc44d8e4a8b316a0fc8b7a6d8bc195e5016b555343b16",
+    "sha256": "9f4647055ed87c31992d215f21289fa771cbb8191a83a309287e6fd261200c40",
+    "width": 512,
+    "height": 462,
+    "bytes": 51601,
+    "format": "image/png"
+  },
+  "10217": {
+    "universityId": "10217",
+    "name": "哈尔滨工程大学",
+    "localPath": "/emblems/10217.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/harbin-engineering-university-logo-512px.png",
+    "officialPage": "https://www.hrbeu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4123010217",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "dba770aee30090cd2c9cc58145b6e74bb9f9e692664e2a4e2eed5dcfd00f8970",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "d7f44ca5390cbdf6fa375a64ec92f97d472b0435d214c085cd14ed5e043386bc",
+    "sha256": "5c2f6f4753884fd993eb4dde3136e0e0cb2b3b3992859f8ec7f0d26eef4372fc",
+    "width": 512,
+    "height": 512,
+    "bytes": 143835,
+    "format": "image/png"
+  },
+  "10224": {
+    "universityId": "10224",
+    "name": "东北农业大学",
+    "localPath": "/emblems/10224.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northeast-agricultural-university-logo-512px.png",
+    "officialPage": "http://www.neau.edu.cn/info/1029/16213.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4123010224",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "Remote end closed connection without response"
+    },
+    "sourcePageSha256": "54971a3d66f5b9fd23e2922b0355690594f76e4d0eb829171b088c2c6fc927c4",
+    "sha256": "fdd5e815f9248bb5c181cca73b7a1534c035cef2b2381ed45e14c1b0837cbf5d",
+    "width": 512,
+    "height": 512,
+    "bytes": 85814,
+    "format": "image/png"
+  },
+  "10225": {
+    "universityId": "10225",
+    "name": "东北林业大学",
+    "localPath": "/emblems/10225.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northeast-forestry-university-logo-512px.png",
+    "officialPage": "https://culture.nefu.edu.cn/sjsb/jbys/xxbzgf2.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4123010225",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "3c7aa6d95dcb068a0e3cc8716af1b6ee982bdfac1254df8727c26dcfc39dce50",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ab7e2594d39aaae9ff000586fdc177d73e2b2264916195fbdfe9bd3249629649",
+    "sha256": "269030379271c712b7a5cbe430911fe2e8707019ce8c6f2e3446cc90651b455f",
+    "width": 512,
+    "height": 512,
+    "bytes": 73729,
+    "format": "image/png"
+  },
+  "10246": {
+    "universityId": "10246",
+    "name": "复旦大学",
+    "localPath": "/emblems/10246.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/fudan-university-logo-512px.png",
+    "officialPage": "https://www.fudan.edu.cn/bsxt/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010246",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "fdc04b3fe9fcd46b6384c7016d4ebce042d482a78c170f84e7d46eaeca4ad6a1",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "2d43118ed629343da1311f05fd2361b17b4630e3da6ce80d28ab490ed8fe96f4",
+    "sha256": "ad53067852e02b944a2431000ce751dce540be62c81850fae8e1fae5e3103602",
+    "width": 512,
+    "height": 512,
+    "bytes": 83647,
+    "format": "image/png"
+  },
+  "10247": {
+    "universityId": "10247",
+    "name": "同济大学",
+    "localPath": "/emblems/10247.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/tongji-university-logo-512px.png",
+    "officialPage": "https://www.tongji.edu.cn/xxgk1/xxbs1.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010247",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "3f985e7f043dc4bd17f419a509e7f5509702136fdc00a550b8131aaca9e627da",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "779d71d2e656c4ca192c88ee6c391b0c2e4f755a88edfeabbe638ea6109e66ec",
+    "sha256": "7bd4a321fae9549d41ada3bcf0ec4f4169f1ac75318e4b724237d53ab72e1a43",
+    "width": 512,
+    "height": 512,
+    "bytes": 84001,
+    "format": "image/png"
+  },
+  "10248": {
+    "universityId": "10248",
+    "name": "上海交通大学",
+    "localPath": "/emblems/10248.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-jiao-tong-university-logo-512px.png",
+    "officialPage": "https://vi.sjtu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010248",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "bb5bb7f81964de291330ebe6609928d44552dad3a64d85ec38c257eee8b9522e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "fc0d0fdceb2dbcd38b03b8b28b4199d8faf7e2dabdef2243ee5638f8c28d9892",
+    "sha256": "7e27665938606c4b3a14c330b2f0dfa00b6dc5863cd1f661aca40eaf4923ff35",
+    "width": 512,
+    "height": 512,
+    "bytes": 101629,
+    "format": "image/png"
+  },
+  "10251": {
+    "universityId": "10251",
+    "name": "华东理工大学",
+    "localPath": "/emblems/10251.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/east-china-university-of-science-and-technology-logo-512px.png",
+    "officialPage": "http://xiaoban.ecust.edu.cn/10389/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010251",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "66d2742958bdc6795b1e78f951c85d0eca889357aec0d2f47d3e366f9cac7189",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "85dfc4d6c3c0ecd8cfd05cd27421fb016b76493afecd2b0496566741c0f814fc",
+    "sha256": "f5bfa2e43e124336a0c1bbd3dc23e0c9480a1397040cd0d8a5a117ab57ed8065",
+    "width": 512,
+    "height": 512,
+    "bytes": 80987,
+    "format": "image/png"
+  },
+  "10255": {
+    "universityId": "10255",
+    "name": "东华大学",
+    "localPath": "/emblems/10255.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/donghua-university-logo-512px.png",
+    "officialPage": "http://www.dhu.edu.cn/5952/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010255",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "1225821ce6e99da65034db781b6a51c7211d4552ecf0da3c3fbb44a44a6c0fb6",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "7c7bf89c19af5e8ed17226af9feb5f5201ca351460764ef3efb0ac4c9e75201e",
+    "sha256": "1c9e155a41eab439dfee61916086979610431b5d03b6446b6691389ca9059eaf",
+    "width": 512,
+    "height": 512,
+    "bytes": 83207,
+    "format": "image/png"
+  },
+  "10269": {
+    "universityId": "10269",
+    "name": "华东师范大学",
+    "localPath": "/emblems/10269.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/east-china-normal-university-logo-512px.png",
+    "officialPage": "https://www.ecnu.edu.cn/wzcd/xxgk/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010269",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "3b012c72fef07b3750d30ebb87fb00cbc99c75d7ff91ca3590e33d6d5a23cbc9",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "2e3a7f39af4194d78716e9e1d357f70470c949c60e808840133477a64244bd2d",
+    "sha256": "ea791c01271a5f340f41e663d28a33a5ea38ef55c6794c73aef7d03575ee469e",
+    "width": 512,
+    "height": 512,
+    "bytes": 87592,
+    "format": "image/png"
+  },
+  "10271": {
+    "universityId": "10271",
+    "name": "上海外国语大学",
+    "localPath": "/emblems/10271.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-international-studies-university-logo-512px.png",
+    "officialPage": "http://www.shisu.edu.cn/about/identity-guidelines",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010271",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "ef58291626417fa18632e70688294b521575ee7164d6904eb9dcdd15bdfcc0b6",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "f74faabe4dee7eca10882e384f56db83522c0d37691d8a09222bfbdf2f959757",
+    "sha256": "8690bec5cdb6090f0e01c77020a6adf0ce49217ed988a9144e43739127472603",
+    "width": 512,
+    "height": 512,
+    "bytes": 64733,
+    "format": "image/png"
+  },
+  "10272": {
+    "universityId": "10272",
+    "name": "上海财经大学",
+    "localPath": "/emblems/10272.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-university-of-finance-and-economics-logo-512px.png",
+    "officialPage": "https://gongkai.sufe.edu.cn/50/cd/c226a20685/page.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010272",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "30cce50c3f2c67d01ed9fd6badf41b0201fecba7a1cc4746648de51c12fa1149",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "8308ceac6585765447fd6408d8921e31d7c30bc439fe6606048b63e00eb7b585",
+    "sha256": "29acee00d86929ebe4292af77c4b733964ac804f5d1c9374a269b23d6b9c5150",
+    "width": 512,
+    "height": 512,
+    "bytes": 102450,
+    "format": "image/png"
+  },
+  "11903": {
+    "universityId": "11903",
+    "name": "上海大学",
+    "localPath": "/emblems/11903.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-university-logo-512px.png",
+    "officialPage": "https://www.shu.edu.cn/xxgk/sdwh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4131010280",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "84eb97511c37560beb8e6abf5bf1e68607cdc32393a5e82c90d74d3dc4d8eac8",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "3477c1891ef57221860dbf8c68c9a8933da4adf5e32110c2e240a0fcaa305152",
+    "sha256": "27a3dc9076507458ea6631a99c93a5f6ea90c9ada705b01199dc33255f1238c9",
+    "width": 512,
+    "height": 643,
+    "bytes": 67287,
+    "format": "image/png"
+  },
+  "91020": {
+    "universityId": "91020",
+    "name": "中国人民解放军海军军医大学",
+    "localPath": null,
+    "sourceUrl": null,
+    "officialPage": "https://www.smmu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "公开 VIS 目录未找到校名完全匹配的资源；不使用相似学校或旧军医校徽代替。"
+    ],
+    "retrievedAt": "2026-09-06"
+  },
+  "10284": {
+    "universityId": "10284",
+    "name": "南京大学",
+    "localPath": "/emblems/10284.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-university-logo-512px.png",
+    "officialPage": "https://www.nju.edu.cn/ndgk/ndbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010284",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "a6b3057546c9e83b782d4299b8a0b53b3b01aaa636b7cff2868534e403b52ebe",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "11a0e152f8e0cd20e97ad8453fd4f8e9f66e5c6ada2bf7cdd36174cd207d2c31",
+    "sha256": "a13899e11eb1e9511c345db6cdafdca7ea3941e651bd752449985adf521bc360",
+    "width": 512,
+    "height": 625,
+    "bytes": 76743,
+    "format": "image/png"
+  },
+  "10285": {
+    "universityId": "10285",
+    "name": "苏州大学",
+    "localPath": "/emblems/10285.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/soochow-university-logo-512px.png",
+    "officialPage": "https://www.suda.edu.cn/portal/uis.html",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010285",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "6829d3a1890c7dfda75e8d45ed88313370c9b8360f448d73406cace8b62330f5",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "a739096bca28094258a8266d7d799fd0a40f74b09cc593206507994bea378ae6",
+    "sha256": "a7dd92bcc9368a91cfd0163e0ed20e52caab624314c760abda046387a13257e1",
+    "width": 512,
+    "height": 512,
+    "bytes": 108620,
+    "format": "image/png"
+  },
+  "10286": {
+    "universityId": "10286",
+    "name": "东南大学",
+    "localPath": "/emblems/10286.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/southeast-university-logo-512px.png",
+    "officialPage": "http://www.seu.edu.cn/2017/0531/c17410a190411/page.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010286",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "1cc66547e3d20fe33171c6717ef9a2779906e29de706cf92a8210f21bf514c59",
+    "sha256": "b152bd7d4ac19f748df18d65172750d2a0afd21dca9c7b1327940f9c0ac0bd74",
+    "width": 512,
+    "height": 512,
+    "bytes": 114455,
+    "format": "image/png"
+  },
+  "10287": {
+    "universityId": "10287",
+    "name": "南京航空航天大学",
+    "localPath": "/emblems/10287.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-university-of-aeronautics-and-astronautics-logo-512px.png",
+    "officialPage": "https://vi.nuaa.edu.cn/12426/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010287",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "13deff4207ece7ceac334a5c23d3b6946151143ae1f5cb83eab882b307255915",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "8bad7009ec75ac1ca81a6cdf7a40dfb2cb9ea2cc231581214a4938cda9cc9745",
+    "sha256": "e7bf06fa92c55265ee340327f28c5cbf65568761020329af79cdf31e488aaa58",
+    "width": 512,
+    "height": 512,
+    "bytes": 104895,
+    "format": "image/png"
+  },
+  "10288": {
+    "universityId": "10288",
+    "name": "南京理工大学",
+    "localPath": "/emblems/10288.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-university-of-science--technology-logo-512px.png",
+    "officialPage": "https://www.njust.edu.cn/rczp_12606/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010288",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "ce30e3e252348c4c31f7a5081acb008d636470b0f229c28509dfacb6d222fdcb",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "bffcd868a03071850c2d8ab8ae3172ab35a3118ef71922ac5cd393dd554f1ab7",
+    "sha256": "29205a745a548846f31eada2214def5a0c19a2761ef6091306d455c16754a229",
+    "width": 512,
+    "height": 512,
+    "bytes": 102514,
+    "format": "image/png"
+  },
+  "10290": {
+    "universityId": "10290",
+    "name": "中国矿业大学",
+    "localPath": "/emblems/10290.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-mining-and-technology-logo-512px.png",
+    "officialPage": "https://www.cumt.edu.cn/19843/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010290",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "7ae6bb97676a5c85760a6947024ee7b29440a95573466fc2007446b731a81cc9",
+    "sha256": "cf217b9846c8975738cda19d1340bde2d73a9833059429455ced9a8dc86d3db4",
+    "width": 512,
+    "height": 512,
+    "bytes": 101199,
+    "format": "image/png"
+  },
+  "10294": {
+    "universityId": "10294",
+    "name": "河海大学",
+    "localPath": "/emblems/10294.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hohai-university-logo-512px.png",
+    "officialPage": "https://www.hhu.edu.cn/_t129/2021/0326/c179a220941/page.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010294",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "89dc7fb9b67f5c3fdcca1b46927d6fa38cbde8dfa22b008399b34030568b5dc2",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "dace30a9a2ae7d3bd3d35939754f0f8f5011ab49c6358f0e29e3752c8055acab",
+    "sha256": "69abde14c319a22708623aea26ee7b542dbb1a594d8a1f334d6f0712bba70c71",
+    "width": 512,
+    "height": 512,
+    "bytes": 86829,
+    "format": "image/png"
+  },
+  "10295": {
+    "universityId": "10295",
+    "name": "江南大学",
+    "localPath": "/emblems/10295.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/jiangnan-university-logo-512px.png",
+    "officialPage": "https://www.jiangnan.edu.cn/xxgk/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010295",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "ac5a94d03a2704a5a86a0c233900e11b7404f6e26f8a1de0411205ba5b148bbc",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "1cd5cfe7805cc165a3df78833183b02697b2528a1896e83c75cd618a92cb0701",
+    "sha256": "6eccd4d067936c59eaa88a1844ccdd40db5155684c07242ea801bb6d4371b8d0",
+    "width": 512,
+    "height": 512,
+    "bytes": 75787,
+    "format": "image/png"
+  },
+  "10307": {
+    "universityId": "10307",
+    "name": "南京农业大学",
+    "localPath": "/emblems/10307.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-agricultural-university-logo-512px.png",
+    "officialPage": "http://www.njau.edu.cn/xxwxh/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010307",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "dbb4fe4ff84a7b96387f777a2f48998708261fc4481268d50c8aba74f2a7e10e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "0c1b4dc237ba3ef768aa7f68745e07b65f875e44e203e8f1e9de384bf1c9cac7",
+    "sha256": "279f03f616e3ee324ffcc9893e7bc8eabd8fd1914bd0be90bc3c4bcbdcf94b21",
+    "width": 512,
+    "height": 506,
+    "bytes": 168092,
+    "format": "image/png"
+  },
+  "10316": {
+    "universityId": "10316",
+    "name": "中国药科大学",
+    "localPath": "/emblems/10316.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-pharmaceutical-university-logo-512px.png",
+    "officialPage": "https://www.cpu.edu.cn/11463/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010316",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "1d5e590a52c729ed73086dd1211024123ea6f12ddb50ab4c8c9cedacac592894",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "22a93b650139078ce672fb3031e8d8d73b79a1fe8cdd270145f15b6495ee0cef",
+    "sha256": "f35f1172590cb9501e50e6f8413e1a0edcab1bc642e84d66df2b2969ce5f249a",
+    "width": 512,
+    "height": 512,
+    "bytes": 85032,
+    "format": "image/png"
+  },
+  "10319": {
+    "universityId": "10319",
+    "name": "南京师范大学",
+    "localPath": "/emblems/10319.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-normal-university-logo-512px.png",
+    "officialPage": "http://www.njnu.edu.cn/xxgk/xbxg.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4132010319",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 412: Precondition Failed"
+    },
+    "sourcePageSha256": "0afb22373c0c665d0de0c529627fcf49f1f7795adb641ec681749dab41a4beb0",
+    "sha256": "9967320d8415e69c38bc70f871952fa88edae4fdebe5a13e127a38809e76832f",
+    "width": 512,
+    "height": 536,
+    "bytes": 66829,
+    "format": "image/png"
+  },
+  "10335": {
+    "universityId": "10335",
+    "name": "浙江大学",
+    "localPath": "/emblems/10335.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/zhejiang-university-logo-512px.png",
+    "officialPage": "https://www.zju.edu.cn/xxbs/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4133010335",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "299332bcb1155744183acbeb204145cab6fd15b358af31ac96826b6bb2af3a5b",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "5104aa6f69bdb8c50069f410ffd4767a493b9b18da3fd9c7322b82fa7eae437f",
+    "sha256": "eb58345892b7e05ee9ac992d2d95a7ebb2cdf0297fd91405251eca65193477b1",
+    "width": 512,
+    "height": 512,
+    "bytes": 67834,
+    "format": "image/png"
+  },
+  "10357": {
+    "universityId": "10357",
+    "name": "安徽大学",
+    "localPath": "/emblems/10357.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/anhui-university-logo-512px.png",
+    "officialPage": "https://www.ahu.edu.cn/149/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4134010357",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "06534838f65993f4f5a7514dfd0e77867299c7bb8a63f3835fb293f661ac7e83",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "652ed44affd64330562d3c37c1aa82e999921265f6f26e19fae92ef308679157",
+    "sha256": "fd1c99295e80db805097d8ebb476da938202f1a2e45eac1b12090538b64cd3ff",
+    "width": 512,
+    "height": 512,
+    "bytes": 73305,
+    "format": "image/png"
+  },
+  "10358": {
+    "universityId": "10358",
+    "name": "中国科学技术大学",
+    "localPath": "/emblems/10358.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/university-of-science-and-technology-of-china-logo-512px.png",
+    "officialPage": "https://lswhw.ustc.edu.cn/index.php/index/info/3365",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4134010358",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    "sourcePageSha256": "e5c32851e90ec8cca4470542388e4889c49801bed079302d2b3aaaf113c8c298",
+    "sha256": "b59d87b60e198e8dc34929fd9f7407f6603b63f1220168f46f9b06eb40bdf111",
+    "width": 512,
+    "height": 512,
+    "bytes": 77274,
+    "format": "image/png"
+  },
+  "10359": {
+    "universityId": "10359",
+    "name": "合肥工业大学",
+    "localPath": "/emblems/10359.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hefei-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.hfut.edu.cn/xxgk1/gdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4134010359",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "72e96556bceaa06d17af7df8073fb1f1043c3f2c5e74ef46b77d0a63411ac933",
+    "sha256": "f4793aa096a6a26ee4e03e4b5578939c4c2568dc6dc7fb183ee6288f1213e1a3",
+    "width": 512,
+    "height": 512,
+    "bytes": 68814,
+    "format": "image/png"
+  },
+  "10384": {
+    "universityId": "10384",
+    "name": "厦门大学",
+    "localPath": "/emblems/10384.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/xiamen-university-logo-512px.png",
+    "officialPage": "https://www.xmu.edu.cn/sdgl/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4135010384",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "44d39e0bd2bd94b3a4029185a5b969288ecfbabb96e850d65b4d7dc28fe6ebbe",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "43d5773505da2dbc0aedaf317315a3974bcdef2e37f99141bf0c203665225542",
+    "sha256": "9191e449de1379c977c22d47c8be4e9ffcea98d2698a993fd7f963ccb2d486e5",
+    "width": 512,
+    "height": 512,
+    "bytes": 115016,
+    "format": "image/png"
+  },
+  "10386": {
+    "universityId": "10386",
+    "name": "福州大学",
+    "localPath": "/emblems/10386.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/fuzhou-university-logo-512px.png",
+    "officialPage": "https://office.fzu.edu.cn/info/1018/1159.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4135010386",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "25541d1602d9d3542917188a382f795e2e7f9f2b20bced85a43cac946d480a2d",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "bcc443ad0a6bbbccf6129b6c3465bbdb3a0f13b1862018b0080aeb3d425f20da",
+    "sha256": "61e27366c4ad2bbcbb1ac1cd51a33ca7746544ca092944c436117c46e6f99025",
+    "width": 512,
+    "height": 512,
+    "bytes": 73787,
+    "format": "image/png"
+  },
+  "10403": {
+    "universityId": "10403",
+    "name": "南昌大学",
+    "localPath": "/emblems/10403.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/nanchang-university-logo-512px.png",
+    "officialPage": "https://www.ncu.edu.cn/xxgk/xxxh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4136010403",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "7657cb1a5ea3431a1682f4b74e3a55119c5a58ddf6b495d4a7fa140cbf445d23",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "f42c741d09b5997322abbc4fd4ce928773abfd8b1d7720f6e0b8a920215f6322",
+    "sha256": "6c986c3a8c207f0030249e0843cf67d1bcb3ca59512dbec06fc315d9b1a3a843",
+    "width": 512,
+    "height": 512,
+    "bytes": 134628,
+    "format": "image/png"
+  },
+  "10422": {
+    "universityId": "10422",
+    "name": "山东大学",
+    "localPath": "/emblems/10422.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shandong-university-logo-512px.png",
+    "officialPage": "https://culture.sdu.edu.cn/sdln/sjsb.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4137010422",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "b1009ac81b74d9f0918d407a1ba20dd32972866dc456d177754caad6e2f177dc",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "dcdd9ed98dd148e6cce647857e81a77daf7b54fb4b8b2f9fdb768ee7df0f9cfa",
+    "sha256": "081e35df4dec7e7cf0ef57b9035758ac2cd4b154c609bc19cb20726f29412410",
+    "width": 512,
+    "height": 510,
+    "bytes": 73349,
+    "format": "image/png"
+  },
+  "10423": {
+    "universityId": "10423",
+    "name": "中国海洋大学",
+    "localPath": "/emblems/10423.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/ocean-university-of-china-logo-512px.png",
+    "officialPage": "https://www.ouc.edu.cn/6698/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4137010423",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "59539d63646ad6ef3985a73c7e0713eb6f6578ab3c35b05e5b38b93f2bc8057b",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "b78087a2a9026ffafcc77a97cc14d55dfdbc70b2a5506f9597fe344947f4c160",
+    "sha256": "26518ac81a8130d2c90acf090f08f388b0f6033705d92605dcb8679c317b1cd5",
+    "width": 512,
+    "height": 512,
+    "bytes": 65076,
+    "format": "image/png"
+  },
+  "10425": {
+    "universityId": "10425",
+    "name": "中国石油大学（华东）",
+    "localPath": "/emblems/10425.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-petroleum-logo-512px.png",
+    "officialPage": "https://www.upc.edu.cn/xygk/xywh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4137010425",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "79da62acc6bdb6d8a0350d39f0373fc0cc0370e113d52a89e6dc4abc7b0f2d1e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "34c76929a0658712a6eed0052d89c050306559f9553f992b1ed6df5d583b91b6",
+    "sha256": "0a4c9c3df3b0a5ba74154c428d58ca998837a9cbd4e3723874228367283acfab",
+    "width": 512,
+    "height": 512,
+    "bytes": 92668,
+    "format": "image/png"
+  },
+  "10459": {
+    "universityId": "10459",
+    "name": "郑州大学",
+    "localPath": "/emblems/10459.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/zhengzhou-university-logo-512px.png",
+    "officialPage": "http://www.zzu.edu.cn/xxgk/whbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4141010459",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    "sourcePageSha256": "c75bbe46155d16a9409d6fa31d5f7b0f1e19527a47dd2c019b9b5ecae36d8217",
+    "sha256": "95e5eff59426d7e39af214d2324c2bacf024a4e48abc71b47672083b6ffc279f",
+    "width": 512,
+    "height": 512,
+    "bytes": 74247,
+    "format": "image/png"
+  },
+  "10486": {
+    "universityId": "10486",
+    "name": "武汉大学",
+    "localPath": "/emblems/10486.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/wuhan-university-logo-512px.png",
+    "officialPage": "https://www.whu.edu.cn/xxgk/wdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010486",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "2127274b187b73514d13409d23da00f8bed90a6a923687e5457179256481f781",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "c069fbd53b97391158fd54b55e43c78b6368cf7ebb86a8b18e549d5e7a848f2b",
+    "sha256": "3b6f4c8fe317b369d28f82a505a59fe8ac71a5e2bfe0fd3de49487e5158b0cec",
+    "width": 512,
+    "height": 512,
+    "bytes": 80753,
+    "format": "image/png"
+  },
+  "10487": {
+    "universityId": "10487",
+    "name": "华中科技大学",
+    "localPath": "/emblems/10487.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/huazhong-university-of-science-and-technology-logo-512px.png",
+    "officialPage": "https://vi.hust.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010487",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "26374227e7b5c02d12114d6195ce0d74502a3728630a229ec511404157e331ae",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "c723877e581b8e650d0409d00d8f7499b1bd23a8ea3099b885665075be7b74cf",
+    "sha256": "409b80d642b6339f74424905bd1b15079439d84e0c285c515577783142f96dad",
+    "width": 512,
+    "height": 395,
+    "bytes": 99363,
+    "format": "image/png"
+  },
+  "10491": {
+    "universityId": "10491",
+    "name": "中国地质大学（武汉）",
+    "localPath": "/emblems/10491.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-geosciences-logo-512px.png",
+    "officialPage": "https://vis.cug.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010491",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "86eb68e9256003a3655dbe1413396ca787114a8b1dbbd077ee8f82057faa03e1",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "11344a19c95b97c466c37555b42ff67430d88ec43f14ae57657ab20063f20cbd",
+    "sha256": "2f14d4534ea7f30f442a08688e00b608dd01e0276e4ddb789d97a0eb9d23fce9",
+    "width": 512,
+    "height": 512,
+    "bytes": 96829,
+    "format": "image/png"
+  },
+  "10497": {
+    "universityId": "10497",
+    "name": "武汉理工大学",
+    "localPath": "/emblems/10497.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/wuhan-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.whut.edu.cn/xywh/xyxb/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010497",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "8e83872cc9001d1b901a19035a0df2ff8332027681a2de993b7baf012690c185",
+    "sha256": "9753b08d3ba670af6f1d467e3ad3da0348de9d4a5abcb817e83d564f0de0ef7c",
+    "width": 512,
+    "height": 512,
+    "bytes": 95418,
+    "format": "image/png"
+  },
+  "10504": {
+    "universityId": "10504",
+    "name": "华中农业大学",
+    "localPath": "/emblems/10504.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/huazhong-agricultural-university-logo-512px.png",
+    "officialPage": "http://xchb.hzau.edu.cn/info/1023/1115.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010504",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "5e245dc33175abe402ddeb8d944bc149c0e52ba16e3d2a72974568ed43621455",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "05f7885d469c12dcc4f74efb8f9461672b5f30a70a95442bfe9b2a393d92bf89",
+    "sha256": "8b5d9a4b52a0093a8e81510e34c379da7534a0765e19948a919d5b531a4df6e5",
+    "width": 512,
+    "height": 512,
+    "bytes": 86640,
+    "format": "image/png"
+  },
+  "10511": {
+    "universityId": "10511",
+    "name": "华中师范大学",
+    "localPath": "/emblems/10511.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/central-china-normal-university-logo-512px.png",
+    "officialPage": "https://www.ccnu.edu.cn/xxgk/hdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010511",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b5f234276d2d1a03b7dc4dd3d2c168592ca43d61a807c67e0d8d047a1d5f45ca",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "6100f857398988c3628adfffbbc3c60f6cd6a4ecffe8b6b7bb73e088a8d7f513",
+    "sha256": "e266993b8d72cdc920cadb4ede48f52bcdab8b43f79234d442b4ebad784981f3",
+    "width": 512,
+    "height": 512,
+    "bytes": 77334,
+    "format": "image/png"
+  },
+  "10520": {
+    "universityId": "10520",
+    "name": "中南财经政法大学",
+    "localPath": "/emblems/10520.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/zhongnan-university-of-economics-and-law-logo-512px.png",
+    "officialPage": "http://www.zuel.edu.cn/motto_ui/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4142010520",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "7176df9c5608ba75c7ea193dd672568137a0b46cebedc40e3369ea5b57974cec",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "f85eba86f80a06a27f5b479d760e8867d2ccdd7332d12743f5f242548df3e93f",
+    "sha256": "dbaf1712aeda05906da867761fcb2ba6f187291080ca34d1daea8b86e7bc6c41",
+    "width": 512,
+    "height": 512,
+    "bytes": 80629,
+    "format": "image/png"
+  },
+  "10532": {
+    "universityId": "10532",
+    "name": "湖南大学",
+    "localPath": "/emblems/10532.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hunan-university-logo-512px.png",
+    "officialPage": "https://www.hnu.edu.cn/hdgk/xywh/xh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4143010532",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "74095d3139bb417c7c6b3b676074ff9be4d223c462dd335291eb7a8f72f7fb6f",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "98cc015fd40a551caa05f85f935f45b77347a702a6d0aee9779c87571d05a595",
+    "sha256": "6e28868cb04b7fac32b8ad87942cc80579be6cf96821266d438ccb25fae7f5f3",
+    "width": 512,
+    "height": 491,
+    "bytes": 93200,
+    "format": "image/png"
+  },
+  "10533": {
+    "universityId": "10533",
+    "name": "中南大学",
+    "localPath": "/emblems/10533.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/central-south-university-logo-512px.png",
+    "officialPage": "https://xcb.csu.edu.cn/info/1239/1008.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4143010533",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "61c9e72098c055f66245ac342f8396a70497c8e576a72b13491cace0bf0d42bb",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "99d6f666f1f6dab59cbff386fc8e78e3a9cf226c382b9f43e89795079afab6f5",
+    "sha256": "c49cff32ea9bb5d4b18884de13f6c2387f74464a5ff5a5a446e2edb5cf8a1020",
+    "width": 512,
+    "height": 511,
+    "bytes": 86563,
+    "format": "image/png"
+  },
+  "10542": {
+    "universityId": "10542",
+    "name": "湖南师范大学",
+    "localPath": "/emblems/10542.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hunan-normal-university-logo-512px.png",
+    "officialPage": "https://www.hunnu.edu.cn/xxgk1/xxbs1.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4143010542",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "35f5f5e7842bdf84628835e9f0ebe685d020d6ac525550cfc123edc24545f307",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "53b95c8bd3fb639cc35a52e9b378c506e50d8f87879adf98d60a4fc393641b99",
+    "sha256": "7894ec17a8bc9a6077a4af81958a09ebe4df4372774518e706b6a671c0c2d2b4",
+    "width": 512,
+    "height": 517,
+    "bytes": 97891,
+    "format": "image/png"
+  },
+  "91002": {
+    "universityId": "91002",
+    "name": "中国人民解放军国防科技大学",
+    "localPath": "/emblems/91002.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/national-university-of-defense-technology-logo-512px.png",
+    "officialPage": "https://www.nudt.edu.cn/xxgk/sjxxsbxt/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4143091002",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "d842533b27134fe6d8b67508e95476c7a8bf37bfb2c2168a7f1b305cfe7c34e7",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "f1c2201c33fdd8bc7a8cadf991f58bdbd9b642efb90b1206932443ed7e1c1411",
+    "sha256": "bd2091a8e91ccc7a5543272c9bd9219c22ec6245565a92ee26530dd8f4b7fd48",
+    "width": 512,
+    "height": 512,
+    "bytes": 94635,
+    "format": "image/png"
+  },
+  "10558": {
+    "universityId": "10558",
+    "name": "中山大学",
+    "localPath": "/emblems/10558.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/sun-yat-sen-university-logo-512px.png",
+    "officialPage": "https://www.sysu.edu.cn/xxg/zdjj1.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4144010558",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "d83797de03de1b2b4a46913ec56b98a5dfb1000b530e0b8c1895b086a0fd7507",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "b25d065ce603b44d77ec9e950d929d2b9debdcb22a3e6f06a8d61927a31901a7",
+    "sha256": "a11e9e56761cdfc1cda3ee012bf35d8530ecbf10685cb8bb883e17d01629e4bf",
+    "width": 512,
+    "height": 512,
+    "bytes": 84963,
+    "format": "image/png"
+  },
+  "10559": {
+    "universityId": "10559",
+    "name": "暨南大学",
+    "localPath": "/emblems/10559.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/jinan-university-logo-512px.png",
+    "officialPage": "https://www.jnu.edu.cn/2567/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4144010559",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "6a5f6ff3a1954a4eb04f43d353f19cd4bff3377c3136ca64601b94964a230019",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "92a2f1bfaac3d258c8e6198a0400508d88014f8573f67bf84f3bb4f7bf032d38",
+    "sha256": "6ed73c8bfe773a7eeb88f2c39cbb59bc7bb83daab6f10e462cdc97531195df0c",
+    "width": 512,
+    "height": 512,
+    "bytes": 68098,
+    "format": "image/png"
+  },
+  "10561": {
+    "universityId": "10561",
+    "name": "华南理工大学",
+    "localPath": "/emblems/10561.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/south-china-university-of-technology-logo-512px.png",
+    "officialPage": "https://www.scut.edu.cn/new/9017/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4144010561",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b61b4ca56348bbab1add7f9d26c5e1379a6eca5ad94c6424a3941ef548fbff58",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "eb11db2a44f2bfa59b03ab998e95dd2f35a8cf1794757f6c40bef9acece9aadc",
+    "sha256": "e3ac18dae43ce000b3371c60e598914b8b83e134ea1f2e3a34f5f486bc3f98b5",
+    "width": 512,
+    "height": 512,
+    "bytes": 91628,
+    "format": "image/png"
+  },
+  "10574": {
+    "universityId": "10574",
+    "name": "华南师范大学",
+    "localPath": "/emblems/10574.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/south-china-normal-university-logo-512px.png",
+    "officialPage": "https://www.scnu.edu.cn/a/20150906/2.html",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4144010574",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "c744b8172a6de9901ca0cfdfe314e4962736069a59d177ee34193da4916287e2",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "689543135d111a43c0ae67f30273ece6f09137628a6168442f998fe9dee592de",
+    "sha256": "899b9ccb66c7071ed33a586446efe3b1a75e3ada96c06285a7de14ef09799ad1",
+    "width": 512,
+    "height": 565,
+    "bytes": 102798,
+    "format": "image/png"
+  },
+  "10593": {
+    "universityId": "10593",
+    "name": "广西大学",
+    "localPath": "/emblems/10593.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/guangxi-university-logo-512px.png",
+    "officialPage": "https://www.gxu.edu.cn/xdgl1/xxbs1.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4145010593",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "27823278fdcb075c805fbc5a111287e311c8ba6d1ad8913fad1a9fa5abb2607c",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "13f9a2ef7edcba0009d99033ec4397f09dbd894ba5ec62d9ab1d7f74da5a456f",
+    "sha256": "2defe6350a681083cd608e06ba093acb73ea65e9642bf04efb01e2a6639d1697",
+    "width": 512,
+    "height": 512,
+    "bytes": 159719,
+    "format": "image/png"
+  },
+  "10589": {
+    "universityId": "10589",
+    "name": "海南大学",
+    "localPath": "/emblems/10589.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/hainan-university-logo-512px.png",
+    "officialPage": "https://www.hainanu.edu.cn/xywh/hdVI.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4146010589",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "e3c5a05c5fba65911d0f3ef307317298653dcf69e5098a6bcd6ea0a5505760fb",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "b3ee6f60bf3ba9de37dd4272986dfbd6e1a95813a624efaecca1b455c637938a",
+    "sha256": "7c9087baf1d89cf89de3601d55d2bd2c33f55ffadad63dab114f98d82bf48d58",
+    "width": 512,
+    "height": 640,
+    "bytes": 84875,
+    "format": "image/png"
+  },
+  "10610": {
+    "universityId": "10610",
+    "name": "四川大学",
+    "localPath": "/emblems/10610.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/sichuan-university-logo-512px.png",
+    "officialPage": "https://www.scu.edu.cn/xxgknew/cdbs/xm.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4151010610",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "07802ec2730d0a965ea28f82e3b60e0783844c4b534e28de6b84f936c0cd905c",
+    "sha256": "2ce8e19f8372b42322ad841a2856c565405c89b648211b0c98dada3b1c8ed290",
+    "width": 512,
+    "height": 512,
+    "bytes": 70939,
+    "format": "image/png"
+  },
+  "10613": {
+    "universityId": "10613",
+    "name": "西南交通大学",
+    "localPath": "/emblems/10613.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/southwest-jiaotong-university-logo-512px.png",
+    "officialPage": "https://lixue.swjtu.edu.cn/info/1286/6974.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4151010613",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "3f7b0560c1a719e8f9d677475239b89330d2672ff4cf4d32493ecfcdb5acc74f",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "55966d426fb02717ecbb515880e7eca3c2f5b5e452cd10db5340d0e6d77892d1",
+    "sha256": "da8db48f2aea50a4a192d718a229d450b381b062de572bb25cab4638fcd4de42",
+    "width": 512,
+    "height": 563,
+    "bytes": 103634,
+    "format": "image/png"
+  },
+  "10614": {
+    "universityId": "10614",
+    "name": "电子科技大学",
+    "localPath": "/emblems/10614.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/university-of-electronic-science-and-technology-of-china-logo-512px.png",
+    "officialPage": "https://vi.uestc.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4151010614",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "sourcePageSha256": "8940bf9a76d1314509a9cd955f2bea4bf0af7d28c05e051944c3fd764e477ad2",
+    "sha256": "e57279437e13871790c74c40cd16cdc3e3890bf7a0cc2eb97019a4d7d4a5a9a8",
+    "width": 512,
+    "height": 511,
+    "bytes": 54532,
+    "format": "image/png"
+  },
+  "10626": {
+    "universityId": "10626",
+    "name": "四川农业大学",
+    "localPath": "/emblems/10626.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/sichuan-agricultural-university-logo-512px.png",
+    "officialPage": "https://dzb.sicau.edu.cn/zlxz/xxbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4151010626",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "ca10b72e33835093b2e92eee17d814f3bdf8c2dcb9b7202cd6e77440a7ab1f22",
+    "sha256": "948da9a48e5aab32efa4de7fa0f6e4641037b7f02b8aeaf3f5f231ac98fd5ff7",
+    "width": 512,
+    "height": 512,
+    "bytes": 101074,
+    "format": "image/png"
+  },
+  "10651": {
+    "universityId": "10651",
+    "name": "西南财经大学",
+    "localPath": "/emblems/10651.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/southwestern-university-of-finance-and-economics-logo-512px.png",
+    "officialPage": "https://www.swufe.edu.cn/xywh/xh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4151010651",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "73c99ade3b731c5bcee9369389c28de70b7eecbd39c33ca7a64c2143907acf6f",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "0b3b016618c46670579ddf3645abbcf5d0071a9d4b6bc3b9e51696576fd90677",
+    "sha256": "87a9bc8887875f72e7481d35965ce34827bc801c4a097d2164e2929a196ffae2",
+    "width": 512,
+    "height": 512,
+    "bytes": 82202,
+    "format": "image/png"
+  },
+  "10611": {
+    "universityId": "10611",
+    "name": "重庆大学",
+    "localPath": "/emblems/10611.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/chongqing-university-logo-512px.png",
+    "officialPage": "https://www.cqu.edu.cn/xqgk/xxjj.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4150010611",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "1c3cd270239fdda569b3db3230c193775b7308967bb7ccd7cfe18a19ca10b29f",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "0c42fb3bff3813785379f211f6003faa29c5e108702cca7fa64ee790f481aac2",
+    "sha256": "8613522963c6ed5bf6cd3357af6a4654773656e024fb2876a79d442bce1eeb88",
+    "width": 512,
+    "height": 512,
+    "bytes": 79910,
+    "format": "image/png"
+  },
+  "10635": {
+    "universityId": "10635",
+    "name": "西南大学",
+    "localPath": "/emblems/10635.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/southwest-university-logo-512px.png",
+    "officialPage": "http://dwxcbwlgzb.swu.edu.cn/info/1017/1016.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4150010635",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "feac1435f6a3f47834a1c7cfabdc3d71ee3c6ba97d1776b8c884138dfaf5d99f",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "8008dacf7a7f33fe2bbe560daee9456909120bd37e6bc3e0c7dbd764f0ab70d5",
+    "sha256": "aa3cfb634d0563cfdfd45b3dc1c6a33702f662967ada023b8edc359593ca78f8",
+    "width": 512,
+    "height": 512,
+    "bytes": 85914,
+    "format": "image/png"
+  },
+  "10657": {
+    "universityId": "10657",
+    "name": "贵州大学",
+    "localPath": "/emblems/10657.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/guizhou-university-logo-512px.png",
+    "officialPage": "http://www.gzu.edu.cn/226/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4152010657",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "sourcePageSha256": "179ba8b95ec0ba2c0e97e6725a7f180729db212ee63d5379d1dba709298d953e",
+    "sha256": "942a24e701e3f6d6d56b1d0ff9542b05e610dd5bb2059fc2de95ed8e324828ae",
+    "width": 512,
+    "height": 512,
+    "bytes": 77352,
+    "format": "image/png"
+  },
+  "10673": {
+    "universityId": "10673",
+    "name": "云南大学",
+    "localPath": "/emblems/10673.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/yunnan-university-logo-512px.png",
+    "officialPage": "https://www.ynu.edu.cn/xxgk/sbyd.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4153010673",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "50fe4b40d1df06c9e8c7cd8f7fbe1c32b665cb17def42a456dde9e1a418cfe3d",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "293a6f9d3f2a5e448567d42d72325502dea0c4183338a9d81a1b317df9f03f49",
+    "sha256": "95e9eba0bcf791b55654a456c145ca9ea364d321836e3df499d5dbc910bf57d6",
+    "width": 512,
+    "height": 511,
+    "bytes": 79131,
+    "format": "image/png"
+  },
+  "10694": {
+    "universityId": "10694",
+    "name": "西藏大学",
+    "localPath": "/emblems/10694.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/tibet-university-logo-512px.png",
+    "officialPage": "http://www.utibet.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4154010694",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "d742382abaf754514ae57ad7ba21cfd9765c2773545922d33ccc6386ad8b649c",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "34c47dd2f06f346b72454322385817b8276d369906b61d02a9c9dced88397123",
+    "sha256": "4543c4d9fbb0f40640a634915e290d11a8f95733227072003871cdb76f72c303",
+    "width": 512,
+    "height": 512,
+    "bytes": 88100,
+    "format": "image/png"
+  },
+  "10697": {
+    "universityId": "10697",
+    "name": "西北大学",
+    "localPath": "/emblems/10697.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northwest-university-logo-512px.png",
+    "officialPage": "https://www.nwu.edu.cn/xxgk/xxbs/xb.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010697",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "1326294564baab1ce522ca044489ad12029c3310c76edbeceb75c6f59b2903af",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "1efd1764637f6e0e458af38d8341861bccaeb588b3249a53f6b86f041c7cb8be",
+    "sha256": "a16045bef844868fcc3b74d9fdc6bda16ec42034b7c3eb35a3d4142c64bfbae0",
+    "width": 512,
+    "height": 512,
+    "bytes": 106013,
+    "format": "image/png"
+  },
+  "10698": {
+    "universityId": "10698",
+    "name": "西安交通大学",
+    "localPath": "/emblems/10698.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/xian-jiaotong-university-logo-512px.png",
+    "officialPage": "http://vi.xjtu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010698",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "82dda76e17e97d335b2bb6e739705b6d24d9fabe28c44b1ef6e426858c2c3c32",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "b56d1461ad4cd87ba08d59529bc847af46b13d08735d667cce2fd4db69e40a94",
+    "sha256": "13257b3a083b17c589c7ecd3b75f8bbd03efb82a49b6d52ad7efed8665eca054",
+    "width": 512,
+    "height": 512,
+    "bytes": 91956,
+    "format": "image/png"
+  },
+  "10699": {
+    "universityId": "10699",
+    "name": "西北工业大学",
+    "localPath": "/emblems/10699.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northwestern-polytechnical-university-logo-512px.png",
+    "officialPage": "https://news.nwpu.edu.cn/xcb/index/xxsbxt.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010699",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "3aadc06a991c83199e48a5de58e074d3da7154d7072dc3a9e7a29bd352dcdc90",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "4e82060d3e903d32b3f2043d5794f3ed70811a3d104feedfd11ee5bee44085f4",
+    "sha256": "4df29ead813875a7e25229f32bc26866bdb41767384322476d0aca0749996574",
+    "width": 512,
+    "height": 512,
+    "bytes": 103991,
+    "format": "image/png"
+  },
+  "10701": {
+    "universityId": "10701",
+    "name": "西安电子科技大学",
+    "localPath": "/emblems/10701.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/xidian-university-logo-512px.png",
+    "officialPage": "http://xcb.xidian.edu.cn/info/1008/1094.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010701",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "cd26e26307fe5c970240c65e00d478828c69eb7d695cb318ad845b0f2bac814e",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "87311961d5ab1b0a68c29439c5e83bfd9e3f81fe0ce1550aa415181d43b30e73",
+    "sha256": "9890928591af28fc8ab8ba19c352ee412547f82c2fac7a88f548502ed3fffe13",
+    "width": 512,
+    "height": 506,
+    "bytes": 79828,
+    "format": "image/png"
+  },
+  "10710": {
+    "universityId": "10710",
+    "name": "长安大学",
+    "localPath": "/emblems/10710.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/changan-university-logo-512px.png",
+    "officialPage": "https://www.chd.edu.cn/xxgk/zdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010710",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "f2d33b9ae655e70d31bb6104bf679cd1203156659125e8b3f9f185942b73f59c",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "d0878a25f8d394481c354dcf798b1d6b370812e17cd1fdea3b37dbbfcbda53f7",
+    "sha256": "37972bed40ee6bb6265fbe5b8c61a932c77781b889e89aadc47fd977746ea8ef",
+    "width": 512,
+    "height": 512,
+    "bytes": 67391,
+    "format": "image/png"
+  },
+  "10712": {
+    "universityId": "10712",
+    "name": "西北农林科技大学",
+    "localPath": "/emblems/10712.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/northwest-a--f-university-logo-512px.png",
+    "officialPage": "http://xj.nwsuaf.edu.cn/xxsbxt/27800.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010712",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "39b7737a671b0f89724a8f6bc1372b30ef00b060cb749a5369ba9c00a749b5b3",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "d9a168caf607791df4d9846b125844c59583c6381480d9805bcada78290a21fc",
+    "sha256": "94d49f9dfb5fbfb33e4ee8b7c7ea8847e5b2182f47af28a3b3d31bc52ecfdc7d",
+    "width": 512,
+    "height": 512,
+    "bytes": 155485,
+    "format": "image/png"
+  },
+  "10718": {
+    "universityId": "10718",
+    "name": "陕西师范大学",
+    "localPath": "/emblems/10718.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shaanxi-normal-university-logo-512px.png",
+    "officialPage": "http://www.snnu.edu.cn/xxgk/sdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4161010718",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "597f052c673b40e7976c2a5eb73a3de4ad17e60558e6d66e42fae0ebd07e1496",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "ec9e28666472c2f4bb3f1b61e4b347bfd7380dd1fed7dd5255ad643753b269f4",
+    "sha256": "cc21cca1b9b78fe079f6ca9dbc637a53ba20e8783da712a60d3c50321eb29d20",
+    "width": 512,
+    "height": 512,
+    "bytes": 89089,
+    "format": "image/png"
+  },
+  "91030": {
+    "universityId": "91030",
+    "name": "中国人民解放军空军军医大学",
+    "localPath": null,
+    "sourceUrl": null,
+    "officialPage": "https://www.fmmu.edu.cn/",
+    "verified": false,
+    "notes": [
+      "公开 VIS 目录未找到校名完全匹配的资源；不使用相似学校或旧军医校徽代替。"
+    ],
+    "retrievedAt": "2026-09-06"
+  },
+  "10730": {
+    "universityId": "10730",
+    "name": "兰州大学",
+    "localPath": "/emblems/10730.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/lanzhou-university-logo-512px.png",
+    "officialPage": "https://www.lzu.edu.cn/rsld/ldbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4162010730",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "HTTP Error 412: Precondition Failed"
+    },
+    "sourcePageSha256": "040eabdb8676f810a495b1bed8c836be2deeab27a60be88cd26e7bcd23656030",
+    "sha256": "02f2e16a15eac678d2c796b112c156c44f7f919d4c2e33157970d7d9f4d17060",
+    "width": 512,
+    "height": 512,
+    "bytes": 70345,
+    "format": "image/png"
+  },
+  "10743": {
+    "universityId": "10743",
+    "name": "青海大学",
+    "localPath": "/emblems/10743.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/qinghai-university-logo-512px.png",
+    "officialPage": "https://www.qhu.edu.cn/xxgk/qdbz/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4163010743",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "b9c51cb40caf7d97bd8b6791a0737ccce12433c5b6a4453e71611eaa5179b146",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "27a6fa656bb943b3d3b7b60461b6920904cd1ac25642ebef4b7cbb9f8d84163d",
+    "sha256": "30e463525e4d82d555c2ba196c2f28e11203175016651990a51196c7bb5714ab",
+    "width": 512,
+    "height": 512,
+    "bytes": 73249,
+    "format": "image/png"
+  },
+  "10749": {
+    "universityId": "10749",
+    "name": "宁夏大学",
+    "localPath": "/emblems/10749.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/ningxia-university-logo-512px.png",
+    "officialPage": "https://xcb.nxu.edu.cn/xywh/xywhsbxt.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4164010749",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "unavailable",
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    "sourcePageSha256": "b80e7c865fc0f41db03e5a13bb038abdb28b6437ce1fe76e0a341f19077ce8fe",
+    "sha256": "e663c056b1797f2c216e3b04a7b2b8d1268a107f3097a436bdd9bf1212a5d79d",
+    "width": 512,
+    "height": 511,
+    "bytes": 94766,
+    "format": "image/png"
+  },
+  "10755": {
+    "universityId": "10755",
+    "name": "新疆大学",
+    "localPath": "/emblems/10755.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/xinjiang-university-logo-512px.png",
+    "officialPage": "http://www.xju.edu.cn/xxgk/xdbs.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4165010755",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "14aa691826ab333d45b660784b2fef617f8f0f84cc1381ef8cb760d06c8e39e5",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "8ec9417ad1f899631d979c29d401a944420722c667c089d90666b74d483c3191",
+    "sha256": "d612be87ccae159bdbb108b4731537dacee75af178b6c1c78e51f362e2c17fae",
+    "width": 512,
+    "height": 512,
+    "bytes": 70103,
+    "format": "image/png"
+  },
+  "10759": {
+    "universityId": "10759",
+    "name": "石河子大学",
+    "localPath": "/emblems/10759.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/shihezi-university-logo-512px.png",
+    "officialPage": "https://www.shzu.edu.cn/64/list.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4165010759",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved-needs-review",
+      "pageSha256": "2a7a00771e714914661a98328c2d95c58e561ed9b90195ca22420ff022a8ec37",
+      "containsNameAndIdentityText": false
+    },
+    "sourcePageSha256": "c1af1ea413dcd4195498fcf75ec2bae39f922f631a30ec3850bdeca0f02e0ac0",
+    "sha256": "da407c27581571c703e7063f242d84e724335c94e69b506dbae7f58788cdfbca",
+    "width": 512,
+    "height": 512,
+    "bytes": 63523,
+    "format": "image/png"
+  },
+  "11413": {
+    "universityId": "11413",
+    "name": "中国矿业大学（北京）",
+    "localPath": "/emblems/11413.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-mining-and-technology-beijing-logo-512px.png",
+    "officialPage": "https://www.cumtb.edu.cn/xxgk/xxbs/xh.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111011413",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "70da98f28e44d961af247d83ad3b742e93d01f9d0d508ca5af41b16d41c4a5ee",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "878b5f09f05cd0552300836e2782943b19fef6ec1b10a6d0c6bf9e19d4dc6f50",
+    "sha256": "4efddb0f54e9dc644eebbf330afb1cd800072c48907c2a4d93752258303d5aec",
+    "width": 512,
+    "height": 512,
+    "bytes": 93615,
+    "format": "image/png"
+  },
+  "11414": {
+    "universityId": "11414",
+    "name": "中国石油大学（北京）",
+    "localPath": "/emblems/11414.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-petroleum-beijing-logo-512px.png",
+    "officialPage": "https://www.cup.edu.cn/dzbgs/cyxz/sdbs/index.htm",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111011414",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "5f1058ce562941f463d62a2ede9ab2b537c7f19b5dfe5cfabecb573a3a5930f6",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "1985f8a79da2c86a0b82334571d17de8f112e0fb689b45f0fa27d5921258d67f",
+    "sha256": "64b981624e7c4077a24a05644c5e630af373951422107c33067b2dae7a4b0797",
+    "width": 512,
+    "height": 512,
+    "bytes": 88002,
+    "format": "image/png"
+  },
+  "11415": {
+    "universityId": "11415",
+    "name": "中国地质大学（北京）",
+    "localPath": "/emblems/11415.png",
+    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-geosciences-beijing-logo-512px.png",
+    "officialPage": "https://bm.cugb.edu.cn/vis/",
+    "verified": false,
+    "notes": [
+      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
+      "标识权利归相应大学；资源集合来源不等于大学授权。",
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+    ],
+    "retrievedAt": "2026-09-06",
+    "discoveryPage": "https://urongda.com/logos/4111011415",
+    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
+    "officialEvidence": {
+      "status": "retrieved",
+      "pageSha256": "973c5354ef858f5232584bf46f60f6440d4336231953de75a7865007457965c5",
+      "containsNameAndIdentityText": true
+    },
+    "sourcePageSha256": "bf69c2748a9193b7e22a5fd826de9cae344911e9beeb115d4e244532d8b05f73",
+    "sha256": "7adcc04adcab7a6b715413b58268a5786dcd7e5e9e4a3c8ca6a60250c8f37104",
+    "width": 512,
+    "height": 524,
+    "bytes": 86583,
+    "format": "image/png"
+  }
+}

@@ -8,26 +8,26 @@ import {
   type ThreeEvent,
 } from '@react-three/fiber';
 import { OrbitControls, Html, Line } from '@react-three/drei';
-import { useEffect, useRef, useState, useMemo, Suspense } from 'react';
+import { useEffect, useRef, useState, useMemo, Suspense, lazy } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import type { OrbitControls as OrbitControlsInstance } from 'three-stdlib';
-import { Physics, RigidBody, TrimeshCollider } from '@react-three/rapier';
 import type { Campus, POI } from '../data/types';
 import {
   chooseSafeSpawn,
   disposeCampusModel,
   featureIdAtFace,
-  makeCollisionMesh,
+  hasCampusGeometry,
   readCollisionData,
   type CollisionData,
 } from './campus-geometry';
 import {
-  CampusWalker,
   CampusWalkControls,
   type WalkInput,
   type WalkInputRef,
-} from './campus-walker';
+} from './campus-walk-controls';
+
+const CampusWalkWorld = lazy(() => import('./campus-walk-world'));
 
 type Props = {
   campus: Campus;
@@ -65,7 +65,7 @@ function World({
 }) {
   const [loaded, setLoaded] = useState<LoadedCampus | null>(null);
   const [loadError, setLoadError] = useState(false);
-  const { camera, gl } = useThree();
+  const { camera, gl, invalidate } = useThree();
   const callbacks = useRef({ onError, onReady });
   const controls = useRef<OrbitControlsInstance>(null);
   const elapsed = useRef(0);
@@ -79,6 +79,13 @@ function World({
     campus.bounds[3] - campus.bounds[1],
     100,
   );
+  const campusRadius =
+    Math.hypot(
+      campus.bounds[2] - campus.bounds[0],
+      campus.bounds[3] - campus.bounds[1],
+    ) /
+      2 +
+    120;
   const center = useMemo(
     () =>
       new THREE.Vector3(
@@ -128,7 +135,7 @@ function World({
           owned = null;
           return;
         }
-        if (!makeCollisionMesh(owned))
+        if (!hasCampusGeometry(owned))
           throw Error('Campus model has no usable geometry');
         const collisionData = await collisionPromise;
         if (!active) {
@@ -191,7 +198,8 @@ function World({
     flight.current = null;
     elapsed.current = 0;
     lastIndex.current = -1;
-  }, [reset, walking, camera, span, center]);
+    invalidate();
+  }, [reset, walking, camera, span, center, invalidate]);
 
   useEffect(() => {
     if (!selected || walking) return;
@@ -200,7 +208,8 @@ function World({
       position: target.clone().add(new THREE.Vector3(90, 145, 135)),
       target,
     };
-  }, [selected, walking]);
+    invalidate();
+  }, [selected, walking, invalidate]);
 
   useEffect(() => {
     if (touring) flight.current = null;
@@ -208,6 +217,26 @@ function World({
 
   useFrame((_, delta) => {
     const orbit = controls.current;
+    if (camera instanceof THREE.PerspectiveCamera) {
+      // A 20 cm near plane wastes depth precision in a kilometre-scale bird view.
+      // Log depth handles thin ground layers; clipping still follows this campus.
+      const distance = orbit ? camera.position.distanceTo(orbit.target) : span;
+      const near = walking
+        ? 0.15
+        : THREE.MathUtils.clamp(distance / 100, 1, 10);
+      const far = Math.max(
+        500,
+        camera.position.distanceTo(center) + campusRadius * 1.25,
+      );
+      if (
+        Math.abs(camera.near - near) > 0.001 ||
+        Math.abs(camera.far - far) > 0.1
+      ) {
+        camera.near = near;
+        camera.far = far;
+        camera.updateProjectionMatrix();
+      }
+    }
     if (walking || !orbit) return;
     const smooth = 1 - Math.exp(-Math.min(delta, 0.1) * 3);
     if (touring && tourPath?.length) {
@@ -236,15 +265,18 @@ function World({
       camera.position.lerp(target.position, smooth);
       orbit.target.lerp(target.target, smooth);
       orbit.update();
-      if (camera.position.distanceTo(target.position) < 0.1)
+      if (camera.position.distanceTo(target.position) < 0.1) {
+        camera.position.copy(target.position);
+        orbit.target.copy(target.target);
+        orbit.update();
         flight.current = null;
+      } else {
+        // Continue just this flight while an otherwise idle campus uses demand rendering.
+        invalidate();
+      }
     }
   });
 
-  const collision = useMemo(
-    () => (loaded && walking ? makeCollisionMesh(loaded.model) : null),
-    [loaded, walking],
-  );
   const selectBuilding = (event: ThreeEvent<MouseEvent>) => {
     if (walking || event.delta > 3) return;
     const id = featureIdAtFace(event.object, event.faceIndex);
@@ -349,7 +381,7 @@ function World({
           touches={{ ONE: THREE.TOUCH.PAN, TWO: THREE.TOUCH.DOLLY_ROTATE }}
         />
       )}
-      {walking && collision && loaded?.spawn && loaded.collisionData && (
+      {walking && loaded?.spawn && loaded.collisionData && (
         <Suspense
           fallback={
             <Html center>
@@ -357,17 +389,13 @@ function World({
             </Html>
           }
         >
-          <Physics gravity={[0, -9.81, 0]} timeStep={1 / 60}>
-            <RigidBody type="fixed" colliders={false}>
-              <TrimeshCollider args={[collision.vertices, collision.indices]} />
-            </RigidBody>
-            <CampusWalker
-              spawn={loaded.spawn}
-              collisionData={loaded.collisionData}
-              reset={reset}
-              input={input}
-            />
-          </Physics>
+          <CampusWalkWorld
+            model={loaded.model}
+            spawn={loaded.spawn}
+            collisionData={loaded.collisionData}
+            reset={reset}
+            input={input}
+          />
         </Suspense>
       )}
     </>
@@ -388,9 +416,14 @@ export default function CampusScene(props: Props) {
   return (
     <>
       <Canvas
-        camera={{ position: [0, 1400, 1200], fov: 48, near: 0.2, far: 15000 }}
+        camera={{ position: [0, 1400, 1200], fov: 48, near: 10, far: 10000 }}
+        frameloop={props.walk || props.touring ? 'always' : 'demand'}
         dpr={[1, mobile ? 1 : 1.5]}
-        gl={{ antialias: true, powerPreference: 'high-performance' }}
+        gl={{
+          antialias: true,
+          powerPreference: 'high-performance',
+          logarithmicDepthBuffer: true,
+        }}
       >
         <World
           key={`${props.campus.universityId}:${props.campus.id}:${props.campus.modelUrl}`}

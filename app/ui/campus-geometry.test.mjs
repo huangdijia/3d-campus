@@ -179,13 +179,25 @@ test('Rapier capsule walks on ground, stops at a wall and resets to safety', asy
   world.free();
 });
 
-test('the Qinghua GLB collider stops a walker before a real imported building wall', async () => {
+test('the Tsinghua GLB collider stops a walker before a real imported building wall', async () => {
   const { readFile } = await import('node:fs/promises');
   const { GLTFLoader } = await import('three/addons/loaders/GLTFLoader.js');
-  const raw = await readFile(new URL('../../public/models/10003.glb', import.meta.url));
-  const { scene } = await new GLTFLoader().parseAsync(raw.buffer.slice(raw.byteOffset, raw.byteOffset + raw.byteLength), '');
+  const raw = await readFile(
+    new URL('../../public/models/10003.glb', import.meta.url),
+  );
+  const { scene } = await new GLTFLoader().parseAsync(
+    raw.buffer.slice(raw.byteOffset, raw.byteOffset + raw.byteLength),
+    '',
+  );
   const collision = makeCollisionMesh(scene);
-  const data = readCollisionData(JSON.parse(await readFile(new URL('../../public/data/10003-collision.json', import.meta.url), 'utf8')));
+  const data = readCollisionData(
+    JSON.parse(
+      await readFile(
+        new URL('../../public/data/10003-collision.json', import.meta.url),
+        'utf8',
+      ),
+    ),
+  );
   const spawn = chooseSafeSpawn(data, [0, 0]);
   assert.ok(collision);
   assert.ok(spawn);
@@ -193,33 +205,71 @@ test('the Qinghua GLB collider stops a walker before a real imported building wa
   const world = new RAPIER.World({ x: 0, y: -9.81, z: 0 });
   try {
     const ground = world.createRigidBody(RAPIER.RigidBodyDesc.fixed());
-    world.createCollider(RAPIER.ColliderDesc.trimesh(collision.vertices, collision.indices), ground);
+    world.createCollider(
+      RAPIER.ColliderDesc.trimesh(collision.vertices, collision.indices),
+      ground,
+    );
     world.step();
     const origin = { x: spawn[0], y: spawn[1], z: spawn[2] };
-    const walls = [[1, 0], [-1, 0], [0, 1], [0, -1]].map(([x, z]) => {
-      const hit = world.castRay(new RAPIER.Ray(origin, { x, y: 0, z }), 200, true);
-      return hit ? { x, z, distance: hit.timeOfImpact } : null;
-    }).filter(Boolean).sort((a, b) => a.distance - b.distance);
+    const walls = [
+      [1, 0],
+      [-1, 0],
+      [0, 1],
+      [0, -1],
+    ]
+      .map(([x, z]) => {
+        const hit = world.castRay(
+          new RAPIER.Ray(origin, { x, y: 0, z }),
+          200,
+          true,
+        );
+        return hit ? { x, z, distance: hit.timeOfImpact } : null;
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.distance - b.distance);
     const wall = walls[0];
     assert.ok(wall, 'a building is reachable within 200m of the safe spawn');
-    const body = world.createRigidBody(RAPIER.RigidBodyDesc.kinematicPositionBased().setTranslation(...spawn));
-    const capsule = world.createCollider(RAPIER.ColliderDesc.capsule(0.55, 0.3), body);
+    const body = world.createRigidBody(
+      RAPIER.RigidBodyDesc.kinematicPositionBased().setTranslation(...spawn),
+    );
+    const capsule = world.createCollider(
+      RAPIER.ColliderDesc.capsule(0.55, 0.3),
+      body,
+    );
     const controller = world.createCharacterController(0.025);
     controller.enableSnapToGround(0.4);
     controller.enableAutostep(0.3, 0.2, false);
     let velocity = 0;
-    for (let frame = 0; frame < Math.ceil((wall.distance + 5) / 4 * 60); frame++) {
+    for (
+      let frame = 0;
+      frame < Math.ceil(((wall.distance + 5) / 4) * 60);
+      frame++
+    ) {
       velocity = Math.max(-25, velocity - 9.81 / 60);
-      controller.computeColliderMovement(capsule, { x: wall.x * 4 / 60, y: velocity / 60, z: wall.z * 4 / 60 }, undefined, undefined, other => other.handle !== capsule.handle);
+      controller.computeColliderMovement(
+        capsule,
+        { x: (wall.x * 4) / 60, y: velocity / 60, z: (wall.z * 4) / 60 },
+        undefined,
+        undefined,
+        (other) => other.handle !== capsule.handle,
+      );
       const movement = controller.computedMovement();
       const position = body.translation();
-      body.setNextKinematicTranslation({ x: position.x + movement.x, y: position.y + movement.y, z: position.z + movement.z });
+      body.setNextKinematicTranslation({
+        x: position.x + movement.x,
+        y: position.y + movement.y,
+        z: position.z + movement.z,
+      });
       if (controller.computedGrounded()) velocity = 0;
       world.step();
     }
     const finish = body.translation();
-    const progress = (finish.x - spawn[0]) * wall.x + (finish.z - spawn[2]) * wall.z;
-    assert.ok(progress < wall.distance && progress > wall.distance - 2, `progress ${progress}, wall ${wall.distance}`);
+    const progress =
+      (finish.x - spawn[0]) * wall.x + (finish.z - spawn[2]) * wall.z;
+    assert.ok(
+      progress < wall.distance && progress > wall.distance - 2,
+      `progress ${progress}, wall ${wall.distance}`,
+    );
     assert.ok(finish.y > 0.7 && finish.y < 1.2, `ground height ${finish.y}`);
   } finally {
     world.free();
