@@ -11,13 +11,13 @@ npm install
 npm run dev
 ```
 
-打开启动命令打印的本地地址。全国地图左键拖动平移，滚轮缩放，右键拖动旋转；触屏单指平移、双指缩放。学校列表支持键盘操作与 `/` 搜索快捷键。
+打开启动命令打印的本地地址。点击高校直接进入校园，学校介绍与官网位于校园侧栏；返回直接回到高校列表。手机默认显示全屏地图，通过底部信息条展开搜索与校园信息。全国地图左键拖动平移，滚轮缩放，右键拖动旋转；触屏单指平移、双指缩放。学校列表支持键盘操作与 `/` 搜索快捷键。
 
 ## 验证
 
 ```sh
 npm run build
-node --experimental-strip-types --test tests/geography.test.mjs
+node --experimental-strip-types --test tests/*.test.mjs app/ui/campus-geometry.test.mjs
 node scripts/validate-release.mjs
 ```
 
@@ -30,7 +30,7 @@ node scripts/validate-release.mjs
 - 校园几何来自 OpenStreetMap 公开数据；建筑高度缺失时使用估算值并标记。特色建筑精细模型、官方资料核验和完整路线是独立验收条件。
 - 国家与省级底稿使用 Natural Earth。海拔使用 GMT 分发的 SRTM15+ 衍生栅格（0.25°，37,845点），边界核验状态另行记录。
 
-更多实现、来源与交付边界见 [实现说明](docs/implementation.md)、[高校覆盖](docs/data-coverage.md)、[全国地理说明](docs/national-geography.md)。
+更多实现、来源与交付边界见 [实现说明](docs/implementation.md)、[高校覆盖](docs/data-coverage.md)、[全国地理说明](docs/national-geography.md)、[界面回归记录](docs/interface-qa.md)。
 
 ## 数据署名
 

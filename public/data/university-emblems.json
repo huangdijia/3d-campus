@@ -3,28 +3,31 @@
     "universityId": "10001",
     "name": "北京大学",
     "localPath": "/emblems/10001.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/peking-university-logo-512px.png",
+    "sourceUrl": "https://vim.pku.edu.cn/docs/20240527144201516364.zip",
     "officialPage": "https://vim.pku.edu.cn/xzzq/index.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "官网“标志(圆形校徽).zip”内的原始红色 PNG；仅解压单个文件，未改色或裁剪。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "b328ed3c9e579ec8c2031ad8a5b6c244994fba5d1e93cc98901d1fcc3c306bdb",
+    "width": 360,
+    "height": 360,
+    "bytes": 25869,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4111010001",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "29245c63335bc69bf9415d4cdcde7bebb7993ff8ed8d199e25132d80763c5319",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "068318bdc24411864208a2c4d527ffd23c5f41a4e38f978b291275a944db7453",
-    "sha256": "c70efd58942a8cf9a66bd7e4754896edf88e86f431cc666f032065b65167ce0e",
-    "width": 512,
-    "height": 512,
-    "bytes": 80216,
-    "format": "image/png"
+    "archiveMember": "标志_红色.png",
+    "archiveSha256": "3d6832002812121438af8603a713a4166d587ea2b3eec40dec66b4ec082bd95d",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10002": {
     "universityId": "10002",
@@ -50,7 +53,13 @@
     "width": 512,
     "height": 512,
     "bytes": 95412,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10003": {
     "universityId": "10003",
@@ -58,11 +67,11 @@
     "localPath": "/emblems/10003.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/tsinghua-university-logo-512px.png",
     "officialPage": "https://vi.tsinghua.edu.cn/gk/xxbz/xh.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4111010003",
@@ -77,61 +86,76 @@
     "width": 512,
     "height": 517,
     "bytes": 160006,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://vi.tsinghua.edu.cn/__local/8/1C/21/2F02A66E31BF084FE340463BB47_B9A95F73_185BC.jpg",
+      "referenceImageSha256": "90132d030d8a70f9d21375c85d8a0c614d44a6201ab82200067b10aca38986a8",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10004": {
     "universityId": "10004",
     "name": "北京交通大学",
     "localPath": "/emblems/10004.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-jiaotong-university-logo-512px.png",
+    "sourceUrl": "https://www.bjtu.edu.cn/images/2024-11/0d4cb3bdd27a4088ae62c36f75d98738.png",
     "officialPage": "https://www.bjtu.edu.cn/xxgk/xxbz/index.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "aa506bcafce2bd33059592fcb5322aa97527be10a53f31a835003c3f50ed4a0f",
+    "width": 500,
+    "height": 500,
+    "bytes": 118747,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4111010004",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "d55b91b23f6eab1e40e1eebc0d2ba7b2e0e243a1b1103fd8e599347136817a38",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "9bdeeda9b0d8840d158756e3577b00e25f715554cbc140d1d12a979749a6dc42",
-    "sha256": "dc89f5d628067d16cced3b4fcbe52432830e393483cb39f9f8adefa572e54827",
-    "width": 512,
-    "height": 511,
-    "bytes": 71789,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10005": {
     "universityId": "10005",
     "name": "北京工业大学",
     "localPath": "/emblems/10005.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-university-of-technology-logo-512px.png",
+    "sourceUrl": "https://www.bjut.edu.cn/__local/0/3B/29/B0955FD37DB3B273D1C31678217_6AA6537D_9507.png?e=.png",
     "officialPage": "https://www.bjut.edu.cn/dxwh/gdbs1.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "6dbd8a1cc7e1b4f2bf2dc65736d10e9be94417ed0afca8d0c02d3744afe754bd",
+    "width": 180,
+    "height": 181,
+    "bytes": 38151,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4111010005",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "75c39595c0694442642f2bc3270031be58ebe3e2bb1ef7d9a2bf4bbbce2bfe49",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "bf7be6d78d2e70a1525fe6257961cc037fae858ef8af2d79276c3bbc4e3d851d",
-    "sha256": "a8dc372945fd1241534148992db0392aa09dcd619cc57e6feba999c03c071cd9",
-    "width": 512,
-    "height": 512,
-    "bytes": 64775,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10006": {
     "universityId": "10006",
@@ -157,7 +181,13 @@
     "width": 512,
     "height": 512,
     "bytes": 72052,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10007": {
     "universityId": "10007",
@@ -184,7 +214,13 @@
     "width": 512,
     "height": 512,
     "bytes": 84534,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10008": {
     "universityId": "10008",
@@ -210,7 +246,13 @@
     "width": 512,
     "height": 512,
     "bytes": 90823,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10010": {
     "universityId": "10010",
@@ -237,7 +279,13 @@
     "width": 512,
     "height": 512,
     "bytes": 115880,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10013": {
     "universityId": "10013",
@@ -263,7 +311,13 @@
     "width": 512,
     "height": 512,
     "bytes": 91779,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10019": {
     "universityId": "10019",
@@ -290,34 +344,41 @@
     "width": 512,
     "height": 634,
     "bytes": 117628,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10022": {
     "universityId": "10022",
     "name": "北京林业大学",
     "localPath": "/emblems/10022.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/beijing-forestry-university-logo-512px.png",
+    "sourceUrl": "https://vi.bjfu.edu.cn/images/xiaohui.png",
     "officialPage": "https://vi.bjfu.edu.cn/",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "f7b7d68d019e1f5c4ad9b0b89aa6b5745643c8a60405b0d2a048d8bcfdaa324c",
+    "width": 250,
+    "height": 251,
+    "bytes": 30911,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4111010022",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "f6b615bdc05309b7ae44316bd3045d65a84d6f66ce1c55b4790bd4ce51348be1",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "960d3070c5ed90819192a176a989c5b7deeac690906a8459a783b9132dbc5d7a",
-    "sha256": "1ae4652698d8c9df3471815f1e9eab27f41f849b3e2b0bcaf984487d9514d965",
-    "width": 512,
-    "height": 512,
-    "bytes": 81224,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10026": {
     "universityId": "10026",
@@ -344,7 +405,13 @@
     "width": 512,
     "height": 555,
     "bytes": 91565,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10027": {
     "universityId": "10027",
@@ -371,7 +438,13 @@
     "width": 512,
     "height": 512,
     "bytes": 110532,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10030": {
     "universityId": "10030",
@@ -398,7 +471,13 @@
     "width": 512,
     "height": 632,
     "bytes": 112080,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10033": {
     "universityId": "10033",
@@ -425,7 +504,13 @@
     "width": 512,
     "height": 512,
     "bytes": 104045,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10034": {
     "universityId": "10034",
@@ -452,7 +537,13 @@
     "width": 512,
     "height": 517,
     "bytes": 119294,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10036": {
     "universityId": "10036",
@@ -479,7 +570,13 @@
     "width": 512,
     "height": 477,
     "bytes": 44780,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10043": {
     "universityId": "10043",
@@ -506,7 +603,13 @@
     "width": 512,
     "height": 482,
     "bytes": 40822,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10045": {
     "universityId": "10045",
@@ -533,7 +636,13 @@
     "width": 512,
     "height": 634,
     "bytes": 37954,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10052": {
     "universityId": "10052",
@@ -560,7 +669,13 @@
     "width": 512,
     "height": 512,
     "bytes": 70802,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10053": {
     "universityId": "10053",
@@ -587,7 +702,13 @@
     "width": 512,
     "height": 512,
     "bytes": 86450,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10054": {
     "universityId": "10054",
@@ -613,7 +734,13 @@
     "width": 512,
     "height": 512,
     "bytes": 74732,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10055": {
     "universityId": "10055",
@@ -621,11 +748,11 @@
     "localPath": "/emblems/10055.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/nankai-university-logo-512px.png",
     "officialPage": "https://www.nankai.edu.cn/164/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4112010055",
@@ -640,7 +767,20 @@
     "width": 512,
     "height": 512,
     "bytes": 77825,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.nankai.edu.cn/_upload/article/images/77/1f/a7852bfa49c3bdea0f4564630e66/c658ec37-5315-4c7c-b5d5-aee3e3e570d3.jpg",
+      "referenceImageSha256": "9867f87ee2fe318230fa671ecc1fe7c7d8f49dd161b4d726e6071bb1ec69fa24",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10056": {
     "universityId": "10056",
@@ -667,7 +807,13 @@
     "width": 512,
     "height": 512,
     "bytes": 95561,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10062": {
     "universityId": "10062",
@@ -694,7 +840,13 @@
     "width": 512,
     "height": 512,
     "bytes": 106523,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10080": {
     "universityId": "10080",
@@ -721,7 +873,13 @@
     "width": 512,
     "height": 512,
     "bytes": 103718,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10112": {
     "universityId": "10112",
@@ -748,7 +906,13 @@
     "width": 512,
     "height": 512,
     "bytes": 80111,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10126": {
     "universityId": "10126",
@@ -775,7 +939,13 @@
     "width": 512,
     "height": 512,
     "bytes": 80867,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10140": {
     "universityId": "10140",
@@ -783,11 +953,11 @@
     "localPath": "/emblems/10140.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/liaoning-university-logo-512px.png",
     "officialPage": "https://www.lnu.edu.cn/xxgk/xhxx.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4121010140",
@@ -802,7 +972,20 @@
     "width": 512,
     "height": 512,
     "bytes": 279606,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.lnu.edu.cn/__local/2/A7/86/589D882DE604DA9B79C49EB0C96_3EC6F4DD_14025.png",
+      "referenceImageSha256": "10a2c016fe66da4bef93197622b37d085604c2d31b636a8395bc842479d7fb96",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10141": {
     "universityId": "10141",
@@ -829,34 +1012,41 @@
     "width": 512,
     "height": 512,
     "bytes": 81091,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10145": {
     "universityId": "10145",
     "name": "东北大学",
     "localPath": "/emblems/10145.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/northeastern-university-logo-512px.png",
+    "sourceUrl": "https://www.neu.edu.cn/__local/4/30/EA/0509D19C69223A9F496920EB50A_B834D310_1019D.png",
     "officialPage": "https://www.neu.edu.cn/xygk/ddbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "d635116b76afbadaa6d7bd2139780eb608eca0508400bc8a9d32035b39ec481c",
+    "width": 286,
+    "height": 265,
+    "bytes": 65949,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4121010145",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "552cc6eeafb4a208f82b3c712eccbbf016032528e06ea923f692dedbe3c825c3",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "f0a1b5b2aeeb003a906106b7be2bbd3bc81c73aa747fbd34d4b2eba5fb3f7dd4",
-    "sha256": "8898c8e2ec68e99de6f4de117152064f9b8583989ed78163291fc1711bff2d32",
-    "width": 512,
-    "height": 512,
-    "bytes": 108514,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10151": {
     "universityId": "10151",
@@ -882,7 +1072,13 @@
     "width": 512,
     "height": 512,
     "bytes": 71296,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10183": {
     "universityId": "10183",
@@ -890,11 +1086,11 @@
     "localPath": "/emblems/10183.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/jilin-university-logo-512px.png",
     "officialPage": "https://www.jlu.edu.cn/xxgk/xxbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4122010183",
@@ -909,7 +1105,20 @@
     "width": 512,
     "height": 511,
     "bytes": 77900,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.jlu.edu.cn/__local/7/83/D9/7102B87B2B19A437A47277CDE46_6A63595A_32E6.jpg",
+      "referenceImageSha256": "0b4da429e8a8f752d44b27965fa82349536196173102e89ebb1ee0a26ab17c99",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10184": {
     "universityId": "10184",
@@ -935,7 +1144,13 @@
     "width": 512,
     "height": 511,
     "bytes": 75738,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10200": {
     "universityId": "10200",
@@ -962,34 +1177,41 @@
     "width": 512,
     "height": 430,
     "bytes": 86082,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10213": {
     "universityId": "10213",
     "name": "哈尔滨工业大学",
     "localPath": "/emblems/10213.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/harbin-institute-of-technology-logo-512px.png",
+    "sourceUrl": "https://www.hit.edu.cn/_upload/article/images/d3/ec/8fcaa5d24cb59a8e9660324ef50b/735df70a-538b-4bd6-8e52-3f373085a616.png",
     "officialPage": "https://www.hit.edu.cn/11544/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "5aa509588f338bc6e6cff09ddf6100fc324289c2cd042288d3b56194d383a3f9",
+    "width": 254,
+    "height": 219,
+    "bytes": 39504,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4123010213",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "3c75e85cb23458016d57eba7ac5835318e719ee9b7f5081e5bec4553cd0463df",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "c5769b90d05520b6c72fc44d8e4a8b316a0fc8b7a6d8bc195e5016b555343b16",
-    "sha256": "9f4647055ed87c31992d215f21289fa771cbb8191a83a309287e6fd261200c40",
-    "width": 512,
-    "height": 462,
-    "bytes": 51601,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10217": {
     "universityId": "10217",
@@ -1016,7 +1238,13 @@
     "width": 512,
     "height": 512,
     "bytes": 143835,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10224": {
     "universityId": "10224",
@@ -1042,7 +1270,13 @@
     "width": 512,
     "height": 512,
     "bytes": 85814,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10225": {
     "universityId": "10225",
@@ -1069,7 +1303,13 @@
     "width": 512,
     "height": 512,
     "bytes": 73729,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10246": {
     "universityId": "10246",
@@ -1096,7 +1336,13 @@
     "width": 512,
     "height": 512,
     "bytes": 83647,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10247": {
     "universityId": "10247",
@@ -1123,7 +1369,13 @@
     "width": 512,
     "height": 512,
     "bytes": 84001,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10248": {
     "universityId": "10248",
@@ -1150,7 +1402,13 @@
     "width": 512,
     "height": 512,
     "bytes": 101629,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10251": {
     "universityId": "10251",
@@ -1177,7 +1435,13 @@
     "width": 512,
     "height": 512,
     "bytes": 80987,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10255": {
     "universityId": "10255",
@@ -1185,11 +1449,11 @@
     "localPath": "/emblems/10255.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/donghua-university-logo-512px.png",
     "officialPage": "http://www.dhu.edu.cn/5952/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4131010255",
@@ -1204,7 +1468,20 @@
     "width": 512,
     "height": 512,
     "bytes": 83207,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "http://www.dhu.edu.cn/_upload/article/9a/9e/cc96aac8405cbefad7305a63d3f7/b8e324ad-88b1-44d6-914e-31edb68d1e3f.png",
+      "referenceImageSha256": "52729c4686b83092757dc4044e440a566a0316771eff3fb810151b925fe93d22",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10269": {
     "universityId": "10269",
@@ -1212,11 +1489,11 @@
     "localPath": "/emblems/10269.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/east-china-normal-university-logo-512px.png",
     "officialPage": "https://www.ecnu.edu.cn/wzcd/xxgk/xxbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4131010269",
@@ -1231,7 +1508,20 @@
     "width": 512,
     "height": 512,
     "bytes": 87592,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.ecnu.edu.cn/__local/4/CC/A6/080A3B2DBECB2C9665350AE235C_2CC8FD5D_4EB0B.jpg",
+      "referenceImageSha256": "15d6f187d2d13de5d8307542d76bbad848e8e72890b8b246c6826620599ee9a9",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10271": {
     "universityId": "10271",
@@ -1258,7 +1548,13 @@
     "width": 512,
     "height": 512,
     "bytes": 64733,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10272": {
     "universityId": "10272",
@@ -1266,11 +1562,11 @@
     "localPath": "/emblems/10272.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-university-of-finance-and-economics-logo-512px.png",
     "officialPage": "https://gongkai.sufe.edu.cn/50/cd/c226a20685/page.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4131010272",
@@ -1285,46 +1581,77 @@
     "width": 512,
     "height": 512,
     "bytes": 102450,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://gongkai.sufe.edu.cn/_upload/article/images/50/80/0b84d7804da889c1950c0364706d/7d414763-69ad-4c15-bfd5-0461f99ed942.jpg",
+      "referenceImageSha256": "d0774756fb00ebe3e98f3862a5f75cd3cb5387ae99aac7387f4ca2dc3f6fb850",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "11903": {
     "universityId": "11903",
     "name": "上海大学",
     "localPath": "/emblems/11903.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/shanghai-university-logo-512px.png",
+    "sourceUrl": "https://www.shu.edu.cn/__local/0/08/C6/1EABE492B0CF228A5564D6E6ABE_779D1EE3_5BF7.png",
     "officialPage": "https://www.shu.edu.cn/xxgk/sdwh.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "6c4a2c0c6c8870df0ecd55e045543010999aea34ee53c71f857f2131948e4fd5",
+    "width": 255,
+    "height": 322,
+    "bytes": 23543,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4131010280",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "84eb97511c37560beb8e6abf5bf1e68607cdc32393a5e82c90d74d3dc4d8eac8",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "3477c1891ef57221860dbf8c68c9a8933da4adf5e32110c2e240a0fcaa305152",
-    "sha256": "27a3dc9076507458ea6631a99c93a5f6ea90c9ada705b01199dc33255f1238c9",
-    "width": 512,
-    "height": 643,
-    "bytes": 67287,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "91020": {
     "universityId": "91020",
     "name": "中国人民解放军海军军医大学",
-    "localPath": null,
-    "sourceUrl": null,
+    "localPath": "/emblems/91020.png",
+    "sourceUrl": "https://cdn.urongda.com/images/universities/海军军医大学-logo-512px.png",
     "officialPage": "https://www.smmu.edu.cn/",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "公开 VIS 目录未找到校名完全匹配的资源；不使用相似学校或旧军医校徽代替。"
+      "当前海军军医大学校徽：已对照官网页眉原图的校名、蛇杖、八一星徽、船锚、橄榄枝及英文环；未沿用旧第二军医大学文字版本。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
-    "retrievedAt": "2026-09-06"
+    "sha256": "655a124e46c354829853fe78ea2531edd7c20e9ca9eb73acffe5a04c05771c74",
+    "width": 536,
+    "height": 536,
+    "bytes": 297973,
+    "format": "image/png",
+    "retrievedAt": "2026-09-06",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06"
+    },
+    "discoveryPage": "https://www.urongda.com/universities/project-211",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10284": {
     "universityId": "10284",
@@ -1332,11 +1659,11 @@
     "localPath": "/emblems/10284.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-university-logo-512px.png",
     "officialPage": "https://www.nju.edu.cn/ndgk/ndbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4132010284",
@@ -1351,7 +1678,20 @@
     "width": 512,
     "height": 625,
     "bytes": 76743,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.nju.edu.cn/__local/F/7A/1D/91723945F34FAA0A9C67700CF8F_13B47AE2_E3A7.png",
+      "referenceImageSha256": "e01b00f30bdb3ec7881fd3f9e8fb48bce217b6dc86d7d65533f884f48b67e2b3",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10285": {
     "universityId": "10285",
@@ -1378,7 +1718,13 @@
     "width": 512,
     "height": 512,
     "bytes": 108620,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10286": {
     "universityId": "10286",
@@ -1404,7 +1750,13 @@
     "width": 512,
     "height": 512,
     "bytes": 114455,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10287": {
     "universityId": "10287",
@@ -1412,11 +1764,11 @@
     "localPath": "/emblems/10287.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-university-of-aeronautics-and-astronautics-logo-512px.png",
     "officialPage": "https://vi.nuaa.edu.cn/12426/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4132010287",
@@ -1431,7 +1783,20 @@
     "width": 512,
     "height": 512,
     "bytes": 104895,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://vi.nuaa.edu.cn/_upload/article/images/e2/9a/df84b0c1442fbe7d2fc6d8ac6ad7/a07f64bc-90a1-47d9-b086-68fb6f30e570.png",
+      "referenceImageSha256": "7462674693ae1e20bdb7764ac632e7d184430fccee0f2372e3324173cf277c08",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10288": {
     "universityId": "10288",
@@ -1458,7 +1823,13 @@
     "width": 512,
     "height": 512,
     "bytes": 102514,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10290": {
     "universityId": "10290",
@@ -1484,7 +1855,13 @@
     "width": 512,
     "height": 512,
     "bytes": 101199,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10294": {
     "universityId": "10294",
@@ -1492,11 +1869,11 @@
     "localPath": "/emblems/10294.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/hohai-university-logo-512px.png",
     "officialPage": "https://www.hhu.edu.cn/_t129/2021/0326/c179a220941/page.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4132010294",
@@ -1511,7 +1888,20 @@
     "width": 512,
     "height": 512,
     "bytes": 86829,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.hhu.edu.cn/_upload/article/images/d0/4c/2f0bd7ef4b239e19ac15d09ddd1b/c9a1ce40-103f-49fd-90a2-85a52a6b7176.jpg",
+      "referenceImageSha256": "003daeb8eafc9abf6315f2ca74751930ef78908a57657078149f25bb5d291bea",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10295": {
     "universityId": "10295",
@@ -1538,7 +1928,13 @@
     "width": 512,
     "height": 512,
     "bytes": 75787,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10307": {
     "universityId": "10307",
@@ -1546,11 +1942,11 @@
     "localPath": "/emblems/10307.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/nanjing-agricultural-university-logo-512px.png",
     "officialPage": "http://www.njau.edu.cn/xxwxh/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4132010307",
@@ -1565,7 +1961,20 @@
     "width": 512,
     "height": 506,
     "bytes": 168092,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "http://www.njau.edu.cn/_upload/article/images/f6/8e/bc60c931434f9acae81ad28835bd/36d852f1-096f-4b6b-8f64-9c1a162dc505.jpg",
+      "referenceImageSha256": "2d3bf7951c1b9190e766d8efdb9df05f0c1ee9170970e925ec7b163a4befe939",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10316": {
     "universityId": "10316",
@@ -1573,11 +1982,11 @@
     "localPath": "/emblems/10316.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/china-pharmaceutical-university-logo-512px.png",
     "officialPage": "https://www.cpu.edu.cn/11463/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4132010316",
@@ -1592,7 +2001,20 @@
     "width": 512,
     "height": 512,
     "bytes": 85032,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.cpu.edu.cn/_upload/article/images/c3/28/1a3d78904b6eb6d972393199c169/ffebf812-b53e-4e6d-9542-ab74ccb9f99f.jpg",
+      "referenceImageSha256": "833d7b0ceecb0de89e9c0865ce5ad19ce8ba8b972deb70bdd6f073a93c90d916",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10319": {
     "universityId": "10319",
@@ -1618,7 +2040,13 @@
     "width": 512,
     "height": 536,
     "bytes": 66829,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10335": {
     "universityId": "10335",
@@ -1645,7 +2073,13 @@
     "width": 512,
     "height": 512,
     "bytes": 67834,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10357": {
     "universityId": "10357",
@@ -1653,11 +2087,11 @@
     "localPath": "/emblems/10357.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/anhui-university-logo-512px.png",
     "officialPage": "https://www.ahu.edu.cn/149/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4134010357",
@@ -1672,7 +2106,20 @@
     "width": 512,
     "height": 512,
     "bytes": 73305,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.ahu.edu.cn/_upload/article/images/45/88/cc4b58214d3eb0f7214755ac5d18/e9c35651-9625-423c-957b-0f1cd5bf1cfc.jpg",
+      "referenceImageSha256": "d74a3596fdf9300b5bbfad7985bb3641b0ae94e4ebc3467f8f0045f50b4f6328",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10358": {
     "universityId": "10358",
@@ -1698,7 +2145,13 @@
     "width": 512,
     "height": 512,
     "bytes": 77274,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10359": {
     "universityId": "10359",
@@ -1724,7 +2177,13 @@
     "width": 512,
     "height": 512,
     "bytes": 68814,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10384": {
     "universityId": "10384",
@@ -1751,7 +2210,13 @@
     "width": 512,
     "height": 512,
     "bytes": 115016,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10386": {
     "universityId": "10386",
@@ -1778,7 +2243,13 @@
     "width": 512,
     "height": 512,
     "bytes": 73787,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10403": {
     "universityId": "10403",
@@ -1805,7 +2276,13 @@
     "width": 512,
     "height": 512,
     "bytes": 134628,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10422": {
     "universityId": "10422",
@@ -1832,7 +2309,13 @@
     "width": 512,
     "height": 510,
     "bytes": 73349,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10423": {
     "universityId": "10423",
@@ -1859,60 +2342,69 @@
     "width": 512,
     "height": 512,
     "bytes": 65076,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10425": {
     "universityId": "10425",
     "name": "中国石油大学（华东）",
     "localPath": "/emblems/10425.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/china-university-of-petroleum-logo-512px.png",
+    "sourceUrl": "https://www.upc.edu.cn/__local/C/F5/A5/5D4E68C8E5AC5EAC303B91B6AF3_8B597FCD_855B.png",
     "officialPage": "https://www.upc.edu.cn/xygk/xywh.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "5b31eb9b57ef713881132f02570ccf01972094daf5c2d4f0e0b9c1b5992ac6c4",
+    "width": 161,
+    "height": 161,
+    "bytes": 34139,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4137010425",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "79da62acc6bdb6d8a0350d39f0373fc0cc0370e113d52a89e6dc4abc7b0f2d1e",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "34c76929a0658712a6eed0052d89c050306559f9553f992b1ed6df5d583b91b6",
-    "sha256": "0a4c9c3df3b0a5ba74154c428d58ca998837a9cbd4e3723874228367283acfab",
-    "width": 512,
-    "height": 512,
-    "bytes": 92668,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10459": {
     "universityId": "10459",
     "name": "郑州大学",
     "localPath": "/emblems/10459.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/zhengzhou-university-logo-512px.png",
+    "sourceUrl": "http://www.zzu.edu.cn/__local/F/09/A3/7C2002C534020EAD7036D42F848_DB67C5F8_AC59.png",
     "officialPage": "http://www.zzu.edu.cn/xxgk/whbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "203c283bb8aa31d28224f7a54eec01a176ecb6d544fe2043380ba22adee12534",
+    "width": 252,
+    "height": 252,
+    "bytes": 44121,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4141010459",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "unavailable",
-      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "c75bbe46155d16a9409d6fa31d5f7b0f1e19527a47dd2c019b9b5ecae36d8217",
-    "sha256": "95e5eff59426d7e39af214d2324c2bacf024a4e48abc71b47672083b6ffc279f",
-    "width": 512,
-    "height": 512,
-    "bytes": 74247,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10486": {
     "universityId": "10486",
@@ -1920,11 +2412,11 @@
     "localPath": "/emblems/10486.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/wuhan-university-logo-512px.png",
     "officialPage": "https://www.whu.edu.cn/xxgk/wdbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4142010486",
@@ -1939,7 +2431,20 @@
     "width": 512,
     "height": 512,
     "bytes": 80753,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.whu.edu.cn/__local/E/EA/D6/D007F1FEAD3CBA8EE4667228D78_778EF543_153C9.png?e=.png",
+      "referenceImageSha256": "c7e30e110e932f4138319a6b7f533fe84ab692561a6a543ec2dd645bfd9e2e01",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10487": {
     "universityId": "10487",
@@ -1966,7 +2471,13 @@
     "width": 512,
     "height": 395,
     "bytes": 99363,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10491": {
     "universityId": "10491",
@@ -1993,7 +2504,13 @@
     "width": 512,
     "height": 512,
     "bytes": 96829,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10497": {
     "universityId": "10497",
@@ -2019,7 +2536,13 @@
     "width": 512,
     "height": 512,
     "bytes": 95418,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10504": {
     "universityId": "10504",
@@ -2027,11 +2550,11 @@
     "localPath": "/emblems/10504.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/huazhong-agricultural-university-logo-512px.png",
     "officialPage": "http://xchb.hzau.edu.cn/info/1023/1115.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4142010504",
@@ -2046,7 +2569,20 @@
     "width": 512,
     "height": 512,
     "bytes": 86640,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "http://xchb.hzau.edu.cn/__local/D/AD/80/BC63BD51C93F3B434D71713D77A_3F595740_160B3.jpg",
+      "referenceImageSha256": "ee0c59f2d3f1557239d0cfc84ab1c7ffa9bea93092feb64a85d58c385221c908",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10511": {
     "universityId": "10511",
@@ -2073,7 +2609,13 @@
     "width": 512,
     "height": 512,
     "bytes": 77334,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10520": {
     "universityId": "10520",
@@ -2085,7 +2627,8 @@
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。",
+      "官网参考图使用蓝紫色，本地集合版本为绿色；学校身份可辨，标准色版本仍待进一步确认。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4142010520",
@@ -2100,7 +2643,13 @@
     "width": 512,
     "height": 512,
     "bytes": 80629,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10532": {
     "universityId": "10532",
@@ -2112,7 +2661,8 @@
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。",
+      "官网参考图使用绿色，本地集合版本为红色；学校身份可辨，标准色版本仍待进一步确认。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4143010532",
@@ -2127,7 +2677,13 @@
     "width": 512,
     "height": 491,
     "bytes": 93200,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10533": {
     "universityId": "10533",
@@ -2154,7 +2710,13 @@
     "width": 512,
     "height": 511,
     "bytes": 86563,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10542": {
     "universityId": "10542",
@@ -2162,11 +2724,11 @@
     "localPath": "/emblems/10542.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/hunan-normal-university-logo-512px.png",
     "officialPage": "https://www.hunnu.edu.cn/xxgk1/xxbs1.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4143010542",
@@ -2181,7 +2743,20 @@
     "width": 512,
     "height": 517,
     "bytes": 97891,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.hunnu.edu.cn/__local/1/61/8A/173AEDD84CE6448B5C06DA216DE_E94DFBE9_60EF.jpg",
+      "referenceImageSha256": "0de6c35530099eb291d78b719da765da9bdb1688847a43bba484821f217250f5",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "91002": {
     "universityId": "91002",
@@ -2208,34 +2783,41 @@
     "width": 512,
     "height": 512,
     "bytes": 94635,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10558": {
     "universityId": "10558",
     "name": "中山大学",
     "localPath": "/emblems/10558.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/sun-yat-sen-university-logo-512px.png",
+    "sourceUrl": "https://www.sysu.edu.cn/__local/C/8E/79/6236A91AEAFBB9F7F2C23A9F836_97F1F3B5_178FF.png?e=.png",
     "officialPage": "https://www.sysu.edu.cn/xxg/zdjj1.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "61b24c100d11ada4738623ceb9855a027dee199223b959c506f2f5d2be003f4f",
+    "width": 229,
+    "height": 229,
+    "bytes": 96511,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4144010558",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "d83797de03de1b2b4a46913ec56b98a5dfb1000b530e0b8c1895b086a0fd7507",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "b25d065ce603b44d77ec9e950d929d2b9debdcb22a3e6f06a8d61927a31901a7",
-    "sha256": "a11e9e56761cdfc1cda3ee012bf35d8530ecbf10685cb8bb883e17d01629e4bf",
-    "width": 512,
-    "height": 512,
-    "bytes": 84963,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10559": {
     "universityId": "10559",
@@ -2262,34 +2844,41 @@
     "width": 512,
     "height": 512,
     "bytes": 68098,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10561": {
     "universityId": "10561",
     "name": "华南理工大学",
     "localPath": "/emblems/10561.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/south-china-university-of-technology-logo-512px.png",
+    "sourceUrl": "https://www.scut.edu.cn/_upload/article/images/16/02/3166fd1b4c8cb0148ec56c04f071/c6faf181-ecc2-4b0b-b05d-1f4c04780ce6.png",
     "officialPage": "https://www.scut.edu.cn/new/9017/list.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "66f2324cb979c31aeae39d59c7a9261cdf22109612ad7d2010aaea04b71569c4",
+    "width": 698,
+    "height": 698,
+    "bytes": 71404,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4144010561",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "b61b4ca56348bbab1add7f9d26c5e1379a6eca5ad94c6424a3941ef548fbff58",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "eb11db2a44f2bfa59b03ab998e95dd2f35a8cf1794757f6c40bef9acece9aadc",
-    "sha256": "e3ac18dae43ce000b3371c60e598914b8b83e134ea1f2e3a34f5f486bc3f98b5",
-    "width": 512,
-    "height": 512,
-    "bytes": 91628,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10574": {
     "universityId": "10574",
@@ -2316,7 +2905,13 @@
     "width": 512,
     "height": 565,
     "bytes": 102798,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10593": {
     "universityId": "10593",
@@ -2324,11 +2919,11 @@
     "localPath": "/emblems/10593.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/guangxi-university-logo-512px.png",
     "officialPage": "https://www.gxu.edu.cn/xdgl1/xxbs1.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4145010593",
@@ -2343,7 +2938,20 @@
     "width": 512,
     "height": 512,
     "bytes": 159719,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.gxu.edu.cn/__local/2/07/A9/943E1057E746C4E92A28353C75B_04DB7951_2FCED.jpg?e=.jpg",
+      "referenceImageSha256": "ba832fbd5ff4c2210919a95f0a3a31a2567087177940dd9d60e416b567e8ad6b",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10589": {
     "universityId": "10589",
@@ -2355,7 +2963,8 @@
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。",
+      "官网参考图与集合版本的蓝色及边框表现不同；保留待核验状态。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4146010589",
@@ -2370,7 +2979,13 @@
     "width": 512,
     "height": 640,
     "bytes": 84875,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10610": {
     "universityId": "10610",
@@ -2396,7 +3011,13 @@
     "width": 512,
     "height": 512,
     "bytes": 70939,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10613": {
     "universityId": "10613",
@@ -2423,7 +3044,13 @@
     "width": 512,
     "height": 563,
     "bytes": 103634,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10614": {
     "universityId": "10614",
@@ -2449,7 +3076,13 @@
     "width": 512,
     "height": 511,
     "bytes": 54532,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10626": {
     "universityId": "10626",
@@ -2475,34 +3108,41 @@
     "width": 512,
     "height": 512,
     "bytes": 101074,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10651": {
     "universityId": "10651",
     "name": "西南财经大学",
     "localPath": "/emblems/10651.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/southwestern-university-of-finance-and-economics-logo-512px.png",
+    "sourceUrl": "https://www.swufe.edu.cn/__local/5/F1/AC/0CE89B7DCE6366962A361A08B6D_BF76F71B_A98E.png",
     "officialPage": "https://www.swufe.edu.cn/xywh/xh.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "5037b39079e91b646ff8544aaa8aab9ffec81ccd10c8bcc70c966c4304f7fb59",
+    "width": 400,
+    "height": 400,
+    "bytes": 43406,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4151010651",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "73c99ade3b731c5bcee9369389c28de70b7eecbd39c33ca7a64c2143907acf6f",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "0b3b016618c46670579ddf3645abbcf5d0071a9d4b6bc3b9e51696576fd90677",
-    "sha256": "87a9bc8887875f72e7481d35965ce34827bc801c4a097d2164e2929a196ffae2",
-    "width": 512,
-    "height": 512,
-    "bytes": 82202,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10611": {
     "universityId": "10611",
@@ -2510,11 +3150,11 @@
     "localPath": "/emblems/10611.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/chongqing-university-logo-512px.png",
     "officialPage": "https://www.cqu.edu.cn/xqgk/xxjj.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4150010611",
@@ -2529,7 +3169,20 @@
     "width": 512,
     "height": 512,
     "bytes": 79910,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.cqu.edu.cn/__local/9/3A/2A/99808910D1AFBED502CF94BF329_5B24A270_1E97F.png?e=.png",
+      "referenceImageSha256": "e081f07e2664c3f4a904d52f73f6ebe7a9a8d305a2033b0b762ab05737cc5c8d",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10635": {
     "universityId": "10635",
@@ -2556,7 +3209,13 @@
     "width": 512,
     "height": 512,
     "bytes": 85914,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10657": {
     "universityId": "10657",
@@ -2582,7 +3241,13 @@
     "width": 512,
     "height": 512,
     "bytes": 77352,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10673": {
     "universityId": "10673",
@@ -2609,7 +3274,13 @@
     "width": 512,
     "height": 511,
     "bytes": 79131,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10694": {
     "universityId": "10694",
@@ -2636,34 +3307,41 @@
     "width": 512,
     "height": 512,
     "bytes": 88100,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10697": {
     "universityId": "10697",
     "name": "西北大学",
     "localPath": "/emblems/10697.png",
-    "sourceUrl": "https://www.urongda.com/images/normal/small/northwest-university-logo-512px.png",
+    "sourceUrl": "https://www.nwu.edu.cn/__local/3/63/A5/73750A799BDE7ED88E21F1A0A65_89AD1DD1_24F50.png",
     "officialPage": "https://www.nwu.edu.cn/xxgk/xxbs/xb.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
-      "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
-      "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "优先采用官方标识页面提供的独立 PNG 原图；已对照校名及标志形制，保留原始尺寸、颜色与留白。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
+    "sha256": "770ecfddffee3585627070d7ae374a380c06fd79a9f3337d7ead5da87584d2f5",
+    "width": 297,
+    "height": 297,
+    "bytes": 151376,
+    "format": "image/png",
     "retrievedAt": "2026-09-06",
-    "discoveryPage": "https://urongda.com/logos/4161010697",
-    "catalogUrl": "https://raw.githubusercontent.com/urongda/Visual_Identity_System_Chinese_University/7120523b8d9e6242389ffc2e7008d23a5a006d93/schools.json",
-    "officialEvidence": {
-      "status": "retrieved",
-      "pageSha256": "1326294564baab1ce522ca044489ad12029c3310c76edbeceb75c6f59b2903af",
-      "containsNameAndIdentityText": true
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
     },
-    "sourcePageSha256": "1efd1764637f6e0e458af38d8341861bccaeb588b3249a53f6b86f041c7cb8be",
-    "sha256": "a16045bef844868fcc3b74d9fdc6bda16ec42034b7c3eb35a3d4142c64bfbae0",
-    "width": 512,
-    "height": 512,
-    "bytes": 106013,
-    "format": "image/png"
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10698": {
     "universityId": "10698",
@@ -2690,7 +3368,13 @@
     "width": 512,
     "height": 512,
     "bytes": 91956,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10699": {
     "universityId": "10699",
@@ -2717,7 +3401,13 @@
     "width": 512,
     "height": 512,
     "bytes": 103991,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10701": {
     "universityId": "10701",
@@ -2744,7 +3434,13 @@
     "width": 512,
     "height": 506,
     "bytes": 79828,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10710": {
     "universityId": "10710",
@@ -2752,11 +3448,11 @@
     "localPath": "/emblems/10710.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/changan-university-logo-512px.png",
     "officialPage": "https://www.chd.edu.cn/xxgk/zdbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4161010710",
@@ -2771,7 +3467,20 @@
     "width": 512,
     "height": 512,
     "bytes": 67391,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "https://www.chd.edu.cn/__local/A/9C/06/BD0F72806CEE4CD56FBA7150C09_F6DEE72E_769B.jpg",
+      "referenceImageSha256": "c2891500694babeb23e6ef111d6cc722dfcd6ea5fa6d2ef37287d9e758f61a95",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10712": {
     "universityId": "10712",
@@ -2798,7 +3507,13 @@
     "width": 512,
     "height": 512,
     "bytes": 155485,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10718": {
     "universityId": "10718",
@@ -2825,19 +3540,41 @@
     "width": 512,
     "height": 512,
     "bytes": 89089,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "91030": {
     "universityId": "91030",
     "name": "中国人民解放军空军军医大学",
-    "localPath": null,
-    "sourceUrl": null,
-    "officialPage": "https://www.fmmu.edu.cn/",
-    "verified": false,
+    "localPath": "/emblems/91030.png",
+    "sourceUrl": "https://www.fmmu.edu.cn/__local/0/96/81/B410D8E6EE5DC29D3DE90F01677_BFDF5B60_327E8.png",
+    "officialPage": "https://www.fmmu.edu.cn/xxgk/xxbz1.htm",
+    "verified": true,
     "notes": [
-      "公开 VIS 目录未找到校名完全匹配的资源；不使用相似学校或旧军医校徽代替。"
+      "直接采用官网“学校标志”校徽原始 PNG；城墙、橄榄枝、蛇杖、空军翅膀、1941 与 AFMU 均与官方释义一致。",
+      "标识权利归学校；verified 为图像身份与形制核对，不代表学校授权。"
     ],
-    "retrievedAt": "2026-09-06"
+    "sha256": "50cdea8b22187c6cb0e6d48cc4500890c683d5229535dff248a6cb9721bbf96c",
+    "width": 1084,
+    "height": 1096,
+    "bytes": 206824,
+    "format": "image/png",
+    "retrievedAt": "2026-09-06",
+    "verification": {
+      "method": "official-original",
+      "checkedAt": "2026-09-06"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10730": {
     "universityId": "10730",
@@ -2863,7 +3600,13 @@
     "width": 512,
     "height": 512,
     "bytes": 70345,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10743": {
     "universityId": "10743",
@@ -2890,7 +3633,13 @@
     "width": 512,
     "height": 512,
     "bytes": 73249,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10749": {
     "universityId": "10749",
@@ -2916,7 +3665,13 @@
     "width": 512,
     "height": 511,
     "bytes": 94766,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10755": {
     "universityId": "10755",
@@ -2924,11 +3679,11 @@
     "localPath": "/emblems/10755.png",
     "sourceUrl": "https://www.urongda.com/images/normal/small/xinjiang-university-logo-512px.png",
     "officialPage": "http://www.xju.edu.cn/xxgk/xdbs.htm",
-    "verified": false,
+    "verified": true,
     "notes": [
       "资源页明确以该校全名标注独立校徽；使用原始 PNG，未裁剪、重绘或改色。",
       "标识权利归相应大学；资源集合来源不等于大学授权。",
-      "已核对资源页校名；官方视觉形制逐图对照尚未完成，不标记 verified。"
+      "已在浏览器对照官方标识图或官方标准组合图的校名及主要形制；源文件未重绘、裁剪或改色。"
     ],
     "retrievedAt": "2026-09-06",
     "discoveryPage": "https://urongda.com/logos/4165010755",
@@ -2943,7 +3698,20 @@
     "width": 512,
     "height": 512,
     "bytes": 70103,
-    "format": "image/png"
+    "format": "image/png",
+    "verification": {
+      "method": "visual-comparison-to-official-image",
+      "checkedAt": "2026-09-06",
+      "referenceImageUrl": "http://www.xju.edu.cn/images/xinjiangdaxuexiaohuicuti_00.jpg",
+      "referenceImageSha256": "152092459fa9f7930d0a8d1007c532344b6059e602668dfd13b57a357145ef49",
+      "scope": "学校身份、可辨校名与主要形制对照；不声称取得大学使用授权或完成全部 VIS 色值/最小尺寸审批。"
+    },
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "10759": {
     "universityId": "10759",
@@ -2970,7 +3738,13 @@
     "width": 512,
     "height": 512,
     "bytes": 63523,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "11413": {
     "universityId": "11413",
@@ -2997,7 +3771,13 @@
     "width": 512,
     "height": 512,
     "bytes": 93615,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "11414": {
     "universityId": "11414",
@@ -3024,7 +3804,13 @@
     "width": 512,
     "height": 512,
     "bytes": 88002,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   },
   "11415": {
     "universityId": "11415",
@@ -3051,6 +3837,12 @@
     "width": 512,
     "height": 524,
     "bytes": 86583,
-    "format": "image/png"
+    "format": "image/png",
+    "displayReview": {
+      "checkedAt": "2026-09-06",
+      "method": "browser-rendered-contact-sheet",
+      "status": "image-loaded-and-emblem-visible",
+      "scope": "115 张逐图显示检查；官方来源对照状态另由 verified 记录。"
+    }
   }
 }

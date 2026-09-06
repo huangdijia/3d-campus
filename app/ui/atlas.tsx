@@ -17,15 +17,12 @@ import {
   X,
   Compass,
   MapPin,
-  GraduationCap,
   Play,
   Pause,
   Footprints,
   Globe2,
   ChevronRight,
   ExternalLink,
-  PanelLeftClose,
-  PanelLeftOpen,
   Building2,
 } from 'lucide-react';
 import { Button } from '../../components/ui/button';
@@ -51,6 +48,27 @@ const CampusScene = lazy(() => import('./campus-scene'));
 const universities = universitiesJson as University[];
 const provinces = [...new Set(universities.map((u) => u.province))];
 const previewCount = universities.filter((u) => u.campusId).length;
+function UniversityEmblem({ university }: { university: University }) {
+  const [failed, setFailed] = useState(false);
+  return failed ? (
+    <span className="emblem-fallback" aria-hidden="true">
+      {university.name.slice(0, 2)}
+    </span>
+  ) : (
+    // Preserve each school's original local PNG; fixed dimensions and lazy loading bound image work.
+    // oxlint-disable-next-line nextjs/no-img-element
+    <img
+      className="university-emblem"
+      src={`/emblems/${university.id}.png`}
+      alt={`${university.name}校徽`}
+      width={48}
+      height={48}
+      loading="lazy"
+      decoding="async"
+      onError={() => setFailed(true)}
+    />
+  );
+}
 class SceneBoundary extends Component<
   { children: ReactNode; onError: () => void },
   { failed: boolean }
@@ -161,12 +179,14 @@ export default function Atlas({
     });
   }
   function setPoi(value: POI | null) {
+    if (value && window.innerWidth <= 760) setListOpen(false);
     updateLocation({
       poiId: value?.id || null,
       ...(value ? { mode: 'overview' as const } : {}),
     });
   }
   function setMode(value: ExploreMode) {
+    if (window.innerWidth <= 760) setListOpen(false);
     updateLocation({
       mode: value,
       ...(value !== 'overview' ? { poiId: null } : {}),
@@ -195,7 +215,7 @@ export default function Atlas({
       setLocationState(next);
       setTouring(next.mode === 'tour');
       setTourIndex(0);
-      setListOpen(!(next.mode === 'walk' && window.innerWidth <= 760));
+      setListOpen(window.innerWidth > 760);
     };
     restore();
     const canonical = atlasHref(
@@ -256,6 +276,7 @@ export default function Atlas({
       });
     return () => controller.abort();
   }, [campusId]);
+  const sheetStart = useRef<number | null>(null);
   function select(u: University) {
     updateLocation({
       schoolId: u.id,
@@ -263,7 +284,7 @@ export default function Atlas({
       poiId: null,
       mode: 'overview',
     });
-    setListOpen(true);
+    setListOpen(window.innerWidth > 760);
   }
   function enter(u: University) {
     if (!u.campusId) return;
@@ -275,14 +296,20 @@ export default function Atlas({
     });
     setTouring(false);
     setReset(0);
-    setListOpen(true);
+    setListOpen(window.innerWidth > 760);
     setPoiQuery('');
   }
   function back() {
-    updateLocation({ campusId: null, poiId: null, mode: 'overview' });
+    updateLocation({
+      schoolId: null,
+      campusId: null,
+      poiId: null,
+      buildingQuery: '',
+      mode: 'overview',
+    });
     setTouring(false);
     setSceneError(false);
-    setListOpen(true);
+    setListOpen(window.innerWidth > 760);
   }
   function resetFilters() {
     setQuery('');
@@ -312,6 +339,28 @@ export default function Atlas({
             campusId ? '校园浏览' : selected ? '学校详情' : '高校搜索'
           }
         >
+          <button
+            className="sheet-handle"
+            aria-label="收起面板"
+            onClick={() => setListOpen(false)}
+            onPointerDown={(e) => {
+              sheetStart.current = e.clientY;
+              e.currentTarget.setPointerCapture(e.pointerId);
+            }}
+            onPointerUp={(e) => {
+              if (
+                sheetStart.current !== null &&
+                e.clientY - sheetStart.current > 24
+              )
+                setListOpen(false);
+              sheetStart.current = null;
+            }}
+            onPointerCancel={() => {
+              sheetStart.current = null;
+            }}
+          >
+            <span />
+          </button>
           {!campusId ? (
             selected ? (
               <>
@@ -327,7 +376,7 @@ export default function Atlas({
                 </div>
                 <article className="school-detail">
                   <div className="detail-emblem">
-                    <GraduationCap size={30} />
+                    <UniversityEmblem key={selected.id} university={selected} />
                   </div>
                   <p className="detail-location">
                     {selected.province} · {selected.city}
@@ -445,11 +494,11 @@ export default function Atlas({
                     <li key={u.id}>
                       <button
                         className="school-row"
-                        onClick={() => select(u)}
-                        aria-label={`查看${u.name}`}
+                        onClick={() => (u.campusId ? enter(u) : select(u))}
+                        aria-label={`${u.campusId ? '进入' : '查看'}${u.name}`}
                       >
                         <span className="school-monogram">
-                          <GraduationCap size={20} />
+                          <UniversityEmblem university={u} />
                         </span>
                         <span className="school-row-main">
                           <strong>{u.name}</strong>
@@ -481,16 +530,44 @@ export default function Atlas({
               <div className="panel-back">
                 <button onClick={back}>
                   <ArrowLeft size={16} />
-                  学校详情
+                  高校列表
                 </button>
                 <span>校园预览</span>
               </div>
               <div className="campus-heading">
-                <h1>{selected?.name || '校园'}</h1>
+                <div className="campus-identity">
+                  {selected && (
+                    <UniversityEmblem key={selected.id} university={selected} />
+                  )}
+                  <h1>{selected?.name || '校园'}</h1>
+                </div>
                 <p>
                   <MapPin size={13} />
                   {campus?.name || selected?.campusName}
                 </p>
+                {selected && (
+                  <details className="campus-school-info">
+                    <summary>
+                      学校介绍 <ChevronRight size={13} />
+                    </summary>
+                    <div>
+                      <p>
+                        {selected.province} · {selected.city} ·{' '}
+                        {selected.is985 ? '985 · 211' : '211'}
+                      </p>
+                      {selected.summary && <p>{selected.summary}</p>}
+                      {selected.website && (
+                        <a
+                          href={selected.website}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          访问学校官网 <ExternalLink size={12} />
+                        </a>
+                      )}
+                    </div>
+                  </details>
+                )}
               </div>
               {campus ? (
                 <>
@@ -681,7 +758,7 @@ export default function Atlas({
                           setPoi(p);
                           setTouring(false);
                           setMode('overview');
-                          setListOpen(true);
+                          setListOpen(window.innerWidth > 760);
                         }}
                         touring={touring}
                         onTourIndex={setTourIndex}
@@ -752,24 +829,84 @@ export default function Atlas({
               <Compass size={21} />
             </button>
           </div>
-          <button
-            className="mobile-panel-toggle"
-            onClick={() => setListOpen((v) => !v)}
-            aria-expanded={listOpen}
-          >
-            {listOpen ? (
-              <PanelLeftClose size={16} />
-            ) : (
-              <PanelLeftOpen size={16} />
-            )}{' '}
-            {listOpen
-              ? '收起面板'
-              : campusId
-                ? '校园信息'
-                : selected
-                  ? '学校详情'
-                  : '查找高校'}
-          </button>
+          {!listOpen && (
+            <div className="mobile-dock">
+              <button
+                className="dock-summary"
+                onClick={() => setListOpen(true)}
+                onPointerDown={(e) => {
+                  sheetStart.current = e.clientY;
+                  e.currentTarget.setPointerCapture(e.pointerId);
+                }}
+                onPointerUp={(e) => {
+                  if (
+                    sheetStart.current !== null &&
+                    sheetStart.current - e.clientY > 24
+                  )
+                    setListOpen(true);
+                  sheetStart.current = null;
+                }}
+                onPointerCancel={() => {
+                  sheetStart.current = null;
+                }}
+                aria-label={
+                  campusId
+                    ? '展开校园信息'
+                    : selected
+                      ? '展开学校详情'
+                      : '搜索高校'
+                }
+              >
+                {selected ? (
+                  <UniversityEmblem key={selected.id} university={selected} />
+                ) : (
+                  <Search size={20} />
+                )}
+                <span>
+                  <strong>
+                    {activePOI?.name || selected?.name || '搜索高校'}
+                  </strong>
+                  <small>
+                    {campusId
+                      ? walk
+                        ? '校园漫游'
+                        : mode === 'tour'
+                          ? '建筑导览'
+                          : '查看建筑与游览方式'
+                      : selected
+                        ? selected.campusName || '查看学校详情'
+                        : `${universities.length} 所高校 · 点击查找`}
+                  </small>
+                </span>
+              </button>
+              {selected && !campusId && selected.campusId && (
+                <button className="dock-action" onClick={() => enter(selected)}>
+                  进入校园
+                  <ArrowRight size={14} />
+                </button>
+              )}
+              {campusId && mode === 'tour' && (
+                <button
+                  className="dock-action"
+                  onClick={() => setTouring((v) => !v)}
+                  aria-label={touring ? '暂停导览' : '继续导览'}
+                >
+                  {touring ? <Pause size={17} /> : <Play size={17} />}
+                </button>
+              )}
+              {walk && (
+                <button
+                  className="dock-action"
+                  onClick={() => {
+                    setMode('overview');
+                    setReset((n) => n + 1);
+                  }}
+                >
+                  退出漫游
+                </button>
+              )}
+            </div>
+          )}
           {walk && (
             <div className="crosshair" aria-hidden="true">
               +

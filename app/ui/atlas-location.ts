@@ -30,8 +30,8 @@ export function normalizeLocation(
   schools: readonly School[],
 ): AtlasLocation {
   const school = schools.find((u) => u.id === state.schoolId);
-  const campusId =
-    school?.campusId && state.campusId === school.id ? school.id : null;
+  // A school with an available campus has one integrated destination.
+  const campusId = school?.campusId ? school.id : null;
   const mode: ExploreMode = !campusId
     ? 'overview'
     : state.mode === 'tour'

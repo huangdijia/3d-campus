@@ -14,7 +14,6 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import type { MapControls as MapControlsImpl } from 'three-stdlib';
 import type { University } from '../data/types';
 import { project, elevation, type Terrain, type MapView } from './geo';
-import nationalAsset from '../../public/data/national-map.json';
 type Props = {
   universities: University[];
   selected: University | null;
@@ -32,13 +31,18 @@ type Marker = {
   world: [number, number, number];
 };
 const initial: MapView = { position: [0, 75, 63], target: [0, 0, 1] };
-const modelUrl = `${nationalAsset.modelUrl}?v=${nationalAsset.modelSha256.slice(0, 12)}`;
+const modelUrl = '/models/national-map.glb';
 // Cache downloaded bytes, not GPU objects: every Canvas owns and disposes its model.
 let bytesPromise: Promise<ArrayBuffer> | null = null;
 let terrainPromise: Promise<Terrain> | null = null;
 function modelBytes() {
   if (!bytesPromise)
-    bytesPromise = fetch(modelUrl)
+    bytesPromise = fetch('/data/national-map.json')
+      .then(async (r) => {
+        if (!r.ok) throw Error('National map manifest unavailable');
+        const asset: { modelSha256: string } = await r.json();
+        return fetch(`${modelUrl}?v=${asset.modelSha256.slice(0, 12)}`);
+      })
       .then((r) => {
         if (!r.ok) throw Error('National map unavailable');
         return r.arrayBuffer();
@@ -106,6 +110,15 @@ const regionByProvince: Record<string, string> = {
   宁夏: '西北',
   新疆: '西北',
 };
+const mobileRegionOffsets: Record<string, [number, number]> = {
+  华北: [0, -25],
+  东北: [36, -42],
+  华东: [38, 0],
+  华中: [-15, 12],
+  华南: [0, 20],
+  西南: [-30, 8],
+  西北: [-28, -15],
+};
 function MarkerPosts({
   markers,
   selectedId,
@@ -164,13 +177,23 @@ function MapWorld({
     restoredView = useRef(false),
     viewInitialized = useRef(false);
   const mobile = size.width < 640;
-  const home = useMemo<MapView>(
-    () => ({
-      position: mobile ? [0, 96, 81] : initial.position,
+  const home = useMemo<MapView>(() => {
+    const aspect = size.width / Math.max(size.height, 1);
+    const distance = Math.max(
+      125,
+      110 /
+        (2 *
+          Math.tan(THREE.MathUtils.degToRad(47) / 2) *
+          Math.max(aspect, 0.25)),
+    );
+    return {
+      position: mobile
+        ? [0, distance * 0.77, distance * 0.65]
+        : initial.position,
       target: initial.target,
-    }),
-    [mobile],
-  );
+    };
+  }, [mobile, size.width, size.height]);
+  const homeDistance = Math.hypot(...home.position);
   const homeRef = useRef(home);
   useEffect(() => {
     homeRef.current = home;
@@ -312,23 +335,39 @@ function MapWorld({
         intensity={0.8}
         color="#a1d2e4"
       />
-      <fog attach="fog" args={['#e8f1f4', 100, 210]} />
+      <fog
+        attach="fog"
+        args={['#e8f1f4', homeDistance * 1.3, homeDistance * 2.5]}
+      />
       {data && <primitive object={data.model} dispose={null} />}
       {markers.length > 0 && (
         <MarkerPosts markers={markers} selectedId={selected?.id} />
       )}
       {markers.map((m) => {
         const active = m.items.some((u) => u.id === selected?.id);
+        const offset =
+          mobile && level === 0 ? mobileRegionOffsets[m.name] : undefined;
         return (
           <Html
             key={m.key}
             position={[m.world[0], m.world[1] + 1.1, m.world[2]]}
             center
-            distanceFactor={level === 2 ? 24 : mobile ? 65 : 85}
+            distanceFactor={mobile ? undefined : level === 2 ? 24 : 85}
             zIndexRange={[15, 5]}
           >
+            {offset && (
+              <svg className="map-pin-leader" aria-hidden="true">
+                <line x1="0" y1="0" x2={offset[0]} y2={offset[1]} />
+                <circle cx="0" cy="0" r="2" />
+              </svg>
+            )}
             <button
               className={`map-pin ${active ? 'active' : ''}`}
+              style={
+                offset
+                  ? { transform: `translate(${offset[0]}px, ${offset[1]}px)` }
+                  : undefined
+              }
               aria-label={
                 m.items.length > 1
                   ? `${m.name} ${m.items.length} 所高校`
@@ -367,7 +406,7 @@ function MapWorld({
         touches={{ ONE: THREE.TOUCH.PAN, TWO: THREE.TOUCH.DOLLY_ROTATE }}
         makeDefault
         minDistance={4}
-        maxDistance={180}
+        maxDistance={Math.max(180, homeDistance * 2.2)}
         minPolarAngle={0.1}
         maxPolarAngle={Math.PI / 2.25}
         enableDamping
@@ -384,7 +423,7 @@ export default function MapScene(props: Props) {
   return (
     <Canvas
       frameloop="demand"
-      camera={{ position: initial.position, fov: 47, near: 0.1, far: 500 }}
+      camera={{ position: initial.position, fov: 47, near: 0.5, far: 500 }}
       dpr={[1, 1.5]}
       gl={{ antialias: true, powerPreference: 'high-performance' }}
       onCreated={({ gl }) => gl.setClearColor('#e8f1f4')}

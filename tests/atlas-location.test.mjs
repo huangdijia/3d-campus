@@ -14,11 +14,11 @@ const read = (href) => {
   const u = new URL(href, 'https://atlas.test');
   return readAtlasLocation(u.pathname, u.search, schools);
 };
-test('school links restore school details without entering its campus', () => {
+test('legacy school links open the integrated campus destination', () => {
   const s = read('/university/10003');
   assert.equal(s.schoolId, '10003');
-  assert.equal(s.campusId, null);
-  assert.equal(atlasHref(s), '/university/10003');
+  assert.equal(s.campusId, '10003');
+  assert.equal(atlasHref(s), '/university/10003/campus/main');
 });
 test('Chinese filters and campus building selection round trip in one URL', () => {
   const state = normalizeLocation(

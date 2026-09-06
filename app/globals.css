@@ -1585,3 +1585,242 @@ button svg {
     padding: 6px 10px;
   }
 }
+
+.sheet-handle,
+.mobile-dock {
+  display: none;
+}
+@media (max-width: 760px) {
+  .list-open .scene-container,
+  .list-open:has(.detail-panel) .scene-container {
+    bottom: 0;
+  }
+  .explore-panel,
+  .detail-panel,
+  .campus-panel {
+    max-height: min(68dvh, 560px);
+    bottom: 29px;
+  }
+  .sheet-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 28px;
+    min-height: 28px;
+    padding: 0;
+    touch-action: none;
+    cursor: grab;
+  }
+  .sheet-handle > span {
+    width: 34px;
+    height: 4px;
+    border-radius: 5px;
+    background: #8299a64d;
+  }
+  .mobile-dock {
+    display: flex;
+    position: absolute;
+    bottom: 29px;
+    left: 12px;
+    right: 12px;
+    z-index: 30;
+    gap: 6px;
+    align-items: center;
+    padding: 9px 10px 9px 15px;
+    min-height: 65px;
+    border: 1px solid #ffffffd9;
+    border-radius: 21px;
+    background: linear-gradient(130deg, #ffffffe0, #ffffffb3);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    box-shadow: 0 5px 25px #34556c12;
+  }
+  .dock-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    flex: 1;
+    text-align: left;
+    padding: 0;
+    touch-action: none;
+    color: #698ba4;
+  }
+  .dock-summary > span {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+  }
+  .dock-summary strong {
+    font-size: 13px;
+    font-weight: 550;
+    color: #395a71;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dock-summary small {
+    font-size: 10px;
+    color: #839bab;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dock-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 37px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 14px;
+    background: #ffffffb0;
+    box-shadow: 0 2px 6px #33546c08;
+    font-size: 11px;
+    color: #457698;
+    white-space: nowrap;
+  }
+  .explore-panel > .search-box {
+    margin-top: 0;
+  }
+  .crosshair,
+  .list-open .crosshair {
+    top: 45%;
+  }
+  .poi-detail {
+    min-height: 65px;
+  }
+  .map-context {
+    right: 78px;
+  }
+  .map-tools {
+    top: 20px;
+  }
+  .mobile-panel-toggle {
+    display: none;
+  }
+}
+
+.university-emblem {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.school-monogram {
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.detail-emblem {
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.64);
+}
+.emblem-fallback {
+  font-size: 13px;
+  color: #607e94;
+}
+.dock-summary > .university-emblem {
+  width: 34px;
+  height: 34px;
+}
+@media (max-width: 760px) {
+  .dock-action {
+    min-height: 44px;
+  }
+  .sheet-handle {
+    height: 32px;
+    min-height: 32px;
+  }
+}
+@media (max-width: 760px) {
+  .atlas {
+    min-height: 0;
+  }
+  .map-pin {
+    min-height: 36px;
+    padding: 7px 9px;
+    font-size: 11px;
+  }
+  .mobile-dock,
+  .explore-panel {
+    bottom: calc(29px + env(safe-area-inset-bottom, 0px));
+  }
+  .search-box input,
+  .region-filter select {
+    font-size: 16px;
+  }
+}
+@media (max-height: 480px) and (orientation: landscape) {
+  .mobile-dock {
+    min-height: 56px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.campus-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.campus-identity > .university-emblem {
+  width: 40px;
+  height: 40px;
+}
+.campus-identity > h1 {
+  min-width: 0;
+}
+.campus-school-info {
+  margin-top: 13px;
+  font-size: 12px;
+  color: #718b9d;
+}
+.campus-school-info > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  cursor: pointer;
+  list-style: none;
+}
+.campus-school-info > summary::-webkit-details-marker {
+  display: none;
+}
+.campus-school-info[open] > summary > svg {
+  transform: rotate(90deg);
+}
+.campus-school-info > div {
+  padding-top: 7px;
+  max-height: 165px;
+  overflow: auto;
+}
+.campus-school-info > div > p {
+  display: block;
+  font-size: 12px;
+  line-height: 1.75;
+  margin: 6px 0;
+}
+.campus-school-info a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0 2px;
+  color: #4084b4;
+}
+.map-pin-leader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1px;
+  height: 1px;
+  overflow: visible;
+  pointer-events: none;
+  stroke: #78978e;
+  stroke-width: 1;
+  fill: #78978e;
+  opacity: 0.7;
+}
