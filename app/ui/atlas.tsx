@@ -115,7 +115,7 @@ export default function Atlas({
   const locationRef = useRef(locationState);
   const [campus, setCampus] = useState<Campus | null>(null),
     [touring, setTouring] = useState(false),
-    [tourIndex, setTourIndex] = useState(0),
+    [tourIndex, setTourIndex] = useState(-1),
     [reset, setReset] = useState(0),
     [about, setAbout] = useState(false),
     [listOpen, setListOpen] = useState(true),
@@ -214,7 +214,7 @@ export default function Atlas({
       locationRef.current = next;
       setLocationState(next);
       setTouring(next.mode === 'tour');
-      setTourIndex(0);
+      setTourIndex(-1);
       setListOpen(window.innerWidth > 760);
     };
     restore();
@@ -591,7 +591,7 @@ export default function Atlas({
                         setMode('tour');
                         setTouring(true);
                         setPoi(null);
-                        setTourIndex(0);
+                        setTourIndex(-1);
                       }}
                     >
                       <Play size={16} />
@@ -624,12 +624,9 @@ export default function Atlas({
                   {mode === 'tour' && (
                     <div className="tour-progress">
                       <span>
-                        导览{' '}
-                        {Math.min(
-                          tourIndex + 1,
-                          campus.tours[0]?.poiIds.length || 0,
-                        )}{' '}
-                        / {campus.tours[0]?.poiIds.length || 0}
+                        {tourIndex < 0
+                          ? '正在前往首站'
+                          : `导览 ${tourIndex + 1} / ${campus.tours[0]?.poiIds.length || 0}`}
                       </span>
                       <button onClick={() => setTouring((v) => !v)}>
                         {touring ? <Pause size={14} /> : <Play size={14} />}{' '}
@@ -761,6 +758,7 @@ export default function Atlas({
                           setListOpen(window.innerWidth > 760);
                         }}
                         touring={touring}
+                        tourActive={mode === 'tour'}
                         onTourIndex={setTourIndex}
                         walk={walk}
                         reset={reset}
@@ -796,6 +794,24 @@ export default function Atlas({
               )
             )}
           </div>
+          {mode === 'tour' && activePOI && (
+            <article
+              className="tour-building-card"
+              aria-live="polite"
+              aria-atomic="true"
+              aria-label="当前导览建筑信息"
+            >
+              <span className="section-label">
+                正在浏览 · {tourIndex + 1} /{' '}
+                {campus?.tours[0]?.poiIds.length || 0}
+              </span>
+              <h2>{activePOI.name}</h2>
+              <p>{activePOI.description}</p>
+              <a href={activePOI.sourceUrl} target="_blank" rel="noreferrer">
+                查看建筑资料 <ExternalLink size={12} />
+              </a>
+            </article>
+          )}
           <div className="map-context">
             <span>
               {campusId

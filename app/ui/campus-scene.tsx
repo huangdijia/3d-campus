@@ -34,6 +34,7 @@ type Props = {
   selected: POI | null;
   onSelect: (poi: POI) => void;
   touring: boolean;
+  tourActive?: boolean;
   onTourIndex: (index: number) => void;
   walk: boolean;
   reset: number;
@@ -52,6 +53,7 @@ function World({
   selected,
   onSelect,
   touring,
+  tourActive = true,
   onTourIndex,
   walk,
   reset,
@@ -69,6 +71,7 @@ function World({
   const callbacks = useRef({ onError, onReady });
   const controls = useRef<OrbitControlsInstance>(null);
   const elapsed = useRef(0);
+  const destinationIndex = useRef(0);
   const lastIndex = useRef(-1);
   const flight = useRef<{
     position: THREE.Vector3;
@@ -197,6 +200,7 @@ function World({
     }
     flight.current = null;
     elapsed.current = 0;
+    destinationIndex.current = 0;
     lastIndex.current = -1;
     invalidate();
   }, [reset, walking, camera, span, center, invalidate]);
@@ -214,6 +218,16 @@ function World({
   useEffect(() => {
     if (touring) flight.current = null;
   }, [touring]);
+
+  useEffect(() => {
+    if (tourActive) {
+      onTourIndex(-1);
+      return;
+    }
+    destinationIndex.current = 0;
+    elapsed.current = 0;
+    lastIndex.current = -1;
+  }, [tourActive, onTourIndex]);
 
   useFrame((_, delta) => {
     const orbit = controls.current;
@@ -240,24 +254,31 @@ function World({
     if (walking || !orbit) return;
     const smooth = 1 - Math.exp(-Math.min(delta, 0.1) * 3);
     if (touring && tourPath?.length) {
-      elapsed.current += Math.min(delta, 0.1);
-      const index = Math.floor(elapsed.current / 6) % tourPath.length;
-      const next = (index + 1) % tourPath.length;
-      const t = (elapsed.current % 6) / 6;
-      const progress = t * t * (3 - 2 * t);
-      const a = tourPath[index];
-      const b = tourPath[next];
-      tourPoint.set(
-        THREE.MathUtils.lerp(a[0], b[0], progress),
-        THREE.MathUtils.lerp(a[1], b[1], progress),
-        THREE.MathUtils.lerp(a[2], b[2], progress),
+      const index = destinationIndex.current % tourPath.length;
+      const point = tourPath[index];
+      const poi = campus.pois.find(
+        (candidate) => candidate.id === campus.tours[0]?.poiIds[index],
       );
-      tourCamera.copy(tourPoint).add(new THREE.Vector3(80, 100, 150));
+      tourPoint.set(...(poi?.position || [point[0], 10, point[2]]));
+      tourCamera.set(point[0] + 80, point[1] + 100, point[2] + 150);
       camera.position.lerp(tourCamera, smooth);
-      orbit.target.lerp(tourPoint.setY(10), smooth);
-      if (index !== lastIndex.current) {
-        lastIndex.current = index;
-        onTourIndex(index);
+      orbit.target.lerp(tourPoint, smooth);
+      if (
+        camera.position.distanceTo(tourCamera) < 0.1 &&
+        orbit.target.distanceTo(tourPoint) < 0.1
+      ) {
+        // Report the building only once the camera has reached that stop.
+        camera.position.copy(tourCamera);
+        orbit.target.copy(tourPoint);
+        if (index !== lastIndex.current) {
+          lastIndex.current = index;
+          onTourIndex(index);
+        }
+        elapsed.current += Math.min(delta, 0.1);
+        if (elapsed.current >= 4) {
+          destinationIndex.current = (index + 1) % tourPath.length;
+          elapsed.current = 0;
+        }
       }
       orbit.update();
     } else if (flight.current) {
