@@ -38,7 +38,7 @@ node scripts/validate-release.mjs --release
 
 校园体块不是精细建筑模型；OSM 名称也不是已经由学校官网核验的 POI。固定鸟瞰镜头路线与可供行人的核验路线分别验收。具体学校与素材缺口由 `docs/data-coverage.md` 和 `docs/release-readiness.json` 记录。
 
-Sites 已注册，项目 ID 在 `.openai/hosting.json`，保持未发布。用户已授权最终公开发布，但同时明确要求先通过全部首期验收；因此不能将此开发预览公开发布为完成版本。
+Sites 项目 ID 保存在 `.openai/hosting.json`。2026-09-06 用户明确要求发布当前最新开发预览，复用站点既有访问范围。该发布不代表全部首期校园通过验收；来源及精度核验标记继续保留，严格验收报告仍单独记录缺口。
 
 ## 信息架构
 

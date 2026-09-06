@@ -82,3 +82,32 @@ Chrome 152 的本地开发版本，Canvas 为 880×601、DPR 1.5，清华建筑�
 - 普通模型验证只检查是否存在可用几何，不再预构造碰撞缓冲。碰撞网格在漫游组件中按模型 memoize，并包含独立 roof，兼容移除建筑顶盖后的 GLB。
 - Chrome 和 WebKit 都完成了 demand 下的建筑飞行、按需加载物理与漫游→鸟瞰切换；WebKit 仍属于自动化引擎验证，不是 Safari/iPhone 实机测试。
 - 修改后的校园文件 lint、TypeScript 和 7 项几何/物理测试通过。最终生产 bundle 大小与完整 build 由主代理统一测量。
+
+## 2026-09-06 最终手机交互回归
+
+使用独立、非持久化 Playwright CLI 会话，Chrome 与 WebKit 均设为 390×844；Chrome 实际读回 `visualViewport.scale=1`、`maxTouchPoints=1`、DPR=3。以下均为本地开发版本，完整生产构建与发布由站点负责者验证。
+
+| 路径 | 结果 |
+|---|---|
+| 手机初始信息条 | PASS，实测 366×65 px，位于 x=12、y=750；展开后面板可浏览 |
+| 高校列表一键进入 | Chrome / WebKit PASS，直接进入 `/university/10003/campus/main`，信息面板自动收起 |
+| 原生单指平移 | PASS，CDP touch event 后相机和 target 同步位移 x≈-137.85 m、z≈-59.08 m |
+| 原生双指缩放 | PASS，观察距离 2387.86→1705.62 m，页面缩放仍为 1 |
+| 底条上滑展开 | PASS，原生 touch 上滑 84 px 后显示校园面板；点击展开亦通过 |
+| POI 自动收起与分享刷新 | PASS，选中清华学堂后 URL 为 `?poi=83805067`；刷新保留 URL、定位、标题及底条“清华学堂” |
+| 导览与暂停 | PASS，切换导览自动收起，URL 为 `?mode=tour`；底条暂停按钮切换为“继续导览” |
+| 漫游与退出 | Chrome / WebKit PASS，`?mode=walk` 显示触屏四向控制和退出入口，退出恢复鸟瞰 |
+| 校园直接返回高校列表 | PASS，URL 回到 `/`，标题为“山河学府 · 全国高校”，底条恢复“搜索高校”，无遗留学校详情 |
+| 旧学校链接 | PASS，直接访问 `/university/10003` 自动归一到 `/university/10003/campus/main` |
+
+本轮没有新增校园源码修复。正常交互的浏览器控制台为 0 errors，仅有已知依赖弃用提示。本轮 WebKit 仍是引擎模拟，不是 iPhone 实机验证；行走距离与碰撞沿用上面的专项实测，本轮只回归模式入口与退出。
+
+实际截图位于 `output/playwright/`，已检查渲染内容：
+
+- `campus-final-chrome-expanded.png`：触屏上滑后的校园面板。
+- `campus-final-chrome-poi-refresh.png`：POI 分享链接刷新后的定位与底条。
+- `campus-final-chrome-tour-paused.png`：手机导览暂停状态。
+- `campus-final-chrome-walk.png`：手机漫游与四向控制。
+- `campus-final-webkit-collapsed.png`、`campus-final-webkit-walk.png`：WebKit 手机鸟瞰与漫游。
+
+全国标签布局由站点负责者独立回归；`campus-final-chrome-national.png` 拍摄早于其最终标签错位与引线修改，不作为该修改的验收截图。

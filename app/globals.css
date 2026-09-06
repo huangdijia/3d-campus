@@ -1755,6 +1755,9 @@ button svg {
   }
 }
 @media (max-height: 480px) and (orientation: landscape) {
+  .atlas {
+    min-height: 0;
+  }
   .mobile-dock {
     min-height: 56px;
     padding-top: 5px;
