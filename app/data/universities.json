@@ -10,8 +10,8 @@
     "tier": "S",
     "campusName": "北京大学",
     "position": [
-      116.3039902,
-      39.9917097
+      116.30399025,
+      39.991709650000004
     ],
     "website": "https://www.pku.edu.cn/",
     "subjects": [],
@@ -26,15 +26,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -48,8 +52,8 @@
     "tier": "A",
     "campusName": "中国人民大学",
     "position": [
-      116.3073883,
-      39.9692704
+      116.30738825,
+      39.96927035
     ],
     "website": "https://www.ruc.edu.cn/",
     "subjects": [],
@@ -64,15 +68,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -86,8 +94,8 @@
     "tier": "S",
     "campusName": "清华大学",
     "position": [
-      116.3200398,
-      40.0016401
+      116.32003975,
+      40.00164005
     ],
     "website": "https://www.tsinghua.edu.cn/",
     "subjects": [],
@@ -102,15 +110,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -122,25 +134,48 @@
     "is985": false,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "北京交通大学主校区",
+    "position": [
+      116.33689695,
+      39.95047325
+    ],
+    "website": "https://www.bjtu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.bjtu.edu.cn/docs/2025-10/e01442b7dbd846d28149a628c5973c35.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/266512538",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方资料列明主校区",
+      "sourceUrl": "https://www.bjtu.edu.cn/docs/2025-10/e01442b7dbd846d28149a628c5973c35.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10005",
@@ -169,15 +204,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -191,10 +230,10 @@
     "tier": "S",
     "campusName": "北京航空航天大学(学院路校区)",
     "position": [
-      116.3410053,
-      39.9804245
+      116.34100534999999,
+      39.980424549999995
     ],
-    "website": null,
+    "website": "https://www.buaa.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -207,15 +246,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.buaa.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -229,10 +277,10 @@
     "tier": "A",
     "campusName": "北京理工大学",
     "position": [
-      116.3097403,
+      116.30974035,
       39.957859
     ],
-    "website": null,
+    "website": "https://www.bit.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -245,15 +293,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.bit.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -268,7 +325,7 @@
     "campusName": "北京科技大学",
     "position": [
       116.3531931,
-      39.9890463
+      39.98904635
     ],
     "website": "https://www.ustb.edu.cn/",
     "subjects": [],
@@ -283,15 +340,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -305,8 +366,8 @@
     "tier": "A",
     "campusName": "北京化工大学",
     "position": [
-      116.4150125,
-      39.9702338
+      116.41501245,
+      39.97023385
     ],
     "website": "https://www.buct.edu.cn/",
     "subjects": [],
@@ -321,15 +382,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -343,8 +408,8 @@
     "tier": "A",
     "campusName": "北京邮电大学",
     "position": [
-      116.351917,
-      39.9602522
+      116.35191695,
+      39.960252249999996
     ],
     "website": "https://www.bupt.edu.cn/",
     "subjects": [],
@@ -359,15 +424,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -382,9 +451,9 @@
     "campusName": "中国农业大学",
     "position": [
       116.3501865,
-      40.0087941
+      40.00879415
     ],
-    "website": null,
+    "website": "https://www.cau.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -397,15 +466,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cau.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -419,10 +497,10 @@
     "tier": "A",
     "campusName": "北京林业大学",
     "position": [
-      116.3383562,
-      40.0029223
+      116.33835619999999,
+      40.00292235
     ],
-    "website": null,
+    "website": "https://www.bjfu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -435,15 +513,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.bjfu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -457,8 +544,8 @@
     "tier": "A",
     "campusName": "北京中医药大学（西校区）",
     "position": [
-      116.4222921,
-      39.9698622
+      116.42229205000001,
+      39.969862250000006
     ],
     "website": "https://www.bucm.edu.cn",
     "subjects": [],
@@ -473,15 +560,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -493,25 +584,48 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "北京师范大学海淀校园",
+    "position": [
+      116.3597548,
+      39.96032715
+    ],
+    "website": "https://www.bnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://bs.bnu.edu.cn/docs/2023-12/9b54f25c00e24c9db994fcaea3890f73.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/30784020",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方校园资料；选择海淀校园",
+      "sourceUrl": "https://bs.bnu.edu.cn/docs/2023-12/9b54f25c00e24c9db994fcaea3890f73.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10030",
@@ -524,10 +638,10 @@
     "tier": "A",
     "campusName": "北京外国语大学",
     "position": [
-      116.3044814,
-      39.9539113
+      116.30448135,
+      39.95391135
     ],
-    "website": null,
+    "website": "https://www.bfsu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -540,15 +654,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.bfsu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -562,10 +685,10 @@
     "tier": "A",
     "campusName": "中国传媒大学",
     "position": [
-      116.5521006,
+      116.55210065,
       39.9116254
     ],
-    "website": null,
+    "website": "https://www.cuc.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -578,15 +701,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cuc.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -603,7 +735,7 @@
       116.3362178,
       39.9581712
     ],
-    "website": null,
+    "website": "https://www.cufe.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -616,15 +748,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cufe.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -654,15 +795,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -676,10 +821,10 @@
     "tier": "A",
     "campusName": "北京体育大学",
     "position": [
-      116.3129024,
-      40.0236061
+      116.31290235,
+      40.023606099999995
     ],
-    "website": null,
+    "website": "https://www.bsu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -692,15 +837,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.bsu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -714,10 +868,10 @@
     "tier": "A",
     "campusName": "中央音乐学院",
     "position": [
-      116.352876,
+      116.35287604999999,
       39.9009915
     ],
-    "website": null,
+    "website": "https://www.ccom.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -730,15 +884,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.ccom.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -752,8 +915,8 @@
     "tier": "A",
     "campusName": "中央民族大学",
     "position": [
-      116.3145046,
-      39.9496422
+      116.31450459999999,
+      39.94964215
     ],
     "website": "https://www.muc.edu.cn/",
     "subjects": [],
@@ -768,15 +931,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -788,14 +955,33 @@
     "is985": false,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "中国政法大学昌平校区",
+    "position": [
+      116.2413962,
+      40.2218067
+    ],
+    "website": "https://www.cupl.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201506/t20150630_191835.html",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/412477726",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
@@ -804,9 +990,13 @@
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "教育部核准章程记载学校法定住所",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A02/zfs_gdxxzc/201506/t20150630_191835.html",
+      "status": "candidate"
+    }
   },
   {
     "id": "10054",
@@ -817,13 +1007,16 @@
     "is985": false,
     "is211": true,
     "tier": "A",
-    "campusName": "华北电力大学",
+    "campusName": "华北电力大学北京校部",
     "position": [
-      115.4973873,
-      38.8760446
+      116.30426754999999,
+      40.088276449999995
     ],
-    "website": null,
-    "subjects": [],
+    "website": "https://www.ncepu.edu.cn/",
+    "subjects": [
+      "电气工程",
+      "动力工程及工程热物理"
+    ],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
@@ -831,20 +1024,34 @@
         "checkedAt": "2026-09-06"
       },
       {
-        "url": "https://www.openstreetmap.org/node/2176570917",
-        "title": "OpenStreetMap 校园候选位置，待官网核验",
-        "license": "ODbL-1.0",
+        "url": "https://www2.ncepu.edu.cn/xxgk2/xxjj/index.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/48049618",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
-      "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "特色建筑精细模型缺失"
+    ],
+    "campusSelection": {
+      "basis": "官方介绍明确校部设在北京",
+      "sourceUrl": "https://www2.ncepu.edu.cn/xxgk2/xxjj/index.htm",
+      "status": "candidate"
+    },
+    "summary": "1958年创建于北京，校部设在北京、另设保定校区，以能源电力学科为特色。"
   },
   {
     "id": "10055",
@@ -857,10 +1064,10 @@
     "tier": "S",
     "campusName": "南开大学八里台校区",
     "position": [
-      117.1610113,
+      117.16101135,
       39.1033374
     ],
-    "website": null,
+    "website": "https://www.nankai.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -873,15 +1080,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.nankai.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -895,10 +1111,10 @@
     "tier": "S",
     "campusName": "天津大学卫津路校区",
     "position": [
-      117.1646673,
+      117.16466725000001,
       39.1091243
     ],
-    "website": null,
+    "website": "https://www.tju.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -911,15 +1127,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.tju.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -933,8 +1158,8 @@
     "tier": "A",
     "campusName": "天津医科大学",
     "position": [
-      117.1778851,
-      39.1060581
+      117.17788505,
+      39.106058149999996
     ],
     "website": "http://www.tmu.edu.cn/",
     "subjects": [],
@@ -949,15 +1174,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -974,7 +1203,7 @@
       117.0525385,
       39.2363046
     ],
-    "website": null,
+    "website": "https://www.hebut.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -987,15 +1216,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.hebut.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1007,25 +1245,48 @@
     "is985": false,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "太原理工大学明向校区",
+    "position": [
+      112.71431545,
+      37.74823235
+    ],
+    "website": "https://www.tyut.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.tyut.edu.cn/xxgk1/xydl/xyfg.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/427629191",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网列明钟楼、明向湖等校园地标；主校区地位待复核",
+      "sourceUrl": "https://www.tyut.edu.cn/xxgk1/xydl/xyfg.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10126",
@@ -1038,10 +1299,10 @@
     "tier": "A",
     "campusName": "内蒙古大学南校区",
     "position": [
-      111.6760837,
+      111.67608365000001,
       40.756144
     ],
-    "website": null,
+    "website": "https://www.imu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1054,15 +1315,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.imu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1074,25 +1344,48 @@
     "is985": false,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "辽宁大学崇山校区",
+    "position": [
+      123.40014875,
+      41.8313978
+    ],
+    "website": "https://www.lnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.lnu.edu.cn/xxgk.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/368463199",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网列明校区地址；代表校区优先级待复核",
+      "sourceUrl": "https://www.lnu.edu.cn/xxgk.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10141",
@@ -1105,7 +1398,7 @@
     "tier": "A",
     "campusName": "大连理工大学(凌水校区)",
     "position": [
-      121.5201863,
+      121.52018634999999,
       38.8814986
     ],
     "website": "https://www.dlut.edu.cn",
@@ -1121,15 +1414,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1143,8 +1440,8 @@
     "tier": "A",
     "campusName": "东北大学",
     "position": [
-      123.4123662,
-      41.7633693
+      123.41236620000001,
+      41.76336935
     ],
     "website": "https://www.neu.edu.cn/",
     "subjects": [],
@@ -1159,15 +1456,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1181,8 +1482,8 @@
     "tier": "A",
     "campusName": "大连海事大学",
     "position": [
-      121.5251608,
-      38.8702465
+      121.52516080000001,
+      38.87024649999999
     ],
     "website": "https://www.dlmu.edu.cn",
     "subjects": [],
@@ -1197,15 +1498,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1217,10 +1522,10 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": "吉林大学",
+    "campusName": "吉林大学前卫南区",
     "position": [
-      125.2856029,
-      43.8842653
+      125.27058149999999,
+      43.8202301
     ],
     "website": "https://www.jlu.edu.cn/",
     "subjects": [],
@@ -1231,20 +1536,34 @@
         "checkedAt": "2026-09-06"
       },
       {
-        "url": "https://www.openstreetmap.org/relation/17863099",
-        "title": "OpenStreetMap 校园候选位置，待官网核验",
-        "license": "ODbL-1.0",
+        "url": "https://www.jlu.edu.cn/info/1238/36174.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/298032902",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方校园导游明确前卫南区为校部机关所在地",
+      "sourceUrl": "https://www.jlu.edu.cn/info/1238/36174.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10184",
@@ -1255,25 +1574,54 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "延边大学延吉校区",
+    "position": [
+      129.48238494999998,
+      42.910204050000004
+    ],
+    "website": "https://www.ybu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://xxgk.ybu.edu.cn/__local/B/82/AA/49FD52C2080CA0723E08D2147F0_B550676D_86529.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/248259366",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "https://www.ybu.edu.cn/xxgl/ydjj.htm",
+        "title": "延边大学官方简介",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "2024年章程明确延吉校区为主校区、代码10184",
+      "sourceUrl": "https://xxgk.ybu.edu.cn/__local/B/82/AA/49FD52C2080CA0723E08D2147F0_B550676D_86529.pdf",
+      "status": "candidate"
+    },
+    "summary": "始建于1949年，位于吉林延吉，并在珲春设有校区的综合性大学。"
   },
   {
     "id": "10200",
@@ -1284,10 +1632,10 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": "东北师范大学",
+    "campusName": "东北师范大学人民大街校区",
     "position": [
-      125.4189999,
-      43.8241316
+      125.32524695000001,
+      43.8583279
     ],
     "website": "https://www.nenu.edu.cn/",
     "subjects": [],
@@ -1298,20 +1646,34 @@
         "checkedAt": "2026-09-06"
       },
       {
-        "url": "https://www.openstreetmap.org/relation/20686673",
-        "title": "OpenStreetMap 校园候选位置，待官网核验",
-        "license": "ODbL-1.0",
+        "url": "https://www.nenu.edu.cn/__local/B/5D/6A/B985323798F28E2AEB47F3C1DBD_0BE73BB2_3BD9C.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/20993807",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "学校章程列明注册地址为人民大街5268号",
+      "sourceUrl": "https://www.nenu.edu.cn/__local/B/5D/6A/B985323798F28E2AEB47F3C1DBD_0BE73BB2_3BD9C.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10213",
@@ -1324,10 +1686,10 @@
     "tier": "S",
     "campusName": "哈尔滨工业大学",
     "position": [
-      126.6273495,
-      45.7431591
+      126.62734950000001,
+      45.74315905
     ],
-    "website": null,
+    "website": "https://www.hit.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1340,15 +1702,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.hit.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1363,7 +1734,7 @@
     "campusName": "哈尔滨工程大学",
     "position": [
       126.6745014,
-      45.7750278
+      45.775027800000004
     ],
     "website": "https://www.hrbeu.edu.cn/",
     "subjects": [],
@@ -1378,15 +1749,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1400,8 +1775,8 @@
     "tier": "B",
     "campusName": "东北农业大学",
     "position": [
-      126.7219678,
-      45.7421347
+      126.72196785,
+      45.74213465
     ],
     "website": "http://www.neau.edu.cn/",
     "subjects": [],
@@ -1416,15 +1791,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1436,25 +1815,51 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
-    "subjects": [],
+    "campusName": "东北林业大学和兴路校区",
+    "position": [
+      126.6285209,
+      45.71873455
+    ],
+    "website": "https://www.nefu.edu.cn/",
+    "subjects": [
+      "林学",
+      "林业工程"
+    ],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://siee.nefu.edu.cn/gywm/xxjj.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/316890410",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
-      "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "特色建筑精细模型缺失"
+    ],
+    "campusSelection": {
+      "basis": "官网列明和兴路26号；排除帽儿山实习基地",
+      "sourceUrl": "https://siee.nefu.edu.cn/gywm/xxjj.htm",
+      "status": "candidate"
+    },
+    "summary": "创建于1952年，位于哈尔滨，以林科与林业工程为特色的多科性大学。"
   },
   {
     "id": "10246",
@@ -1468,9 +1873,9 @@
     "campusName": "复旦大学",
     "position": [
       121.4979245,
-      31.2980617
+      31.298061699999998
     ],
-    "website": null,
+    "website": "https://www.fudan.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1483,15 +1888,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.fudan.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1505,8 +1919,8 @@
     "tier": "S",
     "campusName": "同济大学",
     "position": [
-      121.4974304,
-      31.2846675
+      121.49743045,
+      31.28466745
     ],
     "website": "https://www.tongji.edu.cn/",
     "subjects": [],
@@ -1521,15 +1935,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1541,25 +1959,48 @@
     "is985": true,
     "is211": true,
     "tier": "S",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "上海交通大学闵行校区",
+    "position": [
+      121.43220515,
+      31.0274157
+    ],
+    "website": "https://www.sjtu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://gk.sjtu.edu.cn/Phone/List/bxdd",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/288249651",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方办学地点目录列明校区",
+      "sourceUrl": "https://gk.sjtu.edu.cn/Phone/List/bxdd",
+      "status": "candidate"
+    }
   },
   {
     "id": "10251",
@@ -1572,10 +2013,10 @@
     "tier": "B",
     "campusName": "华东理工大学（徐汇校区）",
     "position": [
-      121.4194331,
+      121.41943305000001,
       31.1451077
     ],
-    "website": null,
+    "website": "https://www.ecust.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1588,15 +2029,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.ecust.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1610,10 +2060,10 @@
     "tier": "B",
     "campusName": "东华大学",
     "position": [
-      121.4105398,
-      31.2065031
+      121.41053980000001,
+      31.20650315
     ],
-    "website": null,
+    "website": "https://www.dhu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1626,15 +2076,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.dhu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1648,10 +2107,10 @@
     "tier": "A",
     "campusName": "华东师范大学",
     "position": [
-      121.4017783,
-      31.2285462
+      121.40177825,
+      31.228546199999997
     ],
-    "website": null,
+    "website": "https://www.ecnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1664,15 +2123,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.ecnu.edu.cn/",
+        "title": "学校官方网站地址核对",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1686,10 +2154,10 @@
     "tier": "B",
     "campusName": "上海外国语大学",
     "position": [
-      121.4785307,
+      121.47853065000001,
       31.2790116
     ],
-    "website": null,
+    "website": "https://www.shisu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1702,15 +2170,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.shisu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1724,10 +2201,10 @@
     "tier": "B",
     "campusName": "上海财经大学",
     "position": [
-      121.4931281,
-      31.3068575
+      121.49312814999999,
+      31.30685745
     ],
-    "website": null,
+    "website": "https://www.sufe.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1740,45 +2217,77 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.sufe.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
     "id": "11903",
-    "code": "11903",
+    "code": "10280",
     "name": "上海大学",
     "province": "上海",
     "city": "上海",
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "上海大学宝山校区",
+    "position": [
+      121.38917315,
+      31.316503599999997
+    ],
+    "website": "https://www.shu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://cie.shu.edu.cn/handbook.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/13058054",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方学生手册附宝山校区平面图，图为2014年需更新复核",
+      "sourceUrl": "https://cie.shu.edu.cn/handbook.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "91020",
@@ -1791,8 +2300,8 @@
     "tier": "B",
     "campusName": "中国人民解放军海军军医大学",
     "position": [
-      121.5228563,
-      31.30737
+      121.52285625,
+      31.307370050000003
     ],
     "website": "https://www.smmu.edu.cn/",
     "subjects": [],
@@ -1809,7 +2318,7 @@
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
@@ -1830,9 +2339,9 @@
     "campusName": "南京大学(鼓楼校区)",
     "position": [
       118.7736127,
-      32.0566403
+      32.05664025
     ],
-    "website": null,
+    "website": "https://www.nju.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1845,15 +2354,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.nju.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1867,10 +2385,10 @@
     "tier": "B",
     "campusName": "苏州大学",
     "position": [
-      120.6359348,
-      31.3070943
+      120.63593485,
+      31.307094300000003
     ],
-    "website": null,
+    "website": "https://www.suda.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1883,15 +2401,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.suda.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1905,10 +2432,10 @@
     "tier": "S",
     "campusName": "东南大学(四牌楼校区)",
     "position": [
-      118.7889028,
+      118.78890275,
       32.0568412
     ],
-    "website": null,
+    "website": "https://www.seu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1921,15 +2448,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.seu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -1941,10 +2477,10 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": "南京航空航天大学天目湖校区",
+    "campusName": "南京航空航天大学明故宫校区",
     "position": [
-      119.4794854,
-      31.373451
+      118.81545055000001,
+      32.03752505
     ],
     "website": "https://www.nuaa.edu.cn/",
     "subjects": [],
@@ -1959,16 +2495,36 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://office.nuaa.edu.cn/3408/list.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/447816548",
+        "title": "OpenStreetMap 校园候选几何",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方学校地图包括明故宫校区；排除远离南京的天目湖误选",
+      "sourceUrl": "https://office.nuaa.edu.cn/3408/list.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10288",
@@ -1981,10 +2537,10 @@
     "tier": "B",
     "campusName": "南京理工大学",
     "position": [
-      118.8519938,
+      118.85199375,
       32.0300366
     ],
-    "website": null,
+    "website": "https://www.njust.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -1997,15 +2553,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://dicm.njust.edu.cn/_upload/article/files/1c/e6/774ba6554bb29a00cac2ca6a8212/3b0d4937-cbd4-4cf7-ac3d-ee24835e04b0.pdf",
+        "title": "学校官方网站地址核对",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2017,25 +2582,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "中国矿业大学南湖校区",
+    "position": [
+      117.1401253,
+      34.214864750000004
+    ],
+    "website": "https://www.cumt.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://news.cumt.edu.cn/info/1008/66470.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/273639857",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方校史记载2006年办学主体迁入南湖校区",
+      "sourceUrl": "https://news.cumt.edu.cn/info/1008/66470.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10294",
@@ -2046,25 +2634,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "河海大学西康路校区",
+    "position": [
+      118.7551449,
+      32.0574821
+    ],
+    "website": "https://www.hhu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://sdxy.hhu.edu.cn/2026/0716/c5826a331708/page.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/165476764",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方2026年搬迁消息将西康路称为校本部",
+      "sourceUrl": "https://sdxy.hhu.edu.cn/2026/0716/c5826a331708/page.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10295",
@@ -2080,7 +2691,7 @@
       120.2654914,
       31.4854233
     ],
-    "website": null,
+    "website": "https://www.jiangnan.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2093,15 +2704,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.jiangnan.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2113,25 +2733,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "南京农业大学滨江校区",
+    "position": [
+      118.6315469,
+      32.01060555
+    ],
+    "website": "https://www.njau.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.njau.edu.cn/1041/list.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1312627795",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网校园地图入口指向滨江校区；代表校区优先级待复核",
+      "sourceUrl": "https://www.njau.edu.cn/1041/list.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10316",
@@ -2142,25 +2785,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "中国药科大学江宁校区",
+    "position": [
+      118.91338640000001,
+      31.90448345
+    ],
+    "website": "https://www.cpu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cpu.edu.cn/4244/list.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/92626954",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网学校简介列明江宁校区地址；代表校区优先级待复核",
+      "sourceUrl": "https://www.cpu.edu.cn/4244/list.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10319",
@@ -2173,10 +2839,10 @@
     "tier": "B",
     "campusName": "南京师范大学(仙林校区)",
     "position": [
-      118.9023148,
+      118.90231475,
       32.1101362
     ],
-    "website": "www.njnu.edu.cn",
+    "website": "https://www.njnu.edu.cn",
     "subjects": [],
     "sources": [
       {
@@ -2189,15 +2855,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2211,10 +2881,10 @@
     "tier": "S",
     "campusName": "浙江大学紫金港校区",
     "position": [
-      120.0752256,
-      30.3049933
+      120.07522565,
+      30.30499335
     ],
-    "website": null,
+    "website": "https://www.zju.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2227,15 +2897,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.zju.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2250,7 +2929,7 @@
     "campusName": "安徽大学(磬苑校区)",
     "position": [
       117.1801891,
-      31.7691273
+      31.769127349999998
     ],
     "website": "http://www.ahu.edu.cn",
     "subjects": [],
@@ -2265,15 +2944,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2285,12 +2968,12 @@
     "is985": true,
     "is211": true,
     "tier": "S",
-    "campusName": "中国科学技术大学（太湖路校区）",
+    "campusName": "中国科学技术大学东校区",
     "position": [
-      117.2933738,
-      31.8322855
+      117.26380209999999,
+      31.839015250000003
     ],
-    "website": null,
+    "website": "https://www.ustc.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2303,16 +2986,41 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://gradschool.ustc.edu.cn/article/2207",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/262614785",
+        "title": "OpenStreetMap 校园候选几何",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.ustc.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方研究生入学指南确认东校区金寨路门；OSM标签为college，已独立补采",
+      "sourceUrl": "https://gradschool.ustc.edu.cn/article/2207",
+      "status": "candidate"
+    }
   },
   {
     "id": "10359",
@@ -2325,10 +3033,10 @@
     "tier": "B",
     "campusName": "合肥工业大学（屯溪路校区）",
     "position": [
-      117.2930713,
-      31.8456916
+      117.29307130000001,
+      31.845691600000002
     ],
-    "website": null,
+    "website": "https://www.hfut.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2341,15 +3049,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.hfut.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2366,7 +3083,7 @@
       118.0932324,
       24.439951
     ],
-    "website": null,
+    "website": "https://www.xmu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2379,15 +3096,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.xmu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2399,25 +3125,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "福州大学旗山校区",
+    "position": [
+      119.1904869,
+      26.0610067
+    ],
+    "website": "https://www.fzu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.fzu.edu.cn/bgdh/fwdh/qsxq.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/12658065",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网旗山校区服务导航",
+      "sourceUrl": "https://www.fzu.edu.cn/bgdh/fwdh/qsxq.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10403",
@@ -2430,7 +3179,7 @@
     "tier": "B",
     "campusName": "南昌大学",
     "position": [
-      115.7962999,
+      115.79629990000001,
       28.6575036
     ],
     "website": "https://www.ncu.edu.cn/",
@@ -2446,15 +3195,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2468,10 +3221,10 @@
     "tier": "S",
     "campusName": "山东大学(中心校区)",
     "position": [
-      117.0542914,
-      36.6760495
+      117.05429145,
+      36.676049449999994
     ],
-    "website": null,
+    "website": "https://www.sdu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2484,15 +3237,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.sdu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2506,8 +3268,8 @@
     "tier": "A",
     "campusName": "中国海洋大学(崂山校区)",
     "position": [
-      120.4947484,
-      36.1612644
+      120.49474835000001,
+      36.161264450000004
     ],
     "website": "https://www.ouc.edu.cn/",
     "subjects": [],
@@ -2522,15 +3284,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2560,15 +3326,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2582,10 +3352,10 @@
     "tier": "B",
     "campusName": "郑州大学",
     "position": [
-      113.5292669,
-      34.8185706
+      113.52926695,
+      34.818570550000004
     ],
-    "website": null,
+    "website": "https://www.zzu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2598,15 +3368,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.zzu.edu.cn/index.htm",
+        "title": "学校官方网站地址核对",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2620,7 +3399,7 @@
     "tier": "S",
     "campusName": "武汉大学",
     "position": [
-      114.3603671,
+      114.36036705000001,
       30.5373813
     ],
     "website": "https://www.whu.edu.cn",
@@ -2636,15 +3415,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2658,8 +3441,8 @@
     "tier": "S",
     "campusName": "华中科技大学",
     "position": [
-      114.413538,
-      30.5202342
+      114.41353795,
+      30.52023415
     ],
     "website": "http://www.hust.edu.cn/",
     "subjects": [],
@@ -2674,15 +3457,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2696,7 +3483,7 @@
     "tier": "B",
     "campusName": "中国地质大学（武汉）",
     "position": [
-      114.3968335,
+      114.39683345,
       30.5252913
     ],
     "website": "https://www.cug.edu.cn/",
@@ -2712,15 +3499,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2732,25 +3523,55 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
-    "subjects": [],
+    "campusName": "武汉理工大学马房山校区西院",
+    "position": [
+      114.34364215,
+      30.52353075
+    ],
+    "website": "https://www.whut.edu.cn/",
+    "subjects": [
+      "材料科学与工程"
+    ],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://nic.whut.edu.cn/fwzn/202410/P020241010816036958321.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/265391257",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "https://wljy.whut.edu.cn/web/newsdetail.htm?navId=xjgl&pk=3889&ptitle=%25E5%25AD%25A6%25E7%25B1%258D%25E7%25AE%25A1%25E7%2590%2586&title=%25E9%2580%259A%25E7%259F%25A5%25E5%2585%25AC%25E5%2591%258A&znavId=statusnotice",
+        "title": "武汉理工大学学校介绍",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
-      "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "特色建筑精细模型缺失"
+    ],
+    "campusSelection": {
+      "basis": "官方公共教室分布列明马房山西院工大楼等；仅西院边界，不代表整个马房山校区",
+      "sourceUrl": "https://nic.whut.edu.cn/fwzn/202410/P020241010816036958321.pdf",
+      "status": "candidate"
+    },
+    "summary": "位于武汉，以工学为主，材料科学与工程入选国家双一流建设学科。"
   },
   {
     "id": "10504",
@@ -2763,7 +3584,7 @@
     "tier": "B",
     "campusName": "华中农业大学",
     "position": [
-      114.3495258,
+      114.34952580000001,
       30.4739138
     ],
     "website": "http://www.hzau.edu.cn/",
@@ -2779,15 +3600,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2801,8 +3626,8 @@
     "tier": "B",
     "campusName": "华中师范大学",
     "position": [
-      114.3561466,
-      30.5204189
+      114.35614659999999,
+      30.52041895
     ],
     "website": "http://www.ccnu.edu.cn",
     "subjects": [],
@@ -2817,15 +3642,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2840,7 +3669,7 @@
     "campusName": "中南财经政法大学首义校区",
     "position": [
       114.3084089,
-      30.5391569
+      30.539156900000002
     ],
     "website": "https://www.zuel.edu.cn",
     "subjects": [],
@@ -2855,15 +3684,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2875,12 +3708,12 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": "湖南大学",
+    "campusName": "湖南大学南校区",
     "position": [
-      112.9348958,
-      28.114009
+      112.93925265,
+      28.1795701
     ],
-    "website": null,
+    "website": "https://www.hnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2889,20 +3722,34 @@
         "checkedAt": "2026-09-06"
       },
       {
-        "url": "https://www.openstreetmap.org/relation/14636504",
-        "title": "OpenStreetMap 校园候选位置，待官网核验",
-        "license": "ODbL-1.0",
+        "url": "https://opac.hnu.edu.cn/",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/486904540",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方图书目录将岳麓书院归为南校区；边界需校园地图复核",
+      "sourceUrl": "https://opac.hnu.edu.cn/",
+      "status": "candidate"
+    }
   },
   {
     "id": "10533",
@@ -2913,10 +3760,10 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": "中南大学",
+    "campusName": "中南大学岳麓山校区",
     "position": [
-      112.9872007,
-      28.1504553
+      112.9225958,
+      28.17319425
     ],
     "website": "https://www.csu.edu.cn/",
     "subjects": [],
@@ -2927,20 +3774,34 @@
         "checkedAt": "2026-09-06"
       },
       {
-        "url": "https://www.openstreetmap.org/relation/13777138",
-        "title": "OpenStreetMap 校园候选位置，待官网核验",
-        "license": "ODbL-1.0",
+        "url": "https://czzx.csu.edu.cn/csustatic/zbgggcl/20260519/6599.html",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/1028934324",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "2026官方招标公告现名岳麓山校区，对应校本部地址",
+      "sourceUrl": "https://czzx.csu.edu.cn/csustatic/zbgggcl/20260519/6599.html",
+      "status": "candidate"
+    }
   },
   {
     "id": "10542",
@@ -2953,10 +3814,10 @@
     "tier": "B",
     "campusName": "湖南师范大学",
     "position": [
-      112.9440656,
-      28.1908543
+      112.94406555,
+      28.190854299999998
     ],
-    "website": null,
+    "website": "https://www.hunnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -2969,15 +3830,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.hunnu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -2991,8 +3861,8 @@
     "tier": "A",
     "campusName": "中国人民解放军国防科技大学",
     "position": [
-      112.994062,
-      28.2254405
+      112.99406205,
+      28.225440499999998
     ],
     "website": "https://www.nudt.edu.cn/",
     "subjects": [],
@@ -3009,7 +3879,7 @@
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
@@ -3029,7 +3899,7 @@
     "tier": "S",
     "campusName": "中山大学(广州校区南校园)",
     "position": [
-      113.2925062,
+      113.29250615000001,
       23.0995864
     ],
     "website": "https://www.sysu.edu.cn/",
@@ -3045,15 +3915,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3065,25 +3939,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "暨南大学石牌校区",
+    "position": [
+      113.3418832,
+      23.133502999999997
+    ],
+    "website": "https://www.jnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://jnu.edu.cn/main.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/360056995",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网明确石牌校区为校本部",
+      "sourceUrl": "https://jnu.edu.cn/main.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10561",
@@ -3094,12 +3991,12 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": "华南理工大学(大学城校区)",
+    "campusName": "华南理工大学五山校区",
     "position": [
-      113.399832,
-      23.0500563
+      113.34098449999999,
+      23.16045465
     ],
-    "website": null,
+    "website": "https://www.scut.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -3112,16 +4009,41 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.scut.edu.cn/new/250/list.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/relation/9087908",
+        "title": "OpenStreetMap 校园候选几何",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.scut.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网列明五山校区地址；代表校区优先级待复核",
+      "sourceUrl": "https://www.scut.edu.cn/new/250/list.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10574",
@@ -3134,7 +4056,7 @@
     "tier": "B",
     "campusName": "华南师范大学(广州校区大学城校园)",
     "position": [
-      113.3748452,
+      113.37484524999999,
       23.055293
     ],
     "website": "https://www.scnu.edu.cn/",
@@ -3150,15 +4072,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3172,8 +4098,8 @@
     "tier": "B",
     "campusName": "广西大学",
     "position": [
-      108.2881248,
-      22.8471676
+      108.28812475000001,
+      22.84716755
     ],
     "website": "https://www.gxu.edu.cn/",
     "subjects": [],
@@ -3188,15 +4114,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3210,10 +4140,10 @@
     "tier": "B",
     "campusName": "海南大学",
     "position": [
-      110.3251715,
+      110.32517155,
       20.0581945
     ],
-    "website": null,
+    "website": "https://www.hainanu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -3226,15 +4156,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.hainanu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3248,10 +4187,10 @@
     "tier": "S",
     "campusName": "四川大学（望江校区）",
     "position": [
-      104.0818819,
-      30.6330567
+      104.08188195,
+      30.633056699999997
     ],
-    "website": null,
+    "website": "https://www.scu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -3264,15 +4203,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.scu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3284,25 +4232,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "西南交通大学犀浦校区",
+    "position": [
+      103.9836071,
+      30.766239849999998
+    ],
+    "website": "https://www.swjtu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://news.swjtu.edu.cn/__local/1/AA/B9/B704C9E746EF4CE59211CEB7E36_F895DFDA_18269A.pdf?e=.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/207566638",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方办学报告明确犀浦为主校区",
+      "sourceUrl": "https://news.swjtu.edu.cn/__local/1/AA/B9/B704C9E746EF4CE59211CEB7E36_F895DFDA_18269A.pdf?e=.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10614",
@@ -3315,8 +4286,8 @@
     "tier": "A",
     "campusName": "电子科技大学（沙河校区）",
     "position": [
-      104.0971288,
-      30.6781776
+      104.09712880000001,
+      30.67817755
     ],
     "website": "https://www.uestc.edu.cn/",
     "subjects": [],
@@ -3331,15 +4302,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3354,7 +4329,7 @@
     "campusName": "四川农业大学（成都校区）",
     "position": [
       103.8598507,
-      30.7090458
+      30.70904575
     ],
     "website": "https://www.sicau.edu.cn",
     "subjects": [],
@@ -3369,15 +4344,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3392,7 +4371,7 @@
     "campusName": "西南财经大学",
     "position": [
       103.8194572,
-      30.6838675
+      30.683867499999998
     ],
     "website": "https://www.swufe.edu.cn/",
     "subjects": [],
@@ -3407,15 +4386,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3427,12 +4410,12 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": "重庆大学B区",
+    "campusName": "重庆大学沙坪坝校区A区",
     "position": [
-      106.4549291,
-      29.570004
+      106.4654869,
+      29.56792825
     ],
-    "website": null,
+    "website": "https://www.cqu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -3445,16 +4428,41 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cqu.edu.cn/info/1631/61641.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/412480741",
+        "title": "OpenStreetMap 校园候选几何",
+        "license": "ODbL-1.0",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.cqu.edu.cn/",
+        "title": "学校官网（页面标题核验）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网现用沙坪坝校区名称，A区含主教学楼和钟塔；仅A区边界",
+      "sourceUrl": "https://www.cqu.edu.cn/info/1631/61641.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10635",
@@ -3468,7 +4476,7 @@
     "campusName": "西南大学",
     "position": [
       106.4183465,
-      29.8232398
+      29.823239800000003
     ],
     "website": "http://www.swu.edu.cn",
     "subjects": [],
@@ -3483,15 +4491,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3505,10 +4517,10 @@
     "tier": "B",
     "campusName": "贵州大学",
     "position": [
-      106.6596787,
+      106.65967875,
       26.4496124
     ],
-    "website": null,
+    "website": "https://www.gzu.edu.cn/",
     "subjects": [],
     "sources": [
       {
@@ -3521,15 +4533,24 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.gzu.edu.cn/main.htm",
+        "title": "学校官方网站地址核对",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3541,25 +4562,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "云南大学呈贡校区",
+    "position": [
+      102.85069245,
+      24.82898815
+    ],
+    "website": "https://www.ynu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.ynu.edu.cn/zl.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/287663050",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官网列明现用校区地址；主校区地位待复核",
+      "sourceUrl": "https://www.ynu.edu.cn/zl.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10694",
@@ -3588,15 +4632,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3608,25 +4656,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "西北大学太白校区",
+    "position": [
+      108.92321745,
+      34.2499678
+    ],
+    "website": "https://www.nwu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://hqjt.nwu.edu.cn/jtgk/xyfg1.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/287278027",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方校园风光包括太白校区与大礼堂；主校区地位待复核",
+      "sourceUrl": "https://hqjt.nwu.edu.cn/jtgk/xyfg1.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10698",
@@ -3639,8 +4710,8 @@
     "tier": "S",
     "campusName": "西安交通大学兴庆校区",
     "position": [
-      108.9809712,
-      34.2473206
+      108.98097125,
+      34.24732055
     ],
     "website": "https://www.xjtu.edu.cn/",
     "subjects": [],
@@ -3655,15 +4726,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3675,25 +4750,48 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "西北工业大学长安校区",
+    "position": [
+      108.7600984,
+      34.02979875
+    ],
+    "website": "https://www.nwpu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://npuinternationalcollege.nwpu.edu.cn/__local/E/6E/25/5F37628D7D0C7315914F51E5518_4F623DF5_1F4A3A2.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/273391732",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方国际交流画册附长安校区平面图；代表校区优先级待复核",
+      "sourceUrl": "https://npuinternationalcollege.nwpu.edu.cn/__local/E/6E/25/5F37628D7D0C7315914F51E5518_4F623DF5_1F4A3A2.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10701",
@@ -3704,25 +4802,51 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
-    "subjects": [],
+    "campusName": "西安电子科技大学南校区",
+    "position": [
+      108.82898795,
+      34.124945350000004
+    ],
+    "website": "https://www.xidian.edu.cn/",
+    "subjects": [
+      "电子科学与技术",
+      "信息与通信工程"
+    ],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://gis.xidian.edu.cn/",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/287806713",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
-      "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "特色建筑精细模型缺失"
+    ],
+    "campusSelection": {
+      "basis": "官方校园地图展示长安校区（南校区）的图书馆等设施",
+      "sourceUrl": "https://gis.xidian.edu.cn/",
+      "status": "candidate"
+    },
+    "summary": "位于西安，以信息与电子学科为主的教育部直属高校。"
   },
   {
     "id": "10710",
@@ -3733,25 +4857,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "长安大学南校区北院",
+    "position": [
+      108.95287535,
+      34.23445135
+    ],
+    "website": "https://www.chd.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://hello.chd.edu.cn/__local/E/D9/68/3E292E5D0B5531ADF33AD0B494B_A3651012_CBC21.pdf",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/379492031",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "2025新生指南确认南校区北院教学主楼；仅北院边界",
+      "sourceUrl": "https://hello.chd.edu.cn/__local/E/D9/68/3E292E5D0B5531ADF33AD0B494B_A3651012_CBC21.pdf",
+      "status": "candidate"
+    }
   },
   {
     "id": "10712",
@@ -3780,6 +4927,11 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
     "campusId": null,
@@ -3787,8 +4939,7 @@
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3800,25 +4951,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "陕西师范大学长安校区",
+    "position": [
+      108.8867068,
+      34.15503605
+    ],
+    "website": "https://www.snnu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://zzzx.snnu.edu.cn/zxjj/zxjj.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/246285589",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方介绍明确长安为主校区，但页面统计较旧需现状复核",
+      "sourceUrl": "https://zzzx.snnu.edu.cn/zxjj/zxjj.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "91030",
@@ -3849,7 +5023,7 @@
         "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
@@ -3867,25 +5041,48 @@
     "is985": true,
     "is211": true,
     "tier": "A",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "兰州大学城关校区西区",
+    "position": [
+      103.85716615,
+      36.04707475
+    ],
+    "website": "https://www.lzu.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://zsb.lzu.edu.cn/zhaoshengdongtai/tongzhigonggao/2023/0622/224507.html",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/464538785",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方招生公告确认城关西区现名及地址；OSM旧称盘旋路校区",
+      "sourceUrl": "https://zsb.lzu.edu.cn/zhaoshengdongtai/tongzhigonggao/2023/0622/224507.html",
+      "status": "candidate"
+    }
   },
   {
     "id": "10743",
@@ -3914,6 +5111,11 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
     "campusId": null,
@@ -3921,8 +5123,7 @@
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3937,7 +5138,7 @@
     "campusName": "宁夏大学(文萃校区)",
     "position": [
       106.1273167,
-      38.5024384
+      38.502438350000006
     ],
     "website": "https://www.nxu.edu.cn/",
     "subjects": [],
@@ -3952,15 +5153,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -3972,25 +5177,48 @@
     "is985": false,
     "is211": true,
     "tier": "B",
-    "campusName": null,
-    "position": null,
-    "website": null,
+    "campusName": "新疆大学红湖校区",
+    "position": [
+      87.6167823,
+      43.76278455
+    ],
+    "website": "https://www.xju.edu.cn/",
     "subjects": [],
     "sources": [
       {
         "url": "https://www.moe.gov.cn/srcsite/A22/s7065/200512/t20051223_82762.html",
         "title": "教育部 211 工程学校名单（历史口径）",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://dw.xju.edu.cn/bmjj.htm",
+        "title": "官方校区选择依据（不代表布局已核验）",
+        "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "https://www.openstreetmap.org/way/964603083",
+        "title": "OpenStreetMap 校园候选几何",
+        "checkedAt": "2026-09-06",
+        "license": "ODbL-1.0"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
-    ]
+      "学科及简介需官方资料核验"
+    ],
+    "campusSelection": {
+      "basis": "官方办公室列明红湖校区地址；主校区地位待复核",
+      "sourceUrl": "https://dw.xju.edu.cn/bmjj.htm",
+      "status": "candidate"
+    }
   },
   {
     "id": "10759",
@@ -4019,15 +5247,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -4041,7 +5273,7 @@
     "tier": "B",
     "campusName": "中国矿业大学（北京）",
     "position": [
-      116.3422257,
+      116.34222575,
       39.9971249
     ],
     "website": "https://www.cumtb.edu.cn/",
@@ -4057,15 +5289,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -4079,8 +5315,8 @@
     "tier": "B",
     "campusName": "中国石油大学（北京）",
     "position": [
-      116.244796,
-      40.21605
+      116.24479600000001,
+      40.216049999999996
     ],
     "website": "https://www.cup.edu.cn/",
     "subjects": [],
@@ -4095,15 +5331,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   },
   {
@@ -4117,8 +5357,8 @@
     "tier": "B",
     "campusName": "中国地质大学（北京）",
     "position": [
-      116.340587,
-      39.9886771
+      116.34058695,
+      39.988677100000004
     ],
     "website": "https://www.cugb.edu.cn",
     "subjects": [],
@@ -4133,15 +5373,19 @@
         "title": "OpenStreetMap 校园候选位置，待官网核验",
         "license": "ODbL-1.0",
         "checkedAt": "2026-09-06"
+      },
+      {
+        "url": "http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/202606/W020260618416094865984.xls",
+        "title": "教育部2026年全国普通高等学校名单（校名与学校标识码核对）",
+        "checkedAt": "2026-09-06"
       }
     ],
-    "campusId": null,
+    "campusId": "main",
     "gaps": [
       "代表校区需官网确认",
       "校园布局需官方地图交叉核验",
       "特色建筑精细模型缺失",
-      "学科及简介需官方资料核验",
-      "学校代码及现名需最新名录复核"
+      "学科及简介需官方资料核验"
     ]
   }
 ]

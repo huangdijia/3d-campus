@@ -1,0 +1,42 @@
+{
+  "origin": "GMT earth_relief_15m_g: SRTM15 Earth Relief v2.7 at 15 arc minutes",
+  "sourceUrl": "https://oceania.generic-mapping-tools.org/server/earth/earth_relief/earth_relief_15m_g.grd",
+  "mirrorUrl": "https://www.star.nesdis.noaa.gov/data/socd3/lsa/gmtdata/earth_relief_15m.grd",
+  "sourceSha256": "0efc23fb13dac354b9a68c79949c470c700d667c37d328138a61a6638407520d",
+  "sourceBytes": 1411602,
+  "documentationUrl": "https://www.generic-mapping-tools.org/remote-datasets/earth-relief.html",
+  "sourceReadmeUrl": "https://topex.ucsd.edu/pub/srtm15_plus/README_V2.7.txt",
+  "retrievedAt": "2026-09-06",
+  "license": "Public domain per retained SRTM15+ README distribution statement; attribution retained",
+  "licenseEvidence": "README_V2.7.txt retains the SRTM30_PLUS public-domain declaration in its version history. Current GMT documentation explicitly distributes this SRTM15+ derivative; it is not a license inference from the research article.",
+  "attribution": "GMT / Scripps Institution of Oceanography, SRTM15+ V2.7; Tozer et al. (2019), doi:10.1029/2019EA000658",
+  "horizontalCoordinates": "longitude/latitude degrees, gridline registered",
+  "verticalUnits": "metres",
+  "registration": "gridline",
+  "crop": {
+    "west": 72,
+    "south": 18,
+    "east": 137.0,
+    "north": 54.0
+  },
+  "sourceGrid": {
+    "width": 1441,
+    "height": 721,
+    "stepDegrees": 0.25,
+    "scaleFactor": 0.5
+  },
+  "processing": "Exact aligned crop of source grid, CF scale_factor applied once, row-major south-to-north/west-to-east; no interpolation, no fabricated heights, no clamping of negative elevations.",
+  "limitations": [
+    "Source is a mixed-source SRTM15+ derivative, not original 30 m USGS SRTM.",
+    "GMT applied 78.6 km full-width Gaussian filtering; 0.25 degree grid spacing does not imply terrain detail at campus scale.",
+    "Negative values include bathymetry and are retained in data; UI may mask sea and clip visible surfaces.",
+    "Rectangle is a rendering crop, not a statement about national boundaries or full island coverage."
+  ],
+  "validation": {
+    "sampleCount": 37845,
+    "minMetres": -6814.5,
+    "maxMetres": 5844.0,
+    "missingSamples": 0,
+    "mirrorByteIdentical": true
+  }
+}

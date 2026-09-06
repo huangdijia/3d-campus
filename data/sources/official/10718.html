@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head><title>中心简介-学生处学生资助管理中心</title><meta name="pageType" content="2">
+<meta name="pageTitle" content="中心简介">
+<META Name="keywords" Content="学生处学生资助管理中心,中心简介" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/lanrenzhijia.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/common.css">
+
+
+   
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232306975475253535742000400004152 -->
+<link rel="stylesheet" type="text/css" href="../about.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1010,'/about.jsp',-1,1495164808)</script>
+</head>
+<body>
+<!-- header -->
+    <div id="header">
+        <div class="header-1">
+            <div class="container">
+                <div class="logo fl">
+                    
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../index.htm" title="学生处学生资助管理中心"><img src="../images/logo.png"></a>
+                </div>
+                <div class="header-1-right fr">
+                    <div class="header-a">
+                        <a href="https://www.snnu.edu.cn/" target="_blank"><img src="../images/aa.png" alt="">学校主页</a>
+                    </div>
+                    <div class="search">
+                        <!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><style>
+    #appu1 .qwss{
+        height: 31px;
+        font-size: 12px;
+        min-width: 190px;
+        max-width: 600px;
+        width: 60%;
+        margin-top: -15px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 2px;
+        border: 1px solid #e4e7ed;}
+    #appu1 .tj{
+        padding-left: 6px;
+        letter-spacing: 5px;
+        color: white;
+        min-width: 53px;
+        max-width: 150px;
+        height: 32px;
+        border: 0;
+        border-radius: 2px;
+        background-color: #1890FF;
+        position: relative;
+        top: 1px;
+        width: 20%;
+        margin-top: -15px;}
+</style>
+<div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+           
+            <input type="text" placeholder="搜索关键字" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+ <input type="image" src="../images/wen.png" align="absmiddle" style="cursor: hand" value="" v-on:click="onSubmit()">
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "1495164808";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "1495164808";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <ul class="list-unstyled">
+					<li><a href="../index.htm" title="首页">首页</a></li>
+					<li><a href="zxjj.htm" title="中心简介">中心简介</a></li>
+					<li><a href="../tzgg/tzgg.htm" title="通知公告">通知公告</a></li>
+					<li><a href="../gzdt/gzdt.htm" title="工作动态">工作动态</a></li>
+					<li><a href="../zzxm/zzxm.htm" title="资助项目">资助项目</a></li>
+					<li><a href="../sdxylmk/sdxylmk.htm" title="师大校友联名卡">师大校友联名卡</a></li>
+					<li><a href="../zcjd/xxzc.htm" title="政策解读">政策解读</a></li>
+					<li><a href="../axst/stjj.htm" title="爱心社团">爱心社团</a></li>
+					<li><a href="../zlxz/j.htm" title="资料下载">资料下载</a></li>
+</ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+<!-- header -->
+<!-- main -->
+    <div id="main">
+        <div id="main">
+            <script language="javascript" src="/system/resource/js/dynclicks.js"></script>    
+        
+              
+			<div class="banner-2" style="background-image: url(../images/18/11/13/34rpcpw6mq/_DSC1046S.jpg);">
+			
+		</div>
+
+        
+
+        <div class="erji">
+            <div class="container">
+                <div class="menu">
+                    <ul class="menu-ul list-unstyled">
+
+						<li class="menu-active">
+							<a href="zxjj.htm" title="中心简介">中心简介</a>
+						</li>
+</ul>
+                </div>
+                <div class="erji-content">
+                    <div class="erji-title">
+                        <div class="erji-title-1">
+                            <img src="../images/chengyou.jpg" alt="">
+                            
+中心简介
+                        </div>
+                        <div class="mianbaoxie">
+    位置: 
+                        <a href="../index.htm">首页</a>
+                >>
+                <a href="zxjj.htm">中心简介</a>
+                >>
+                <a href="zxjj.htm">中心简介</a>
+</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="danda-wp">
+                        
+
+
+
+
+
+<script language="javascript" src="/system/resource/js/ajax.js"></script><script language="javascript">_getBatchClickTimes('null',1495164808,'wbnews','u7')</script>
+<link rel="stylesheet" Content-type="text/css" href="/system/resource/style/component/news/content/format4.css"><script>function seeContenta7(contentid,size,displayid){	document.getElementById(contentid).innerHTML = '[';	for(var i=0;i<=size;i++){		var allcontentid = contentid+(i+1);		if(allcontentid==displayid){			document.getElementById(contentid).innerHTML += " <span id='"+allcontentid+"' name='"+allcontentid+"'  >"+(i+1)+"</span> ";			document.getElementById(displayid).style.display = 'block';		}else{			document.getElementById(contentid).innerHTML += " <span style='cursor:pointer' id='"+allcontentid+"' name='"+allcontentid+"' onclick=seeContenta7('"+contentid+"','"+size+"','"+allcontentid+"')  >"+(i+1)+"</span> ";			document.getElementById(allcontentid).style.display = 'none';		}	}	document.getElementById(contentid).innerHTML += ']';}</script>
+<script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<script>_addDynClicks('wbnews',1495164808,1001)</script>
+<div class="dandan">
+
+	 <div id="vsb_content_4_1001_u71"><div id="vsb_content_4"><p class="vsbcontent_start">陕西师范大学是教育部直属、国家 “211 工程 ” 重点建设大学，国家教师教育 “985” 优势学科创新平台建设高校，是国家培养高等院校、中等学校师资和教育管理干部以及其他高级专门人才的重要基地，被誉为西北地区 “ 教师的摇篮 ” 。</p>
+<p>学校创建于1944年，前身是陕西省立师范专科学校，1954 年定名为西安师范学院。 1960年与陕西师范学院合并，成立陕西师范大学，1978年划归教育部直属。建校60多年来，在刘泽如、李绵、郭琦等老一代教育家的领导下，在几代师大人的努力下，学校立足西部，面向全国，已发展成为一所有重要影响的综合性一流师范大学，为国家培养各类毕业生24万（包含网络教育毕业生近8万人）余人，形成“厚德、积学、励志、敦行”的优良校风。学校目前面向全国31个省（市、区）招生，还在港、澳、台地区招收研究生。现任党委书记甘晖研究员，校长房喻教授。</p>
+<p>学校位于世界四大历史文化名城之一的古都西安，占地面积2700余亩，建有长安、雁塔两个校区。长安校区从2000年开始建设，目前已成为学校的主校区，主要承担本科三、四年级和研究生的教育培养任务；雁塔校区已有六十多年的办学历史，主要承担本科一、二年级基础课和通识课教学以及教师教育、继续教育、远程教育、培训以及留学生教育等任务。两校区功能定位明确，布局合理，建筑风格和校园环境各具特色。雁塔校区古朴典雅、钟灵毓秀，长安校区现代开放、气势恢宏。学校先后被教育部、陕西省授予“文明校园”称号。</p>
+<p>学校现设有21个学院，2个基础教学部，66个本科专业，18个博士后科研流动站，15个一级博士学位授权点，103个二级博士学位授权点，40个一级硕士学位点，185个二级硕士学位点，1个教育博士专业学位点，20个硕士专业学位点（含工程硕士8个领域）。在国家现有13个学科门类中我校学位授权点覆盖哲学、经济学、法学、教育学、文学、历史学、理学、工学、管理学、农学、医学、艺术学等12个学科门类；有国家重点学科4个，4篇博士论文入选全国百篇优秀博士论文，5篇博士论文入选全国优秀博士学位论文提名论文；有国家基础学科人才培养和科学研究基地2个，国家工程实验室1个，国家级实验教学示范中心3个，教育部人文社会科学研究基地1个，国家体育总局体育社会学重点研究基地1个，教育部重点实验室和工程研究中心4个，陕西省重点实验室和工程研究中心 8个，陕西省人文社会科学重点研究基地4个，陕西省实验教学示范中心7个，各类研究中心（所）60个。学校设有远程教育学院、教师干部教育学院等办学机构，此外，还设有教育部西北高师师资培训中心、教育部西北教育管理干部培训中心、教育部基础教育课程研究中心、陕西省基础教育资源研发中心以及中国唐史学会、中国古都学会等几十个学术团体和学术机构。</p>
+<p>学校现有教职工近2800人，其中专任教师1620余人，具有博士、硕士学位的教师占教师总数的88% ，其中具有博士学位的近61% 。专任教师中有教授360 余人，副教授560余人，博士生导师293人，双聘院士4人，国家突出贡献中青年专家5人，国家“新世纪百千万人才工程”入选者、“新世纪优秀人才支持计划”入选者、高校青年教师奖获得者、教育部优秀青年教师资助计划入选者共47人，国家级教学名师2人，国家级教学团队3个，全国优秀教师6人，全国、全省宣传文化系统“四个一批”人才入选者共2人，省级教学名师16人，省级教学团队11个，陕西省有突出贡献专家6人，陕西省“三五”人才、“三秦学者”等人才工程入选者31人。近年来，学校积极调整用人政策，聘请了近百名国内外著名学者作为兼职教授，其中有院士10余人。</p>
+<p>学校现有全日制本科生 17800 余人、研究生 12000 余人，继续教育和网络教育学生 4 万余人，外国留学生 900 余人。 长期以来，学校以质量为生命线，坚持以 “ 三级三类 ” 教学评估为主体的教学质量保障体系，狠抓教学管理和改革，取得显著成效。自2000年以来共获国家级教学成果奖7项，省级教学成果奖50项；9门课程被评为国家精品课程，45门课程被评为省级精品课程；3门课程被评为国家双语示范课程，3门课程被评为省级双语示范课程，3门课程被评为国家级精品视频公开课程，8门课程被评为国家级教师教育精品资源课程；11个专业被评为国家特色专业，22个专业被评为省级特色专业，12个专业被评为省级名牌专业；2个国家级人才培养模式创新实验区，5个省级人才培养模式创新实验区。学校从2006级本科生开始推行“2+2”人才培养新模式，并积极探索教师教育“4+2+1”城乡合作人才培养模式，为基础教育培养优质师资。</p>
+<p>学校积极实施科研强校战略，科研实力逐年提升。“十一五”期间，人文社会科学共承担省部级及其以上科研项 472 项，其中国家社科基金类项目 81 项，教育部项目106项；有118项人文社会科学研究成果获省部级以上奖励；出版学术著作432部，教材160部，发表学术论文4793篇。自然科学共承担省部级及其以上科研项目442项，其中国家自然科学基金项目160项；863计划项目4项， 973 前期专项项目2项；出版学术著作105部，发表学术论文6454篇；有23项科技成果获得陕西省科学技术奖，116项科技成果被授予专利权，其中发明专利112项，实用新型专利4项。</p>
+<p>学校是“国家大学生文化素质教育基地”“国家级语言文字规范化示范学校”“教育部高校辅导员培训和研修基地”和“陕西省高校辅导员培训和研修基地”。多年来高度重视学生的综合素质教育，大力弘扬“厚德敦行”文化精神，建设高品位校园文化。学校1999年被中央文明委首批授予“全国精神文明建设先进单位”荣誉称号，连续十五年被中宣部、教育部、团中央授予“全国大学生社会实践先进集体”。</p>
+<p>学校拥有设施先进、功能齐全、藏书丰富的图书馆，两校区图书馆面积达5. 9万平方米，共有藏书358.22万册。学校还设有博物馆，由妇女文化博物馆、历史文化博物馆、书画艺术博物馆三部分组成。学校编辑出版《陕西师范大学学报》（哲学社会科学版、自然科学版）、《当代教师教育》《中国历史地理论丛》《社会科学评论》《中国艺术教育》等学术刊物，其中《陕西师范大学学报》（哲学社会科学版）于2003年首批入选教育部高校哲学社会科学名刊工程，成为国家重点支持建设的11种高校社科学报之一。学校拥有出版总社有限公司，公司出版社是全国年销售额过亿元的10家高校出版社之一；公司杂志社是由教育部主管的拥有系列教育类刊物的大型期刊社，共发行9种为基础教育服务的专业期刊，其中4种刊物为国家核心期刊。</p>
+<p>学校积极开展广泛的国际学术交流与合作，设有西北地区唯一的“国务院侨办华文教育基地”，先后与美国、英国、法国、德国、俄罗斯、日本、澳大利亚、加拿大、韩国、越南、香港等国家和地区的70多所学校建立了校际友好与合作交流关系，培养留学生4000余人。</p>
+<p>学校设有教学实验性质的附中、附小、幼儿园，其中附中是陕西省重点中学，附小、幼儿园是省级示范小学和幼儿园。近年来，为充分发挥学校的教育资源优势，还与社会企业合办了锦园国际学校、金泰丝路花城学校、奥林匹克花园学校、陕西师范大学曲江第一中学、金泰假日花城学校、大兴新区小学等。</p>
+<p>学校是全国最早实行后勤社会化改革的高校之一，并积极探索出了一条被誉为“陕西师大模式”的后勤改革之路，在全国产生了广泛影响。</p>
+<p class="vsbcontent_end">面向新世纪，陕西师范大学以西部大开发和教育大发展为契机，全面提高教育教学质量、科研水平和社会服务能力，正朝着以教师教育为主要特色的综合性研究型大学的目标努力奋斗。</p></div></div>
+
+</div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- main -->
+<!-- footer -->
+    <div id="footer">
+        <div class="footer-1">
+            <div class="container">
+                <div class="you">
+                    <div class="you-title fl">
+                        友情链接:
+                    </div>
+                    <script language="javascript" src="/system/resource/js/openlink.js"></script><div class="you-con">
+
+						<a href="https://www.snnu.edu.cn/index.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1495164808, 105156)"><img src="../images/list4.png" alt="">陕西师范大学</a>
+						<a href="http://www.xsc.snnu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1495164808, 105157)"><img src="../images/list4.png" alt="">陕西师范大学党委学生工作部（武装部、学生处）</a>
+						<div class="clear"></div>
+</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="container">Copyright © 2014 All Rights Reserved 陕西师范大学学生资助管理中心 版权所有 技术支持：硅峰网络<br />地址：陕西省西安市西长安街620号学生新勇活动中心东304 邮编：710119 电话：029-85310324</div>
+        </div>
+    </div>
+<!-- footer -->
+</body>
+ <script src="../js/jquery.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.flexslider-min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/superslide.js"></script>
+    <script src="../js/lib.js"></script>
+<script>
+    $(function(){
+        //页面插件调用处...
+        
+    })
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

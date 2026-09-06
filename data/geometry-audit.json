@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-06",
+  "modelCount": 112,
+  "finiteBoundedVertices": 325643,
+  "preservedBuildingHoles": 74,
+  "clippedRoadSegments": 94203,
+  "assetSourceAndNameMappingsPassed": 112,
+  "selfTests": [
+    "crossing segments clipped to both sides of inner hole",
+    "inner holes retained by polygon intersection",
+    "unclosed polygon rejected"
+  ],
+  "notVerified": [
+    "official layout correspondence",
+    "building architectural fidelity",
+    "walkable route continuity",
+    "point of interest descriptions and locations"
+  ],
+  "releaseReady": false
+}

@@ -1,0 +1,2607 @@
+[
+  {
+    "campusId": "10001/main",
+    "modelUrl": "/models/10001.glb",
+    "sha256": "dda97440b9d64f11cf6fc49c9a7c30f80e8b927a3d290b4745e503504370e23c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/1330709889",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 226,
+      "roads": 472,
+      "water": 12,
+      "green": 80
+    },
+    "bytes": 1205100
+  },
+  {
+    "campusId": "10002/main",
+    "modelUrl": "/models/10002.glb",
+    "sha256": "b70318d98221f39197910c682c2f963bcfc7d00a37c27df309d495ad837a94be",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/30725330",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 124,
+      "roads": 95,
+      "water": 1,
+      "green": 32
+    },
+    "bytes": 456736
+  },
+  {
+    "campusId": "10003/main",
+    "modelUrl": "/models/10003.glb",
+    "sha256": "8911c2d69f4dd407bf92573f351c7972cae52f3b35c6f925e85a683e7437f2aa",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/7469216",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 604,
+      "roads": 902,
+      "water": 12,
+      "green": 0
+    },
+    "bytes": 2493636
+  },
+  {
+    "campusId": "10004/main",
+    "modelUrl": "/models/10004.glb",
+    "sha256": "436a499dc78e31ffff8eb7b4b6d9df63121149eb6cfcb29b2364ff2fbdd8943f",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/266512538",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 71,
+      "roads": 62,
+      "water": 1,
+      "green": 18
+    },
+    "bytes": 224212
+  },
+  {
+    "campusId": "10005/main",
+    "modelUrl": "/models/10005.glb",
+    "sha256": "732203ee658c3f45439b6145d92b568586284d744d827957988ee99f1f8fadd5",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/33617299",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 57,
+      "roads": 81,
+      "water": 1,
+      "green": 49
+    },
+    "bytes": 259968
+  },
+  {
+    "campusId": "10006/main",
+    "modelUrl": "/models/10006.glb",
+    "sha256": "2388b02a1cdf9447522b0ab6dff694f50052a08046454b59f8db27299bcaecfa",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/18849853",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 159,
+      "roads": 295,
+      "water": 2,
+      "green": 33
+    },
+    "bytes": 860688
+  },
+  {
+    "campusId": "10007/main",
+    "modelUrl": "/models/10007.glb",
+    "sha256": "ed1a6fd4359ef5407f30def372c13e760010dd17d35a3381b1607efaafd00c09",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/30748230",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 134,
+      "roads": 34,
+      "water": 0,
+      "green": 31
+    },
+    "bytes": 515736
+  },
+  {
+    "campusId": "10008/main",
+    "modelUrl": "/models/10008.glb",
+    "sha256": "1f086ab62cb6d8ec0abddfba826c13644a46b82a8373c95b54ab96cfe1571d54",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/277989175",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 111,
+      "roads": 74,
+      "water": 0,
+      "green": 23
+    },
+    "bytes": 398100
+  },
+  {
+    "campusId": "10010/main",
+    "modelUrl": "/models/10010.glb",
+    "sha256": "0415c52e010008c9dc0cb3bfce7e48e968a20dac78f94f66fe31fd44c61553df",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/260795156",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 52,
+      "roads": 114,
+      "water": 1,
+      "green": 36
+    },
+    "bytes": 274976
+  },
+  {
+    "campusId": "10013/main",
+    "modelUrl": "/models/10013.glb",
+    "sha256": "701a46436d95cfdd85d3e2c7643b5cb09908ccb35feede2e9ff5561f3bcb3034",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/279303636",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 105,
+      "roads": 250,
+      "water": 0,
+      "green": 45
+    },
+    "bytes": 516276
+  },
+  {
+    "campusId": "10019/main",
+    "modelUrl": "/models/10019.glb",
+    "sha256": "e679e46e4229c97fd92c0075722fb5538136ba96505405598564cc1a774b7572",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/412323508",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 20,
+      "roads": 14,
+      "water": 0,
+      "green": 1
+    },
+    "bytes": 54216
+  },
+  {
+    "campusId": "10022/main",
+    "modelUrl": "/models/10022.glb",
+    "sha256": "4b903b948b854e856891da4bb88322c277287841ee406af634cc19a5668d23db",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/412323504",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 71,
+      "roads": 28,
+      "water": 0,
+      "green": 12
+    },
+    "bytes": 198688
+  },
+  {
+    "campusId": "10026/main",
+    "modelUrl": "/models/10026.glb",
+    "sha256": "62ed1062bf4e568d42351d769dcc998facb4959b7e242ba9ab06206e0e39c46b",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/260795158",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 31,
+      "roads": 8,
+      "water": 0,
+      "green": 5
+    },
+    "bytes": 92076
+  },
+  {
+    "campusId": "10027/main",
+    "modelUrl": "/models/10027.glb",
+    "sha256": "07eb624e40e7a4ba1fa6986b687118ffc3e4ab758224cc83d255b8b10e948539",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/30784020",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 131,
+      "roads": 188,
+      "water": 0,
+      "green": 34
+    },
+    "bytes": 607360
+  },
+  {
+    "campusId": "10030/main",
+    "modelUrl": "/models/10030.glb",
+    "sha256": "06e4ee36e9e169acb55155a52be6a0c888a8f1215a2b34ac2eb3f97a9da095ba",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/13045609",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 62,
+      "roads": 10,
+      "water": 0,
+      "green": 4
+    },
+    "bytes": 221556
+  },
+  {
+    "campusId": "10033/main",
+    "modelUrl": "/models/10033.glb",
+    "sha256": "af5364653c0d97c22dbd141da74abe3644151ed9cd43709bff8774d25012bc57",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/58683259",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 75,
+      "roads": 14,
+      "water": 4,
+      "green": 4
+    },
+    "bytes": 253632
+  },
+  {
+    "campusId": "10034/main",
+    "modelUrl": "/models/10034.glb",
+    "sha256": "b926412960f7a95e38b9dc87aba5e2f2dc3a81e04d8c01f80434a2af3a788188",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/248393687",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 32,
+      "roads": 9,
+      "water": 0,
+      "green": 11
+    },
+    "bytes": 114900
+  },
+  {
+    "campusId": "10036/main",
+    "modelUrl": "/models/10036.glb",
+    "sha256": "61e578dd9af288bc7d0dba2254aedbf65e682453cdcd85858248e27dc0071979",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/412468627",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 24,
+      "roads": 37,
+      "water": 0,
+      "green": 5
+    },
+    "bytes": 94316
+  },
+  {
+    "campusId": "10043/main",
+    "modelUrl": "/models/10043.glb",
+    "sha256": "c1b6e8d024510401498096501f18f795c246552d7ace7a6c3943332604e952c6",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/398508191",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 61,
+      "roads": 56,
+      "water": 1,
+      "green": 12
+    },
+    "bytes": 230808
+  },
+  {
+    "campusId": "10045/main",
+    "modelUrl": "/models/10045.glb",
+    "sha256": "92d37d8fefd1bf6ffd7bb538a9a36b1e039d3d25203fedc1b901d8ad047c6289",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/12525809",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 16,
+      "roads": 2,
+      "water": 0,
+      "green": 1
+    },
+    "bytes": 60708
+  },
+  {
+    "campusId": "10052/main",
+    "modelUrl": "/models/10052.glb",
+    "sha256": "78779d602f91471c4c92fe28cfcac1edac4bf15d202bdeca3b09ea1f2a1fe33a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/365025448",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 32,
+      "roads": 16,
+      "water": 0,
+      "green": 23
+    },
+    "bytes": 122200
+  },
+  {
+    "campusId": "10054/main",
+    "modelUrl": "/models/10054.glb",
+    "sha256": "fb098553d2afd3d8420d548fe388133f0ac65cf792205b83e70257f7030239d9",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/48049618",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 64,
+      "roads": 48,
+      "water": 1,
+      "green": 8
+    },
+    "bytes": 226832
+  },
+  {
+    "campusId": "10055/main",
+    "modelUrl": "/models/10055.glb",
+    "sha256": "f7cbe5d095146056a461e3c6ae55d435843c54c27b76df11903d33d7672bb8d4",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/48165388",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 90,
+      "roads": 138,
+      "water": 5,
+      "green": 19
+    },
+    "bytes": 513484
+  },
+  {
+    "campusId": "10056/main",
+    "modelUrl": "/models/10056.glb",
+    "sha256": "cfe658f3284eabb929c42e234d7ab619590aaef79f105f419f36adcf38f2bc8d",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/48165383",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 428,
+      "roads": 167,
+      "water": 4,
+      "green": 86
+    },
+    "bytes": 1993088
+  },
+  {
+    "campusId": "10062/main",
+    "modelUrl": "/models/10062.glb",
+    "sha256": "5b0aa5e2be8386f43f852b7100ecbd542c960bcda698583dcbb54c245d6bd5ae",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/299961439",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 4,
+      "roads": 14,
+      "water": 0,
+      "green": 0
+    },
+    "bytes": 28224
+  },
+  {
+    "campusId": "10080/main",
+    "modelUrl": "/models/10080.glb",
+    "sha256": "8c99aedeaa128203764f03810c090e3345a6d32ce672bffd355c60a5b29fa885",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/517503748",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 109,
+      "roads": 53,
+      "water": 4,
+      "green": 25
+    },
+    "bytes": 435432
+  },
+  {
+    "campusId": "10112/main",
+    "modelUrl": "/models/10112.glb",
+    "sha256": "64634e71f28646671b1300a5e65a7efad2ff88d9b180126f62b9e32a6dc4905c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/427629191",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 11,
+      "roads": 14,
+      "water": 5,
+      "green": 2
+    },
+    "bytes": 112228
+  },
+  {
+    "campusId": "10126/main",
+    "modelUrl": "/models/10126.glb",
+    "sha256": "2c6d7983fcfe084818e22ece27ee687de70ad5d91fb84d23bfd9b8e0dc33ecf0",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/17358577",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 57,
+      "roads": 100,
+      "water": 3,
+      "green": 77
+    },
+    "bytes": 407200
+  },
+  {
+    "campusId": "10140/main",
+    "modelUrl": "/models/10140.glb",
+    "sha256": "8925e76cf5b4b54262b60b841efbf4aabd6cf87ab21fe183de6c363047c8fcb1",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/368463199",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 22,
+      "roads": 30,
+      "water": 0,
+      "green": 1
+    },
+    "bytes": 104608
+  },
+  {
+    "campusId": "10141/main",
+    "modelUrl": "/models/10141.glb",
+    "sha256": "7acd62a0fde8bd49f7de8cd3d7217d8a6badf028b57248535b548662ca1ca145",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/443031231",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 201,
+      "roads": 96,
+      "water": 2,
+      "green": 12
+    },
+    "bytes": 703244
+  },
+  {
+    "campusId": "10145/main",
+    "modelUrl": "/models/10145.glb",
+    "sha256": "cf79b4a36528d7ba162296144c3b2529efd2f50bca0176b956fd021207b8cd7d",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/53573481",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 80,
+      "roads": 41,
+      "water": 0,
+      "green": 8
+    },
+    "bytes": 285012
+  },
+  {
+    "campusId": "10151/main",
+    "modelUrl": "/models/10151.glb",
+    "sha256": "2631f12961a07f5736d35e73788bbe6ca4a6c06c6ae42da54dfe947238a9a3bc",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/700345039",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 134,
+      "roads": 546,
+      "water": 1,
+      "green": 112
+    },
+    "bytes": 1284736
+  },
+  {
+    "campusId": "10183/main",
+    "modelUrl": "/models/10183.glb",
+    "sha256": "31c6321ebc83ab12ea3434e368d40b498bd213c6d743dab374e54c1c359faf6a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/298032902",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 83,
+      "roads": 1025,
+      "water": 3,
+      "green": 384
+    },
+    "bytes": 2385564
+  },
+  {
+    "campusId": "10184/main",
+    "modelUrl": "/models/10184.glb",
+    "sha256": "7bb45d6e543781668aec922865faaabdb73171327a6b306e9a9e37dd414e1bef",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/248259366",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 56,
+      "roads": 135,
+      "water": 0,
+      "green": 63
+    },
+    "bytes": 446624
+  },
+  {
+    "campusId": "10200/main",
+    "modelUrl": "/models/10200.glb",
+    "sha256": "81f3f80dc96e238de157f79974d0a78dedf3d8eceb66f4546cac5f98d477db08",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/20993807",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 69,
+      "roads": 154,
+      "water": 1,
+      "green": 88
+    },
+    "bytes": 850064
+  },
+  {
+    "campusId": "10213/main",
+    "modelUrl": "/models/10213.glb",
+    "sha256": "04931576b32fb9429b251560589237b0f1f90f260e9ae04a8a57bd81dec520d6",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/13053921",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 71,
+      "roads": 108,
+      "water": 0,
+      "green": 48
+    },
+    "bytes": 525648
+  },
+  {
+    "campusId": "10217/main",
+    "modelUrl": "/models/10217.glb",
+    "sha256": "85b157cf57f87a6c8f540f7d015fd8cb64e0e849c173fe436fefd8782ce3cb88",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/340788060",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 111,
+      "roads": 99,
+      "water": 2,
+      "green": 46
+    },
+    "bytes": 512884
+  },
+  {
+    "campusId": "10224/main",
+    "modelUrl": "/models/10224.glb",
+    "sha256": "02722b9404bea69dff3544aeaeae2c6ebfa1a1d0a153390e98198075fe02bdbd",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/573792237",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 139,
+      "roads": 187,
+      "water": 2,
+      "green": 31
+    },
+    "bytes": 613596
+  },
+  {
+    "campusId": "10225/main",
+    "modelUrl": "/models/10225.glb",
+    "sha256": "4f7915b9d151ac865673eaeb5f532f1312d37eab097fa45c34882f338c08da3f",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/316890410",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 89,
+      "roads": 178,
+      "water": 1,
+      "green": 70
+    },
+    "bytes": 500388
+  },
+  {
+    "campusId": "10246/main",
+    "modelUrl": "/models/10246.glb",
+    "sha256": "c5b027f002bff1f9b7cd82810ecfe9374c57781cc8427e9a346d953b24da9d15",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/3936746",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 362,
+      "roads": 93,
+      "water": 2,
+      "green": 44
+    },
+    "bytes": 1308060
+  },
+  {
+    "campusId": "10247/main",
+    "modelUrl": "/models/10247.glb",
+    "sha256": "347b0a502b80c7a0595ed190fe672eb5c5f65433f25c05c3ee405fd0b3846e70",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/18788116",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 126,
+      "roads": 170,
+      "water": 1,
+      "green": 29
+    },
+    "bytes": 669128
+  },
+  {
+    "campusId": "10248/main",
+    "modelUrl": "/models/10248.glb",
+    "sha256": "f8074350335a0ee4a102013a2e62dddb0e0d425d723b0064c903dfc4d9633e2e",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/288249651",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 275,
+      "roads": 604,
+      "water": 19,
+      "green": 94
+    },
+    "bytes": 2080592
+  },
+  {
+    "campusId": "10251/main",
+    "modelUrl": "/models/10251.glb",
+    "sha256": "b7dbbe81f2a3cf27bb978935f61bd8c4d35f4526d7e511d930fd760730492b79",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/70990157",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 110,
+      "roads": 76,
+      "water": 0,
+      "green": 7
+    },
+    "bytes": 305676
+  },
+  {
+    "campusId": "10255/main",
+    "modelUrl": "/models/10255.glb",
+    "sha256": "d0f0e73456c6a9219ca33433d3da69c59ec1e8b206e5b580deeb3f40fe625daf",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/266150697",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 109,
+      "roads": 39,
+      "water": 0,
+      "green": 9
+    },
+    "bytes": 288500
+  },
+  {
+    "campusId": "10269/main",
+    "modelUrl": "/models/10269.glb",
+    "sha256": "5f8b2a7709f73577f8f37648bd14d31c6772121877eca0613911e823a96e2ca5",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/6179557",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 279,
+      "roads": 175,
+      "water": 2,
+      "green": 299
+    },
+    "bytes": 1559952
+  },
+  {
+    "campusId": "10271/main",
+    "modelUrl": "/models/10271.glb",
+    "sha256": "10670b223781dc5bd500315180b9cf9105d1fe7e5af23ed40d1f9e645f80e52b",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/24474567",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 29,
+      "roads": 21,
+      "water": 1,
+      "green": 2
+    },
+    "bytes": 206796
+  },
+  {
+    "campusId": "10272/main",
+    "modelUrl": "/models/10272.glb",
+    "sha256": "124a885d212df76de5ce9ce88f836507789c6761352943267d3ef86932547060",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/68741490",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 40,
+      "roads": 60,
+      "water": 0,
+      "green": 14
+    },
+    "bytes": 159476
+  },
+  {
+    "campusId": "10284/main",
+    "modelUrl": "/models/10284.glb",
+    "sha256": "2a070ab1ef7485b7a9d310de50cfe929279e66179256b496d19c41062b7c381c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/88779953",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 132,
+      "roads": 187,
+      "water": 1,
+      "green": 23
+    },
+    "bytes": 557332
+  },
+  {
+    "campusId": "10285/main",
+    "modelUrl": "/models/10285.glb",
+    "sha256": "f48b64b7eb506f19e6d90835ce97c2be3ed73607ec50856813ae33c96b010dbe",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/407521211",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 86,
+      "roads": 51,
+      "water": 1,
+      "green": 18
+    },
+    "bytes": 291572
+  },
+  {
+    "campusId": "10286/main",
+    "modelUrl": "/models/10286.glb",
+    "sha256": "fa7c89b444a493abecb46f246324689d6e470e43460a1da4af19c312bebbc56b",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/16272607",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 110,
+      "roads": 46,
+      "water": 2,
+      "green": 34
+    },
+    "bytes": 337664
+  },
+  {
+    "campusId": "10288/main",
+    "modelUrl": "/models/10288.glb",
+    "sha256": "864d3b49a111520eef963c30f663655e979c968bcffb474b0e9d9f574c83b6ed",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/2196059",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 205,
+      "roads": 133,
+      "water": 6,
+      "green": 27
+    },
+    "bytes": 640768
+  },
+  {
+    "campusId": "10290/main",
+    "modelUrl": "/models/10290.glb",
+    "sha256": "5e767e6298f3b5b2b4c026ab6709aedc13c4e456a67f23da1d6af33d6aa8971e",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/273639857",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 32,
+      "roads": 139,
+      "water": 5,
+      "green": 8
+    },
+    "bytes": 319176
+  },
+  {
+    "campusId": "10294/main",
+    "modelUrl": "/models/10294.glb",
+    "sha256": "9c7326d334b87b168127863efbf97c4540fecb9edaa650b1fec6fc71ad4e2b4b",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/165476764",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 36,
+      "roads": 9,
+      "water": 0,
+      "green": 2
+    },
+    "bytes": 147544
+  },
+  {
+    "campusId": "10295/main",
+    "modelUrl": "/models/10295.glb",
+    "sha256": "7923787c4cc7f0ca2dc2aa637024e61a6e3d22a933164708cea44be63c17813a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/286859146",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 72,
+      "roads": 253,
+      "water": 10,
+      "green": 68
+    },
+    "bytes": 791096
+  },
+  {
+    "campusId": "10307/main",
+    "modelUrl": "/models/10307.glb",
+    "sha256": "78ab0499341d54b29ed9b0c005ebe9ff634d61d6a5256c5684ccd91d12e550ed",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/1312627795",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 76,
+      "roads": 272,
+      "water": 8,
+      "green": 243
+    },
+    "bytes": 1237044
+  },
+  {
+    "campusId": "10316/main",
+    "modelUrl": "/models/10316.glb",
+    "sha256": "e4e23c6dbd892f0239392ea8477844d3ae9e50051b3cb4351d7a9d0ed546901c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/92626954",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 85,
+      "roads": 190,
+      "water": 8,
+      "green": 36
+    },
+    "bytes": 761416
+  },
+  {
+    "campusId": "10319/main",
+    "modelUrl": "/models/10319.glb",
+    "sha256": "ed289a424445278227419f421979ff2fdc9c19a8c0f062cb136ad079c5a9b6a7",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/9356340",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 202,
+      "roads": 117,
+      "water": 10,
+      "green": 22
+    },
+    "bytes": 1449820
+  },
+  {
+    "campusId": "10335/main",
+    "modelUrl": "/models/10335.glb",
+    "sha256": "a7bfa3892581791a87a263c1326580ecf1215f7bded7e17b479ed74227826e4c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/288874844",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 239,
+      "roads": 552,
+      "water": 19,
+      "green": 103
+    },
+    "bytes": 1665980
+  },
+  {
+    "campusId": "10357/main",
+    "modelUrl": "/models/10357.glb",
+    "sha256": "b13b1cc90cba2279961512a35c03eb829121e7621e520074c9e957060337686a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/20701346",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 77,
+      "roads": 207,
+      "water": 6,
+      "green": 75
+    },
+    "bytes": 1651596
+  },
+  {
+    "campusId": "10359/main",
+    "modelUrl": "/models/10359.glb",
+    "sha256": "c57677a9317c5ad5466fcf92ae8c182a0e9281221b5e48aef9c73cee5437579d",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/324749077",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 162,
+      "roads": 108,
+      "water": 1,
+      "green": 28
+    },
+    "bytes": 464248
+  },
+  {
+    "campusId": "10384/main",
+    "modelUrl": "/models/10384.glb",
+    "sha256": "1ab4742c362f6f18af4cec0cf2c59e8f50f22349cd0325479a9b642a0f7d0f4a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/154986493",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 178,
+      "roads": 86,
+      "water": 2,
+      "green": 41
+    },
+    "bytes": 703928
+  },
+  {
+    "campusId": "10386/main",
+    "modelUrl": "/models/10386.glb",
+    "sha256": "0af1c2a8cc090878773e1da3aaea3319025a21dc7af67c22f7e6edb636ef6c7c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/12658065",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 73,
+      "roads": 182,
+      "water": 5,
+      "green": 41
+    },
+    "bytes": 508456
+  },
+  {
+    "campusId": "10403/main",
+    "modelUrl": "/models/10403.glb",
+    "sha256": "ad78d4fa0690a60c1aae0cdace8e6f94e8f052d779e583d131e89d972d957d2c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/223390772",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 11,
+      "roads": 108,
+      "water": 8,
+      "green": 7
+    },
+    "bytes": 180592
+  },
+  {
+    "campusId": "10422/main",
+    "modelUrl": "/models/10422.glb",
+    "sha256": "952f31cfa6545de62026a8086d8336d1c6fdb11a49e55146a59dba988ce790cf",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/31734968",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 102,
+      "roads": 76,
+      "water": 4,
+      "green": 27
+    },
+    "bytes": 478752
+  },
+  {
+    "campusId": "10423/main",
+    "modelUrl": "/models/10423.glb",
+    "sha256": "a281331aa1b2fceb2d6c36c49c2aa0a84ded841013a5b119f36e6ad8b74f2839",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/8632624",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 94,
+      "roads": 139,
+      "water": 2,
+      "green": 11
+    },
+    "bytes": 545432
+  },
+  {
+    "campusId": "10425/main",
+    "modelUrl": "/models/10425.glb",
+    "sha256": "ecda9f415f0ed1a5ba855bd08efbbedafb8572a9307efc2e5913b4c41bc70967",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/222840628",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 76,
+      "roads": 344,
+      "water": 9,
+      "green": 157
+    },
+    "bytes": 821224
+  },
+  {
+    "campusId": "10459/main",
+    "modelUrl": "/models/10459.glb",
+    "sha256": "6a6487762204471786a4a135baaebb3101a07cbe63ba54c20647c3766c5b2cd3",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/738060348",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 184,
+      "roads": 156,
+      "water": 18,
+      "green": 43
+    },
+    "bytes": 1420824
+  },
+  {
+    "campusId": "10486/main",
+    "modelUrl": "/models/10486.glb",
+    "sha256": "14bfe84ba9e49c3391c8694d1e7b69b5c3bf02262f21b6021d1d6f2eaa02d42f",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/10717504",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 698,
+      "roads": 2474,
+      "water": 3,
+      "green": 547
+    },
+    "bytes": 6465812
+  },
+  {
+    "campusId": "10487/main",
+    "modelUrl": "/models/10487.glb",
+    "sha256": "77a7ec429b4f8b0f8689d6199ae222dfcb6c8d2bcc1050be5fe7b974fe9c550a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/10717498",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 569,
+      "roads": 731,
+      "water": 13,
+      "green": 173
+    },
+    "bytes": 2289868
+  },
+  {
+    "campusId": "10491/main",
+    "modelUrl": "/models/10491.glb",
+    "sha256": "373a5d32571a26c170eece0314019ccee20aa48f2b1e3d1ccce9c3e30f9aea79",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/10790904",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 201,
+      "roads": 181,
+      "water": 4,
+      "green": 24
+    },
+    "bytes": 785388
+  },
+  {
+    "campusId": "10497/main",
+    "modelUrl": "/models/10497.glb",
+    "sha256": "11ab2b2902c90f9513e57a46cdb7527bc55ddcf31e29841bc35334d27d40f6f1",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/265391257",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 84,
+      "roads": 21,
+      "water": 0,
+      "green": 4
+    },
+    "bytes": 218376
+  },
+  {
+    "campusId": "10504/main",
+    "modelUrl": "/models/10504.glb",
+    "sha256": "8f7140e441599ba6f69b32fc9992a05755fc8533d24934693029a2c74a527272",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/10811687",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 420,
+      "roads": 453,
+      "water": 43,
+      "green": 100
+    },
+    "bytes": 1411012
+  },
+  {
+    "campusId": "10511/main",
+    "modelUrl": "/models/10511.glb",
+    "sha256": "1c4269326c34060700bb88eb74fabaf3f8fa719145ac395dc6a0a19d2e8b8d3a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/20383289",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 230,
+      "roads": 310,
+      "water": 3,
+      "green": 66
+    },
+    "bytes": 935164
+  },
+  {
+    "campusId": "10520/main",
+    "modelUrl": "/models/10520.glb",
+    "sha256": "780874735956ecaa18169c58e1ccbab546b7b2c6092f879014eb7f07dd973c10",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/494046333",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 56,
+      "roads": 47,
+      "water": 1,
+      "green": 17
+    },
+    "bytes": 230816
+  },
+  {
+    "campusId": "10532/main",
+    "modelUrl": "/models/10532.glb",
+    "sha256": "3908e26ec2602b79444aae914907b585990851e3b275c7665863da874c332d66",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/486904540",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 353,
+      "roads": 122,
+      "water": 6,
+      "green": 36
+    },
+    "bytes": 1756848
+  },
+  {
+    "campusId": "10533/main",
+    "modelUrl": "/models/10533.glb",
+    "sha256": "c52eb44ed1feab76919398984a06b45cc05cb1053a047685bd091e051982bc60",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/1028934324",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 205,
+      "roads": 145,
+      "water": 3,
+      "green": 13
+    },
+    "bytes": 1007256
+  },
+  {
+    "campusId": "10542/main",
+    "modelUrl": "/models/10542.glb",
+    "sha256": "13aace85efefbbd8a453b1618dcbde7f37073f475e0ef4cab31485b3f0480eb3",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/486904541",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 118,
+      "roads": 100,
+      "water": 0,
+      "green": 18
+    },
+    "bytes": 452940
+  },
+  {
+    "campusId": "10558/main",
+    "modelUrl": "/models/10558.glb",
+    "sha256": "a68c44ebe2c71effd6b4e433532f922dc134777358754f23b5e6ea1f6bf558c4",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/300917756",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 286,
+      "roads": 163,
+      "water": 6,
+      "green": 21
+    },
+    "bytes": 902712
+  },
+  {
+    "campusId": "10559/main",
+    "modelUrl": "/models/10559.glb",
+    "sha256": "8677774f3b216c01fe0ff4e9fb1f3934fa129f8455ea7c96b383b49df4c66eb9",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/360056995",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 59,
+      "roads": 94,
+      "water": 3,
+      "green": 21
+    },
+    "bytes": 285636
+  },
+  {
+    "campusId": "10574/main",
+    "modelUrl": "/models/10574.glb",
+    "sha256": "d16e1668f2d52828395df246054f81906da3cd217fb49205484e862c056ff04a",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/13970368",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 71,
+      "roads": 93,
+      "water": 2,
+      "green": 40
+    },
+    "bytes": 1015532
+  },
+  {
+    "campusId": "10589/main",
+    "modelUrl": "/models/10589.glb",
+    "sha256": "396c6153b8b4b3695de54aea207fc173fe886617e09317586fa7e7939d24d0cf",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/215163037",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 93,
+      "roads": 362,
+      "water": 4,
+      "green": 36
+    },
+    "bytes": 1497328
+  },
+  {
+    "campusId": "10593/main",
+    "modelUrl": "/models/10593.glb",
+    "sha256": "584c40270e0b6fc55c6580d97c53a8fa04439b5d44614024be4069ffa9357c64",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/398115378",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 411,
+      "roads": 446,
+      "water": 24,
+      "green": 55
+    },
+    "bytes": 1638500
+  },
+  {
+    "campusId": "10610/main",
+    "modelUrl": "/models/10610.glb",
+    "sha256": "102fe9a12e7ed3ed0f7b12368711a66b2ebb5378abe37d217f806f7f87e50595",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/299440043",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 282,
+      "roads": 156,
+      "water": 2,
+      "green": 28
+    },
+    "bytes": 857676
+  },
+  {
+    "campusId": "10613/main",
+    "modelUrl": "/models/10613.glb",
+    "sha256": "7b2b9b0a6ce5e98c245fe2be46fdd14c451cf5cd4680a6cfd1ff0f70c6d325f3",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/207566638",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 97,
+      "roads": 314,
+      "water": 3,
+      "green": 108
+    },
+    "bytes": 854724
+  },
+  {
+    "campusId": "10614/main",
+    "modelUrl": "/models/10614.glb",
+    "sha256": "3c46fc4db576dbbab2bb7a8d47f1b81b51e538053c29563871fdc72afa8489db",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/19816230",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 85,
+      "roads": 115,
+      "water": 0,
+      "green": 27
+    },
+    "bytes": 507152
+  },
+  {
+    "campusId": "10626/main",
+    "modelUrl": "/models/10626.glb",
+    "sha256": "2ff4d7f6aa5de9453fa1bbcd5b8cb7aac07af1a48f0c627a3ced7ee7bf7c8cc2",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/405063851",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 54,
+      "roads": 40,
+      "water": 0,
+      "green": 2
+    },
+    "bytes": 287100
+  },
+  {
+    "campusId": "10635/main",
+    "modelUrl": "/models/10635.glb",
+    "sha256": "a96359ee148c12fcbd50f22287c1f3ed5644989618ef85b2ed5878017091c9c4",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/413071891",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 283,
+      "roads": 305,
+      "water": 12,
+      "green": 59
+    },
+    "bytes": 1725996
+  },
+  {
+    "campusId": "10651/main",
+    "modelUrl": "/models/10651.glb",
+    "sha256": "6da9e0a16ca457486612ed51d0b90b21c7b1b18c3fa25680579badc0a09a6eb5",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/443825467",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 48,
+      "roads": 82,
+      "water": 1,
+      "green": 19
+    },
+    "bytes": 345764
+  },
+  {
+    "campusId": "10657/main",
+    "modelUrl": "/models/10657.glb",
+    "sha256": "c7ca76cbf219cb66cb169d23a8aa6ce64f6fc9b753e302c35a35c7af66257106",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/12845727",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 61,
+      "roads": 42,
+      "water": 1,
+      "green": 3
+    },
+    "bytes": 335576
+  },
+  {
+    "campusId": "10673/main",
+    "modelUrl": "/models/10673.glb",
+    "sha256": "f69e4babbf1cce1657d776ad0aef44a2758bcee4e80499d01520c533e63b6852",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/287663050",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 92,
+      "roads": 212,
+      "water": 8,
+      "green": 21
+    },
+    "bytes": 900092
+  },
+  {
+    "campusId": "10694/main",
+    "modelUrl": "/models/10694.glb",
+    "sha256": "2bfa83cc3288d2c2d70d1d41c2e30018fbee68d19d333885404c0c93b1dcd1f4",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/305530886",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 17,
+      "roads": 12,
+      "water": 1,
+      "green": 3
+    },
+    "bytes": 117792
+  },
+  {
+    "campusId": "10697/main",
+    "modelUrl": "/models/10697.glb",
+    "sha256": "67f6fd3825666c263e57782651e2b5221949844b94421f90373cea86134b919e",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/287278027",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 248,
+      "roads": 48,
+      "water": 0,
+      "green": 1
+    },
+    "bytes": 773612
+  },
+  {
+    "campusId": "10698/main",
+    "modelUrl": "/models/10698.glb",
+    "sha256": "776d9ef12ced1506630b0c4965c8c1754fab1965ce24d38eaafcdc6ba7a62c83",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/17568632",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 137,
+      "roads": 253,
+      "water": 4,
+      "green": 66
+    },
+    "bytes": 731908
+  },
+  {
+    "campusId": "10699/main",
+    "modelUrl": "/models/10699.glb",
+    "sha256": "d30e75f4e328bde914093de65ab92475f78c89ead46382e661e8af3abc1d2d67",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/273391732",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 33,
+      "roads": 65,
+      "water": 6,
+      "green": 16
+    },
+    "bytes": 247912
+  },
+  {
+    "campusId": "10701/main",
+    "modelUrl": "/models/10701.glb",
+    "sha256": "2d75fcedb6201949ece2695032d2a07f63733da69a812e8f0735c14696c8e3ae",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/287806713",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 109,
+      "roads": 225,
+      "water": 1,
+      "green": 112
+    },
+    "bytes": 560388
+  },
+  {
+    "campusId": "10710/main",
+    "modelUrl": "/models/10710.glb",
+    "sha256": "66a7eb227f64a47c4c137db7711cc49d1b28e5e3775844b5bf58f36267d2698d",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/379492031",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 233,
+      "roads": 22,
+      "water": 0,
+      "green": 1
+    },
+    "bytes": 793772
+  },
+  {
+    "campusId": "10718/main",
+    "modelUrl": "/models/10718.glb",
+    "sha256": "fa2ed8d5f398a0516861aaba32f3188f6bde6005509908a6aed936b534cbef6c",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/246285589",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 98,
+      "roads": 158,
+      "water": 1,
+      "green": 13
+    },
+    "bytes": 525024
+  },
+  {
+    "campusId": "10730/main",
+    "modelUrl": "/models/10730.glb",
+    "sha256": "bbdda82c36834d7b8844f3aa129d797b4f86fef3e3c4d3febac026dfd58d8424",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/464538785",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 48,
+      "roads": 57,
+      "water": 1,
+      "green": 24
+    },
+    "bytes": 253624
+  },
+  {
+    "campusId": "10749/main",
+    "modelUrl": "/models/10749.glb",
+    "sha256": "0b50e6907770ead350f248b082486833b27626d604065d7ff0bef157a03af1a0",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/1334170719",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 12,
+      "roads": 13,
+      "water": 0,
+      "green": 2
+    },
+    "bytes": 49548
+  },
+  {
+    "campusId": "10755/main",
+    "modelUrl": "/models/10755.glb",
+    "sha256": "ba933d12c67f85d3db06b529e27e8edd5f8eb2c481ad69b8541b0856ccc88445",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/964603083",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 122,
+      "roads": 36,
+      "water": 1,
+      "green": 31
+    },
+    "bytes": 333816
+  },
+  {
+    "campusId": "10759/main",
+    "modelUrl": "/models/10759.glb",
+    "sha256": "2952bbc9858fb63ee131d575f6b87cb29f890a22d7011ad90bce3e94913ea312",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/3432003",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 105,
+      "roads": 96,
+      "water": 3,
+      "green": 46
+    },
+    "bytes": 466216
+  },
+  {
+    "campusId": "11413/main",
+    "modelUrl": "/models/11413.glb",
+    "sha256": "0b27c466f53510becf79f9e86d1ba710a589b90fed20b1adabce4a5a172638b2",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/1003833559",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 53,
+      "roads": 42,
+      "water": 0,
+      "green": 5
+    },
+    "bytes": 184432
+  },
+  {
+    "campusId": "11414/main",
+    "modelUrl": "/models/11414.glb",
+    "sha256": "1420faff337a4ceb3cdf002daf91f5843eefdfc6567be0a5d769443e68eea723",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/13644491",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 20,
+      "roads": 35,
+      "water": 0,
+      "green": 7
+    },
+    "bytes": 82904
+  },
+  {
+    "campusId": "11415/main",
+    "modelUrl": "/models/11415.glb",
+    "sha256": "a3a5b8a842a452646fd240c50fec49a5bd8bae9772ae87c16e0037349bd288ef",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/245164271",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 112,
+      "roads": 143,
+      "water": 0,
+      "green": 16
+    },
+    "bytes": 346228
+  },
+  {
+    "campusId": "11903/main",
+    "modelUrl": "/models/11903.glb",
+    "sha256": "de5838054a1fb287c3d841b1f3fc14a1371701aeabf2cc40569632440d5677f7",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/13058054",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 171,
+      "roads": 235,
+      "water": 3,
+      "green": 82
+    },
+    "bytes": 1167612
+  },
+  {
+    "campusId": "91002/main",
+    "modelUrl": "/models/91002.glb",
+    "sha256": "781d5b4ce8f2e2683f90fbb73a198e41fc32a86369cde2418890ddbca801cdf5",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/8045988",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 66,
+      "roads": 53,
+      "water": 2,
+      "green": 12
+    },
+    "bytes": 234180
+  },
+  {
+    "campusId": "91020/main",
+    "modelUrl": "/models/91020.glb",
+    "sha256": "779736f03e6d8f51530e1084f47437180fc12a96061cc814314623223767da0d",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/312189210",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 20,
+      "roads": 9,
+      "water": 0,
+      "green": 2
+    },
+    "bytes": 63676
+  },
+  {
+    "campusId": "91030/main",
+    "modelUrl": "/models/91030.glb",
+    "sha256": "3335108fae65d006b8aba1cbf97dbd2a37da511534bb0852a378ea79b9f94f81",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/376248140",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "counts": {
+      "buildings": 177,
+      "roads": 6,
+      "water": 0,
+      "green": 5
+    },
+    "bytes": 1170272
+  },
+  {
+    "campusId": "10287/main",
+    "modelUrl": "/models/10287.glb",
+    "sha256": "c1a39956e1c95d725649eeac41e0b2b953afffaf6e8b4e5050fe1429c63304a4",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/447816548",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "geometryIssues": [],
+    "counts": {
+      "buildings": 87,
+      "roads": 59,
+      "water": 3,
+      "green": 6
+    },
+    "bytes": 249128
+  },
+  {
+    "campusId": "10358/main",
+    "modelUrl": "/models/10358.glb",
+    "sha256": "4cdee176051227bd9c5ee5e9cc99ab43d932c23e5cd1e60eabcd356684a73dc8",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/262614785",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "geometryIssues": [],
+    "counts": {
+      "buildings": 144,
+      "roads": 168,
+      "water": 4,
+      "green": 23
+    },
+    "bytes": 729672
+  },
+  {
+    "campusId": "10561/main",
+    "modelUrl": "/models/10561.glb",
+    "sha256": "d33dcb5f1424fadb8c6e2a2c3a1db9ea77547987f0587fda840b1d9234307504",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/relation/9087908",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "geometryIssues": [
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/9087887",
+        "issue": "Unclosed outer ring in relation/9087887"
+      },
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/9087955",
+        "issue": "Unclosed outer ring in relation/9087955"
+      },
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/9087956",
+        "issue": "Unclosed outer ring in relation/9087956"
+      },
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/9089679",
+        "issue": "Unclosed outer ring in relation/9089679"
+      },
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/12361128",
+        "issue": "Unclosed outer ring in relation/12361128"
+      },
+      {
+        "sourceUrl": "https://www.openstreetmap.org/relation/12436443",
+        "issue": "Unclosed outer ring in relation/12436443"
+      }
+    ],
+    "counts": {
+      "buildings": 179,
+      "roads": 328,
+      "water": 4,
+      "green": 54
+    },
+    "bytes": 1034260
+  },
+  {
+    "campusId": "10611/main",
+    "modelUrl": "/models/10611.glb",
+    "sha256": "d969e1e013fa490547a177be7c3e02d4cf13e98b3722e0c1277396348e1a0379",
+    "geometrySource": {
+      "url": "https://www.openstreetmap.org/way/412480741",
+      "title": "OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "checkedAt": "2026-09-06"
+    },
+    "estimatedHeights": true,
+    "boundaryVerified": false,
+    "layoutVerified": false,
+    "detailedLandmarks": 0,
+    "releaseReady": false,
+    "geometryIssues": [],
+    "counts": {
+      "buildings": 91,
+      "roads": 43,
+      "water": 1,
+      "green": 8
+    },
+    "bytes": 423120
+  }
+]
