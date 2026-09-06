@@ -114,9 +114,11 @@ Chrome 152 的本地开发版本，Canvas 为 880×601、DPR 1.5，清华建筑�
 
 ## 2026-09-06 查看建筑与导览共用气泡
 
-选择建筑与自动导览复用同一个世界坐标锚点和 Html 信息气泡。点击查看保留定位环，移除原单行名称标签；正文、资料链接和模型屋顶高度计算与导览一致。
+选择建筑与自动导览复用同一个世界坐标锚点和 Html 信息气泡。点击查看移除蓝色定位环与原单行名称标签；正文、资料链接和模型屋顶高度计算与导览一致。
 
 Chrome 390 × 844 打开北京大学建筑深链接 `?poi=240832231`：气泡显示“勺园5号楼”，资料链接为 OSM way 240832231，宽 230 px，无旧名称标签。拖动地图后气泡位移超过 10 px，宽度保持不变。通过建筑列表选择“博雅塔”后 URL 切为 `?poi=240825562`，气泡同步更新且手机面板收起。实际截图 `output/playwright/campus-selected-bubble-mobile.png`、`campus-selected-bubble-pan.png`、`campus-selected-bubble-boya.png` 已查看。
+
+下述截图是移除定位环之前的信息气泡验收记录；最终取消定位环后的界面另见 `campus-selected-bubble-no-ring.png`。
 
 1440 × 950 桌面截图 `output/playwright/campus-selected-bubble-desktop.png` 已查看，气泡宽 260 px 且位于塔顶上方。切换导览后首站显示“阿卜杜勒·阿齐兹国王公共图书馆北京大学分馆（古籍图书馆）”，仅有一个信息气泡，查看建筑气泡消失；控制台 0 errors。TypeScript、scoped lint、8 项校园几何测试及生产构建通过。
 

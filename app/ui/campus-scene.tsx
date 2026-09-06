@@ -364,20 +364,6 @@ function World({
           </output>
         </Html>
       )}
-      {selected && !walking && (
-        <group position={selected.position}>
-          <mesh rotation={[-Math.PI / 2, 0, 0]}>
-            <ringGeometry args={[15, 19, 40]} />
-            <meshBasicMaterial
-              color="#007aff"
-              side={THREE.DoubleSide}
-              depthTest={false}
-              transparent
-              opacity={0.85}
-            />
-          </mesh>
-        </group>
-      )}
       {calloutPOI && calloutAnchor && !walking && (
         <Html center position={calloutAnchor} zIndexRange={[20, 0]}>
           <article
