@@ -106,15 +106,16 @@ function World({
   const tourCamera = useMemo(() => new THREE.Vector3(), []);
   const canWalk = Boolean(loaded?.spawn && loaded.collisionData);
   const walking = walk && canWalk;
-  const tourAnchor = useMemo<[number, number, number] | null>(() => {
-    if (!tourPOI) return null;
-    const bounds = loaded ? buildingBounds(loaded.model, tourPOI.id) : null;
+  const calloutPOI = tourPOI ?? selected;
+  const calloutAnchor = useMemo<[number, number, number] | null>(() => {
+    if (!calloutPOI) return null;
+    const bounds = loaded ? buildingBounds(loaded.model, calloutPOI.id) : null;
     return [
-      tourPOI.position[0],
-      Math.max(tourPOI.position[1], bounds?.max.y ?? 0) + 2,
-      tourPOI.position[2],
+      calloutPOI.position[0],
+      Math.max(calloutPOI.position[1], bounds?.max.y ?? 0) + 2,
+      calloutPOI.position[2],
     ];
-  }, [loaded, tourPOI]);
+  }, [loaded, calloutPOI]);
 
   useEffect(() => {
     callbacks.current = { onError, onReady };
@@ -375,23 +376,20 @@ function World({
               opacity={0.85}
             />
           </mesh>
-          <Html position={[0, 12, 0]} center style={{ pointerEvents: 'none' }}>
-            <span className="poi-label">{selected.name}</span>
-          </Html>
         </group>
       )}
-      {tourPOI && tourAnchor && !walking && (
-        <Html center position={tourAnchor} zIndexRange={[20, 0]}>
+      {calloutPOI && calloutAnchor && !walking && (
+        <Html center position={calloutAnchor} zIndexRange={[20, 0]}>
           <article
             className="campus-tour-callout"
-            aria-label="当前导览建筑信息"
+            aria-label={tourPOI ? '当前导览建筑信息' : '当前查看建筑信息'}
             aria-live="polite"
             aria-atomic="true"
             onPointerDown={(event) => event.stopPropagation()}
           >
-            <h2>{tourPOI.name}</h2>
-            <p>{tourPOI.description}</p>
-            <a href={tourPOI.sourceUrl} target="_blank" rel="noreferrer">
+            <h2>{calloutPOI.name}</h2>
+            <p>{calloutPOI.description}</p>
+            <a href={calloutPOI.sourceUrl} target="_blank" rel="noreferrer">
               查看建筑资料 ↗
             </a>
           </article>
